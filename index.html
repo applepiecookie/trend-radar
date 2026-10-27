@@ -10,289 +10,228 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#f6f1ea; --panel:#fffdf9; --ink:#1f1a17; --muted:#6f655d; --line:#e4dbcf; --soft:#efe7dc;
-  --accent:#b4532a; --accent-soft:#f3dfd3;
-  --s-hulu:#6b3f7d; --s-lead:#3f6b8a; --s-early:#c0782f; --s-main:#5f7a4f; --s-fade:#9a9189;
-  --ok:#3f7a4a; --radius:14px; --shadow:0 1px 2px rgba(31,26,23,.06),0 8px 24px rgba(31,26,23,.06);
+  --bg:#f6f1ea; --panel:#fffdf9; --ink:#1f1a17; --muted:#71675f; --faint:#a59a90; --line:#e6ddd1; --soft:#f0e9df;
+  --accent:#b4532a; --accent-soft:#f5e4da;
+  --s-up:#6b3f7d; --s-lead:#3f6b8a; --s-early:#c0782f; --s-main:#5f7a4f; --s-fade:#9a9189;
+  --ok:#3f7a4a; --radius:12px;
   --serif:"Fraunces",Georgia,serif; --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
 }
 @media (prefers-color-scheme:dark){:root{
-  --bg:#171412; --panel:#211d1a; --ink:#f1ebe4; --muted:#a89d93; --line:#3a332e; --soft:#2a2420;
-  --accent:#e08a5e; --accent-soft:#3b2a22;
-  --s-hulu:#b48ac6; --s-lead:#7fb0d1; --s-early:#e3a463; --s-main:#9dbb88; --s-fade:#8d857e;
-  --ok:#8cc596; --shadow:none;
+  --bg:#171412; --panel:#201c19; --ink:#f1ebe4; --muted:#a99e94; --faint:#7d746c; --line:#36302b; --soft:#29231f;
+  --accent:#e08a5e; --accent-soft:#3a2920;
+  --s-up:#b48ac6; --s-lead:#7fb0d1; --s-early:#e3a463; --s-main:#9dbb88; --s-fade:#8d857e; --ok:#8cc596;
 }}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.45}
 a{color:inherit}
-.wrap{max-width:1200px;margin:0 auto;padding:0 20px}
-header.top{padding-top:40px;padding-bottom:20px}
-.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500}
-h1{font-family:var(--serif);font-weight:400;font-size:clamp(34px,6vw,56px);line-height:1.05;margin:8px 0 10px;letter-spacing:-.01em}
-.lede{max-width:46rem;color:var(--muted);font-size:16px;margin:0}
-.updated{margin-top:14px;font-size:13px;color:var(--muted)}
+button{font:inherit;color:inherit}
+.wrap{max-width:1280px;margin:0 auto;padding:0 20px}
+
+/* Header */
+header{padding:28px 0 18px;display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px}
+.brand{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500}
+h1{font-family:var(--serif);font-weight:400;font-size:34px;line-height:1;margin:6px 0 0;letter-spacing:-.01em}
+.updated{font-size:12px;color:var(--muted)}
 .updated b{color:var(--ink);font-weight:500}
-nav.tabs{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);margin-bottom:28px}
-nav.tabs .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
-nav.tabs button{font:inherit;font-weight:500;font-size:14px;background:none;border:0;color:var(--muted);padding:14px 12px;cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap}
-nav.tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
-section.tab{display:none;padding-bottom:64px}
-section.tab.on{display:block}
-h2{font-family:var(--serif);font-weight:400;font-size:26px;margin:0 0 6px;letter-spacing:-.005em}
-.sub{color:var(--muted);margin:0 0 18px;max-width:48rem}
-.block{margin-bottom:44px}
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:36px}
-.kpi{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow)}
-.kpi .l{font-size:12px;color:var(--muted)}
-.kpi .v{font-family:var(--serif);font-size:34px;line-height:1.1;margin-top:4px;font-variant-numeric:tabular-nums}
-.kpi .h{font-size:12px;color:var(--muted);margin-top:2px}
+.takeaway{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:var(--radius);padding:12px 16px;font-size:15px;margin-bottom:14px}
+.takeaway b{font-weight:600}
 
-/* Jalur adopsi */
-.lanes{display:grid;grid-template-columns:repeat(5,minmax(210px,1fr));gap:12px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
-.lane{background:var(--soft);border-radius:var(--radius);padding:12px;scroll-snap-align:start;min-height:200px}
-.lane-h{display:flex;align-items:baseline;justify-content:space-between;gap:8px;padding:2px 4px 10px;border-bottom:1px solid var(--line);margin-bottom:10px}
-.lane-h .n{font-weight:600}
-.lane-h .c{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
-.lane-d{font-size:12px;color:var(--muted);margin:-4px 4px 10px}
-.lane .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:1px}
-.card{display:block;width:100%;text-align:left;font:inherit;color:inherit;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-bottom:8px;cursor:pointer;transition:transform .15s ease,border-color .15s ease}
-.card:hover{transform:translateY(-1px);border-color:var(--accent)}
-.card .t{font-weight:500;font-size:14px;line-height:1.3}
-.card .m{display:flex;justify-content:space-between;align-items:center;margin-top:6px;font-size:12px;color:var(--muted);gap:8px}
-.lane-arrow{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);margin:10px 0 0}
-.lane-arrow::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--s-hulu),var(--s-lead),var(--s-early),var(--s-main),var(--s-fade))}
+/* Stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-bottom:20px}
+.stat{background:var(--panel);padding:10px 14px}
+.stat .v{font-family:var(--serif);font-size:24px;line-height:1.1;font-variant-numeric:tabular-nums}
+.stat .l{font-size:12px;color:var(--muted)}
+@media (max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}}
 
-/* Peringkat */
-.rank{display:flex;flex-direction:column;gap:10px}
-.ri{display:grid;grid-template-columns:44px 1fr auto;gap:16px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px 18px;cursor:pointer;box-shadow:var(--shadow);text-align:left;font:inherit;color:inherit;width:100%}
-.ri:hover{border-color:var(--accent)}
-.ri .no{font-family:var(--serif);font-size:30px;color:var(--accent);text-align:center;font-variant-numeric:tabular-nums}
-.ri .t{font-weight:600;font-size:16px}
-.ri .a{color:var(--muted);font-size:13px;margin-top:2px}
-.ri .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
-.ri .side{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
-.score{font-size:12px;color:var(--muted)}
-.score b{font-family:var(--serif);font-size:22px;font-weight:400;color:var(--ink)}
-@media (max-width:640px){.ri{grid-template-columns:32px 1fr}.ri .side{grid-column:2;align-items:flex-start;flex-direction:row;gap:14px}.ri .no{font-size:24px}}
+/* Layout */
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:20px;align-items:start;padding-bottom:48px}
+@media (max-width:1000px){.grid{grid-template-columns:minmax(0,1fr)}.aside{display:contents}.aside .watchp{order:-1}.aside section:not(.watchp){order:1}}
+.panel{min-width:0}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius)}
+.ph{display:flex;align-items:baseline;justify-content:space-between;gap:8px;padding:12px 14px 8px}
+.ph h2{font-size:13px;font-weight:600;margin:0}
+.ph span{font-size:12px;color:var(--muted)}
 
-.chip{display:inline-flex;align-items:center;gap:6px;font-size:12px;padding:2px 9px;border-radius:999px;background:var(--soft);color:var(--ink);white-space:nowrap}
-.chip .dot{width:7px;height:7px;border-radius:50%}
-.mom{font-size:12px;font-weight:500;white-space:nowrap}
-.mom.up{color:var(--accent)} .mom.act{color:var(--ink)} .mom.calm{color:var(--muted)}
-.fit{letter-spacing:2px;color:var(--accent);font-size:11px} .fit i{color:var(--line);font-style:normal}
-svg.spark{display:block}
+/* Controls */
+.controls{padding:0 14px 10px;display:flex;flex-direction:column;gap:8px;border-bottom:1px solid var(--line)}
+.stages{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.stages button{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:4px 10px;font-size:12px;cursor:pointer}
+.stages button b{font-weight:600;font-variant-numeric:tabular-nums;color:var(--muted)}
+.stages button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.stages button[aria-pressed=true] b{color:var(--bg)}
+.row2{display:flex;gap:8px;flex-wrap:wrap}
+.row2 select,.row2 input{font-size:13px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 9px;color:var(--ink)}
+.row2 input{flex:1 1 200px;min-width:0}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;flex:none}
 
-.fade-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:12px}
-.fade{background:var(--panel);border:1px dashed var(--line);border-radius:var(--radius);padding:14px 16px;cursor:pointer;text-align:left;font:inherit;color:inherit}
-.fade .t{font-weight:600;color:var(--muted);text-decoration:line-through;text-decoration-color:var(--s-fade)}
-.fade .a{font-size:13px;margin-top:6px}
+/* Trend list */
+.lh,.tr{display:grid;grid-template-columns:minmax(0,1fr) 128px 96px 46px 44px;gap:12px;align-items:center;padding:0 14px}
+.lh{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;padding-top:8px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.lh .r,.tr .r{text-align:right}
+.tr{width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding-top:9px;padding-bottom:9px;cursor:pointer}
+.tr:hover{background:var(--soft)}
+.tr[aria-expanded=true]{background:var(--soft)}
+.tt{display:flex;align-items:center;gap:8px;min-width:0}
+.tt .n{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tt .new{font-size:10px;font-weight:600;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:0 4px;flex:none}
+.ts{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:1px 0 0 16px}
+.cat{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mo{display:flex;align-items:center;gap:6px;font-size:11px}
+.mo .lbl{color:var(--faint)} .mo .lbl.up{color:var(--accent);font-weight:600}
+.fit{font-size:9px;letter-spacing:1px;color:var(--accent);text-align:right} .fit i{color:var(--line);font-style:normal}
+.sc{font-family:var(--serif);font-size:18px;text-align:right;font-variant-numeric:tabular-nums}
+.empty{padding:24px 14px;color:var(--muted);text-align:center}
+@media (max-width:640px){
+  .lh{display:none}
+  .tr{grid-template-columns:minmax(0,1fr) 36px;row-gap:4px}
+  .tr .cat,.tr .fit{display:none}
+  .tr .mo{grid-column:1;grid-row:2;margin-left:16px}
+  .tr .sc{grid-row:1/span 2;grid-column:2}
+}
 
-/* Feed */
-.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
-.filters select,.filters input{font:inherit;font-size:14px;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
-.filters input{flex:1 1 220px;min-width:0}
-.count{font-size:13px;color:var(--muted);margin-bottom:8px}
-.tbox{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:auto;max-height:70vh;box-shadow:var(--shadow)}
-table{border-collapse:collapse;width:100%;font-size:14px}
-th{position:sticky;top:0;background:var(--panel);text-align:left;font-size:12px;font-weight:600;color:var(--muted);padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap;z-index:1}
-th button{all:unset;cursor:pointer}
-th button:hover{color:var(--ink)}
-td{padding:12px;border-bottom:1px solid var(--line);vertical-align:top}
-tbody tr{cursor:pointer}
-tbody tr:hover td{background:var(--soft)}
-td.tt{font-weight:500;min-width:180px}
-td.sm{min-width:260px;color:var(--muted)}
-td.nw{white-space:nowrap}
-.str-Kuat{color:var(--ok);font-weight:600}.str-Awal{color:var(--muted)}
+/* Detail */
+.det{border-bottom:1px solid var(--line);padding:4px 14px 16px 30px;background:var(--soft)}
+.det p{margin:0 0 10px;max-width:62rem}
+.det .opp{background:var(--accent-soft);border-radius:8px;padding:8px 10px;margin-bottom:10px;max-width:62rem}
+.det .opp b{font-weight:600}
+.det .meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted);margin-bottom:10px}
+.det .meta b{color:var(--ink);font-weight:500}
+.det ul{list-style:none;padding:0;margin:0;font-size:13px;max-width:62rem}
+.det li{display:flex;justify-content:space-between;gap:12px;padding:4px 0;border-top:1px dashed var(--line)}
+.det li span{color:var(--muted);white-space:nowrap;font-size:12px}
+.str-Strong{color:var(--ok)!important}
 
-/* Market */
-.mk{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}
-.mk-g{margin-bottom:16px}
-.mk-g h3{font-size:13px;font-weight:600;margin:0 0 8px;color:var(--muted)}
-.mk-r{display:grid;grid-template-columns:minmax(110px,30%) 1fr 56px;gap:10px;align-items:center;font-size:14px;margin-bottom:6px}
-.mk-r .bar{height:12px;border-radius:6px;background:var(--line)}
-.mk-r .bar.saff{background:var(--accent)}
-.mk-r .v{text-align:right;font-variant-numeric:tabular-nums}
-.mk-r .nm.saff{font-weight:600}
-.note{font-size:13px;color:var(--muted);margin-top:10px}
+/* Aside */
+.aside{display:flex;flex-direction:column;gap:16px}
+.watch{list-style:none;margin:0;padding:0 14px 8px;counter-reset:w}
+.watch li{display:grid;grid-template-columns:20px 1fr auto;gap:8px;align-items:start;padding:8px 0;border-top:1px solid var(--line);cursor:pointer}
+.watch li:first-child{border-top:0}
+.watch li::before{counter-increment:w;content:counter(w);font-family:var(--serif);font-size:16px;color:var(--accent);line-height:1.2}
+.watch .n{font-weight:600;line-height:1.3}
+.watch .a{font-size:12px;color:var(--muted);margin-top:2px}
+.watch .s{font-family:var(--serif);font-size:16px}
+.fade{list-style:none;margin:0;padding:0 14px 10px}
+.fade li{padding:6px 0;border-top:1px solid var(--line);cursor:pointer}
+.fade li:first-child{border-top:0}
+.fade .n{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--s-fade)}
+.fade .a{font-size:12px}
+.mk{padding:0 14px 12px}
+.mk h3{font-size:11px;color:var(--muted);font-weight:600;margin:8px 0 4px;text-transform:uppercase;letter-spacing:.05em}
+.mkr{display:grid;grid-template-columns:96px 1fr 44px;gap:8px;align-items:center;font-size:12px;margin:3px 0}
+.mkr .b{height:8px;border-radius:4px;background:var(--line)}
+.mkr .b.saff{background:var(--accent)}
+.mkr .v{text-align:right;font-variant-numeric:tabular-nums}
+.mkr .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mkr .nm.saff{font-weight:600}
+.note{font-size:11px;color:var(--muted);margin:8px 0 0}
 
-/* How it works */
-.how{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:14px}
-.how .box{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}
-.how h3{font-size:15px;margin:0 0 8px}
-.how p,.how li{font-size:14px;color:var(--muted)}
-.how ul{padding-left:18px;margin:0}
-.how li{margin-bottom:6px}
-.how li b{color:var(--ink);font-weight:500}
-
-/* Dialog */
-dialog{border:0;border-radius:18px;padding:0;max-width:640px;width:calc(100% - 32px);background:var(--panel);color:var(--ink);box-shadow:0 20px 60px rgba(0,0,0,.25)}
-dialog::backdrop{background:rgba(23,20,18,.45)}
-.dlg{padding:24px 26px 26px}
-.dlg .x{float:right;font:inherit;font-size:22px;line-height:1;background:none;border:0;color:var(--muted);cursor:pointer;padding:4px}
-.dlg h3{font-family:var(--serif);font-weight:400;font-size:26px;margin:4px 0 10px;line-height:1.15}
-.dlg .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
-.dlg p{margin:0 0 12px}
-.dlg .ang{background:var(--accent-soft);border-radius:10px;padding:10px 12px;font-size:14px}
-.dlg .ang b{font-weight:600}
-.dlg svg.spark{margin-bottom:10px}
-.dlg h4{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:18px 0 8px;font-weight:600}
-.dlg ul{list-style:none;padding:0;margin:0}
-.dlg li{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid var(--line);font-size:14px}
-.dlg li span{color:var(--muted);white-space:nowrap;font-size:13px}
-.err{background:var(--accent-soft);border-radius:var(--radius);padding:16px 18px;margin:20px 0}
-footer{color:var(--muted);font-size:12px;padding:24px 0 40px;border-top:1px solid var(--line)}
-@media (prefers-reduced-motion:no-preference){section.tab.on{animation:in .35s ease-out}}
-@keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+details.how{margin:0 0 40px}
+details.how summary{cursor:pointer;font-weight:600;font-size:13px;padding:10px 14px;list-style:none}
+details.how summary::before{content:"+ ";color:var(--accent)}
+details.how[open] summary::before{content:"– "}
+.howg{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px;padding:0 14px 14px;font-size:13px;color:var(--muted)}
+.howg h3{font-size:12px;color:var(--ink);margin:0 0 6px}
+.howg ul{margin:0;padding-left:16px}
+.howg li{margin-bottom:4px}
+.howg b{color:var(--ink);font-weight:500}
+.err{background:var(--accent-soft);border-radius:var(--radius);padding:12px 14px;margin-bottom:14px}
+footer{color:var(--muted);font-size:11px;padding:0 0 32px}
 </style>
 </head>
 <body>
-<header class="top wrap">
-  <div class="eyebrow">SAFF &amp; Co. · Product Development</div>
-  <h1>Trend Radar</h1>
-  <p class="lede">Fragrance, packaging and consumer-behavior trend signals, tracked from upstream (suppliers &amp; niche) to mainstream, so the team can move before a trend reaches the reports.</p>
-  <div class="updated" id="updated">Loading data…</div>
-</header>
+<div class="wrap">
+  <header>
+    <div>
+      <div class="brand">SAFF &amp; Co. · Product Development</div>
+      <h1>Trend Radar</h1>
+    </div>
+    <div class="updated" id="updated">Loading…</div>
+  </header>
 
-<nav class="tabs" aria-label="Pages">
-  <div class="wrap" role="tablist">
-    <button role="tab" aria-selected="true" data-tab="radar">Upcoming radar</button>
-    <button role="tab" aria-selected="false" data-tab="feed">All signals</button>
-    <button role="tab" aria-selected="false" data-tab="pasar">Market</button>
-    <button role="tab" aria-selected="false" data-tab="cara">How it works</button>
-  </div>
-</nav>
-
-<main class="wrap">
   <div id="error" class="err" hidden></div>
+  <div class="takeaway" id="takeaway">&nbsp;</div>
+  <div class="stats" id="stats"></div>
 
-  <section class="tab on" id="tab-radar">
-    <div class="kpis" id="kpis"></div>
-
-    <div class="block">
-      <h2>Most promising for Indonesia</h2>
-      <p class="sub">Signals not yet mainstream in Indonesia, ranked by radar score: fit with the local market, number of independent sources, and how often they were mentioned in the last 4 months.</p>
-      <div class="rank" id="rank"></div>
-    </div>
-
-    <div class="block">
-      <h2>Adoption path</h2>
-      <p class="sub">Where each trend sits today. Trends usually move left to right; the best opportunities are in the first two columns.</p>
-      <div class="lanes" id="lanes"></div>
-      <div class="lane-arrow">direction of travel</div>
-    </div>
-
-    <div class="block">
-      <h2>Starting to fade</h2>
-      <p class="sub">Directions global markets are moving away from. Useful for checking the portfolio and reformulation plans.</p>
-      <div class="fade-list" id="fading"></div>
-    </div>
-  </section>
-
-  <section class="tab" id="tab-feed">
-    <h2>All signals</h2>
-    <p class="sub">Click a row to see details and all its sources.</p>
-    <div class="filters">
-      <select id="f-stage" aria-label="Stage"><option value="">All stages</option></select>
-      <select id="f-cat" aria-label="Category"><option value="">All categories</option></select>
-      <select id="f-src" aria-label="Source type"><option value="">All source types</option></select>
-      <select id="f-str" aria-label="Strength"><option value="">All strengths</option><option>Strong</option><option>Medium</option><option>Early</option></select>
-      <input id="f-q" type="search" placeholder="Search trends, notes, brands…" aria-label="Search">
-    </div>
-    <div class="count" id="count"></div>
-    <div class="tbox">
-      <table>
-        <thead><tr>
-          <th><button data-k="stage">Stage</button></th>
-          <th><button data-k="trend">Trend</button></th>
-          <th>Summary</th>
-          <th><button data-k="category">Category</button></th>
-          <th><button data-k="strength">Strength</button></th>
-          <th><button data-k="momentum">Momentum</button></th>
-          <th><button data-k="nsrc">Sources</button></th>
-          <th><button data-k="found">Added</button></th>
-        </tr></thead>
-        <tbody id="feed"></tbody>
-      </table>
-    </div>
-  </section>
-
-  <section class="tab" id="tab-pasar">
-    <h2>Perfume market share on Shopee</h2>
-    <p class="sub">Sales share of the top brands per period, as published by Compas via GoodStats and Databoks.</p>
-    <div class="mk" id="market"></div>
-  </section>
-
-  <section class="tab" id="tab-cara">
-    <h2>How it works</h2>
-    <p class="sub">Where the numbers and labels on this page come from, and their limits.</p>
-    <div class="how">
-      <div class="box">
-        <h3>Adoption stages</h3>
-        <ul>
-          <li><b>Upstream</b>: appears at suppliers, fragrance houses, niche fairs, or in food &amp; drink trends.</li>
-          <li><b>Lead market</b>: already popular in Korea, Japan, China, the Middle East, the US or Europe.</li>
-          <li><b>Local early adopters</b>: starting to be discussed by industry players, niche brands or communities in Indonesia.</li>
-          <li><b>Mainstream</b>: visible in sales data, large surveys, or local mass brands.</li>
-          <li><b>Fading</b>: directions the market is moving away from.</li>
-        </ul>
+  <div class="grid">
+    <main class="panel">
+      <div class="ph"><h2>All trends</h2><span id="count"></span></div>
+      <div class="controls">
+        <div class="stages" id="stages" role="group" aria-label="Filter by stage"></div>
+        <div class="row2">
+          <select id="f-cat" aria-label="Category"><option value="">All categories</option></select>
+          <select id="f-sort" aria-label="Sort">
+            <option value="score">Sort: radar score</option>
+            <option value="new">Sort: newest</option>
+            <option value="mom">Sort: momentum</option>
+            <option value="stage">Sort: stage</option>
+          </select>
+          <input id="f-q" type="search" placeholder="Search trends, notes, brands…" aria-label="Search">
+        </div>
       </div>
-      <div class="box">
-        <h3>Momentum &amp; radar score</h3>
-        <ul>
-          <li><b>Momentum</b> counts how often a trend was mentioned by sources in the last 4 months: Rising (2+), Active (1), Quiet (0).</li>
-          <li>The <b>mini chart</b> shows mentions per month over the last 12 months.</li>
-          <li><b>Indonesia fit</b> (1–3 dots) is Claude's initial judgement on climate, scent preferences, price and local culture. The team should review it.</li>
-          <li><b>Radar score</b> = fit × 2 + number of sources (max 4) + mentions in the last 4 months (max 3).</li>
-        </ul>
-      </div>
-      <div class="box">
-        <h3>Sources &amp; updates</h3>
-        <ul>
-          <li>Every morning Claude searches the web: supplier releases, niche fairs, beauty media in Korea/Japan/China/the Middle East, Jakarta F&amp;B trends, e-commerce data and consumer research.</li>
-          <li>New signals are added; existing signals that reappear are logged as new mentions and can move up in stage or strength.</li>
-          <li>Mention dates use the source's publication date; some are marked approximate (±) when the source only gives a month or year.</li>
-        </ul>
-      </div>
-      <div class="box">
-        <h3>Limitations</h3>
-        <ul>
-          <li>TikTok, Instagram and Shopee are not read directly; signals come from published coverage, reports and sales data.</li>
-          <li>Google Trends is not covered yet. A Google Trends CSV export can be added to the data folder.</li>
-          <li>Early signals don't always become big. Use this radar to decide what to test first, then validate with team research, WGSN or Mintel.</li>
-        </ul>
-      </div>
+      <div class="lh"><span>Trend</span><span>Category</span><span>Momentum</span><span class="r">Fit</span><span class="r">Score</span></div>
+      <div id="list"></div>
+    </main>
+
+    <aside class="aside">
+      <section class="panel watchp">
+        <div class="ph"><h2>Top 5 to watch</h2><span>not yet mainstream</span></div>
+        <ol class="watch" id="watch"></ol>
+      </section>
+      <section class="panel">
+        <div class="ph"><h2>Fading</h2><span>moving away from</span></div>
+        <ul class="fade" id="fade"></ul>
+      </section>
+      <section class="panel">
+        <div class="ph"><h2>Shopee perfume share</h2><span>Compas</span></div>
+        <div class="mk" id="market"></div>
+      </section>
+    </aside>
+  </div>
+
+  <details class="how panel">
+    <summary>How to read this page</summary>
+    <div class="howg">
+      <div><h3>Stages</h3><ul>
+        <li><b>Upstream</b>: suppliers, fragrance houses, niche fairs, food &amp; drink trends.</li>
+        <li><b>Lead market</b>: popular in Korea, Japan, China, Middle East, US or Europe.</li>
+        <li><b>Local early adopters</b>: starting to be discussed in Indonesia.</li>
+        <li><b>Mainstream</b>: visible in Indonesian sales data or large surveys.</li>
+        <li><b>Fading</b>: being left behind.</li></ul></div>
+      <div><h3>Numbers</h3><ul>
+        <li><b>Momentum</b>: mentions in the last 4 months. Rising = 2+, Active = 1, Quiet = 0. The bars show the last 12 months.</li>
+        <li><b>Fit</b> (1–3 dots): Claude's initial judgement of fit with Indonesia (climate, scent preference, price, culture). Team should review.</li>
+        <li><b>Score</b> = fit × 2 + sources (max 4) + recent mentions (max 3).</li></ul></div>
+      <div><h3>Sources &amp; limits</h3><ul>
+        <li>Updated every morning by Claude from supplier releases, niche fairs, lead-market beauty media, Jakarta F&amp;B trends, e-commerce data and consumer research.</li>
+        <li>TikTok, Instagram and Shopee are not read directly; signals come from published coverage. Google Trends is not covered yet.</li>
+        <li>Early signals don't always become big: use this to decide what to test, then validate.</li></ul></div>
     </div>
-  </section>
-</main>
-
-<footer class="wrap">Trend Radar · compiled and updated automatically by Claude for the SAFF &amp; Co. Product Development team. All summaries are paraphrased; open the original sources for details.</footer>
-
-<dialog id="dlg"><div class="dlg" id="dlg-body"></div></dialog>
+  </details>
+  <footer>Compiled and updated automatically by Claude for the SAFF &amp; Co. Product Development team. Summaries are paraphrased; open the sources for details.</footer>
+</div>
 
 <script>
 (() => {
   const STAGES = [
-    {k: "Upstream", c: "var(--s-hulu)", d: "Suppliers, niche, F&B"},
-    {k: "Lead market", c: "var(--s-lead)", d: "Popular in other markets"},
-    {k: "Local early adopters", c: "var(--s-early)", d: "Starting to be discussed in Indonesia"},
-    {k: "Mainstream", c: "var(--s-main)", d: "Visible in sales data"},
-    {k: "Fading", c: "var(--s-fade)", d: "Being left behind"}
+    {k: "Upstream", c: "var(--s-up)"},
+    {k: "Lead market", c: "var(--s-lead)"},
+    {k: "Local early adopters", c: "var(--s-early)"},
+    {k: "Mainstream", c: "var(--s-main)"},
+    {k: "Fading", c: "var(--s-fade)"}
   ];
   const stageColor = Object.fromEntries(STAGES.map(s => [s.k, s.c]));
   const stageOrder = Object.fromEntries(STAGES.map((s, i) => [s.k, i]));
-  const strengthRank = {Strong: 3, Medium: 2, Early: 1};
   const momRank = {Rising: 3, Active: 2, Quiet: 1};
+  const EARLY = ["Upstream", "Lead market", "Local early adopters"];
   const DAY = 864e5, RECENT_DAYS = 120;
   const $ = s => document.querySelector(s);
   const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
   const fmtDate = s => { const d = new Date(String(s).slice(0, 10) + "T00:00:00"); return isNaN(d) ? String(s) : d.toLocaleDateString("en-GB", {day: "numeric", month: "short", year: "numeric"}); };
-  const fmtMonth = d => d.toLocaleDateString("en-GB", {month: "short", year: "2-digit"});
   const safeUrl = u => /^https:\/\//.test(String(u || "")) ? String(u) : null;
-
   const today = new Date(); today.setHours(0, 0, 0, 0);
-  let T = [], M = [], MS = [];
+  let T = [], M = [], MS = [], firstFound = "";
+  const st = {stage: "early", cat: "", q: "", sort: "score", open: null};
 
   async function load(name) {
     const r = await fetch("data/" + name + "?v=" + Date.now(), {cache: "no-store"});
@@ -301,12 +240,12 @@ footer{color:var(--muted);font-size:12px;padding:24px 0 40px;border-top:1px soli
   }
 
   function enrich() {
-    const byTrend = {};
-    M.forEach(m => { (byTrend[m.trend_id] = byTrend[m.trend_id] || []).push(m); });
+    const by = {};
+    M.forEach(m => { (by[m.trend_id] = by[m.trend_id] || []).push(m); });
     const months = [];
     for (let i = 11; i >= 0; i--) months.push(new Date(today.getFullYear(), today.getMonth() - i, 1));
     T.forEach(t => {
-      const ms = (byTrend[t.id] || []).slice().sort((a, b) => a.date < b.date ? 1 : -1);
+      const ms = (by[t.id] || []).slice().sort((a, b) => a.date < b.date ? 1 : -1);
       t._m = ms;
       t.nsrc = new Set(ms.map(m => m.source_name)).size || 1;
       t.recent = ms.filter(m => (today - new Date(m.date + "T00:00:00")) / DAY <= RECENT_DAYS).length;
@@ -314,196 +253,165 @@ footer{color:var(--muted);font-size:12px;padding:24px 0 40px;border-top:1px soli
       t.spark = months.map(m0 => ms.filter(m => { const d = new Date(m.date + "T00:00:00"); return d.getFullYear() === m0.getFullYear() && d.getMonth() === m0.getMonth(); }).length);
       t.score = (Number(t.local_fit) || 1) * 2 + Math.min(t.nsrc, 4) + Math.min(t.recent, 3);
     });
-    return months;
   }
 
-  function stageChip(stage) {
-    const c = el("span", "chip");
-    const d = el("span", "dot"); d.style.background = stageColor[stage] || "var(--muted)";
-    c.append(d, document.createTextNode(stage));
-    return c;
-  }
-  function momEl(t) { return el("span", "mom " + (t.momentum === "Rising" ? "up" : t.momentum === "Active" ? "act" : "calm"), (t.momentum === "Rising" ? "↑ " : "") + t.momentum); }
-  function fitEl(n) { const f = el("span", "fit"); f.title = "Indonesia fit " + n + "/3"; f.setAttribute("aria-label", f.title); f.append("●".repeat(n)); const i = el("i", null, "●".repeat(3 - n)); f.append(i); return f; }
-  function spark(values, w = 96, h = 26) {
-    const ns = "http://www.w3.org/2000/svg";
-    const s = document.createElementNS(ns, "svg");
-    s.setAttribute("class", "spark"); s.setAttribute("width", w); s.setAttribute("height", h); s.setAttribute("viewBox", `0 0 ${w} ${h}`);
-    s.setAttribute("aria-label", "Mentions per month, last 12 months");
+  function spark(values, w = 48, h = 16) {
+    const ns = "http://www.w3.org/2000/svg", s = document.createElementNS(ns, "svg");
+    s.setAttribute("width", w); s.setAttribute("height", h); s.setAttribute("viewBox", `0 0 ${w} ${h}`); s.setAttribute("aria-hidden", "true");
     const max = Math.max(1, ...values), bw = w / values.length;
     values.forEach((v, i) => {
-      const r = document.createElementNS(ns, "rect");
-      const bh = v ? Math.max(3, v / max * (h - 2)) : 1.5;
-      r.setAttribute("x", i * bw + 1); r.setAttribute("y", h - bh); r.setAttribute("width", bw - 2); r.setAttribute("height", bh); r.setAttribute("rx", 1.5);
-      r.setAttribute("fill", v ? "var(--accent)" : "var(--line)");
-      s.appendChild(r);
+      const r = document.createElementNS(ns, "rect"), bh = v ? Math.max(3, v / max * h) : 1;
+      r.setAttribute("x", i * bw + .5); r.setAttribute("y", h - bh); r.setAttribute("width", Math.max(1, bw - 1)); r.setAttribute("height", bh); r.setAttribute("rx", 1);
+      r.setAttribute("fill", v ? "var(--accent)" : "var(--line)"); s.appendChild(r);
     });
     return s;
   }
+  const isNew = t => String(t.found) !== firstFound && (today - new Date(t.found + "T00:00:00")) / DAY <= 7;
+  const rank = (a, b) => b.score - a.score || b.recent - a.recent || stageOrder[a.stage] - stageOrder[b.stage];
+  const dot = stage => { const d = el("span", "dot"); d.style.background = stageColor[stage] || "var(--faint)"; d.title = stage; return d; };
+  const fitEl = n => { const f = el("span", "fit"); f.title = "Indonesia fit " + n + "/3"; f.append("●".repeat(n), Object.assign(el("i"), {textContent: "●".repeat(3 - n)})); return f; };
 
-  function renderKpis() {
-    const up = T.filter(t => t.stage === "Upstream" || t.stage === "Lead market");
-    const rising = T.filter(t => t.momentum === "Rising" && t.stage !== "Fading" && t.stage !== "Mainstream");
-    const fresh = T.filter(t => t.status === "New");
-    const items = [
-      ["Signals tracked", T.length, M.length + " source mentions"],
-      ["Not in Indonesia yet", up.length, "upstream & lead market"],
-      ["Rising momentum", rising.length, "outside mainstream"],
-      ["New signals", fresh.length, "last 7 days"]
+  function summaryLine() {
+    const early = T.filter(t => EARLY.includes(t.stage));
+    const notYet = T.filter(t => t.stage === "Upstream" || t.stage === "Lead market").length;
+    const top = early.slice().sort(rank)[0];
+    const fresh = T.filter(isNew).length;
+    const box = $("#takeaway"); box.textContent = "";
+    box.append(el("b", null, notYet + " trends"), " haven't reached Indonesia yet. Top pick: ");
+    if (top) { const b = el("b", null, top.trend); box.append(b, " (" + top.stage.toLowerCase() + ", " + top.momentum.toLowerCase() + ")."); }
+    if (fresh) box.append(" " + fresh + " new signal" + (fresh === 1 ? "" : "s") + " this week.");
+    const stats = [
+      [T.length, "trends tracked"],
+      [notYet, "not in Indonesia yet"],
+      [T.filter(t => t.momentum === "Rising" && EARLY.includes(t.stage)).length, "rising, not mainstream"],
+      [M.length, "source mentions"]
     ];
-    const k = $("#kpis"); k.textContent = "";
-    items.forEach(([l, v, h]) => { const d = el("div", "kpi"); d.append(el("div", "l", l), el("div", "v", v.toLocaleString("en-US")), el("div", "h", h)); k.append(d); });
+    const s = $("#stats"); s.textContent = "";
+    stats.forEach(([v, l]) => { const d = el("div", "stat"); d.append(el("div", "v", v.toLocaleString("en-US")), el("div", "l", l)); s.append(d); });
   }
 
-  function renderRank() {
-    const box = $("#rank"); box.textContent = "";
-    const list = T.filter(t => ["Upstream", "Lead market", "Local early adopters"].includes(t.stage))
-      .sort((a, b) => b.score - a.score || stageOrder[a.stage] - stageOrder[b.stage] || (strengthRank[b.strength] || 0) - (strengthRank[a.strength] || 0))
-      .slice(0, 8);
-    list.forEach((t, i) => {
-      const b = el("button", "ri"); b.type = "button"; b.onclick = () => openDetail(t);
-      const mid = el("div");
-      mid.append(el("div", "t", t.trend), el("div", "a", t.angle || ""));
-      const tags = el("div", "tags"); tags.append(stageChip(t.stage), el("span", "chip", t.category), fitEl(Number(t.local_fit) || 1)); mid.append(tags);
-      const side = el("div", "side");
-      const sc = el("div", "score"); sc.append("Score ", el("b", null, t.score));
-      side.append(sc, spark(t.spark), momEl(t));
-      b.append(el("div", "no", i + 1), mid, side);
+  function renderStages() {
+    const box = $("#stages"); box.textContent = "";
+    const opts = [{k: "early", label: "Not mainstream yet", n: T.filter(t => EARLY.includes(t.stage)).length},
+                  {k: "", label: "All", n: T.length},
+                  ...STAGES.map(s => ({k: s.k, label: s.k, n: T.filter(t => t.stage === s.k).length, c: s.c}))];
+    opts.forEach(o => {
+      const b = el("button"); b.type = "button"; b.setAttribute("aria-pressed", String(st.stage === o.k));
+      if (o.c) b.append(dot(o.k));
+      b.append(o.label, " ", el("b", null, o.n));
+      b.onclick = () => { st.stage = o.k; st.open = null; renderStages(); renderList(); };
       box.append(b);
     });
   }
 
-  function renderLanes() {
-    const box = $("#lanes"); box.textContent = "";
-    STAGES.forEach(s => {
-      const items = T.filter(t => t.stage === s.k).sort((a, b) => b.score - a.score);
-      const lane = el("div", "lane");
-      const h = el("div", "lane-h");
-      const n = el("span", "n"); const d = el("span", "dot"); d.style.background = s.c; n.append(d, s.k);
-      h.append(n, el("span", "c", items.length + " signals"));
-      lane.append(h, el("div", "lane-d", s.d));
-      items.forEach(t => {
-        const c = el("button", "card"); c.type = "button"; c.onclick = () => openDetail(t);
-        const m = el("div", "m"); m.append(el("span", null, t.category), momEl(t));
-        c.append(el("div", "t", t.trend), m);
-        lane.append(c);
-      });
-      box.append(lane);
-    });
-  }
-
-  function renderFading() {
-    const box = $("#fading"); box.textContent = "";
-    T.filter(t => t.stage === "Fading").forEach(t => {
-      const b = el("button", "fade"); b.type = "button"; b.onclick = () => openDetail(t);
-      b.append(el("div", "t", t.trend), el("div", "a", t.angle || ""));
-      box.append(b);
-    });
-  }
-
-  const st = {stage: "", cat: "", src: "", str: "", q: "", key: "stage", dir: 1};
-  function fill(sel, vals) { vals.forEach(v => { const o = el("option", null, v); o.value = v; sel.append(o); }); }
-  function renderFeed() {
+  function filtered() {
     const q = st.q.trim().toLowerCase();
-    let rows = T.filter(t =>
-      (!st.stage || t.stage === st.stage) && (!st.cat || t.category === st.cat) &&
-      (!st.src || t.source_type === st.src) && (!st.str || t.strength === st.str) &&
+    const rows = T.filter(t =>
+      (st.stage === "" || (st.stage === "early" ? EARLY.includes(t.stage) : t.stage === st.stage)) &&
+      (!st.cat || t.category === st.cat) &&
       (!q || [t.trend, t.summary, t.angle, t.source_name, t.category].join(" ").toLowerCase().includes(q)));
-    const val = (t, k) => k === "stage" ? stageOrder[t.stage] : k === "strength" ? -(strengthRank[t.strength] || 0) : k === "momentum" ? -(momRank[t.momentum] || 0) : k === "nsrc" ? -t.nsrc : k === "found" ? String(t.found) : String(t[k] || "").toLowerCase();
-    rows.sort((a, b) => { const va = val(a, st.key), vb = val(b, st.key); return (va < vb ? -1 : va > vb ? 1 : b.score - a.score) * (va === vb ? 1 : st.dir); });
-    $("#count").textContent = "Showing " + rows.length + " of " + T.length + " signals";
-    const tb = $("#feed"); tb.textContent = "";
+    const cmp = {
+      score: rank,
+      new: (a, b) => String(b.found).localeCompare(String(a.found)) || b.score - a.score,
+      mom: (a, b) => (momRank[b.momentum] - momRank[a.momentum]) || b.recent - a.recent || b.score - a.score,
+      stage: (a, b) => stageOrder[a.stage] - stageOrder[b.stage] || b.score - a.score
+    }[st.sort];
+    return rows.sort(cmp);
+  }
+
+  function detail(t) {
+    const d = el("div", "det");
+    d.append(el("p", null, t.summary));
+    if (t.angle) { const o = el("div", "opp"); o.append(el("b", null, "Opportunity: "), t.angle); d.append(o); }
+    const meta = el("div", "meta");
+    const item = (k, v, cls) => { const s = el("span"); s.append(k + " ", Object.assign(el("b", cls), {textContent: v})); meta.append(s); };
+    item("Stage", t.stage); item("Strength", t.strength, "str-" + t.strength); item("Fit", (t.local_fit || 1) + "/3");
+    item("Mentions (4 mo)", String(t.recent)); item("Added", fmtDate(t.found));
+    d.append(meta);
+    const ul = el("ul");
+    (t._m.length ? t._m : [{source_name: t.source_name, url: t.url, date: t.found}]).forEach(m => {
+      const li = el("li"), u = safeUrl(m.url);
+      li.append(u ? Object.assign(el("a", null, m.source_name), {href: u, target: "_blank", rel: "noopener noreferrer"}) : el("span", null, m.source_name),
+                el("span", null, (m.date_approx ? "± " : "") + fmtDate(m.date)));
+      ul.append(li);
+    });
+    d.append(ul);
+    return d;
+  }
+
+  function renderList() {
+    const rows = filtered(), box = $("#list"); box.textContent = "";
+    $("#count").textContent = rows.length + " of " + T.length;
+    if (!rows.length) { box.append(el("div", "empty", "No trends match these filters.")); return; }
     rows.forEach(t => {
-      const tr = el("tr"); tr.tabIndex = 0;
-      tr.onclick = () => openDetail(t); tr.onkeydown = e => { if (e.key === "Enter") openDetail(t); };
-      const td = (cls, child) => { const c = el("td", cls); if (child instanceof Node) c.append(child); else c.textContent = child == null ? "" : child; tr.append(c); };
-      td("nw", stageChip(t.stage)); td("tt", t.trend); td("sm", t.summary); td("nw", t.category);
-      td("nw str-" + t.strength, t.strength); td("nw", momEl(t)); td("nw", t.nsrc + (t.nsrc === 1 ? " source" : " sources")); td("nw", fmtDate(t.found));
-      tb.append(tr);
+      const b = el("button", "tr"); b.type = "button"; b.setAttribute("aria-expanded", String(st.open === t.id));
+      const left = el("div");
+      const tt = el("div", "tt"); tt.append(dot(t.stage), el("span", "n", t.trend));
+      if (isNew(t)) tt.append(el("span", "new", "NEW"));
+      left.append(tt, el("div", "ts", t.angle || t.summary));
+      const mo = el("div", "mo"); mo.append(spark(t.spark), el("span", "lbl" + (t.momentum === "Rising" ? " up" : ""), t.momentum));
+      b.append(left, el("div", "cat", t.category), mo, fitEl(Number(t.local_fit) || 1), el("div", "sc r", t.score));
+      b.onclick = () => { st.open = st.open === t.id ? null : t.id; renderList(); };
+      box.append(b);
+      if (st.open === t.id) box.append(detail(t));
     });
   }
 
-  function renderMarket() {
-    const box = $("#market"); box.textContent = "";
+  function jumpTo(t) {
+    st.stage = ""; st.cat = ""; st.q = ""; $("#f-cat").value = ""; $("#f-q").value = "";
+    st.open = t.id; renderStages(); renderList();
+    const idx = filtered().findIndex(x => x.id === t.id);
+    const btn = $("#list").querySelectorAll(".tr")[idx];
+    if (btn) btn.scrollIntoView({behavior: "smooth", block: "center"});
+  }
+
+  function renderAside() {
+    const w = $("#watch"); w.textContent = "";
+    T.filter(t => EARLY.includes(t.stage)).sort(rank).slice(0, 5).forEach(t => {
+      const li = el("li"); li.tabIndex = 0; li.onclick = () => jumpTo(t); li.onkeydown = e => { if (e.key === "Enter") jumpTo(t); };
+      const mid = el("div"); mid.append(el("div", "n", t.trend), el("div", "a", t.stage + " · " + t.momentum));
+      li.append(mid, el("span", "s", t.score)); w.append(li);
+    });
+    const f = $("#fade"); f.textContent = "";
+    T.filter(t => t.stage === "Fading").forEach(t => {
+      const li = el("li"); li.tabIndex = 0; li.onclick = () => jumpTo(t);
+      li.append(el("div", "n", t.trend), el("div", "a", t.angle || "")); f.append(li);
+    });
+    const mk = $("#market"); mk.textContent = "";
     const groups = {};
     MS.forEach(r => { (groups[r.period] = groups[r.period] || {order: Number(r.order), rows: []}).rows.push(r); });
     const max = Math.max(...MS.map(r => Number(r.share)));
     Object.entries(groups).sort((a, b) => b[1].order - a[1].order).forEach(([p, g]) => {
-      const gd = el("div", "mk-g"); gd.append(el("h3", null, p));
+      mk.append(el("h3", null, p));
       g.rows.sort((a, b) => b.share - a.share).forEach(r => {
-        const saff = /saff/i.test(r.brand);
-        const row = el("div", "mk-r");
+        const saff = /saff/i.test(r.brand), row = el("div", "mkr"), u = safeUrl(r.url);
         const nm = el("div", "nm" + (saff ? " saff" : ""));
-        const u = safeUrl(r.url);
-        if (u) { const a = el("a", null, r.brand); a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer"; a.title = r.note || ""; nm.append(a); } else nm.textContent = r.brand;
-        const track = el("div"); const bar = el("div", "bar" + (saff ? " saff" : "")); bar.style.width = (r.share / max * 100) + "%"; track.append(bar);
-        row.append(nm, track, el("div", "v", Number(r.share).toLocaleString("en-US", {minimumFractionDigits: 2}) + "%"));
-        gd.append(row);
+        if (u) nm.append(Object.assign(el("a", null, r.brand), {href: u, target: "_blank", rel: "noopener noreferrer", title: r.note || ""})); else nm.textContent = r.brand;
+        const tr = el("div"), bar = el("div", "b" + (saff ? " saff" : "")); bar.style.width = (r.share / max * 100) + "%"; tr.append(bar);
+        row.append(nm, tr, el("div", "v", Number(r.share).toFixed(2) + "%")); mk.append(row);
       });
-      box.append(gd);
     });
-    box.append(el("p", "note", "Only figures named in public articles; other top-10 brands are not always listed. Click a brand name to open the source."));
+    mk.append(el("p", "note", "Only figures named in public articles."));
   }
 
-  const dlg = $("#dlg");
-  function openDetail(t) {
-    const b = $("#dlg-body"); b.textContent = "";
-    const x = el("button", "x", "×"); x.type = "button"; x.setAttribute("aria-label", "Close"); x.onclick = () => dlg.close();
-    const tags = el("div", "tags"); tags.append(stageChip(t.stage), el("span", "chip", t.category), el("span", "chip", "Strength: " + t.strength), momEl(t));
-    b.append(x, el("div", "eyebrow", t.source_type), el("h3", null, t.trend), tags, el("p", null, t.summary));
-    if (t.angle) { const a = el("div", "ang"); a.append(el("b", null, "Opportunity: "), t.angle); b.append(a); }
-    b.append(el("h4", null, "Mentions per month (12 months)"), spark(t.spark, 280, 44));
-    const meta = el("p", "note", "Indonesia fit " + (t.local_fit || 1) + "/3 · Radar score " + t.score + " · Added " + fmtDate(t.found));
-    b.append(meta, el("h4", null, "Sources"));
-    const ul = el("ul");
-    const ms = t._m.length ? t._m : [{source_name: t.source_name, url: t.url, date: t.found}];
-    ms.forEach(m => {
-      const li = el("li"); const u = safeUrl(m.url);
-      const n = u ? Object.assign(el("a", null, m.source_name), {href: u, target: "_blank", rel: "noopener noreferrer"}) : el("div", null, m.source_name);
-      li.append(n, el("span", null, (m.date_approx ? "± " : "") + fmtDate(m.date)));
-      ul.append(li);
-    });
-    b.append(ul);
-    dlg.showModal();
-  }
-  dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
-
-  function tabs() {
-    const btns = document.querySelectorAll("nav.tabs button");
-    const show = id => {
-      btns.forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === id)));
-      document.querySelectorAll("section.tab").forEach(s => s.classList.toggle("on", s.id === "tab-" + id));
-      history.replaceState(null, "", "#" + id);
-    };
-    btns.forEach(b => b.onclick = () => show(b.dataset.tab));
-    const h = location.hash.slice(1); if (["radar", "feed", "pasar", "cara"].includes(h)) show(h);
+  function wire() {
+    [...new Set(T.map(t => t.category))].sort().forEach(c => $("#f-cat").append(Object.assign(el("option", null, c), {value: c})));
+    $("#f-cat").onchange = e => { st.cat = e.target.value; st.open = null; renderList(); };
+    $("#f-sort").onchange = e => { st.sort = e.target.value; renderList(); };
+    $("#f-q").oninput = e => { st.q = e.target.value; st.open = null; if (st.q) { st.stage = ""; renderStages(); } renderList(); };
   }
 
-  function wireFeed() {
-    fill($("#f-stage"), STAGES.map(s => s.k));
-    fill($("#f-cat"), [...new Set(T.map(t => t.category))].sort());
-    fill($("#f-src"), [...new Set(T.map(t => t.source_type))].sort());
-    [["#f-stage", "stage"], ["#f-cat", "cat"], ["#f-src", "src"], ["#f-str", "str"]].forEach(([s, k]) => $(s).onchange = e => { st[k] = e.target.value; renderFeed(); });
-    $("#f-q").oninput = e => { st.q = e.target.value; renderFeed(); };
-    document.querySelectorAll("#tab-feed th button").forEach(b => b.onclick = () => {
-      if (st.key === b.dataset.k) st.dir *= -1; else { st.key = b.dataset.k; st.dir = 1; }
-      renderFeed();
-    });
-  }
-
-  tabs();
   Promise.all([load("trends.json"), load("mentions.json"), load("market_share.json"), load("meta.json").catch(() => ({}))])
     .then(([t, m, ms, meta]) => {
-      T = t; M = m; MS = ms;
-      enrich();
+      T = t; M = m; MS = ms; firstFound = T.map(x => String(x.found)).sort()[0] || ""; enrich();
       const u = $("#updated"); u.textContent = "";
-      u.append("Last updated ", el("b", null, meta.updated_at ? fmtDate(meta.updated_at) : "—"), " · " + T.length + " signals · updated automatically every morning");
-      renderKpis(); renderRank(); renderLanes(); renderFading(); wireFeed(); renderFeed(); renderMarket();
+      u.append("Last updated ", el("b", null, meta.updated_at ? fmtDate(meta.updated_at) : "—"), " · updates every morning");
+      summaryLine(); renderStages(); wire(); renderList(); renderAside();
     })
     .catch(err => {
       const e = $("#error"); e.hidden = false;
-      e.textContent = "Data could not be loaded (" + err.message + "). Make sure the 'data' folder was uploaded. If this file is opened directly from a computer, open it through the GitHub Pages link instead, because browsers block reading local files.";
-      $("#updated").textContent = "";
+      e.textContent = "Data could not be loaded (" + err.message + "). Make sure the 'data' folder is in the repo, and open the page through its GitHub Pages link.";
+      $("#updated").textContent = ""; $("#takeaway").hidden = true;
     });
 })();
 </script>
