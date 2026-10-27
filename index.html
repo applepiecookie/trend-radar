@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="id">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Trend Radar · SAFF &amp; Co.</title>
-<meta name="description" content="Radar sinyal trend fragrance, packaging dan perilaku konsumen untuk tim Product Development SAFF & Co.">
+<meta name="description" content="Trend signal radar for fragrance, packaging and consumer behavior, for the SAFF & Co. Product Development team.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -106,7 +106,7 @@ td.sm{min-width:260px;color:var(--muted)}
 td.nw{white-space:nowrap}
 .str-Kuat{color:var(--ok);font-weight:600}.str-Awal{color:var(--muted)}
 
-/* Pasar */
+/* Market */
 .mk{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}
 .mk-g{margin-bottom:16px}
 .mk-g h3{font-size:13px;font-weight:600;margin:0 0 8px;color:var(--muted)}
@@ -117,7 +117,7 @@ td.nw{white-space:nowrap}
 .mk-r .nm.saff{font-weight:600}
 .note{font-size:13px;color:var(--muted);margin-top:10px}
 
-/* Cara kerja */
+/* How it works */
 .how{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:14px}
 .how .box{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}
 .how h3{font-size:15px;margin:0 0 8px}
@@ -151,16 +151,16 @@ footer{color:var(--muted);font-size:12px;padding:24px 0 40px;border-top:1px soli
 <header class="top wrap">
   <div class="eyebrow">SAFF &amp; Co. · Product Development</div>
   <h1>Trend Radar</h1>
-  <p class="lede">Sinyal trend fragrance, packaging dan perilaku konsumen, dilacak dari hulu (supplier &amp; niche) sampai mainstream, supaya tim bisa bergerak sebelum trend masuk report.</p>
-  <div class="updated" id="updated">Memuat data…</div>
+  <p class="lede">Fragrance, packaging and consumer-behavior trend signals, tracked from upstream (suppliers &amp; niche) to mainstream, so the team can move before a trend reaches the reports.</p>
+  <div class="updated" id="updated">Loading data…</div>
 </header>
 
-<nav class="tabs" aria-label="Halaman">
+<nav class="tabs" aria-label="Pages">
   <div class="wrap" role="tablist">
-    <button role="tab" aria-selected="true" data-tab="radar">Radar upcoming</button>
-    <button role="tab" aria-selected="false" data-tab="feed">Semua sinyal</button>
-    <button role="tab" aria-selected="false" data-tab="pasar">Pasar</button>
-    <button role="tab" aria-selected="false" data-tab="cara">Cara kerja</button>
+    <button role="tab" aria-selected="true" data-tab="radar">Upcoming radar</button>
+    <button role="tab" aria-selected="false" data-tab="feed">All signals</button>
+    <button role="tab" aria-selected="false" data-tab="pasar">Market</button>
+    <button role="tab" aria-selected="false" data-tab="cara">How it works</button>
   </div>
 </nav>
 
@@ -171,47 +171,47 @@ footer{color:var(--muted);font-size:12px;padding:24px 0 40px;border-top:1px soli
     <div class="kpis" id="kpis"></div>
 
     <div class="block">
-      <h2>Paling berpotensi untuk Indonesia</h2>
-      <p class="sub">Sinyal yang belum mainstream di Indonesia, diurutkan dari skor radar: kecocokan dengan pasar lokal, jumlah sumber independen, dan seberapa sering disebut 4 bulan terakhir.</p>
+      <h2>Most promising for Indonesia</h2>
+      <p class="sub">Signals not yet mainstream in Indonesia, ranked by radar score: fit with the local market, number of independent sources, and how often they were mentioned in the last 4 months.</p>
       <div class="rank" id="rank"></div>
     </div>
 
     <div class="block">
-      <h2>Jalur adopsi</h2>
-      <p class="sub">Di mana posisi tiap trend sekarang. Trend biasanya bergerak dari kiri ke kanan; peluang terbaik ada di dua kolom pertama.</p>
+      <h2>Adoption path</h2>
+      <p class="sub">Where each trend sits today. Trends usually move left to right; the best opportunities are in the first two columns.</p>
       <div class="lanes" id="lanes"></div>
-      <div class="lane-arrow">arah pergerakan trend</div>
+      <div class="lane-arrow">direction of travel</div>
     </div>
 
     <div class="block">
-      <h2>Mulai memudar</h2>
-      <p class="sub">Arah yang mulai ditinggalkan di pasar global. Berguna untuk mengecek portofolio dan rencana reformulasi.</p>
+      <h2>Starting to fade</h2>
+      <p class="sub">Directions global markets are moving away from. Useful for checking the portfolio and reformulation plans.</p>
       <div class="fade-list" id="fading"></div>
     </div>
   </section>
 
   <section class="tab" id="tab-feed">
-    <h2>Semua sinyal</h2>
-    <p class="sub">Klik baris untuk melihat detail dan semua sumbernya.</p>
+    <h2>All signals</h2>
+    <p class="sub">Click a row to see details and all its sources.</p>
     <div class="filters">
-      <select id="f-stage" aria-label="Tahap"><option value="">Semua tahap</option></select>
-      <select id="f-cat" aria-label="Kategori"><option value="">Semua kategori</option></select>
-      <select id="f-src" aria-label="Jenis sumber"><option value="">Semua jenis sumber</option></select>
-      <select id="f-str" aria-label="Kekuatan"><option value="">Semua kekuatan</option><option>Kuat</option><option>Sedang</option><option>Awal</option></select>
-      <input id="f-q" type="search" placeholder="Cari trend, notes, brand…" aria-label="Cari">
+      <select id="f-stage" aria-label="Stage"><option value="">All stages</option></select>
+      <select id="f-cat" aria-label="Category"><option value="">All categories</option></select>
+      <select id="f-src" aria-label="Source type"><option value="">All source types</option></select>
+      <select id="f-str" aria-label="Strength"><option value="">All strengths</option><option>Strong</option><option>Medium</option><option>Early</option></select>
+      <input id="f-q" type="search" placeholder="Search trends, notes, brands…" aria-label="Search">
     </div>
     <div class="count" id="count"></div>
     <div class="tbox">
       <table>
         <thead><tr>
-          <th><button data-k="stage">Tahap</button></th>
+          <th><button data-k="stage">Stage</button></th>
           <th><button data-k="trend">Trend</button></th>
-          <th>Ringkasan</th>
-          <th><button data-k="category">Kategori</button></th>
-          <th><button data-k="strength">Kekuatan</button></th>
+          <th>Summary</th>
+          <th><button data-k="category">Category</button></th>
+          <th><button data-k="strength">Strength</button></th>
           <th><button data-k="momentum">Momentum</button></th>
-          <th><button data-k="nsrc">Sumber</button></th>
-          <th><button data-k="found">Masuk</button></th>
+          <th><button data-k="nsrc">Sources</button></th>
+          <th><button data-k="found">Added</button></th>
         </tr></thead>
         <tbody id="feed"></tbody>
       </table>
@@ -219,76 +219,76 @@ footer{color:var(--muted);font-size:12px;padding:24px 0 40px;border-top:1px soli
   </section>
 
   <section class="tab" id="tab-pasar">
-    <h2>Pangsa pasar parfum di Shopee</h2>
-    <p class="sub">Pangsa penjualan brand teratas per periode, sejauh dipublikasikan Compas lewat GoodStats dan Databoks.</p>
+    <h2>Perfume market share on Shopee</h2>
+    <p class="sub">Sales share of the top brands per period, as published by Compas via GoodStats and Databoks.</p>
     <div class="mk" id="market"></div>
   </section>
 
   <section class="tab" id="tab-cara">
-    <h2>Cara kerja</h2>
-    <p class="sub">Supaya tim tahu dari mana angka dan label di halaman ini berasal, dan apa batasnya.</p>
+    <h2>How it works</h2>
+    <p class="sub">Where the numbers and labels on this page come from, and their limits.</p>
     <div class="how">
       <div class="box">
-        <h3>Tahap adopsi</h3>
+        <h3>Adoption stages</h3>
         <ul>
-          <li><b>Hulu</b>: muncul di supplier, fragrance house, pameran niche, atau tren makanan/minuman.</li>
-          <li><b>Lead market</b>: sudah ramai di Korea, Jepang, China, Timur Tengah, AS atau Eropa.</li>
-          <li><b>Early adopter lokal</b>: mulai dibicarakan pelaku industri, brand niche, atau komunitas di Indonesia.</li>
-          <li><b>Mainstream</b>: sudah terlihat di data penjualan, survei besar, atau brand massal lokal.</li>
-          <li><b>Memudar</b>: arah yang mulai ditinggalkan.</li>
+          <li><b>Upstream</b>: appears at suppliers, fragrance houses, niche fairs, or in food &amp; drink trends.</li>
+          <li><b>Lead market</b>: already popular in Korea, Japan, China, the Middle East, the US or Europe.</li>
+          <li><b>Local early adopters</b>: starting to be discussed by industry players, niche brands or communities in Indonesia.</li>
+          <li><b>Mainstream</b>: visible in sales data, large surveys, or local mass brands.</li>
+          <li><b>Fading</b>: directions the market is moving away from.</li>
         </ul>
       </div>
       <div class="box">
-        <h3>Momentum &amp; skor radar</h3>
+        <h3>Momentum &amp; radar score</h3>
         <ul>
-          <li><b>Momentum</b> menghitung berapa kali trend disebut sumber dalam 4 bulan terakhir: Naik (2+), Aktif (1), Tenang (0).</li>
-          <li><b>Grafik kecil</b> menunjukkan sebutan per bulan selama 12 bulan terakhir.</li>
-          <li><b>Kecocokan Indonesia</b> (1–3 titik) adalah penilaian awal Claude terhadap iklim, preferensi aroma, harga, dan budaya lokal. Silakan dikoreksi tim.</li>
-          <li><b>Skor radar</b> = kecocokan × 2 + jumlah sumber (maks. 4) + sebutan 4 bulan terakhir (maks. 3).</li>
+          <li><b>Momentum</b> counts how often a trend was mentioned by sources in the last 4 months: Rising (2+), Active (1), Quiet (0).</li>
+          <li>The <b>mini chart</b> shows mentions per month over the last 12 months.</li>
+          <li><b>Indonesia fit</b> (1–3 dots) is Claude's initial judgement on climate, scent preferences, price and local culture. The team should review it.</li>
+          <li><b>Radar score</b> = fit × 2 + number of sources (max 4) + mentions in the last 4 months (max 3).</li>
         </ul>
       </div>
       <div class="box">
-        <h3>Sumber &amp; update</h3>
+        <h3>Sources &amp; updates</h3>
         <ul>
-          <li>Setiap pagi Claude menelusuri web: rilis supplier, pameran niche, media beauty di Korea/Jepang/China/Timur Tengah, tren F&amp;B Jakarta, data e-commerce, dan riset konsumen.</li>
-          <li>Sinyal baru ditambahkan, sinyal lama yang muncul lagi dicatat sebagai sebutan baru dan bisa naik tahap atau kekuatannya.</li>
-          <li>Tanggal sebutan memakai tanggal terbit sumber; sebagian ditandai "perkiraan" bila sumber hanya mencantumkan bulan atau tahun.</li>
+          <li>Every morning Claude searches the web: supplier releases, niche fairs, beauty media in Korea/Japan/China/the Middle East, Jakarta F&amp;B trends, e-commerce data and consumer research.</li>
+          <li>New signals are added; existing signals that reappear are logged as new mentions and can move up in stage or strength.</li>
+          <li>Mention dates use the source's publication date; some are marked approximate (±) when the source only gives a month or year.</li>
         </ul>
       </div>
       <div class="box">
-        <h3>Batasan</h3>
+        <h3>Limitations</h3>
         <ul>
-          <li>TikTok, Instagram dan Shopee tidak dibaca langsung; sinyalnya berasal dari liputan, laporan dan data penjualan yang dipublikasikan.</li>
-          <li>Google Trends belum tercakup. Export CSV dari Google Trends bisa ditambahkan ke folder data.</li>
-          <li>Sinyal awal tidak selalu jadi besar. Gunakan radar ini untuk memutuskan apa yang perlu diuji lebih dulu, lalu validasi dengan riset tim, WGSN atau Mintel.</li>
+          <li>TikTok, Instagram and Shopee are not read directly; signals come from published coverage, reports and sales data.</li>
+          <li>Google Trends is not covered yet. A Google Trends CSV export can be added to the data folder.</li>
+          <li>Early signals don't always become big. Use this radar to decide what to test first, then validate with team research, WGSN or Mintel.</li>
         </ul>
       </div>
     </div>
   </section>
 </main>
 
-<footer class="wrap">Trend Radar · disusun dan diperbarui otomatis oleh Claude untuk tim Product Development SAFF &amp; Co. Semua ringkasan adalah parafrase; buka sumber aslinya untuk detail.</footer>
+<footer class="wrap">Trend Radar · compiled and updated automatically by Claude for the SAFF &amp; Co. Product Development team. All summaries are paraphrased; open the original sources for details.</footer>
 
 <dialog id="dlg"><div class="dlg" id="dlg-body"></div></dialog>
 
 <script>
 (() => {
   const STAGES = [
-    {k: "Hulu", c: "var(--s-hulu)", d: "Supplier, niche, F&B"},
-    {k: "Lead market", c: "var(--s-lead)", d: "Ramai di pasar lain"},
-    {k: "Early adopter lokal", c: "var(--s-early)", d: "Mulai dibahas di Indonesia"},
-    {k: "Mainstream", c: "var(--s-main)", d: "Terlihat di data penjualan"},
-    {k: "Memudar", c: "var(--s-fade)", d: "Mulai ditinggalkan"}
+    {k: "Upstream", c: "var(--s-hulu)", d: "Suppliers, niche, F&B"},
+    {k: "Lead market", c: "var(--s-lead)", d: "Popular in other markets"},
+    {k: "Local early adopters", c: "var(--s-early)", d: "Starting to be discussed in Indonesia"},
+    {k: "Mainstream", c: "var(--s-main)", d: "Visible in sales data"},
+    {k: "Fading", c: "var(--s-fade)", d: "Being left behind"}
   ];
   const stageColor = Object.fromEntries(STAGES.map(s => [s.k, s.c]));
   const stageOrder = Object.fromEntries(STAGES.map((s, i) => [s.k, i]));
-  const strengthRank = {Kuat: 3, Sedang: 2, Awal: 1};
-  const momRank = {Naik: 3, Aktif: 2, Tenang: 1};
+  const strengthRank = {Strong: 3, Medium: 2, Early: 1};
+  const momRank = {Rising: 3, Active: 2, Quiet: 1};
   const DAY = 864e5, RECENT_DAYS = 120;
   const $ = s => document.querySelector(s);
   const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
-  const fmtDate = s => { const d = new Date(String(s).slice(0, 10) + "T00:00:00"); return isNaN(d) ? String(s) : d.toLocaleDateString("id-ID", {day: "numeric", month: "short", year: "numeric"}); };
-  const fmtMonth = d => d.toLocaleDateString("id-ID", {month: "short", year: "2-digit"});
+  const fmtDate = s => { const d = new Date(String(s).slice(0, 10) + "T00:00:00"); return isNaN(d) ? String(s) : d.toLocaleDateString("en-GB", {day: "numeric", month: "short", year: "numeric"}); };
+  const fmtMonth = d => d.toLocaleDateString("en-GB", {month: "short", year: "2-digit"});
   const safeUrl = u => /^https:\/\//.test(String(u || "")) ? String(u) : null;
 
   const today = new Date(); today.setHours(0, 0, 0, 0);
@@ -310,7 +310,7 @@ footer{color:var(--muted);font-size:12px;padding:24px 0 40px;border-top:1px soli
       t._m = ms;
       t.nsrc = new Set(ms.map(m => m.source_name)).size || 1;
       t.recent = ms.filter(m => (today - new Date(m.date + "T00:00:00")) / DAY <= RECENT_DAYS).length;
-      t.momentum = t.recent >= 2 ? "Naik" : t.recent === 1 ? "Aktif" : "Tenang";
+      t.momentum = t.recent >= 2 ? "Rising" : t.recent === 1 ? "Active" : "Quiet";
       t.spark = months.map(m0 => ms.filter(m => { const d = new Date(m.date + "T00:00:00"); return d.getFullYear() === m0.getFullYear() && d.getMonth() === m0.getMonth(); }).length);
       t.score = (Number(t.local_fit) || 1) * 2 + Math.min(t.nsrc, 4) + Math.min(t.recent, 3);
     });
@@ -323,13 +323,13 @@ footer{color:var(--muted);font-size:12px;padding:24px 0 40px;border-top:1px soli
     c.append(d, document.createTextNode(stage));
     return c;
   }
-  function momEl(t) { return el("span", "mom " + (t.momentum === "Naik" ? "up" : t.momentum === "Aktif" ? "act" : "calm"), (t.momentum === "Naik" ? "↑ " : "") + t.momentum); }
-  function fitEl(n) { const f = el("span", "fit"); f.title = "Kecocokan Indonesia " + n + "/3"; f.setAttribute("aria-label", f.title); f.append("●".repeat(n)); const i = el("i", null, "●".repeat(3 - n)); f.append(i); return f; }
+  function momEl(t) { return el("span", "mom " + (t.momentum === "Rising" ? "up" : t.momentum === "Active" ? "act" : "calm"), (t.momentum === "Rising" ? "↑ " : "") + t.momentum); }
+  function fitEl(n) { const f = el("span", "fit"); f.title = "Indonesia fit " + n + "/3"; f.setAttribute("aria-label", f.title); f.append("●".repeat(n)); const i = el("i", null, "●".repeat(3 - n)); f.append(i); return f; }
   function spark(values, w = 96, h = 26) {
     const ns = "http://www.w3.org/2000/svg";
     const s = document.createElementNS(ns, "svg");
     s.setAttribute("class", "spark"); s.setAttribute("width", w); s.setAttribute("height", h); s.setAttribute("viewBox", `0 0 ${w} ${h}`);
-    s.setAttribute("aria-label", "Sebutan per bulan, 12 bulan terakhir");
+    s.setAttribute("aria-label", "Mentions per month, last 12 months");
     const max = Math.max(1, ...values), bw = w / values.length;
     values.forEach((v, i) => {
       const r = document.createElementNS(ns, "rect");
@@ -342,22 +342,22 @@ footer{color:var(--muted);font-size:12px;padding:24px 0 40px;border-top:1px soli
   }
 
   function renderKpis() {
-    const up = T.filter(t => t.stage === "Hulu" || t.stage === "Lead market");
-    const rising = T.filter(t => t.momentum === "Naik" && t.stage !== "Memudar" && t.stage !== "Mainstream");
-    const fresh = T.filter(t => t.status === "Baru");
+    const up = T.filter(t => t.stage === "Upstream" || t.stage === "Lead market");
+    const rising = T.filter(t => t.momentum === "Rising" && t.stage !== "Fading" && t.stage !== "Mainstream");
+    const fresh = T.filter(t => t.status === "New");
     const items = [
-      ["Sinyal dilacak", T.length, M.length + " sebutan dari sumber"],
-      ["Belum sampai Indonesia", up.length, "tahap hulu & lead market"],
-      ["Momentum naik", rising.length, "di luar mainstream"],
-      ["Sinyal baru", fresh.length, "7 hari terakhir"]
+      ["Signals tracked", T.length, M.length + " source mentions"],
+      ["Not in Indonesia yet", up.length, "upstream & lead market"],
+      ["Rising momentum", rising.length, "outside mainstream"],
+      ["New signals", fresh.length, "last 7 days"]
     ];
     const k = $("#kpis"); k.textContent = "";
-    items.forEach(([l, v, h]) => { const d = el("div", "kpi"); d.append(el("div", "l", l), el("div", "v", v.toLocaleString("id-ID")), el("div", "h", h)); k.append(d); });
+    items.forEach(([l, v, h]) => { const d = el("div", "kpi"); d.append(el("div", "l", l), el("div", "v", v.toLocaleString("en-US")), el("div", "h", h)); k.append(d); });
   }
 
   function renderRank() {
     const box = $("#rank"); box.textContent = "";
-    const list = T.filter(t => ["Hulu", "Lead market", "Early adopter lokal"].includes(t.stage))
+    const list = T.filter(t => ["Upstream", "Lead market", "Local early adopters"].includes(t.stage))
       .sort((a, b) => b.score - a.score || stageOrder[a.stage] - stageOrder[b.stage] || (strengthRank[b.strength] || 0) - (strengthRank[a.strength] || 0))
       .slice(0, 8);
     list.forEach((t, i) => {
@@ -366,7 +366,7 @@ footer{color:var(--muted);font-size:12px;padding:24px 0 40px;border-top:1px soli
       mid.append(el("div", "t", t.trend), el("div", "a", t.angle || ""));
       const tags = el("div", "tags"); tags.append(stageChip(t.stage), el("span", "chip", t.category), fitEl(Number(t.local_fit) || 1)); mid.append(tags);
       const side = el("div", "side");
-      const sc = el("div", "score"); sc.append("Skor ", el("b", null, t.score));
+      const sc = el("div", "score"); sc.append("Score ", el("b", null, t.score));
       side.append(sc, spark(t.spark), momEl(t));
       b.append(el("div", "no", i + 1), mid, side);
       box.append(b);
@@ -380,7 +380,7 @@ footer{color:var(--muted);font-size:12px;padding:24px 0 40px;border-top:1px soli
       const lane = el("div", "lane");
       const h = el("div", "lane-h");
       const n = el("span", "n"); const d = el("span", "dot"); d.style.background = s.c; n.append(d, s.k);
-      h.append(n, el("span", "c", items.length + " sinyal"));
+      h.append(n, el("span", "c", items.length + " signals"));
       lane.append(h, el("div", "lane-d", s.d));
       items.forEach(t => {
         const c = el("button", "card"); c.type = "button"; c.onclick = () => openDetail(t);
@@ -394,7 +394,7 @@ footer{color:var(--muted);font-size:12px;padding:24px 0 40px;border-top:1px soli
 
   function renderFading() {
     const box = $("#fading"); box.textContent = "";
-    T.filter(t => t.stage === "Memudar").forEach(t => {
+    T.filter(t => t.stage === "Fading").forEach(t => {
       const b = el("button", "fade"); b.type = "button"; b.onclick = () => openDetail(t);
       b.append(el("div", "t", t.trend), el("div", "a", t.angle || ""));
       box.append(b);
@@ -411,14 +411,14 @@ footer{color:var(--muted);font-size:12px;padding:24px 0 40px;border-top:1px soli
       (!q || [t.trend, t.summary, t.angle, t.source_name, t.category].join(" ").toLowerCase().includes(q)));
     const val = (t, k) => k === "stage" ? stageOrder[t.stage] : k === "strength" ? -(strengthRank[t.strength] || 0) : k === "momentum" ? -(momRank[t.momentum] || 0) : k === "nsrc" ? -t.nsrc : k === "found" ? String(t.found) : String(t[k] || "").toLowerCase();
     rows.sort((a, b) => { const va = val(a, st.key), vb = val(b, st.key); return (va < vb ? -1 : va > vb ? 1 : b.score - a.score) * (va === vb ? 1 : st.dir); });
-    $("#count").textContent = "Menampilkan " + rows.length + " dari " + T.length + " sinyal";
+    $("#count").textContent = "Showing " + rows.length + " of " + T.length + " signals";
     const tb = $("#feed"); tb.textContent = "";
     rows.forEach(t => {
       const tr = el("tr"); tr.tabIndex = 0;
       tr.onclick = () => openDetail(t); tr.onkeydown = e => { if (e.key === "Enter") openDetail(t); };
       const td = (cls, child) => { const c = el("td", cls); if (child instanceof Node) c.append(child); else c.textContent = child == null ? "" : child; tr.append(c); };
       td("nw", stageChip(t.stage)); td("tt", t.trend); td("sm", t.summary); td("nw", t.category);
-      td("nw str-" + t.strength, t.strength); td("nw", momEl(t)); td("nw", t.nsrc + " sumber"); td("nw", fmtDate(t.found));
+      td("nw str-" + t.strength, t.strength); td("nw", momEl(t)); td("nw", t.nsrc + (t.nsrc === 1 ? " source" : " sources")); td("nw", fmtDate(t.found));
       tb.append(tr);
     });
   }
@@ -437,24 +437,24 @@ footer{color:var(--muted);font-size:12px;padding:24px 0 40px;border-top:1px soli
         const u = safeUrl(r.url);
         if (u) { const a = el("a", null, r.brand); a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer"; a.title = r.note || ""; nm.append(a); } else nm.textContent = r.brand;
         const track = el("div"); const bar = el("div", "bar" + (saff ? " saff" : "")); bar.style.width = (r.share / max * 100) + "%"; track.append(bar);
-        row.append(nm, track, el("div", "v", Number(r.share).toLocaleString("id-ID", {minimumFractionDigits: 2}) + "%"));
+        row.append(nm, track, el("div", "v", Number(r.share).toLocaleString("en-US", {minimumFractionDigits: 2}) + "%"));
         gd.append(row);
       });
       box.append(gd);
     });
-    box.append(el("p", "note", "Hanya angka yang disebutkan di artikel publik; brand lain di 10 besar tidak selalu tercantum. Klik nama brand untuk membuka sumber."));
+    box.append(el("p", "note", "Only figures named in public articles; other top-10 brands are not always listed. Click a brand name to open the source."));
   }
 
   const dlg = $("#dlg");
   function openDetail(t) {
     const b = $("#dlg-body"); b.textContent = "";
-    const x = el("button", "x", "×"); x.type = "button"; x.setAttribute("aria-label", "Tutup"); x.onclick = () => dlg.close();
-    const tags = el("div", "tags"); tags.append(stageChip(t.stage), el("span", "chip", t.category), el("span", "chip", "Kekuatan: " + t.strength), momEl(t));
+    const x = el("button", "x", "×"); x.type = "button"; x.setAttribute("aria-label", "Close"); x.onclick = () => dlg.close();
+    const tags = el("div", "tags"); tags.append(stageChip(t.stage), el("span", "chip", t.category), el("span", "chip", "Strength: " + t.strength), momEl(t));
     b.append(x, el("div", "eyebrow", t.source_type), el("h3", null, t.trend), tags, el("p", null, t.summary));
-    if (t.angle) { const a = el("div", "ang"); a.append(el("b", null, "Peluang: "), t.angle); b.append(a); }
-    b.append(el("h4", null, "Sebutan per bulan (12 bulan)"), spark(t.spark, 280, 44));
-    const meta = el("p", "note", "Kecocokan Indonesia " + (t.local_fit || 1) + "/3 · Skor radar " + t.score + " · Masuk radar " + fmtDate(t.found));
-    b.append(meta, el("h4", null, "Sumber"));
+    if (t.angle) { const a = el("div", "ang"); a.append(el("b", null, "Opportunity: "), t.angle); b.append(a); }
+    b.append(el("h4", null, "Mentions per month (12 months)"), spark(t.spark, 280, 44));
+    const meta = el("p", "note", "Indonesia fit " + (t.local_fit || 1) + "/3 · Radar score " + t.score + " · Added " + fmtDate(t.found));
+    b.append(meta, el("h4", null, "Sources"));
     const ul = el("ul");
     const ms = t._m.length ? t._m : [{source_name: t.source_name, url: t.url, date: t.found}];
     ms.forEach(m => {
@@ -497,12 +497,12 @@ footer{color:var(--muted);font-size:12px;padding:24px 0 40px;border-top:1px soli
       T = t; M = m; MS = ms;
       enrich();
       const u = $("#updated"); u.textContent = "";
-      u.append("Terakhir diperbarui ", el("b", null, meta.updated_at ? fmtDate(meta.updated_at) : "—"), " · " + T.length + " sinyal · update otomatis setiap pagi");
+      u.append("Last updated ", el("b", null, meta.updated_at ? fmtDate(meta.updated_at) : "—"), " · " + T.length + " signals · updated automatically every morning");
       renderKpis(); renderRank(); renderLanes(); renderFading(); wireFeed(); renderFeed(); renderMarket();
     })
     .catch(err => {
       const e = $("#error"); e.hidden = false;
-      e.textContent = "Data belum bisa dimuat (" + err.message + "). Pastikan folder 'data' ikut ter-upload. Jika file ini dibuka langsung dari komputer, buka lewat link GitHub Pages karena browser memblokir pembacaan file lokal.";
+      e.textContent = "Data could not be loaded (" + err.message + "). Make sure the 'data' folder was uploaded. If this file is opened directly from a computer, open it through the GitHub Pages link instead, because browsers block reading local files.";
       $("#updated").textContent = "";
     });
 })();

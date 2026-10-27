@@ -1,11 +1,11 @@
 # Trend Radar · SAFF & Co.
 
-Radar sinyal trend fragrance, packaging dan perilaku konsumen untuk tim Product Development.
+Trend signal radar for fragrance, packaging and consumer behavior, for the Product Development team.
 
-- `index.html` — halaman web (GitHub Pages).
-- `data/trends.json` — semua sinyal trend (tahap adopsi, kekuatan, kecocokan Indonesia).
-- `data/mentions.json` — log sebutan per sumber, dipakai untuk menghitung momentum.
-- `data/market_share.json` — pangsa pasar parfum Shopee dari publikasi Compas.
-- `data/meta.json` — waktu update terakhir.
+- `index.html` — the website (GitHub Pages).
+- `data/trends.json` — all trend signals (adoption stage, strength, Indonesia fit).
+- `data/mentions.json` — mention log per source, used to compute momentum.
+- `data/market_share.json` — Shopee perfume market share as published by Compas.
+- `data/meta.json` — last update time.
 
-Data diperbarui otomatis setiap pagi oleh tugas terjadwal Claude.
+Data is updated automatically every morning by a Claude scheduled task.
