@@ -67,7 +67,7 @@ h1{font-family:var(--serif);font-weight:400;font-size:34px;line-height:1;margin:
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;flex:none}
 
 /* Trend list */
-.lh,.tr{display:grid;grid-template-columns:minmax(0,1fr) 128px 96px 46px 44px;gap:12px;align-items:center;padding:0 14px}
+.lh,.tr{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr) 96px 40px 40px;gap:12px;align-items:center;padding:0 14px}
 .lh{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;padding-top:8px;padding-bottom:6px;border-bottom:1px solid var(--line)}
 .lh .r,.tr .r{text-align:right}
 .tr{width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding-top:9px;padding-bottom:9px;cursor:pointer}
@@ -78,6 +78,8 @@ h1{font-family:var(--serif);font-weight:400;font-size:34px;line-height:1;margin:
 .tt .new{font-size:10px;font-weight:600;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:0 4px;flex:none}
 .ts{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:1px 0 0 16px}
 .cat{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.idea{font-size:12.5px;line-height:1.35;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.idea::before{content:"→ ";color:var(--accent);font-weight:600}
 .mo{display:flex;align-items:center;gap:6px;font-size:11px}
 .mo .lbl{color:var(--faint)} .mo .lbl.up{color:var(--accent);font-weight:600}
 .fit{font-size:9px;letter-spacing:1px;color:var(--accent);text-align:right} .fit i{color:var(--line);font-style:normal}
@@ -86,9 +88,10 @@ h1{font-family:var(--serif);font-weight:400;font-size:34px;line-height:1;margin:
 @media (max-width:640px){
   .lh{display:none}
   .tr{grid-template-columns:minmax(0,1fr) 36px;row-gap:4px}
-  .tr .cat,.tr .fit{display:none}
-  .tr .mo{grid-column:1;grid-row:2;margin-left:16px}
-  .tr .sc{grid-row:1/span 2;grid-column:2}
+  .tr .fit{display:none}
+  .tr .idea{grid-column:1;grid-row:2;margin-left:16px}
+  .tr .mo{grid-column:1;grid-row:3;margin-left:16px}
+  .tr .sc{grid-row:1/span 3;grid-column:2}
 }
 
 /* Detail */
@@ -96,6 +99,7 @@ h1{font-family:var(--serif);font-weight:400;font-size:34px;line-height:1;margin:
 .det p{margin:0 0 10px;max-width:62rem}
 .det .opp{background:var(--accent-soft);border-radius:8px;padding:8px 10px;margin-bottom:10px;max-width:62rem}
 .det .opp b{font-weight:600}
+.det .opp .why{font-size:12px;color:var(--muted);margin-top:4px}
 .det .meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted);margin-bottom:10px}
 .det .meta b{color:var(--ink);font-weight:500}
 .det ul{list-style:none;padding:0;margin:0;font-size:13px;max-width:62rem}
@@ -127,6 +131,27 @@ h1{font-family:var(--serif);font-weight:400;font-size:34px;line-height:1;margin:
 .mkr .nm.saff{font-weight:600}
 .note{font-size:11px;color:var(--muted);margin:8px 0 0}
 
+.opps{margin-bottom:20px}
+.sh{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 12px;margin-bottom:8px}
+.sh h2{font-family:var(--serif);font-weight:400;font-size:22px;margin:0}
+.sh span{font-size:12px;color:var(--muted)}
+.otabs{display:flex;gap:6px;margin-bottom:10px;flex-wrap:wrap}
+.otabs button{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:3px 10px;font-size:12px;cursor:pointer}
+.otabs button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.ogrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,290px),1fr));gap:12px}
+.oc{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.oc .top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.oc h3{font-family:var(--serif);font-weight:500;font-size:19px;line-height:1.15;margin:0}
+.tm{font-size:11px;font-weight:600;border-radius:999px;padding:2px 8px;white-space:nowrap}
+.tm.now{background:var(--accent);color:#fff}.tm.test{background:var(--accent-soft);color:var(--accent)}.tm.watch{background:var(--soft);color:var(--muted)}
+.oc .sub{font-size:12px;color:var(--muted)}
+.oc dl{display:grid;grid-template-columns:62px 1fr;gap:3px 8px;margin:0;font-size:12.5px}
+.oc dt{color:var(--muted)}.oc dd{margin:0}
+.oc .notes{display:flex;flex-wrap:wrap;gap:4px}
+.oc .notes span{background:var(--soft);border-radius:6px;padding:1px 6px;font-size:12px}
+.oc .why{font-size:13px;line-height:1.45;margin:0}
+.oc .based{font-size:12px;color:var(--muted);border-top:1px dashed var(--line);padding-top:8px}
+.oc .based button{border:0;background:none;padding:0;color:var(--ink);text-decoration:underline;text-underline-offset:2px;cursor:pointer;font-size:12px}
 .cloudp{margin-bottom:20px}
 .cloud{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:2px 16px;padding:4px 20px 18px;min-height:120px}
 .cloud button{border:0;background:none;cursor:pointer;font-family:var(--serif);line-height:1.2;padding:2px 2px;border-radius:6px;transition:opacity .15s}
@@ -161,6 +186,12 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
   <div class="takeaway" id="takeaway">&nbsp;</div>
   <div class="stats" id="stats"></div>
 
+  <section class="opps" id="opps-sec" hidden>
+    <div class="sh"><h2>Product opportunities</h2><span>concepts Claude suggests by combining the trends below · a starting point for the team to evaluate</span></div>
+    <div class="otabs" id="otabs" role="group" aria-label="Filter by timing"></div>
+    <div class="ogrid" id="opps"></div>
+  </section>
+
   <section class="panel cloudp">
     <div class="ph"><h2>What sources are talking about</h2><span>notes, ingredients &amp; formats · click a word to filter</span></div>
     <div class="cloud" id="cloud" aria-label="Keyword cloud"></div>
@@ -182,7 +213,7 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
           <input id="f-q" type="search" placeholder="Search trends, notes, brands…" aria-label="Search">
         </div>
       </div>
-      <div class="lh"><span>Trend</span><span>Category</span><span>Momentum</span><span class="r">Fit</span><span class="r">Score</span></div>
+      <div class="lh"><span>Trend</span><span>Opportunity: what to create</span><span>Momentum</span><span class="r">Fit</span><span class="r">Score</span></div>
       <div id="list"></div>
     </main>
 
@@ -215,6 +246,7 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
         <li><b>Momentum</b>: mentions in the last 4 months. Rising = 2+, Active = 1, Quiet = 0. The bars show the last 12 months.</li>
         <li><b>Fit</b> (1–3 dots): Claude's initial judgement of fit with Indonesia (climate, scent preference, price, culture). Team should review.</li>
         <li><b>Score</b> = fit × 2 + sources (max 4) + recent mentions (max 3).</li>
+        <li><b>Opportunities</b> and the "what to create" column are Claude's suggestions from the evidence, a starting point for the team, not validated concepts. Act now = early but high fit; Test next = promising, needs consumer testing; Watch = monitor first.</li>
         <li><b>Word cloud</b>: keywords from the trends in view, sized by sources + recent mentions, coloured by the stage of the trend that uses them most.</li></ul></div>
       <div><h3>Sources &amp; limits</h3><ul>
         <li>Updated three times a day (around 07:00, 12:00 and 17:00 WIB) by Claude from supplier releases, niche fairs, lead-market beauty media, Jakarta F&amp;B trends, e-commerce data and consumer research.</li>
@@ -244,7 +276,7 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
   const fmtDate = s => { const d = new Date(String(s).slice(0, 10) + "T00:00:00"); return isNaN(d) ? String(s) : d.toLocaleDateString("en-GB", {day: "numeric", month: "short", year: "numeric"}); };
   const safeUrl = u => /^https:\/\//.test(String(u || "")) ? String(u) : null;
   const today = new Date(); today.setHours(0, 0, 0, 0);
-  let T = [], M = [], MS = [], firstFound = "";
+  let T = [], M = [], MS = [], OPP = [], firstFound = "", oTiming = "Act now";
   const st = {stage: "early", cat: "", q: "", sort: "score", open: null};
 
   async function load(name) {
@@ -336,7 +368,7 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
   function detail(t) {
     const d = el("div", "det");
     d.append(el("p", null, t.summary));
-    if (t.angle) { const o = el("div", "opp"); o.append(el("b", null, "Opportunity: "), t.angle); d.append(o); }
+    if (t.idea || t.angle) { const o = el("div", "opp"); o.append(el("b", null, "What to create: "), t.idea || t.angle); if (t.idea && t.angle) o.append(el("div", "why", "Why: " + t.angle)); d.append(o); }
     const meta = el("div", "meta");
     const item = (k, v, cls) => { const s = el("span"); s.append(k + " ", Object.assign(el("b", cls), {textContent: v})); meta.append(s); };
     item("Stage", t.stage); item("Strength", t.strength, "str-" + t.strength); item("Fit", (t.local_fit || 1) + "/3");
@@ -396,12 +428,41 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
       const left = el("div");
       const tt = el("div", "tt"); tt.append(dot(t.stage), el("span", "n", t.trend));
       if (isNew(t)) tt.append(el("span", "new", "NEW"));
-      left.append(tt, el("div", "ts", t.angle || t.summary));
+      left.append(tt, el("div", "ts", t.category + " · " + t.stage));
       const mo = el("div", "mo"); mo.append(spark(t.spark), el("span", "lbl" + (t.momentum === "Rising" ? " up" : ""), t.momentum));
-      b.append(left, el("div", "cat", t.category), mo, fitEl(Number(t.local_fit) || 1), el("div", "sc r", t.score));
+      b.append(left, el("div", "idea", t.idea || t.angle || ""), mo, fitEl(Number(t.local_fit) || 1), el("div", "sc r", t.score));
       b.onclick = () => { st.open = st.open === t.id ? null : t.id; renderList(); };
       box.append(b);
       if (st.open === t.id) box.append(detail(t));
+    });
+  }
+
+  function renderOpps() {
+    const sec = $("#opps-sec"); sec.hidden = !OPP.length; if (!OPP.length) return;
+    const byId = Object.fromEntries(T.map(t => [t.id, t]));
+    const order = {"Act now": 0, "Test next": 1, "Watch": 2};
+    const tabs = $("#otabs"); tabs.textContent = "";
+    [["", "All"], ["Act now", "Act now"], ["Test next", "Test next"], ["Watch", "Watch"]].forEach(([k, label]) => {
+      const n = k ? OPP.filter(o => o.timing === k).length : OPP.length; if (k && !n) return;
+      const b = el("button", null, label + " " + n); b.type = "button"; b.setAttribute("aria-pressed", String(oTiming === k));
+      b.onclick = () => { oTiming = k; renderOpps(); }; tabs.append(b);
+    });
+    const box = $("#opps"); box.textContent = "";
+    OPP.filter(o => !oTiming || o.timing === oTiming).sort((a, b) => (order[a.timing] ?? 3) - (order[b.timing] ?? 3)).forEach(o => {
+      const c = el("article", "oc");
+      const top = el("div", "top"); top.append(el("h3", null, o.name), el("span", "tm " + ({"Act now": "now", "Test next": "test"}[o.timing] || "watch"), o.timing));
+      c.append(top, el("div", "sub", [o.format, o.price].filter(Boolean).join(" · ")));
+      const dl = el("dl");
+      const row = (k, v) => { if (!v) return; dl.append(el("dt", null, k)); const dd = el("dd"); if (v instanceof Node) dd.append(v); else dd.textContent = v; dl.append(dd); };
+      if (o.notes && o.notes.length) { const n = el("div", "notes"); o.notes.forEach(x => n.append(el("span", null, x))); row("Scent", n); }
+      row("Pack", o.packaging); row("For", o.target);
+      c.append(dl, el("p", "why", o.why));
+      const based = el("div", "based"); based.append("Based on: ");
+      (o.trend_ids || []).map(id => byId[id]).filter(Boolean).forEach((t, i, arr) => {
+        const b = el("button", null, t.trend); b.type = "button"; b.onclick = () => jumpTo(t);
+        based.append(b, i < arr.length - 1 ? ", " : "");
+      });
+      c.append(based); box.append(c);
     });
   }
 
@@ -462,7 +523,8 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
   async function refresh(first) {
     const meta = await load("meta.json").catch(() => ({}));
     if (!first && meta.updated_at && meta.updated_at === lastStamp) return;
-    const [t, m, ms] = await Promise.all([load("trends.json"), load("mentions.json"), load("market_share.json")]);
+    const [t, m, ms, op] = await Promise.all([load("trends.json"), load("mentions.json"), load("market_share.json"), load("opportunities.json").catch(() => [])]);
+    OPP = Array.isArray(op) ? op : [];
     T = t; M = m; MS = ms; firstFound = T.map(x => String(x.found)).sort()[0] || ""; enrich();
     lastStamp = meta.updated_at || null;
     setUpdated(meta, !first);
@@ -471,7 +533,7 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
       const sel = $("#f-cat"), cur = sel.value; while (sel.options.length > 1) sel.remove(1);
       [...new Set(T.map(x => x.category))].sort().forEach(c => sel.append(Object.assign(el("option", null, c), {value: c}))); sel.value = cur;
     }
-    summaryLine(); renderStages(); renderList(); renderAside();
+    summaryLine(); renderOpps(); renderStages(); renderList(); renderAside();
   }
   refresh(true).catch(err => {
     const e = $("#error"); e.hidden = false;

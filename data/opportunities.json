@@ -1,0 +1,158 @@
+[
+ {
+  "id": "o1",
+  "name": "Kopi Aren Latte EDP",
+  "timing": "Act now",
+  "format": "EDP, 30 ml + 10 ml travel spray",
+  "price": "Mass-premium",
+  "notes": [
+   "espresso",
+   "palm sugar",
+   "milk accord",
+   "tonka"
+  ],
+  "packaging": "Frosted bottle with a latte-gradient, café-cup inspired cap",
+  "target": "Gen Z & young professionals in big cities",
+  "why": "Kopi susu with gula aren is Jakarta's most sought-after drink, coffee perfumes are just starting in Korea, and gourmands are moving toward creamy, toasted textures. No local brand owns this yet.",
+  "trend_ids": [
+   "t031",
+   "t004",
+   "t032",
+   "t030"
+  ]
+ },
+ {
+  "id": "o2",
+  "name": "Mood Mist Layering Kit",
+  "timing": "Act now",
+  "format": "3 body mists (Calm, Energy, Sleep) designed to layer with an EDP",
+  "price": "Mass",
+  "notes": [
+   "lavender",
+   "citrus",
+   "white musk",
+   "chamomile"
+  ],
+  "packaging": "Colour-coded mists in one box with a layering guide",
+  "target": "Gen Z who already buy body mists",
+  "why": "Functional, mood-led fragrance is being discussed locally, layering is rising, and fresh scents are the top preference. Body mists are an easy, low-price entry.",
+  "trend_ids": [
+   "t003",
+   "t011",
+   "t001",
+   "t036"
+  ]
+ },
+ {
+  "id": "o3",
+  "name": "Discovery Wardrobe Set",
+  "timing": "Act now",
+  "format": "5 × 10 ml across moods and occasions",
+  "price": "Mass-premium",
+  "notes": [
+   "fresh",
+   "gourmand",
+   "woody",
+   "floral",
+   "musk"
+  ],
+  "packaging": "Book-style box with a 'which scent when' card; works for gifting",
+  "target": "First-time buyers and gift shoppers",
+  "why": "Consumers are building fragrance wardrobes instead of one signature scent, and 50 ml and discovery sets are replacing 100 ml as the default.",
+  "trend_ids": [
+   "t036",
+   "t042",
+   "t011",
+   "t039"
+  ]
+ },
+ {
+  "id": "o4",
+  "name": "Nusantara Sheer Series",
+  "timing": "Test next",
+  "format": "Sheer EDP line, 3 scents, low projection",
+  "price": "Mass-premium",
+  "notes": [
+   "pandan",
+   "rice",
+   "kopi",
+   "melati"
+  ],
+  "packaging": "Minimal clear bottle with a textured local-paper label and origin card",
+  "target": "Fragrance enthusiasts and K-beauty fans",
+  "why": "Korean brands are winning with sheer scents built on heritage ingredients, and local stories (soliflore, Indonesian materials) are gaining value at home and abroad.",
+  "trend_ids": [
+   "t029",
+   "t030",
+   "t018",
+   "t028",
+   "t006"
+  ]
+ },
+ {
+  "id": "o5",
+  "name": "Real Tropical Fruit Line",
+  "timing": "Test next",
+  "format": "EDT/EDP trio",
+  "price": "Mass",
+  "notes": [
+   "guava",
+   "lychee",
+   "mangosteen",
+   "green leaves"
+  ],
+  "packaging": "Soft pastel bottles with soft-touch caps",
+  "target": "Gen Z, daily wear in hot weather",
+  "why": "Realistic fruit is leading niche launches for Gen Z, candy-like fruit is fading, and local fruits fit the Indonesian preference for fresh scents.",
+  "trend_ids": [
+   "t034",
+   "t005",
+   "t001",
+   "t022",
+   "t041"
+  ]
+ },
+ {
+  "id": "o6",
+  "name": "Clean Laundry Unisex",
+  "timing": "Test next",
+  "format": "Unisex EDP, 50 ml",
+  "price": "Mass-premium",
+  "notes": [
+   "white musk",
+   "aldehydes",
+   "lavender",
+   "green tea"
+  ],
+  "packaging": "Clean white bottle, mood-based name, no gender label",
+  "target": "Office workers and commuters",
+  "why": "Clean laundry with herbal facets is a niche-fair favourite, unisex woody-fresh scents are rising, and gendered labels are fading.",
+  "trend_ids": [
+   "t033",
+   "t002",
+   "t009",
+   "t043",
+   "t006"
+  ]
+ },
+ {
+  "id": "o7",
+  "name": "Alcohol-free Body Parfum",
+  "timing": "Watch",
+  "format": "Water-based mist or oil-free parfum",
+  "price": "Mass",
+  "notes": [
+   "soft musk",
+   "oud",
+   "rose"
+  ],
+  "packaging": "Aluminium bottle with an ingredient panel",
+  "target": "Halal-minded and sensitive-skin consumers",
+  "why": "Alcohol-free and water-based formulas are rising abroad, Middle Eastern fragrance culture is growing in Indonesia, and shoppers want to understand ingredients.",
+  "trend_ids": [
+   "t035",
+   "t016",
+   "t037"
+  ]
+ }
+]
