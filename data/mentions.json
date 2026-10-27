@@ -1,0 +1,634 @@
+[
+ {
+  "id": "t001-gs_pref",
+  "trend_id": "t001",
+  "date": "2026-04-15",
+  "date_approx": true,
+  "source_name": "GoodStats / Snapcart",
+  "url": "https://data.goodstats.id/statistic/peta-preferensi-wewangian-publik-indonesia-pada-2026-D333F"
+ },
+ {
+  "id": "t001-blibli",
+  "trend_id": "t001",
+  "date": "2026-06-08",
+  "date_approx": false,
+  "source_name": "Blibli",
+  "url": "https://asset-about.blibli.com/2026/06/Media-Info-Selamat-Tinggal-Pusing-Pilih-Parfum_-Temukan-Aroma-Jati-Dirimu-di-Blibli-House-of-Scent.pdf"
+ },
+ {
+  "id": "t002-jt",
+  "trend_id": "t002",
+  "date": "2026-01-24",
+  "date_approx": false,
+  "source_name": "JatimTimes",
+  "url": "https://jatimtimes.com/baca/353573/20260124/162300/tren-parfum-2026-wangi-tenang-berkarakter-dan-sarat-cerita"
+ },
+ {
+  "id": "t003-jt",
+  "trend_id": "t003",
+  "date": "2026-01-24",
+  "date_approx": false,
+  "source_name": "JatimTimes",
+  "url": "https://jatimtimes.com/baca/353573/20260124/162300/tren-parfum-2026-wangi-tenang-berkarakter-dan-sarat-cerita"
+ },
+ {
+  "id": "t003-cov",
+  "trend_id": "t003",
+  "date": "2026-01-05",
+  "date_approx": true,
+  "source_name": "Coveteur",
+  "url": "https://coveteur.com/fragrance-trends-2026"
+ },
+ {
+  "id": "t003-dsm",
+  "trend_id": "t003",
+  "date": "2026-07-03",
+  "date_approx": false,
+  "source_name": "Personal Care Insights (dsm-firmenich)",
+  "url": "https://www.personalcareinsights.com/news/dsm-firmenich-sensorium-seoul.html"
+ },
+ {
+  "id": "t003-bi",
+  "trend_id": "t003",
+  "date": "2025-12-15",
+  "date_approx": true,
+  "source_name": "Beauty Independent",
+  "url": "https://beautyindependent.com/what-next-fragrance-2026"
+ },
+ {
+  "id": "t004-bi",
+  "trend_id": "t004",
+  "date": "2025-12-15",
+  "date_approx": true,
+  "source_name": "Beauty Independent",
+  "url": "https://beautyindependent.com/what-next-fragrance-2026"
+ },
+ {
+  "id": "t004-oq",
+  "trend_id": "t004",
+  "date": "2026-01-15",
+  "date_approx": true,
+  "source_name": "OQEMA via Chemical UK",
+  "url": "https://www.chemicalukexpo.com/news/flavour-fragrance-trends-2026-whats-shaping-the-senses-70230/"
+ },
+ {
+  "id": "t004-idn",
+  "trend_id": "t004",
+  "date": "2026-01-15",
+  "date_approx": true,
+  "source_name": "IDN Times",
+  "url": "https://www.idntimes.com/life/women/tren-wangi-parfum-tahun-2026-00-dhhg3-2szw8f/amp"
+ },
+ {
+  "id": "t004-fj",
+  "trend_id": "t004",
+  "date": "2026-01-10",
+  "date_approx": true,
+  "source_name": "Fashion Journal",
+  "url": "https://fashionjournal.com.au/beauty/fragrance-trends-2026/"
+ },
+ {
+  "id": "t004-ffi",
+  "trend_id": "t004",
+  "date": "2026-06-02",
+  "date_approx": false,
+  "source_name": "Cosmetics Business (Fragrance Futures Index)",
+  "url": "https://cosmeticsbusiness.com/the-fragrance-shop-and-cpl-aromas-unveil-the"
+ },
+ {
+  "id": "t004-esx",
+  "trend_id": "t004",
+  "date": "2026-06-10",
+  "date_approx": true,
+  "source_name": "Premium Beauty News (Esxence)",
+  "url": "https://www.premiumbeautynews.com/en/esxence-2026-five-takeaways-from-a,27878"
+ },
+ {
+  "id": "t005-oq",
+  "trend_id": "t005",
+  "date": "2026-01-15",
+  "date_approx": true,
+  "source_name": "OQEMA via Chemical UK",
+  "url": "https://www.chemicalukexpo.com/news/flavour-fragrance-trends-2026-whats-shaping-the-senses-70230/"
+ },
+ {
+  "id": "t005-esx",
+  "trend_id": "t005",
+  "date": "2026-06-10",
+  "date_approx": true,
+  "source_name": "Premium Beauty News (Esxence)",
+  "url": "https://www.premiumbeautynews.com/en/esxence-2026-five-takeaways-from-a,27878"
+ },
+ {
+  "id": "t005-bmk",
+  "trend_id": "t005",
+  "date": "2026-07-09",
+  "date_approx": false,
+  "source_name": "BeautyMatter",
+  "url": "https://beautymatter.com/articles/inside-the-k-fragrance-boom"
+ },
+ {
+  "id": "t006-oq",
+  "trend_id": "t006",
+  "date": "2026-01-15",
+  "date_approx": true,
+  "source_name": "OQEMA via Chemical UK",
+  "url": "https://www.chemicalukexpo.com/news/flavour-fragrance-trends-2026-whats-shaping-the-senses-70230/"
+ },
+ {
+  "id": "t006-wh",
+  "trend_id": "t006",
+  "date": "2026-01-05",
+  "date_approx": true,
+  "source_name": "Woman & Home",
+  "url": "https://www.womanandhome.com/beauty/2026-fragrance-trends/"
+ },
+ {
+  "id": "t007-cd",
+  "trend_id": "t007",
+  "date": "2026-01-13",
+  "date_approx": false,
+  "source_name": "CosmeticsDesign",
+  "url": "https://www.cosmeticsdesign.com/Article/2026/01/13/fragrance-trends-2026-wellness-gourmand-notes-and-personalisation"
+ },
+ {
+  "id": "t007-ffi",
+  "trend_id": "t007",
+  "date": "2026-06-02",
+  "date_approx": false,
+  "source_name": "Cosmetics Business (Fragrance Futures Index)",
+  "url": "https://cosmeticsbusiness.com/the-fragrance-shop-and-cpl-aromas-unveil-the"
+ },
+ {
+  "id": "t007-scv",
+  "trend_id": "t007",
+  "date": "2026-07-22",
+  "date_approx": false,
+  "source_name": "Scento",
+  "url": "https://www.scento.com/blog/best-viral-tiktok-perfumes-scents-worth-hype"
+ },
+ {
+  "id": "t008-idnm",
+  "trend_id": "t008",
+  "date": "2026-02-01",
+  "date_approx": true,
+  "source_name": "IDN Times",
+  "url": "https://www.idntimes.com/men/grooming/alasan-parfum-notes-mineral-menjadi-primadona-baru-2026-c1c2-01-9mwsv-pxy8j2"
+ },
+ {
+  "id": "t009-bi",
+  "trend_id": "t009",
+  "date": "2025-12-15",
+  "date_approx": true,
+  "source_name": "Beauty Independent",
+  "url": "https://beautyindependent.com/what-next-fragrance-2026"
+ },
+ {
+  "id": "t009-mer",
+  "trend_id": "t009",
+  "date": "2026-07-01",
+  "date_approx": true,
+  "source_name": "Merdeka",
+  "url": "https://www.merdeka.com/gaya/read/8111093/makin-maskulin-dan-memikat-ini-rekomendasi-parfum-pria-yang-lagi-banyak-dicari-di-tahun-2026"
+ },
+ {
+  "id": "t010-gsa",
+  "trend_id": "t010",
+  "date": "2026-05-27",
+  "date_approx": false,
+  "source_name": "GoodStats / Compas",
+  "url": "https://data.goodstats.id/statistic/5-brand-parfum-wewangian-terlaris-di-shopee-april-2026-mana-favoritmu-UBLzL"
+ },
+ {
+  "id": "t010-mer",
+  "trend_id": "t010",
+  "date": "2026-07-01",
+  "date_approx": true,
+  "source_name": "Merdeka",
+  "url": "https://www.merdeka.com/gaya/read/8111093/makin-maskulin-dan-memikat-ini-rekomendasi-parfum-pria-yang-lagi-banyak-dicari-di-tahun-2026"
+ },
+ {
+  "id": "t011-bi",
+  "trend_id": "t011",
+  "date": "2025-12-15",
+  "date_approx": true,
+  "source_name": "Beauty Independent",
+  "url": "https://beautyindependent.com/what-next-fragrance-2026"
+ },
+ {
+  "id": "t011-cd",
+  "trend_id": "t011",
+  "date": "2026-01-13",
+  "date_approx": false,
+  "source_name": "CosmeticsDesign",
+  "url": "https://www.cosmeticsdesign.com/Article/2026/01/13/fragrance-trends-2026-wellness-gourmand-notes-and-personalisation"
+ },
+ {
+  "id": "t011-fj",
+  "trend_id": "t011",
+  "date": "2026-01-10",
+  "date_approx": true,
+  "source_name": "Fashion Journal",
+  "url": "https://fashionjournal.com.au/beauty/fragrance-trends-2026/"
+ },
+ {
+  "id": "t011-ffi",
+  "trend_id": "t011",
+  "date": "2026-06-02",
+  "date_approx": false,
+  "source_name": "Cosmetics Business (Fragrance Futures Index)",
+  "url": "https://cosmeticsbusiness.com/the-fragrance-shop-and-cpl-aromas-unveil-the"
+ },
+ {
+  "id": "t012-bi",
+  "trend_id": "t012",
+  "date": "2025-12-15",
+  "date_approx": true,
+  "source_name": "Beauty Independent",
+  "url": "https://beautyindependent.com/what-next-fragrance-2026"
+ },
+ {
+  "id": "t012-bmk",
+  "trend_id": "t012",
+  "date": "2026-07-09",
+  "date_approx": false,
+  "source_name": "BeautyMatter",
+  "url": "https://beautymatter.com/articles/inside-the-k-fragrance-boom"
+ },
+ {
+  "id": "t012-sb",
+  "trend_id": "t012",
+  "date": "2026-10-01",
+  "date_approx": true,
+  "source_name": "Scentbird",
+  "url": "https://www.scentbird.com/blog/?p=36016"
+ },
+ {
+  "id": "t013-sct",
+  "trend_id": "t013",
+  "date": "2026-04-24",
+  "date_approx": false,
+  "source_name": "Scento",
+  "url": "https://www.scento.com/fr/blog/perfume-tok-explained-why-fragrance-goes-viral"
+ },
+ {
+  "id": "t014-scv",
+  "trend_id": "t014",
+  "date": "2026-07-22",
+  "date_approx": false,
+  "source_name": "Scento",
+  "url": "https://www.scento.com/blog/best-viral-tiktok-perfumes-scents-worth-hype"
+ },
+ {
+  "id": "t015-dbq1",
+  "trend_id": "t015",
+  "date": "2026-04-14",
+  "date_approx": false,
+  "source_name": "Databoks / Compas",
+  "url": "https://databoks.katadata.co.id/produk-konsumen/statistik/69dd94d2d3522/produk-lokal-dominasi-merek-parfum-terlaris-di-shopee-ri-kuartal-i-2026"
+ },
+ {
+  "id": "t015-gsq2",
+  "trend_id": "t015",
+  "date": "2026-09-15",
+  "date_approx": true,
+  "source_name": "GoodStats / Compas",
+  "url": "https://data.goodstats.id/statistic/10-brand-parfum-wewangian-terlaris-di-shopee-pada-q2-2026-peringkat-atas-kebal-YAF3P"
+ },
+ {
+  "id": "t016-gsg",
+  "trend_id": "t016",
+  "date": "2026-04-20",
+  "date_approx": true,
+  "source_name": "GoodStats / Compas",
+  "url": "https://data.goodstats.id/statistic/10-brand-parfum-paling-naik-daun-di-shopee-q1-2026-ada-favoritmu-bz9Ur"
+ },
+ {
+  "id": "t016-ffi",
+  "trend_id": "t016",
+  "date": "2026-06-02",
+  "date_approx": false,
+  "source_name": "Cosmetics Business (Fragrance Futures Index)",
+  "url": "https://cosmeticsbusiness.com/the-fragrance-shop-and-cpl-aromas-unveil-the"
+ },
+ {
+  "id": "t017-gsq2",
+  "trend_id": "t017",
+  "date": "2026-09-15",
+  "date_approx": true,
+  "source_name": "GoodStats / Compas",
+  "url": "https://data.goodstats.id/statistic/10-brand-parfum-wewangian-terlaris-di-shopee-pada-q2-2026-peringkat-atas-kebal-YAF3P"
+ },
+ {
+  "id": "t018-gsq2",
+  "trend_id": "t018",
+  "date": "2026-09-15",
+  "date_approx": true,
+  "source_name": "GoodStats / Compas",
+  "url": "https://data.goodstats.id/statistic/10-brand-parfum-wewangian-terlaris-di-shopee-pada-q2-2026-peringkat-atas-kebal-YAF3P"
+ },
+ {
+  "id": "t019-gsos",
+  "trend_id": "t019",
+  "date": "2025-11-15",
+  "date_approx": true,
+  "source_name": "GoodStats / Compas",
+  "url": "https://data.goodstats.id/statistic/tempat-favorit-publik-indonesia-belanja-parfum-online-2025-hHzTh"
+ },
+ {
+  "id": "t020-jkp",
+  "trend_id": "t020",
+  "date": "2025-12-01",
+  "date_approx": true,
+  "source_name": "Jakpat",
+  "url": "https://insight.jakpat.net/body-hair-care-trends-usage-behavior-jakpat-beauty-trends-report-2025-3/"
+ },
+ {
+  "id": "t021-jt",
+  "trend_id": "t021",
+  "date": "2026-01-24",
+  "date_approx": false,
+  "source_name": "JatimTimes",
+  "url": "https://jatimtimes.com/baca/353573/20260124/162300/tren-parfum-2026-wangi-tenang-berkarakter-dan-sarat-cerita"
+ },
+ {
+  "id": "t022-cbp",
+  "trend_id": "t022",
+  "date": "2025-12-01",
+  "date_approx": false,
+  "source_name": "Cosmetics Business",
+  "url": "https://cosmeticsbusiness.com/top-predicted-packaging-trends-of-2026"
+ },
+ {
+  "id": "t023-bmp",
+  "trend_id": "t023",
+  "date": "2026-02-26",
+  "date_approx": false,
+  "source_name": "BeautyMatter",
+  "url": "https://beautymatter.com/articles/the-beauty-packaging-trends-set-to-define-2026"
+ },
+ {
+  "id": "t024-cdp",
+  "trend_id": "t024",
+  "date": "2026-01-16",
+  "date_approx": false,
+  "source_name": "CosmeticsDesign Europe",
+  "url": "https://www.cosmeticsdesign-europe.com/Article/2026/01/16/4-beauty-packaging-trends-to-know-for-2026"
+ },
+ {
+  "id": "t024-bmp",
+  "trend_id": "t024",
+  "date": "2026-02-26",
+  "date_approx": false,
+  "source_name": "BeautyMatter",
+  "url": "https://beautymatter.com/articles/the-beauty-packaging-trends-set-to-define-2026"
+ },
+ {
+  "id": "t025-cdp",
+  "trend_id": "t025",
+  "date": "2026-01-16",
+  "date_approx": false,
+  "source_name": "CosmeticsDesign Europe",
+  "url": "https://www.cosmeticsdesign-europe.com/Article/2026/01/16/4-beauty-packaging-trends-to-know-for-2026"
+ },
+ {
+  "id": "t026-bmp",
+  "trend_id": "t026",
+  "date": "2026-02-26",
+  "date_approx": false,
+  "source_name": "BeautyMatter",
+  "url": "https://beautymatter.com/articles/the-beauty-packaging-trends-set-to-define-2026"
+ },
+ {
+  "id": "t027-cd",
+  "trend_id": "t027",
+  "date": "2026-01-13",
+  "date_approx": false,
+  "source_name": "CosmeticsDesign",
+  "url": "https://www.cosmeticsdesign.com/Article/2026/01/13/fragrance-trends-2026-wellness-gourmand-notes-and-personalisation"
+ },
+ {
+  "id": "t028-ink",
+  "trend_id": "t028",
+  "date": "2026-03-01",
+  "date_approx": true,
+  "source_name": "Inikata",
+  "url": "https://inikata.co.id/tren-parfum-lokal-2026-dominasi-pasar-domestik-dan-mulai-rambah-konsumen-global"
+ },
+ {
+  "id": "t029-bmk",
+  "trend_id": "t029",
+  "date": "2026-07-09",
+  "date_approx": false,
+  "source_name": "BeautyMatter",
+  "url": "https://beautymatter.com/articles/inside-the-k-fragrance-boom"
+ },
+ {
+  "id": "t029-pcix",
+  "trend_id": "t029",
+  "date": "2026-04-20",
+  "date_approx": false,
+  "source_name": "Personal Care Insights",
+  "url": "https://www.personalcareinsights.com/news/k-fragrance-export-growth.html"
+ },
+ {
+  "id": "t029-dsm",
+  "trend_id": "t029",
+  "date": "2026-07-03",
+  "date_approx": false,
+  "source_name": "Personal Care Insights (dsm-firmenich)",
+  "url": "https://www.personalcareinsights.com/news/dsm-firmenich-sensorium-seoul.html"
+ },
+ {
+  "id": "t030-bmk",
+  "trend_id": "t030",
+  "date": "2026-07-09",
+  "date_approx": false,
+  "source_name": "BeautyMatter",
+  "url": "https://beautymatter.com/articles/inside-the-k-fragrance-boom"
+ },
+ {
+  "id": "t030-esx",
+  "trend_id": "t030",
+  "date": "2026-06-10",
+  "date_approx": true,
+  "source_name": "Premium Beauty News (Esxence)",
+  "url": "https://www.premiumbeautynews.com/en/esxence-2026-five-takeaways-from-a,27878"
+ },
+ {
+  "id": "t031-jp",
+  "trend_id": "t031",
+  "date": "2026-06-03",
+  "date_approx": false,
+  "source_name": "JawaPos",
+  "url": "https://jawapos.com/kuliner/2606020219/jangan-ngaku-anak-jaksel-kalau-belum-coba-5-minuman-kopi-kekinian-yang-lagi-diburu-di-jakarta"
+ },
+ {
+  "id": "t031-bmk",
+  "trend_id": "t031",
+  "date": "2026-07-09",
+  "date_approx": false,
+  "source_name": "BeautyMatter",
+  "url": "https://beautymatter.com/articles/inside-the-k-fragrance-boom"
+ },
+ {
+  "id": "t032-esx",
+  "trend_id": "t032",
+  "date": "2026-06-10",
+  "date_approx": true,
+  "source_name": "Premium Beauty News (Esxence)",
+  "url": "https://www.premiumbeautynews.com/en/esxence-2026-five-takeaways-from-a,27878"
+ },
+ {
+  "id": "t032-ffi",
+  "trend_id": "t032",
+  "date": "2026-06-02",
+  "date_approx": false,
+  "source_name": "Cosmetics Business (Fragrance Futures Index)",
+  "url": "https://cosmeticsbusiness.com/the-fragrance-shop-and-cpl-aromas-unveil-the"
+ },
+ {
+  "id": "t033-esx",
+  "trend_id": "t033",
+  "date": "2026-06-10",
+  "date_approx": true,
+  "source_name": "Premium Beauty News (Esxence)",
+  "url": "https://www.premiumbeautynews.com/en/esxence-2026-five-takeaways-from-a,27878"
+ },
+ {
+  "id": "t034-esx",
+  "trend_id": "t034",
+  "date": "2026-06-10",
+  "date_approx": true,
+  "source_name": "Premium Beauty News (Esxence)",
+  "url": "https://www.premiumbeautynews.com/en/esxence-2026-five-takeaways-from-a,27878"
+ },
+ {
+  "id": "t034-bi",
+  "trend_id": "t034",
+  "date": "2025-12-15",
+  "date_approx": true,
+  "source_name": "Beauty Independent",
+  "url": "https://beautyindependent.com/what-next-fragrance-2026"
+ },
+ {
+  "id": "t035-ffi",
+  "trend_id": "t035",
+  "date": "2026-06-02",
+  "date_approx": false,
+  "source_name": "Cosmetics Business (Fragrance Futures Index)",
+  "url": "https://cosmeticsbusiness.com/the-fragrance-shop-and-cpl-aromas-unveil-the"
+ },
+ {
+  "id": "t036-ffi",
+  "trend_id": "t036",
+  "date": "2026-06-02",
+  "date_approx": false,
+  "source_name": "Cosmetics Business (Fragrance Futures Index)",
+  "url": "https://cosmeticsbusiness.com/the-fragrance-shop-and-cpl-aromas-unveil-the"
+ },
+ {
+  "id": "t036-bi",
+  "trend_id": "t036",
+  "date": "2025-12-15",
+  "date_approx": true,
+  "source_name": "Beauty Independent",
+  "url": "https://beautyindependent.com/what-next-fragrance-2026"
+ },
+ {
+  "id": "t037-ffi",
+  "trend_id": "t037",
+  "date": "2026-06-02",
+  "date_approx": false,
+  "source_name": "Cosmetics Business (Fragrance Futures Index)",
+  "url": "https://cosmeticsbusiness.com/the-fragrance-shop-and-cpl-aromas-unveil-the"
+ },
+ {
+  "id": "t038-bi",
+  "trend_id": "t038",
+  "date": "2025-12-15",
+  "date_approx": true,
+  "source_name": "Beauty Independent",
+  "url": "https://beautyindependent.com/what-next-fragrance-2026"
+ },
+ {
+  "id": "t039-bmk",
+  "trend_id": "t039",
+  "date": "2026-07-09",
+  "date_approx": false,
+  "source_name": "BeautyMatter",
+  "url": "https://beautymatter.com/articles/inside-the-k-fragrance-boom"
+ },
+ {
+  "id": "t039-blibli",
+  "trend_id": "t039",
+  "date": "2026-06-08",
+  "date_approx": false,
+  "source_name": "Blibli",
+  "url": "https://asset-about.blibli.com/2026/06/Media-Info-Selamat-Tinggal-Pusing-Pilih-Parfum_-Temukan-Aroma-Jati-Dirimu-di-Blibli-House-of-Scent.pdf"
+ },
+ {
+  "id": "t040-esx",
+  "trend_id": "t040",
+  "date": "2026-06-10",
+  "date_approx": true,
+  "source_name": "Premium Beauty News (Esxence)",
+  "url": "https://www.premiumbeautynews.com/en/esxence-2026-five-takeaways-from-a,27878"
+ },
+ {
+  "id": "t041-bi",
+  "trend_id": "t041",
+  "date": "2025-12-15",
+  "date_approx": true,
+  "source_name": "Beauty Independent",
+  "url": "https://beautyindependent.com/what-next-fragrance-2026"
+ },
+ {
+  "id": "t041-ffi",
+  "trend_id": "t041",
+  "date": "2026-06-02",
+  "date_approx": false,
+  "source_name": "Cosmetics Business (Fragrance Futures Index)",
+  "url": "https://cosmeticsbusiness.com/the-fragrance-shop-and-cpl-aromas-unveil-the"
+ },
+ {
+  "id": "t041-mer",
+  "trend_id": "t041",
+  "date": "2026-07-01",
+  "date_approx": true,
+  "source_name": "Merdeka",
+  "url": "https://www.merdeka.com/gaya/read/8111093/makin-maskulin-dan-memikat-ini-rekomendasi-parfum-pria-yang-lagi-banyak-dicari-di-tahun-2026"
+ },
+ {
+  "id": "t042-bi",
+  "trend_id": "t042",
+  "date": "2025-12-15",
+  "date_approx": true,
+  "source_name": "Beauty Independent",
+  "url": "https://beautyindependent.com/what-next-fragrance-2026"
+ },
+ {
+  "id": "t042-ffi",
+  "trend_id": "t042",
+  "date": "2026-06-02",
+  "date_approx": false,
+  "source_name": "Cosmetics Business (Fragrance Futures Index)",
+  "url": "https://cosmeticsbusiness.com/the-fragrance-shop-and-cpl-aromas-unveil-the"
+ },
+ {
+  "id": "t043-bi",
+  "trend_id": "t043",
+  "date": "2025-12-15",
+  "date_approx": true,
+  "source_name": "Beauty Independent",
+  "url": "https://beautyindependent.com/what-next-fragrance-2026"
+ },
+ {
+  "id": "t043-jt",
+  "trend_id": "t043",
+  "date": "2026-01-24",
+  "date_approx": false,
+  "source_name": "JatimTimes",
+  "url": "https://jatimtimes.com/baca/353573/20260124/162300/tren-parfum-2026-wangi-tenang-berkarakter-dan-sarat-cerita"
+ }
+]

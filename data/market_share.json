@@ -1,0 +1,82 @@
+[
+ {
+  "id": "m1",
+  "period": "Q3 2025",
+  "order": 1,
+  "brand": "Saff & Co.",
+  "share": 3.51,
+  "note": "Peringkat 1",
+  "source": "GoodStats / Compas",
+  "url": "https://data.goodstats.id/statistic/10-brand-parfum-terlaris-di-shopee-indonesia-q3-2025-mana-favoritmu-aLj5J"
+ },
+ {
+  "id": "m2",
+  "period": "Q4 2025",
+  "order": 2,
+  "brand": "Mykonos",
+  "share": 3.8,
+  "note": "Peringkat 1",
+  "source": "GoodStats / Compas",
+  "url": "https://data.goodstats.id/label/parfum"
+ },
+ {
+  "id": "m3",
+  "period": "Q4 2025",
+  "order": 2,
+  "brand": "Scarlett",
+  "share": 3.73,
+  "note": "Peringkat 2",
+  "source": "GoodStats / Compas",
+  "url": "https://data.goodstats.id/label/parfum"
+ },
+ {
+  "id": "m4",
+  "period": "Q1 2026",
+  "order": 3,
+  "brand": "Mykonos",
+  "share": 5.27,
+  "note": "Peringkat 1",
+  "source": "GoodStats / Compas",
+  "url": "https://data.goodstats.id/statistic/10-brand-parfum-terlaris-di-shopee-indonesia-q1-2026-mana-favoritmu-EutLO"
+ },
+ {
+  "id": "m5",
+  "period": "Q2 2026",
+  "order": 4,
+  "brand": "Mykonos",
+  "share": 6.78,
+  "note": "Peringkat 1",
+  "source": "GoodStats / Compas",
+  "url": "https://data.goodstats.id/statistic/10-brand-parfum-wewangian-terlaris-di-shopee-pada-q2-2026-peringkat-atas-kebal-YAF3P"
+ },
+ {
+  "id": "m6",
+  "period": "Q2 2026",
+  "order": 4,
+  "brand": "Scarlett",
+  "share": 5.46,
+  "note": "Peringkat 2",
+  "source": "GoodStats / Compas",
+  "url": "https://data.goodstats.id/statistic/10-brand-parfum-wewangian-terlaris-di-shopee-pada-q2-2026-peringkat-atas-kebal-YAF3P"
+ },
+ {
+  "id": "m7",
+  "period": "Q2 2026",
+  "order": 4,
+  "brand": "HMNS",
+  "share": 5.09,
+  "note": "Peringkat 3",
+  "source": "GoodStats / Compas",
+  "url": "https://data.goodstats.id/statistic/10-brand-parfum-wewangian-terlaris-di-shopee-pada-q2-2026-peringkat-atas-kebal-YAF3P"
+ },
+ {
+  "id": "m8",
+  "period": "Q2 2026",
+  "order": 4,
+  "brand": "Ahmed Al Maghribi",
+  "share": 1.35,
+  "note": "Satu-satunya yang turun peringkat",
+  "source": "GoodStats / Compas",
+  "url": "https://data.goodstats.id/statistic/10-brand-parfum-wewangian-terlaris-di-shopee-pada-q2-2026-peringkat-atas-kebal-YAF3P"
+ }
+]
