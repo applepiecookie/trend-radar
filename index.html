@@ -67,7 +67,7 @@ h1{font-family:var(--serif);font-weight:400;font-size:34px;line-height:1;margin:
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;flex:none}
 
 /* Trend list */
-.lh,.tr{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr) 96px 40px 40px;gap:12px;align-items:center;padding:0 14px}
+.lh,.tr{display:grid;grid-template-columns:minmax(0,1fr) 140px 96px 44px 44px;gap:12px;align-items:center;padding:0 14px}
 .lh{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;padding-top:8px;padding-bottom:6px;border-bottom:1px solid var(--line)}
 .lh .r,.tr .r{text-align:right}
 .tr{width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding-top:9px;padding-bottom:9px;cursor:pointer}
@@ -88,10 +88,9 @@ h1{font-family:var(--serif);font-weight:400;font-size:34px;line-height:1;margin:
 @media (max-width:640px){
   .lh{display:none}
   .tr{grid-template-columns:minmax(0,1fr) 36px;row-gap:4px}
-  .tr .fit{display:none}
-  .tr .idea{grid-column:1;grid-row:2;margin-left:16px}
-  .tr .mo{grid-column:1;grid-row:3;margin-left:16px}
-  .tr .sc{grid-row:1/span 3;grid-column:2}
+  .tr .cat,.tr .fit{display:none}
+  .tr .mo{grid-column:1;grid-row:2;margin-left:16px}
+  .tr .sc{grid-row:1/span 2;grid-column:2}
 }
 
 /* Detail */
@@ -131,7 +130,7 @@ h1{font-family:var(--serif);font-weight:400;font-size:34px;line-height:1;margin:
 .mkr .nm.saff{font-weight:600}
 .note{font-size:11px;color:var(--muted);margin:8px 0 0}
 
-.opps{margin-bottom:20px}
+.opps{margin:4px 0 24px}
 .sh{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 12px;margin-bottom:8px}
 .sh h2{font-family:var(--serif);font-weight:400;font-size:22px;margin:0}
 .sh span{font-size:12px;color:var(--muted)}
@@ -186,11 +185,6 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
   <div class="takeaway" id="takeaway">&nbsp;</div>
   <div class="stats" id="stats"></div>
 
-  <section class="opps" id="opps-sec" hidden>
-    <div class="sh"><h2>Product opportunities</h2><span>concepts Claude suggests by combining the trends below · a starting point for the team to evaluate</span></div>
-    <div class="otabs" id="otabs" role="group" aria-label="Filter by timing"></div>
-    <div class="ogrid" id="opps"></div>
-  </section>
 
   <section class="panel cloudp">
     <div class="ph"><h2>What sources are talking about</h2><span>notes, ingredients &amp; formats · click a word to filter</span></div>
@@ -213,7 +207,7 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
           <input id="f-q" type="search" placeholder="Search trends, notes, brands…" aria-label="Search">
         </div>
       </div>
-      <div class="lh"><span>Trend</span><span>Opportunity: what to create</span><span>Momentum</span><span class="r">Fit</span><span class="r">Score</span></div>
+      <div class="lh"><span>Trend</span><span>Category</span><span>Momentum</span><span class="r">Fit</span><span class="r">Score</span></div>
       <div id="list"></div>
     </main>
 
@@ -233,6 +227,12 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
     </aside>
   </div>
 
+  <section class="opps" id="opps-sec" hidden>
+    <div class="sh"><h2>Product opportunities</h2><span>concepts Claude suggests by combining the trends above · a starting point for the team to evaluate</span></div>
+    <div class="otabs" id="otabs" role="group" aria-label="Filter by timing"></div>
+    <div class="ogrid" id="opps"></div>
+  </section>
+
   <details class="how panel">
     <summary>How to read this page</summary>
     <div class="howg">
@@ -246,7 +246,7 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
         <li><b>Momentum</b>: mentions in the last 4 months. Rising = 2+, Active = 1, Quiet = 0. The bars show the last 12 months.</li>
         <li><b>Fit</b> (1–3 dots): Claude's initial judgement of fit with Indonesia (climate, scent preference, price, culture). Team should review.</li>
         <li><b>Score</b> = fit × 2 + sources (max 4) + recent mentions (max 3).</li>
-        <li><b>Opportunities</b> and the "what to create" column are Claude's suggestions from the evidence, a starting point for the team, not validated concepts. Act now = early but high fit; Test next = promising, needs consumer testing; Watch = monitor first.</li>
+        <li><b>Product opportunities</b> and the "what to create" line in each trend's detail are Claude's suggestions from the evidence, a starting point for the team, not validated concepts. Act now = early but high fit; Test next = promising, needs consumer testing; Watch = monitor first.</li>
         <li><b>Word cloud</b>: keywords from the trends in view, sized by sources + recent mentions, coloured by the stage of the trend that uses them most.</li></ul></div>
       <div><h3>Sources &amp; limits</h3><ul>
         <li>Updated three times a day (around 07:00, 12:00 and 17:00 WIB) by Claude from supplier releases, niche fairs, lead-market beauty media, Jakarta F&amp;B trends, e-commerce data and consumer research.</li>
@@ -428,9 +428,9 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
       const left = el("div");
       const tt = el("div", "tt"); tt.append(dot(t.stage), el("span", "n", t.trend));
       if (isNew(t)) tt.append(el("span", "new", "NEW"));
-      left.append(tt, el("div", "ts", t.category + " · " + t.stage));
+      left.append(tt, el("div", "ts", t.summary));
       const mo = el("div", "mo"); mo.append(spark(t.spark), el("span", "lbl" + (t.momentum === "Rising" ? " up" : ""), t.momentum));
-      b.append(left, el("div", "idea", t.idea || t.angle || ""), mo, fitEl(Number(t.local_fit) || 1), el("div", "sc r", t.score));
+      b.append(left, el("div", "cat", t.category), mo, fitEl(Number(t.local_fit) || 1), el("div", "sc r", t.score));
       b.onclick = () => { st.open = st.open === t.id ? null : t.id; renderList(); };
       box.append(b);
       if (st.open === t.id) box.append(detail(t));
