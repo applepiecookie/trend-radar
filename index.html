@@ -228,8 +228,7 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
   </div>
 
   <section class="opps" id="opps-sec" hidden>
-    <div class="sh"><h2>Product opportunities</h2><span>concepts Claude suggests by combining the trends above · a starting point for the team to evaluate</span></div>
-    <div class="otabs" id="otabs" role="group" aria-label="Filter by timing"></div>
+    <div class="sh"><h2>Product opportunities</h2><span id="ocount"></span></div>
     <div class="ogrid" id="opps"></div>
   </section>
 
@@ -276,7 +275,7 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
   const fmtDate = s => { const d = new Date(String(s).slice(0, 10) + "T00:00:00"); return isNaN(d) ? String(s) : d.toLocaleDateString("en-GB", {day: "numeric", month: "short", year: "numeric"}); };
   const safeUrl = u => /^https:\/\//.test(String(u || "")) ? String(u) : null;
   const today = new Date(); today.setHours(0, 0, 0, 0);
-  let T = [], M = [], MS = [], OPP = [], firstFound = "", oTiming = "Act now";
+  let T = [], M = [], MS = [], OPP = [], firstFound = "", oTiming = "";
   const st = {stage: "early", cat: "", q: "", sort: "score", open: null};
 
   async function load(name) {
@@ -441,12 +440,7 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
     const sec = $("#opps-sec"); sec.hidden = !OPP.length; if (!OPP.length) return;
     const byId = Object.fromEntries(T.map(t => [t.id, t]));
     const order = {"Act now": 0, "Test next": 1, "Watch": 2};
-    const tabs = $("#otabs"); tabs.textContent = "";
-    [["", "All"], ["Act now", "Act now"], ["Test next", "Test next"], ["Watch", "Watch"]].forEach(([k, label]) => {
-      const n = k ? OPP.filter(o => o.timing === k).length : OPP.length; if (k && !n) return;
-      const b = el("button", null, label + " " + n); b.type = "button"; b.setAttribute("aria-pressed", String(oTiming === k));
-      b.onclick = () => { oTiming = k; renderOpps(); }; tabs.append(b);
-    });
+    $("#ocount").textContent = OPP.length + " concepts Claude suggests by combining the trends above · a starting point for the team to evaluate";
     const box = $("#opps"); box.textContent = "";
     OPP.filter(o => !oTiming || o.timing === oTiming).sort((a, b) => (order[a.timing] ?? 3) - (order[b.timing] ?? 3)).forEach(o => {
       const c = el("article", "oc");
