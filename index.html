@@ -127,6 +127,13 @@ h1{font-family:var(--serif);font-weight:400;font-size:34px;line-height:1;margin:
 .mkr .nm.saff{font-weight:600}
 .note{font-size:11px;color:var(--muted);margin:8px 0 0}
 
+.cloudp{margin-bottom:20px}
+.cloud{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:2px 16px;padding:4px 20px 18px;min-height:120px}
+.cloud button{border:0;background:none;cursor:pointer;font-family:var(--serif);line-height:1.2;padding:2px 2px;border-radius:6px;transition:opacity .15s}
+.cloud button:hover{text-decoration:underline;text-underline-offset:4px}
+.cloud button.on{background:var(--ink);color:var(--bg)!important}
+.cloud.has-on button:not(.on){opacity:.45}
+.cloud .faded{text-decoration:line-through;text-decoration-thickness:1px}
 details.how{margin:0 0 40px}
 details.how summary{cursor:pointer;font-weight:600;font-size:13px;padding:10px 14px;list-style:none}
 details.how summary::before{content:"+ ";color:var(--accent)}
@@ -153,6 +160,11 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
   <div id="error" class="err" hidden></div>
   <div class="takeaway" id="takeaway">&nbsp;</div>
   <div class="stats" id="stats"></div>
+
+  <section class="panel cloudp">
+    <div class="ph"><h2>What sources are talking about</h2><span>notes, ingredients &amp; formats · click a word to filter</span></div>
+    <div class="cloud" id="cloud" aria-label="Keyword cloud"></div>
+  </section>
 
   <div class="grid">
     <main class="panel">
@@ -202,7 +214,8 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
       <div><h3>Numbers</h3><ul>
         <li><b>Momentum</b>: mentions in the last 4 months. Rising = 2+, Active = 1, Quiet = 0. The bars show the last 12 months.</li>
         <li><b>Fit</b> (1–3 dots): Claude's initial judgement of fit with Indonesia (climate, scent preference, price, culture). Team should review.</li>
-        <li><b>Score</b> = fit × 2 + sources (max 4) + recent mentions (max 3).</li></ul></div>
+        <li><b>Score</b> = fit × 2 + sources (max 4) + recent mentions (max 3).</li>
+        <li><b>Word cloud</b>: keywords from the trends in view, sized by sources + recent mentions, coloured by the stage of the trend that uses them most.</li></ul></div>
       <div><h3>Sources &amp; limits</h3><ul>
         <li>Updated three times a day (around 07:00, 12:00 and 17:00 WIB) by Claude from supplier releases, niche fairs, lead-market beauty media, Jakarta F&amp;B trends, e-commerce data and consumer research.</li>
         <li>TikTok, Instagram and Shopee are not read directly; signals come from published coverage. Google Trends is not covered yet.</li>
@@ -310,7 +323,7 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
     const rows = T.filter(t =>
       (st.stage === "" || (st.stage === "early" ? EARLY.includes(t.stage) : t.stage === st.stage)) &&
       (!st.cat || t.category === st.cat) &&
-      (!q || [t.trend, t.summary, t.angle, t.source_name, t.category].join(" ").toLowerCase().includes(q)));
+      (!q || [t.trend, t.summary, t.angle, t.source_name, t.category, (t.keywords || []).join(" ")].join(" ").toLowerCase().includes(q)));
     const cmp = {
       score: rank,
       new: (a, b) => String(b.found).localeCompare(String(a.found)) || b.score - a.score,
@@ -340,7 +353,41 @@ footer{color:var(--muted);font-size:11px;padding:0 0 32px}
     return d;
   }
 
+  function renderCloud() {
+    const box = $("#cloud"); box.textContent = "";
+    const base = T.filter(t => (st.stage === "" || (st.stage === "early" ? EARLY.includes(t.stage) : t.stage === st.stage)) && (!st.cat || t.category === st.cat));
+    const words = {};
+    base.forEach(t => (t.keywords || []).forEach(k => {
+      const key = k.toLowerCase(), w = t.nsrc + t.recent;
+      const o = words[key] = words[key] || {k, w: 0, best: null, bw: -1};
+      o.w += w; if (w > o.bw) { o.bw = w; o.best = t; }
+    }));
+    const list = Object.values(words).sort((a, b) => b.w - a.w).slice(0, 40);
+    if (!list.length) { box.append(el("div", "empty", "No keywords for these filters.")); return; }
+    const max = list[0].w, min = list[list.length - 1].w;
+    const hash = s => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
+    const q = st.q.trim().toLowerCase();
+    box.classList.toggle("has-on", list.some(o => o.k.toLowerCase() === q));
+    list.sort((a, b) => hash(a.k) - hash(b.k)).forEach(o => {
+      const b = el("button", null, o.k); b.type = "button";
+      const size = 13 + (max === min ? 0.5 : (o.w - min) / (max - min)) * 25;
+      b.style.fontSize = size.toFixed(1) + "px";
+      b.style.fontWeight = size > 26 ? "500" : "400";
+      b.style.color = o.best.stage === "Fading" ? "var(--faint)" : (stageColor[o.best.stage] || "var(--ink)");
+      if (o.best.stage === "Fading") b.classList.add("faded");
+      b.title = o.k + " · " + o.w + " (sources + recent mentions) · strongest in: " + o.best.trend;
+      if (o.k.toLowerCase() === q) b.classList.add("on");
+      b.onclick = () => {
+        const on = o.k.toLowerCase() === q;
+        st.q = on ? "" : o.k; $("#f-q").value = st.q; st.open = null; renderList();
+        if (!on) $("#list").scrollIntoView({behavior: "smooth", block: "start"});
+      };
+      box.append(b);
+    });
+  }
+
   function renderList() {
+    renderCloud();
     const rows = filtered(), box = $("#list"); box.textContent = "";
     $("#count").textContent = rows.length + " of " + T.length;
     if (!rows.length) { box.append(el("div", "empty", "No trends match these filters.")); return; }

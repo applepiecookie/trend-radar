@@ -13,7 +13,13 @@
   "strength": "Strong",
   "status": "New",
   "stage": "Mainstream",
-  "local_fit": 3
+  "local_fit": 3,
+  "keywords": [
+   "fresh",
+   "citrus",
+   "green",
+   "aquatic"
+  ]
  },
  {
   "id": "t002",
@@ -29,7 +35,12 @@
   "strength": "Medium",
   "status": "New",
   "stage": "Local early adopters",
-  "local_fit": 2
+  "local_fit": 2,
+  "keywords": [
+   "green",
+   "gender-neutral",
+   "unisex"
+  ]
  },
  {
   "id": "t003",
@@ -45,7 +56,13 @@
   "strength": "Strong",
   "status": "New",
   "stage": "Local early adopters",
-  "local_fit": 3
+  "local_fit": 3,
+  "keywords": [
+   "functional fragrance",
+   "calming",
+   "wellbeing",
+   "mood"
+  ]
  },
  {
   "id": "t004",
@@ -61,7 +78,13 @@
   "strength": "Strong",
   "status": "New",
   "stage": "Lead market",
-  "local_fit": 2
+  "local_fit": 2,
+  "keywords": [
+   "gourmand",
+   "nutty",
+   "caramel",
+   "lactonic"
+  ]
  },
  {
   "id": "t005",
@@ -77,7 +100,13 @@
   "strength": "Medium",
   "status": "New",
   "stage": "Upstream",
-  "local_fit": 2
+  "local_fit": 2,
+  "keywords": [
+   "realistic fruit",
+   "matcha",
+   "espresso",
+   "hojicha"
+  ]
  },
  {
   "id": "t006",
@@ -93,7 +122,13 @@
   "strength": "Strong",
   "status": "New",
   "stage": "Lead market",
-  "local_fit": 2
+  "local_fit": 2,
+  "keywords": [
+   "skin scent",
+   "musk",
+   "soft woods",
+   "oud"
+  ]
  },
  {
   "id": "t007",
@@ -109,7 +144,11 @@
   "strength": "Medium",
   "status": "New",
   "stage": "Lead market",
-  "local_fit": 2
+  "local_fit": 2,
+  "keywords": [
+   "saffron",
+   "raspberry"
+  ]
  },
  {
   "id": "t008",
@@ -125,7 +164,11 @@
   "strength": "Early",
   "status": "New",
   "stage": "Local early adopters",
-  "local_fit": 2
+  "local_fit": 2,
+  "keywords": [
+   "mineral",
+   "fresh"
+  ]
  },
  {
   "id": "t009",
@@ -141,7 +184,12 @@
   "strength": "Medium",
   "status": "New",
   "stage": "Mainstream",
-  "local_fit": 3
+  "local_fit": 3,
+  "keywords": [
+   "woody-fresh",
+   "clean masculine",
+   "unisex"
+  ]
  },
  {
   "id": "t010",
@@ -157,7 +205,13 @@
   "strength": "Strong",
   "status": "New",
   "stage": "Mainstream",
-  "local_fit": 3
+  "local_fit": 3,
+  "keywords": [
+   "EDP",
+   "extrait",
+   "long-lasting",
+   "mass price"
+  ]
  },
  {
   "id": "t011",
@@ -173,7 +227,11 @@
   "strength": "Medium",
   "status": "New",
   "stage": "Local early adopters",
-  "local_fit": 3
+  "local_fit": 3,
+  "keywords": [
+   "body mist",
+   "layering"
+  ]
  },
  {
   "id": "t012",
@@ -189,7 +247,12 @@
   "strength": "Early",
   "status": "New",
   "stage": "Lead market",
-  "local_fit": 2
+  "local_fit": 2,
+  "keywords": [
+   "home fragrance",
+   "rituals",
+   "candles"
+  ]
  },
  {
   "id": "t013",
@@ -205,7 +268,12 @@
   "strength": "Strong",
   "status": "New",
   "stage": "Mainstream",
-  "local_fit": 3
+  "local_fit": 3,
+  "keywords": [
+   "PerfumeTok",
+   "storytelling",
+   "compliments"
+  ]
  },
  {
   "id": "t014",
@@ -221,7 +289,13 @@
   "strength": "Medium",
   "status": "New",
   "stage": "Mainstream",
-  "local_fit": 2
+  "local_fit": 2,
+  "keywords": [
+   "gourmand",
+   "amber",
+   "vanilla",
+   "saffron"
+  ]
  },
  {
   "id": "t015",
@@ -237,7 +311,11 @@
   "strength": "Strong",
   "status": "New",
   "stage": "Mainstream",
-  "local_fit": 3
+  "local_fit": 3,
+  "keywords": [
+   "local brands",
+   "Shopee"
+  ]
  },
  {
   "id": "t016",
@@ -253,7 +331,12 @@
   "strength": "Strong",
   "status": "New",
   "stage": "Local early adopters",
-  "local_fit": 3
+  "local_fit": 3,
+  "keywords": [
+   "oud",
+   "Middle East",
+   "arabian"
+  ]
  },
  {
   "id": "t017",
@@ -269,7 +352,12 @@
   "strength": "Medium",
   "status": "New",
   "stage": "Mainstream",
-  "local_fit": 2
+  "local_fit": 2,
+  "keywords": [
+   "Gen Alpha",
+   "e-sports",
+   "collaborations"
+  ]
  },
  {
   "id": "t018",
@@ -285,7 +373,12 @@
   "strength": "Medium",
   "status": "New",
   "stage": "Local early adopters",
-  "local_fit": 2
+  "local_fit": 2,
+  "keywords": [
+   "soliflore",
+   "local ingredients",
+   "floral"
+  ]
  },
  {
   "id": "t019",
@@ -301,7 +394,12 @@
   "strength": "Strong",
   "status": "New",
   "stage": "Mainstream",
-  "local_fit": 3
+  "local_fit": 3,
+  "keywords": [
+   "official store",
+   "authenticity",
+   "Shopee"
+  ]
  },
  {
   "id": "t020",
@@ -317,7 +415,12 @@
   "strength": "Medium",
   "status": "New",
   "stage": "Mainstream",
-  "local_fit": 3
+  "local_fit": 3,
+  "keywords": [
+   "Gen Z",
+   "TikTok Shop",
+   "Shopee"
+  ]
  },
  {
   "id": "t021",
@@ -333,7 +436,11 @@
   "strength": "Medium",
   "status": "New",
   "stage": "Local early adopters",
-  "local_fit": 2
+  "local_fit": 2,
+  "keywords": [
+   "bottle design",
+   "experimental packaging"
+  ]
  },
  {
   "id": "t022",
@@ -349,7 +456,12 @@
   "strength": "Medium",
   "status": "New",
   "stage": "Lead market",
-  "local_fit": 2
+  "local_fit": 2,
+  "keywords": [
+   "pastel",
+   "soft-touch",
+   "tactile"
+  ]
  },
  {
   "id": "t023",
@@ -365,7 +477,11 @@
   "strength": "Strong",
   "status": "New",
   "stage": "Mainstream",
-  "local_fit": 3
+  "local_fit": 3,
+  "keywords": [
+   "thumbnail design",
+   "e-commerce"
+  ]
  },
  {
   "id": "t024",
@@ -381,7 +497,12 @@
   "strength": "Medium",
   "status": "New",
   "stage": "Lead market",
-  "local_fit": 1
+  "local_fit": 1,
+  "keywords": [
+   "QR / NFC",
+   "mono-material",
+   "aluminium"
+  ]
  },
  {
   "id": "t025",
@@ -397,7 +518,12 @@
   "strength": "Early",
   "status": "New",
   "stage": "Lead market",
-  "local_fit": 1
+  "local_fit": 1,
+  "keywords": [
+   "refill",
+   "paper packaging",
+   "sustainability"
+  ]
  },
  {
   "id": "t026",
@@ -413,7 +539,12 @@
   "strength": "Medium",
   "status": "New",
   "stage": "Lead market",
-  "local_fit": 2
+  "local_fit": 2,
+  "keywords": [
+   "sensorial packaging",
+   "unboxing",
+   "rituals"
+  ]
  },
  {
   "id": "t027",
@@ -429,7 +560,11 @@
   "strength": "Strong",
   "status": "New",
   "stage": "Mainstream",
-  "local_fit": 3
+  "local_fit": 3,
+  "keywords": [
+   "mass-premium",
+   "non-luxury"
+  ]
  },
  {
   "id": "t028",
@@ -445,7 +580,11 @@
   "strength": "Medium",
   "status": "New",
   "stage": "Local early adopters",
-  "local_fit": 2
+  "local_fit": 2,
+  "keywords": [
+   "local ingredients",
+   "Indonesian identity"
+  ]
  },
  {
   "id": "t029",
@@ -461,7 +600,13 @@
   "stage": "Lead market",
   "local_fit": 3,
   "found": "2026-10-27",
-  "status": "New"
+  "status": "New",
+  "keywords": [
+   "K-fragrance",
+   "heritage ingredients",
+   "sheer",
+   "local ingredients"
+  ]
  },
  {
   "id": "t030",
@@ -477,7 +622,13 @@
   "stage": "Lead market",
   "local_fit": 3,
   "found": "2026-10-27",
-  "status": "New"
+  "status": "New",
+  "keywords": [
+   "rice",
+   "milky",
+   "nutty",
+   "makgeolli"
+  ]
  },
  {
   "id": "t031",
@@ -493,7 +644,13 @@
   "stage": "Upstream",
   "local_fit": 3,
   "found": "2026-10-27",
-  "status": "New"
+  "status": "New",
+  "keywords": [
+   "coffee",
+   "palm sugar",
+   "gourmand",
+   "milky"
+  ]
  },
  {
   "id": "t032",
@@ -509,7 +666,13 @@
   "stage": "Upstream",
   "local_fit": 2,
   "found": "2026-10-27",
-  "status": "New"
+  "status": "New",
+  "keywords": [
+   "tonka",
+   "milky",
+   "gourmand",
+   "vanilla"
+  ]
  },
  {
   "id": "t033",
@@ -525,7 +688,13 @@
   "stage": "Upstream",
   "local_fit": 3,
   "found": "2026-10-27",
-  "status": "New"
+  "status": "New",
+  "keywords": [
+   "clean laundry",
+   "white musk",
+   "lavender",
+   "herbal"
+  ]
  },
  {
   "id": "t034",
@@ -541,7 +710,13 @@
   "stage": "Upstream",
   "local_fit": 3,
   "found": "2026-10-27",
-  "status": "New"
+  "status": "New",
+  "keywords": [
+   "realistic fruit",
+   "guava",
+   "lychee",
+   "fig"
+  ]
  },
  {
   "id": "t035",
@@ -557,7 +732,12 @@
   "stage": "Lead market",
   "local_fit": 3,
   "found": "2026-10-27",
-  "status": "New"
+  "status": "New",
+  "keywords": [
+   "alcohol-free",
+   "water-based",
+   "halal"
+  ]
  },
  {
   "id": "t036",
@@ -573,7 +753,13 @@
   "stage": "Lead market",
   "local_fit": 2,
   "found": "2026-10-27",
-  "status": "New"
+  "status": "New",
+  "keywords": [
+   "fragrance wardrobe",
+   "50 ml",
+   "discovery set",
+   "layering"
+  ]
  },
  {
   "id": "t037",
@@ -589,7 +775,11 @@
   "stage": "Lead market",
   "local_fit": 2,
   "found": "2026-10-27",
-  "status": "New"
+  "status": "New",
+  "keywords": [
+   "ingredient literacy",
+   "transparency"
+  ]
  },
  {
   "id": "t038",
@@ -605,7 +795,11 @@
   "stage": "Upstream",
   "local_fit": 1,
   "found": "2026-10-27",
-  "status": "New"
+  "status": "New",
+  "keywords": [
+   "biotech",
+   "AI scent matching"
+  ]
  },
  {
   "id": "t039",
@@ -621,7 +815,12 @@
   "stage": "Lead market",
   "local_fit": 2,
   "found": "2026-10-27",
-  "status": "New"
+  "status": "New",
+  "keywords": [
+   "experiential retail",
+   "DIY blending",
+   "pop-up"
+  ]
  },
  {
   "id": "t040",
@@ -637,7 +836,11 @@
   "stage": "Upstream",
   "local_fit": 1,
   "found": "2026-10-27",
-  "status": "New"
+  "status": "New",
+  "keywords": [
+   "niche",
+   "fragrance houses"
+  ]
  },
  {
   "id": "t041",
@@ -653,7 +856,12 @@
   "stage": "Fading",
   "local_fit": 2,
   "found": "2026-10-27",
-  "status": "New"
+  "status": "New",
+  "keywords": [
+   "overly sweet",
+   "candy",
+   "vanilla"
+  ]
  },
  {
   "id": "t042",
@@ -669,7 +877,11 @@
   "stage": "Fading",
   "local_fit": 2,
   "found": "2026-10-27",
-  "status": "New"
+  "status": "New",
+  "keywords": [
+   "signature scent",
+   "100 ml"
+  ]
  },
  {
   "id": "t043",
@@ -685,6 +897,10 @@
   "stage": "Fading",
   "local_fit": 2,
   "found": "2026-10-27",
-  "status": "New"
+  "status": "New",
+  "keywords": [
+   "gendered labels",
+   "unisex"
+  ]
  }
 ]
