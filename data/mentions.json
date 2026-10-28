@@ -694,5 +694,53 @@
   "date_approx": true,
   "source_name": "VOI",
   "url": "https://voi.id/en/amp/561185"
+ },
+ {
+  "id": "t047-cbm-20261028",
+  "trend_id": "t047",
+  "date": "2026-07-21",
+  "date_approx": false,
+  "source_name": "Cosmetics Business",
+  "url": "https://cosmeticsbusiness.com/are-hair-and-body-mists-2026-perfume-killer"
+ },
+ {
+  "id": "t048-raine-20261028",
+  "trend_id": "t048",
+  "date": "2026-05-06",
+  "date_approx": false,
+  "source_name": "Fimela",
+  "url": "https://www.fimela.com/fashion/read/6329717/layering-makin-maksimal-raine-beauty-by-raisa-hadirkan-perfumed-body-lotion-dengan-signature-scent"
+ },
+ {
+  "id": "t049-iff-20261028",
+  "trend_id": "t049",
+  "date": "2026-07-03",
+  "date_approx": false,
+  "source_name": "Personal Care Insights / IFF",
+  "url": "https://www.personalcareinsights.com/news/iff-deodorant-study-beyond-underarm.html"
+ },
+ {
+  "id": "t050-ecom-20261028",
+  "trend_id": "t050",
+  "date": "2026-01-19",
+  "date_approx": false,
+  "source_name": "Industry.co.id / Compas",
+  "url": "https://www.industry.co.id/read/147440/kategori-parfum-catat-lonjakan-penjualan-signifikan-di-e-commerce-indonesia-sepanjang-tahun-2025"
+ },
+ {
+  "id": "t051-tenml-20261028",
+  "trend_id": "t051",
+  "date": "2026-01-27",
+  "date_approx": false,
+  "source_name": "Premium Beauty News",
+  "url": "https://www.premiumbeautynews.com/why-refillable-10-ml-formats-are,26979"
+ },
+ {
+  "id": "t052-homemkt-20261028",
+  "trend_id": "t052",
+  "date": "2026-06-15",
+  "date_approx": false,
+  "source_name": "Knowledge Sourcing",
+  "url": "https://www.knowledge-sourcing.com/report/indonesia-home-fragrance-market"
  }
 ]

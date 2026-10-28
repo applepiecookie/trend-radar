@@ -1409,5 +1409,201 @@
    "note": "All three room formats exist; the room-by-room story and a calming bedroom scent are missing."
   },
   "segment": "Home fragrance"
+ },
+ {
+  "id": "t047",
+  "segment": "Body & personal care",
+  "category": "Product format",
+  "trend": "Hair & body mists go mainstream",
+  "summary": "Searches for hair and body mists rose 68% on Google and 308% on Instagram in 2026 (UK data); shoppers pick them as cheaper, lighter and easy to layer.",
+  "angle": "Cloud Mist can be sold for hair as well as body.",
+  "idea": "Add 'hair & body' to Cloud Mist copy and show hair use in content.",
+  "stage": "Lead market",
+  "local_fit": 3,
+  "strength": "Medium",
+  "keywords": [
+   "hair mist",
+   "body mist",
+   "layering"
+  ],
+  "found": "2026-10-28",
+  "published": "2026-07",
+  "source_type": "News & industry",
+  "source_name": "Cosmetics Business",
+  "url": "https://cosmeticsbusiness.com/are-hair-and-body-mists-2026-perfume-killer",
+  "status": "New",
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "Annabel Lee",
+    "Remedia Amoris",
+    "Sonnet 116",
+    "Träumerei",
+    "Am Kamin"
+   ],
+   "note": "Five Cloud Mists exist, but none is sold as a hair mist."
+  }
+ },
+ {
+  "id": "t048",
+  "segment": "Body & personal care",
+  "category": "Market & competitors",
+  "trend": "Perfumed lotions matched to perfume",
+  "summary": "Local brand Raine Beauty launched a perfumed body lotion in May 2026 that shares its EDP scents, sold explicitly as a layering step that boosts longevity.",
+  "angle": "Competitors are now copying the scent-world idea SAFF already has.",
+  "idea": "Claim layering first: show Loui, S.O.F.R and Irai Leima Body Potions as the 'base layer' for their Extraits.",
+  "stage": "Local early adopters",
+  "local_fit": 3,
+  "strength": "Medium",
+  "keywords": [
+   "body lotion",
+   "layering",
+   "longevity"
+  ],
+  "found": "2026-10-28",
+  "published": "2026-05",
+  "source_type": "News & industry",
+  "source_name": "Fimela",
+  "url": "https://www.fimela.com/fashion/read/6329717/layering-makin-maksimal-raine-beauty-by-raisa-hadirkan-perfumed-body-lotion-dengan-signature-scent",
+  "status": "New",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "Loui's Lullaby Body Potion",
+    "Serenade on French Riviera Body Potion",
+    "Echoes of Irai Leima Body Potion"
+   ],
+   "note": "SAFF already sells same-scent Body Potions for three Extraits."
+  }
+ },
+ {
+  "id": "t049",
+  "segment": "Body & personal care",
+  "category": "Consumer behavior",
+  "trend": "Deodorant becomes a fragrance product",
+  "summary": "IFF found 36% of consumers already use deodorant beyond the underarm, led by 16–35-year-olds, and a third of them expect more premium fragrance.",
+  "angle": "Deo Potion can be sold on scent, not only on protection.",
+  "idea": "Market Deo Potion by its Extrait scent (SAFF, Solaris, Loui, Ostara) as 'your perfume, in a deo'.",
+  "stage": "Lead market",
+  "local_fit": 2,
+  "strength": "Medium",
+  "keywords": [
+   "deodorant",
+   "whole body",
+   "fragrance"
+  ],
+  "found": "2026-10-28",
+  "published": "2026-07",
+  "source_type": "News & industry",
+  "source_name": "Personal Care Insights / IFF",
+  "url": "https://www.personalcareinsights.com/news/iff-deodorant-study-beyond-underarm.html",
+  "status": "New",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "Into SAFF's Shadow Deo",
+    "Reign of Solaris Deo",
+    "Loui's Lullaby Deo",
+    "Ode to Ostara Deo"
+   ],
+   "note": "Four Deo Potions share Extrait scents."
+  }
+ },
+ {
+  "id": "t050",
+  "segment": "Market & consumer",
+  "category": "Market & competitors",
+  "trend": "Men's perfume grows fastest online",
+  "summary": "Perfume e-commerce in Indonesia reached Rp6.1 trillion in 2025 (+53%) and 115 million units; men's perfume grew fastest at +70%, while the average price rose to Rp53k.",
+  "angle": "The fastest-growing buyer is a man shopping online.",
+  "idea": "Build a men's edit: SAFF, Solaris, Maleali and Am Kamin, each paired with its Deo where one exists.",
+  "stage": "Mainstream",
+  "local_fit": 3,
+  "strength": "Strong",
+  "keywords": [
+   "men's fragrance",
+   "e-commerce",
+   "deodorant"
+  ],
+  "found": "2026-10-28",
+  "published": "2026-01",
+  "source_type": "News & industry",
+  "source_name": "Industry.co.id / Compas",
+  "url": "https://www.industry.co.id/read/147440/kategori-parfum-catat-lonjakan-penjualan-signifikan-di-e-commerce-indonesia-sepanjang-tahun-2025",
+  "status": "New",
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "SAFF",
+    "Solaris",
+    "Maleali",
+    "Am Kamin",
+    "Into SAFF's Shadow Deo",
+    "Reign of Solaris Deo"
+   ],
+   "note": "Men-leaning scents exist, but no men's edit or bundle."
+  }
+ },
+ {
+  "id": "t051",
+  "segment": "Packaging & format",
+  "category": "Product format",
+  "trend": "10 ml becomes a real product",
+  "summary": "Packaging suppliers report the 10 ml spray moving from sample to full product, used to recruit, retain and cross-sell, with refillable travel sprays launching.",
+  "angle": "SAFF's 8 ml is a recruitment tool, not just a sample.",
+  "idea": "Treat 8 ml as an entry product: a refillable travel case plus 8 ml refills.",
+  "stage": "Lead market",
+  "local_fit": 3,
+  "strength": "Medium",
+  "keywords": [
+   "travel size",
+   "refill",
+   "10 ml"
+  ],
+  "found": "2026-10-28",
+  "published": "2026-01",
+  "source_type": "News & industry",
+  "source_name": "Premium Beauty News",
+  "url": "https://www.premiumbeautynews.com/why-refillable-10-ml-formats-are,26979",
+  "status": "New",
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "8 ml & 2 ml sizes"
+   ],
+   "note": "8 ml exists; no refillable travel case."
+  }
+ },
+ {
+  "id": "t052",
+  "segment": "Home fragrance",
+  "category": "Market & competitors",
+  "trend": "Home fragrance market grows 7.5% a year",
+  "summary": "Indonesia's home fragrance market is forecast to grow from USD 212.7M in 2026 to USD 305M by 2031 (7.5% a year); fresh/citrus scents and candles lead, driven by a 'ruang wangi' habit.",
+  "angle": "Fresh scents and candles are the biggest pockets.",
+  "idea": "Lead The Eden with its fresh scents and test a candle for gifting.",
+  "stage": "Local early adopters",
+  "local_fit": 3,
+  "strength": "Medium",
+  "keywords": [
+   "home fragrance",
+   "candles",
+   "citrus"
+  ],
+  "found": "2026-10-28",
+  "published": "2026-06",
+  "source_type": "News & industry",
+  "source_name": "Knowledge Sourcing",
+  "url": "https://www.knowledge-sourcing.com/report/indonesia-home-fragrance-market",
+  "status": "New",
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "Isola Bella",
+    "Quinta da Regaleira",
+    "Petali di Seta"
+   ],
+   "note": "Room, ambience and fabric formats exist; no candle."
+  }
  }
 ]

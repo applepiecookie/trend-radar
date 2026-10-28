@@ -58,6 +58,8 @@ nav.tabs button[aria-selected=true]{background:var(--tc);border-color:var(--tc);
 @media (prefers-color-scheme:dark){.box h3 .n{color:#131313}}
 .box ul{margin:0;padding-left:18px}
 .box li{margin-bottom:8px;color:var(--ink)}
+.srcl{font-size:12.5px;color:var(--muted);white-space:nowrap}
+.srcl a{color:var(--muted)}
 .gaps{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 .gapc{font-size:13px;font-weight:600;background:var(--gap-soft);color:var(--gap);border-radius:8px;padding:3px 9px}
 h2.sec{font-size:19px;font-weight:700;margin:0 0 10px;letter-spacing:-.01em}
@@ -92,6 +94,13 @@ h2.sec{font-size:19px;font-weight:700;margin:0 0 10px;letter-spacing:-.01em}
 .det .src{font-size:13px;color:var(--muted)}
 .det .src a{color:var(--ink2)}
 .more{display:block;width:100%;border:0;border-top:1px solid var(--line);background:none;padding:11px;font-size:14px;font-weight:600;color:var(--seg);cursor:pointer}
+.tops{display:flex;flex-direction:column;gap:8px;margin-bottom:26px}
+.top{display:grid;grid-template-columns:34px 1fr auto;gap:12px;align-items:center;text-align:left;background:var(--card);border:1px solid var(--line);border-left:5px solid var(--sc);border-radius:var(--r);padding:12px 16px;cursor:pointer}
+.top:hover{border-color:var(--sc)}
+.top .no{font-size:20px;font-weight:700;color:var(--sc)}
+.top b{display:block;font-size:16.5px}
+.top .sg{font-size:13px;color:var(--muted)}
+.top .ar{color:var(--sc);font-weight:700}
 .segs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:12px;margin-bottom:26px}
 .segc{background:var(--card);border:1px solid var(--line);border-top:5px solid var(--sc);border-radius:var(--r);padding:14px 18px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:8px}
 .segc:hover{border-color:var(--sc)}
@@ -277,7 +286,16 @@ footer{color:var(--muted);font-size:12.5px;padding:10px 0 36px}
     if (cur === "Overview") {
       const msg = el("div", "msg"); msg.append(el("div", "k", "The one thing to know today"), el("p", null, B.one_line)); sec.append(msg);
       sec.append(el("h2", "sec", "Top 3 things to do"));
-      const acts = el("div", "acts"); (B.overview_action_ids || []).map(id => A[id]).filter(Boolean).forEach(a => acts.append(actionCard(a))); sec.append(acts);
+      const segOf = {}; (B.segments || []).forEach(sg => sg.action_ids.forEach(id => segOf[id] = sg.name));
+      const acts = el("div", "tops");
+      (B.overview_action_ids || []).map(id => A[id]).filter(Boolean).forEach((a, i) => {
+        const sn = segOf[a.id] || "Overview";
+        const c = el("button", "top"); c.type = "button"; c.style.setProperty("--sc", segColor[sn]);
+        c.append(el("span", "no", i + 1));
+        const mid = el("div"); mid.append(el("b", null, a.action), el("span", "sg", sn + " · " + (a.horizon === "Now" ? "this month" : a.horizon === "Next" ? "1–6 months" : "6–18 months")));
+        c.append(mid, el("span", "ar", "→")); c.onclick = () => go(sn); acts.append(c);
+      });
+      sec.append(acts);
       sec.append(el("h2", "sec", "By segment"));
       const segs = el("div", "segs");
       (B.segments || []).forEach(s => {
@@ -301,7 +319,7 @@ footer{color:var(--muted);font-size:12.5px;padding:10px 0 36px}
       if (S) {
         const msg = el("div", "msg"); msg.append(el("div", "k", cur + " · what you need to know"), el("p", null, S.message)); sec.append(msg);
         const three = el("div", "three");
-        const box = (n, title, items, extra) => { const b = el("div", "box"); const h = el("h3"); h.append(el("span", "n", n), title); b.append(h); const ul = el("ul"); items.forEach(x => ul.append(el("li", null, x))); b.append(ul); if (extra) b.append(extra); return b; };
+        const box = (n, title, items, extra) => { const b = el("div", "box"); const h = el("h3"); h.append(el("span", "n", n), title); b.append(h); const ul = el("ul"); items.forEach(x => { const li = el("li"); if (typeof x === "string") li.textContent = x; else { li.append(x.text + " "); const sm = el("span", "srcl"); sm.append(link(x.source, x.url)); li.append(sm); } ul.append(li); }); b.append(ul); if (extra) b.append(extra); return b; };
         const gaps = el("div", "gaps"); (S.gaps || []).forEach(g => gaps.append(el("span", "gapc", g)));
         const acts = (S.action_ids || []).map(id => A[id]).filter(Boolean).sort((a, b) => order(a.horizon) - order(b.horizon));
         three.append(box(1, "What's happening", S.happening), box(2, "What SAFF already has", S.saff_has, (S.gaps || []).length ? gaps : null), box(3, "What to do", acts.map(a => a.action)));

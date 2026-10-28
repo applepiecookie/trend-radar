@@ -1,6 +1,6 @@
 {
  "date": "2026-10-28",
- "one_line": "December is SAFF's nearest win: build a concert kit from products SAFF already has for BTS at GBK (26–29 Dec), and start selling same-scent products as layering sets.",
+ "one_line": "Win December with proof, not discounts: show SAFF's Extraits lasting through BTS at GBK, sell same-scent body care as layering sets, and build a men's edit for the fastest-growing buyers.",
  "takeaways": [
   {
    "title": "Concert season is a longevity moment",
@@ -198,7 +198,7 @@
   {
    "id": "a1",
    "action": "Concert kit for December",
-   "detail": "8 ml night-wear Extrait + Annabel Lee travel Cloud Mist + Deo Potion + Hand Dew in one pouch; run a 'still there at 11 pm' wear-test series ahead of the BTS dates.",
+   "detail": "Pair two 8 ml night-wear Extraits with a 'still there at 11 pm' wear test, timed for the BTS shows at GBK.",
    "type": "Content + Bundle",
    "horizon": "Now",
    "effort": "S",
@@ -207,9 +207,7 @@
     "S.O.T.B",
     "CHNO",
     "Las Pozas",
-    "Annabel Lee",
-    "Into SAFF's Shadow Deo",
-    "My Annabel Lee Hand Dew"
+    "SAFF"
    ],
    "trend_ids": [
     "t044"
@@ -217,9 +215,61 @@
    "metric": "Kit sell-through by 31 Dec; UGC posts using the wear-test format"
   },
   {
+   "id": "a8",
+   "action": "Kopi susu gula aren gourmand",
+   "detail": "Explore a local kopi susu / palm-sugar gourmand building on CHNO's coffee, as an Extrait or a CHNO flanker.",
+   "type": "NPD",
+   "horizon": "Later",
+   "effort": "L",
+   "team": "Prodev",
+   "products": [
+    "CHNO"
+   ],
+   "trend_ids": [
+    "t031",
+    "t004"
+   ],
+   "metric": "Concept test vs CHNO"
+  },
+  {
+   "id": "a9",
+   "action": "Watch sweetness in reviews",
+   "detail": "Track reviews of the sweeter scents for 'too sweet' feedback before any reformulation or flanker.",
+   "type": "Research",
+   "horizon": "Later",
+   "effort": "S",
+   "team": "Market research",
+   "products": [
+    "Xocolatl",
+    "S.O.T.B"
+   ],
+   "trend_ids": [
+    "t041"
+   ],
+   "metric": "Share of 'too sweet' mentions per quarter"
+  },
+  {
+   "id": "a16",
+   "action": "Show Body Potion as the base layer",
+   "detail": "Before rivals own the idea, show S.O.F.R, Irai Leima and Loui Body Potions as the step under their Extraits, with a simple 'lotion first, perfume second' guide.",
+   "type": "Content",
+   "horizon": "Now",
+   "effort": "S",
+   "team": "Copywriting · Marketing",
+   "products": [
+    "Serenade on French Riviera Body Potion",
+    "Echoes of Irai Leima Body Potion",
+    "Loui's Lullaby Body Potion"
+   ],
+   "trend_ids": [
+    "t048"
+   ],
+   "metric": "Body Potion + Extrait baskets"
+  },
+  {
    "id": "a2",
    "action": "Merchandise 'scent worlds'",
-   "detail": "Group same-scent products (e.g. Loui: Extrait, Deo, Hand, Body, Shower Potion) on PDPs and marketplace stores with a simple layering guide.",
+   "detail": "Group same-scent products on PDPs and stores (Loui: Extrait, Deo, Hand, Body, Shower Potion; Ostara: Extrait, Deo, Hand Potion) and sell them as sets.",
    "type": "Content + Bundle",
    "horizon": "Now",
    "effort": "S",
@@ -239,8 +289,8 @@
   },
   {
    "id": "a3",
-   "action": "Tell the Cloud Mists as a tea collection",
-   "detail": "Lead with the drink-to-scent hook ('minuman jadi parfum') across Annabel Lee, Remedia Amoris and Sonnet 116 and their Hand Dews.",
+   "action": "Sell Cloud Mist for hair and body",
+   "detail": "Add 'hair & body' to Cloud Mist names and PDPs, and show hair use in content; position the three tea mists as one collection.",
    "type": "Content",
    "horizon": "Now",
    "effort": "S",
@@ -251,10 +301,64 @@
     "Sonnet 116"
    ],
    "trend_ids": [
-    "t045",
-    "t005"
+    "t047",
+    "t045"
    ],
-   "metric": "Cloud Mist review volume; mentions of tea with SAFF"
+   "metric": "Cloud Mist sell-through; share of reviews mentioning hair"
+  },
+  {
+   "id": "a12",
+   "action": "Sell Deo Potion on its scent",
+   "detail": "Name and show each Deo Potion as its Extrait's scent ('your perfume, in a deo'), and target 16–35 shoppers who already use deo beyond the underarm.",
+   "type": "Content",
+   "horizon": "Next",
+   "effort": "S",
+   "team": "Marketing · Copywriting",
+   "products": [
+    "Into SAFF's Shadow Deo",
+    "Reign of Solaris Deo",
+    "Loui's Lullaby Deo",
+    "Ode to Ostara Deo"
+   ],
+   "trend_ids": [
+    "t049"
+   ],
+   "metric": "Deo Potion repeat rate; share of Deo buyers who also buy the Extrait"
+  },
+  {
+   "id": "a5",
+   "action": "Re-tell The Eden as rooms",
+   "detail": "Assign each Eden format a room and mood on PDPs and content; brief a calming bedroom scent (lavender, chamomile, jasmine).",
+   "type": "Content + NPD brief",
+   "horizon": "Next",
+   "effort": "M",
+   "team": "Prodev · Copywriting",
+   "products": [
+    "Isola Bella",
+    "Quinta da Regaleira",
+    "Petali di Seta"
+   ],
+   "trend_ids": [
+    "t046",
+    "t012"
+   ],
+   "metric": "Multi-format home baskets; brief approved"
+  },
+  {
+   "id": "a14",
+   "action": "Candle test for gifting",
+   "detail": "Scope a candle in one fresh Eden scent for holiday and Lebaran gifting, the format that leads the home market.",
+   "type": "Research",
+   "horizon": "Later",
+   "effort": "M",
+   "team": "Prodev",
+   "products": [
+    "Quinta da Regaleira"
+   ],
+   "trend_ids": [
+    "t052"
+   ],
+   "metric": "Cost and supplier feasibility note"
   },
   {
    "id": "a4",
@@ -277,23 +381,55 @@
    "metric": "Sets launched by mid-Jan 2027; share of new customers buying a set"
   },
   {
-   "id": "a5",
-   "action": "Re-tell The Eden as rooms",
-   "detail": "Assign each Eden format a room and mood on PDPs and content; brief a calming bedroom scent (lavender, chamomile, jasmine).",
-   "type": "Content + NPD brief",
-   "horizon": "Next",
-   "effort": "M",
-   "team": "Prodev · Copywriting",
+   "id": "a11",
+   "action": "Test packs at thumbnail size",
+   "detail": "Before signing off any new pack or set, check it at Shopee/Tokopedia thumbnail size next to Mykonos, Scarlett and HMNS listings.",
+   "type": "Research",
+   "horizon": "Now",
+   "effort": "S",
+   "team": "Packdev",
+   "products": [],
+   "trend_ids": [
+    "t023"
+   ],
+   "metric": "Every new pack reviewed at thumbnail size"
+  },
+  {
+   "id": "a15",
+   "action": "Refillable 8 ml travel case",
+   "detail": "Brief a refillable travel case that takes SAFF's 8 ml refills, turning the travel size into an entry product.",
+   "type": "NPD",
+   "horizon": "Later",
+   "effort": "L",
+   "team": "Packdev",
    "products": [
-    "Isola Bella",
-    "Quinta da Regaleira",
-    "Petali di Seta"
+    "8 ml & 2 ml sizes"
    ],
    "trend_ids": [
-    "t046",
-    "t012"
+    "t051"
    ],
-   "metric": "Multi-format home baskets; brief approved"
+   "metric": "Case brief; refill repurchase rate after launch"
+  },
+  {
+   "id": "a13",
+   "action": "Men's edit for online",
+   "detail": "One storefront section and two bundles: SAFF Extrait + Into SAFF's Shadow Deo, Solaris Extrait + Reign of Solaris Deo; add Maleali and Am Kamin as the woody picks.",
+   "type": "Content + Bundle",
+   "horizon": "Now",
+   "effort": "S",
+   "team": "Marketing",
+   "products": [
+    "SAFF",
+    "Into SAFF's Shadow Deo",
+    "Solaris",
+    "Reign of Solaris Deo",
+    "Maleali",
+    "Am Kamin"
+   ],
+   "trend_ids": [
+    "t050"
+   ],
+   "metric": "Men's bundle sales; share of male buyers"
   },
   {
    "id": "a6",
@@ -334,40 +470,6 @@
    "metric": "Brief to supplier; panel test score"
   },
   {
-   "id": "a8",
-   "action": "Kopi susu gula aren gourmand",
-   "detail": "Explore a local kopi susu / palm-sugar gourmand building on CHNO's coffee, as an Extrait or a CHNO flanker.",
-   "type": "NPD",
-   "horizon": "Later",
-   "effort": "L",
-   "team": "Prodev",
-   "products": [
-    "CHNO"
-   ],
-   "trend_ids": [
-    "t031",
-    "t004"
-   ],
-   "metric": "Concept test vs CHNO"
-  },
-  {
-   "id": "a9",
-   "action": "Watch sweetness in reviews",
-   "detail": "Track reviews of the sweeter scents for 'too sweet' feedback before any reformulation or flanker.",
-   "type": "Research",
-   "horizon": "Later",
-   "effort": "S",
-   "team": "Market research",
-   "products": [
-    "Xocolatl",
-    "S.O.T.B"
-   ],
-   "trend_ids": [
-    "t041"
-   ],
-   "metric": "Share of 'too sweet' mentions per quarter"
-  },
-  {
    "id": "a10",
    "action": "Alcohol-free fragrance scan",
    "detail": "Scan suppliers and regulations for an alcohol-free mist or parfum as a halal-friendly extension of the body care line.",
@@ -380,20 +482,6 @@
     "t035"
    ],
    "metric": "Feasibility note"
-  },
-  {
-   "id": "a11",
-   "action": "Test packs at thumbnail size",
-   "detail": "Before signing off any new pack or set, check it at Shopee/Tokopedia thumbnail size next to Mykonos, Scarlett and HMNS listings.",
-   "type": "Research",
-   "horizon": "Now",
-   "effort": "S",
-   "team": "Packdev",
-   "products": [],
-   "trend_ids": [
-    "t023"
-   ],
-   "metric": "Every new pack reviewed at thumbnail size"
   }
  ],
  "moments": [
@@ -572,6 +660,48 @@
    "source": "SAFF & Co. product list",
    "url": "",
    "confidence": "Brand data"
+  },
+  {
+   "item": "Hair & body mist growth",
+   "source": "Cosmetics Business (21 Jul 2026)",
+   "url": "https://cosmeticsbusiness.com/are-hair-and-body-mists-2026-perfume-killer",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Perfumed body lotion for layering (Raine Beauty)",
+   "source": "Fimela (6 May 2026)",
+   "url": "https://www.fimela.com/fashion/read/6329717/layering-makin-maksimal-raine-beauty-by-raisa-hadirkan-perfumed-body-lotion-dengan-signature-scent",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Whole-body deodorant study",
+   "source": "Personal Care Insights / IFF (3 Jul 2026)",
+   "url": "https://www.personalcareinsights.com/news/iff-deodorant-study-beyond-underarm.html",
+   "confidence": "Industry study"
+  },
+  {
+   "item": "Perfume e-commerce 2025",
+   "source": "Industry.co.id / Compas (19 Jan 2026)",
+   "url": "https://www.industry.co.id/read/147440/kategori-parfum-catat-lonjakan-penjualan-signifikan-di-e-commerce-indonesia-sepanjang-tahun-2025",
+   "confidence": "Published data"
+  },
+  {
+   "item": "10 ml as a product",
+   "source": "Premium Beauty News (27 Jan 2026)",
+   "url": "https://www.premiumbeautynews.com/why-refillable-10-ml-formats-are,26979",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Indonesia home fragrance market",
+   "source": "Knowledge Sourcing (Jun 2026)",
+   "url": "https://www.knowledge-sourcing.com/report/indonesia-home-fragrance-market",
+   "confidence": "Market report summary"
+  },
+  {
+   "item": "Consumer outlook 2026",
+   "source": "Jakpat via GoodStats",
+   "url": "https://goodstats.id/publication/jakpat-consumer-dan-commerce-outlook-2026-3fTnc",
+   "confidence": "Survey summary"
   }
  ],
  "scent_worlds": [
@@ -653,119 +783,175 @@
  "segments": [
   {
    "name": "Fragrance",
-   "message": "Concert season makes staying power the reason to buy. Lead with SAFF's Extrait longevity now, and brief osmanthus and a kopi susu gourmand as the next scents.",
+   "message": "Staying power is the reason to buy this season. Prove SAFF's Extraits last, and move gourmands toward creamy coffee rather than more sugar.",
    "happening": [
-    "BTS plays GBK on 26, 27 and 29 Dec; longevity is what concert-goers look for, and rivals are criticised for fading fast.",
-    "Gourmands are growing up: creamy, toasted and coffee notes rise while candy-sweet scents fade.",
-    "Osmanthus and tea notes lead 2026 launches; tea bars made osmanthus oolong a Jakarta cue."
+    {
+     "text": "BTS plays Stadion Utama GBK on 26, 27 and 29 Dec; concert-goers want scent that lasts a whole show.",
+     "source": "RCTI+",
+     "url": "https://www.rctiplus.com/news/detail/seleb/5451095/8-idol-k-pop-akan-konser-di-jakarta-paruh-kedua-2026--catat-tanggalnya-"
+    },
+    {
+     "text": "A rival's perfumes are publicly criticised for fading in about 2 hours, despite a 6-hour claim.",
+     "source": "Mojok",
+     "url": "https://mojok.co/terminal/parfum-hmns-bikin-saya-kecewa-wanginya-nggak-tahan-lama/"
+    },
+    {
+     "text": "'Gourmand 2.0' (creamy, toasted, textured) is rising while overt sweetness declines.",
+     "source": "Cosmetics Business",
+     "url": "https://cosmeticsbusiness.com/the-fragrance-shop-and-cpl-aromas-unveil-the"
+    }
    ],
    "saff_has": [
-    "All 24 perfumes are Extrait de Parfum, in 35, 8 and 2 ml.",
-    "Night-wear Extraits for concerts: S.O.T.B, CHNO, Las Pozas, SAFF.",
-    "Coffee (CHNO), milky (Minouet) and saffron (SAFF) already in the line."
+    "All 24 perfumes are Extrait de Parfum.",
+    "Night-wear picks: S.O.T.B, CHNO, Las Pozas, SAFF.",
+    "Creamy gourmands already: CHNO (coffee, almond), Minouet (milk)."
    ],
    "gaps": [
-    "No osmanthus",
     "No kopi susu / palm-sugar gourmand",
-    "Sweeter scents (Xocolatl, S.O.T.B) to watch"
+    "Sweeter scents to watch: Xocolatl, S.O.T.B"
    ],
    "action_ids": [
     "a1",
-    "a7",
     "a8",
     "a9"
    ]
   },
   {
    "name": "Body & personal care",
-   "message": "SAFF already has a layering system and a tea mist collection. The job is to sell them as sets, not as single products.",
+   "message": "Body care is turning into fragrance. Mists, lotions and even deodorant are now bought for their scent, and SAFF already makes all three in its Extrait scents.",
    "happening": [
-    "Layering (perfume + mist + body care) is how people now build a signature scent.",
-    "Body mists drive impulse buys and are the entry point for new customers.",
-    "Alcohol-free fragrance is rising abroad and suits halal-minded and sensitive-skin shoppers."
+    {
+     "text": "Hair and body mist searches rose 68% on Google and 308% on Instagram in 2026, as a lighter, cheaper way to layer.",
+     "source": "Cosmetics Business",
+     "url": "https://cosmeticsbusiness.com/are-hair-and-body-mists-2026-perfume-killer"
+    },
+    {
+     "text": "Raine Beauty launched a lotion that matches its perfumes, sold as a layering step for longevity (May 2026).",
+     "source": "Fimela",
+     "url": "https://www.fimela.com/fashion/read/6329717/layering-makin-maksimal-raine-beauty-by-raisa-hadirkan-perfumed-body-lotion-dengan-signature-scent"
+    },
+    {
+     "text": "36% of consumers use deodorant beyond the underarm, led by 16–35s; a third want more premium scent.",
+     "source": "IFF via Personal Care Insights",
+     "url": "https://www.personalcareinsights.com/news/iff-deodorant-study-beyond-underarm.html"
+    }
    ],
    "saff_has": [
-    "Loui in 5 formats: Extrait, Deo, Hand, Body and Shower Potion.",
-    "Ostara, S.O.T.B, SAFF, Solaris, S.O.F.R and Irai Leima in 2–3 formats each.",
-    "Three tea Cloud Mists (Annabel Lee, Remedia Amoris, Sonnet 116) with matching Hand Dews."
+    "Body Potions in Loui, S.O.F.R and Irai Leima scents.",
+    "Four Deo Potions in Extrait scents (SAFF, Solaris, Loui, Ostara).",
+    "Five Cloud Mists, three of them tea-based."
    ],
    "gaps": [
-    "Layering not merchandised as sets",
-    "No alcohol-free fragrance"
+    "Cloud Mist not sold for hair",
+    "Sets not merchandised"
    ],
    "action_ids": [
+    "a16",
     "a2",
     "a3",
-    "a4",
-    "a10"
+    "a12"
    ]
   },
   {
    "name": "Home fragrance",
-   "message": "Home scent is going room by room. The Eden already has every format; it needs the room story and a calming bedroom scent.",
+   "message": "Indonesian home fragrance is a growing, fresh-scent market. Lead The Eden with its fresh scents, tell it room by room, and test a candle.",
    "happening": [
-    "'Scentscaping' matches diffusers, room sprays and linen sprays to each room's mood.",
-    "Bedroom scents lean lavender, chamomile and jasmine with a wellbeing angle.",
-    "Tea and herbal notes read naturally as home scents."
+    {
+     "text": "Market forecast: USD 212.7M (2026) to USD 305M (2031), 7.5% a year; fresh/citrus and candles lead.",
+     "source": "Knowledge Sourcing",
+     "url": "https://www.knowledge-sourcing.com/report/indonesia-home-fragrance-market"
+    },
+    {
+     "text": "'Scentscaping' matches scents to rooms: lavender and jasmine for bedrooms, citrus and herbs for kitchens.",
+     "source": "Kontan MomsMoney",
+     "url": "https://momsmoney.kontan.co.id/news/tren-scentscaping-2026-cara-simpel-bikin-rumah-terasa-lebih-nyaman-dan-rileks"
+    }
    ],
    "saff_has": [
-    "Isola Bella (Room Potion), Quinta da Regaleira (Ambience Mist), Petali di Seta (Fabric Potion).",
-    "Petali di Seta is antibacterial, a natural fit for 'clean laundry'."
+    "Isola Bella (Room Potion), Quinta da Regaleira (Ambience Mist, litsea and daffodil), Petali di Seta (Fabric Potion, antibacterial)."
    ],
    "gaps": [
+    "No candle",
     "No room-by-room story",
     "No calming bedroom scent"
    ],
    "action_ids": [
-    "a5"
+    "a5",
+    "a14"
    ]
   },
   {
    "name": "Packaging & format",
-   "message": "Small sizes and sets are the new default. SAFF's 8 ml and 2 ml sizes are ready for a discovery set before Ramadan 2027 (from about 8 Feb).",
+   "message": "The small bottle is now a product, not a sample. Use SAFF's 8 ml to recruit new buyers through sets now and a refillable case later.",
    "happening": [
-    "50 ml and discovery sets replace 100 ml as the default size.",
-    "Packs are first seen as a marketplace thumbnail.",
-    "Refill and connected (QR/NFC) packs are growing abroad."
+    {
+     "text": "Suppliers report 10 ml sprays moving from sample to full product, used to recruit and cross-sell; refillable travel sprays are launching.",
+     "source": "Premium Beauty News",
+     "url": "https://www.premiumbeautynews.com/why-refillable-10-ml-formats-are,26979"
+    },
+    {
+     "text": "Shoppers build 'fragrance wardrobes' for moods and occasions instead of one big bottle.",
+     "source": "Cosmetics Business",
+     "url": "https://cosmeticsbusiness.com/the-fragrance-shop-and-cpl-aromas-unveil-the"
+    },
+    {
+     "text": "Packs are first judged as a screen thumbnail, so impact must survive at small size.",
+     "source": "BeautyMatter",
+     "url": "https://beautymatter.com/articles/the-beauty-packaging-trends-set-to-define-2026"
+    }
    ],
    "saff_has": [
     "Extraits in 35, 8 and 2 ml.",
     "Travel-size Cloud Mist (Annabel Lee)."
    ],
    "gaps": [
-    "No curated discovery or gift set",
-    "No refill format",
-    "No QR/NFC pack"
+    "No discovery set",
+    "No refillable travel case"
    ],
    "action_ids": [
     "a4",
-    "a11"
+    "a11",
+    "a15"
    ]
   },
   {
    "name": "Market & consumer",
-   "message": "Rivals win on low price and creator volume. SAFF should win on proof (longevity) and story (Indonesian ingredients, Japan launch).",
+   "message": "Online perfume grew 53% last year and men grew fastest. Rivals win on low prices; SAFF can win men and win on story.",
    "happening": [
-    "Mykonos leads Shopee share (6.78%, Q2 2026) through creator reviews; Scarlett sells Extrait under Rp60k.",
-    "Local brands dominate Shopee's top 5; shoppers prefer official stores for authenticity.",
-    "Local brands are going global; SAFF launched in Japan in May 2026."
+    {
+     "text": "Perfume e-commerce reached Rp6.1 trillion in 2025 (+53%); men's perfume grew +70%; average price rose to Rp53k.",
+     "source": "Industry.co.id / Compas",
+     "url": "https://www.industry.co.id/read/147440/kategori-parfum-catat-lonjakan-penjualan-signifikan-di-e-commerce-indonesia-sepanjang-tahun-2025"
+    },
+    {
+     "text": "Mykonos leads Shopee share (6.78%, Q2 2026); Scarlett sells Extrait under Rp60k.",
+     "source": "GoodStats / Compas",
+     "url": "https://data.goodstats.id/statistic/10-brand-parfum-wewangian-terlaris-di-shopee-pada-q2-2026-peringkat-atas-kebal-YAF3P"
+    },
+    {
+     "text": "Shoppers are becoming more rational and data-driven in 2026.",
+     "source": "Jakpat",
+     "url": "https://goodstats.id/publication/jakpat-consumer-dan-commerce-outlook-2026-3fTnc"
+    }
    ],
    "saff_has": [
-    "Indonesian materials already in the line: Sumatra benzoin, Sulawesi patchouli, cajuput.",
-    "Story-led names that suit narrative content."
+    "Men-leaning scents: SAFF, Solaris, Maleali, Am Kamin, plus two matching Deo Potions.",
+    "Indonesian materials: Sumatra benzoin, Sulawesi patchouli, cajuput.",
+    "Launched in Japan in May 2026."
    ],
    "gaps": [
-    "Nusantara-ingredient story not told as a series"
+    "No men's edit",
+    "Nusantara story untold"
    ],
    "action_ids": [
-    "a6",
-    "a1"
+    "a13",
+    "a6"
    ]
   }
  ],
  "overview_action_ids": [
   "a1",
   "a2",
-  "a4"
+  "a13"
  ]
 }
