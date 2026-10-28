@@ -4,749 +4,355 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Trend Radar · SAFF &amp; Co.</title>
-<meta name="description" content="Trend signal radar for fragrance, packaging and consumer behavior, for the SAFF & Co. Product Development team.">
+<meta name="description" content="What's moving in fragrance and personal care, and what SAFF & Co. can do about it, by segment.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#f6f1ea; --panel:#fffdf9; --ink:#1f1a17; --muted:#71675f; --faint:#a59a90; --line:#e6ddd1; --soft:#f0e9df;
-  --accent:#b4532a; --accent-soft:#f5e4da;
-  --s-up:#6b3f7d; --s-lead:#3f6b8a; --s-early:#c0782f; --s-main:#5f7a4f; --s-fade:#9a9189;
-  --ok:#3f7a4a; --radius:12px;
-  --serif:"Fraunces",Georgia,serif; --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --bg:#f7f7f5; --card:#ffffff; --ink:#161616; --ink2:#3d3d3d; --muted:#6b6b6b; --line:#e4e2de; --soft:#f1f0ed;
+  --seg:#161616; --seg-soft:#f1f0ed;
+  --c-ov:#161616; --c-fr:#7a2e8e; --c-bo:#0f7466; --c-ho:#a85412; --c-pa:#2a5aa8; --c-ma:#a62b48;
+  --ok:#1d7a3a; --ok-soft:#e5f3e9; --gap:#b42318; --gap-soft:#fdecea; --part:#9a5b00; --part-soft:#fdf2e1;
+  --r:14px; --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
 }
 @media (prefers-color-scheme:dark){:root{
-  --bg:#171412; --panel:#201c19; --ink:#f1ebe4; --muted:#a99e94; --faint:#7d746c; --line:#36302b; --soft:#29231f;
-  --accent:#e08a5e; --accent-soft:#3a2920;
-  --s-up:#b48ac6; --s-lead:#7fb0d1; --s-early:#e3a463; --s-main:#9dbb88; --s-fade:#8d857e; --ok:#8cc596;
+  --bg:#131313; --card:#1c1c1c; --ink:#f2f2f2; --ink2:#d2d2d2; --muted:#a3a3a3; --line:#323232; --soft:#262626; --seg-soft:#262626;
+  --c-ov:#f2f2f2; --c-fr:#c98ad9; --c-bo:#4fc2b0; --c-ho:#e8a066; --c-pa:#86aef0; --c-ma:#f08aa1;
+  --ok:#6fd08d; --ok-soft:#1d3324; --gap:#ff8a80; --gap-soft:#3a1f1d; --part:#f0b860; --part-soft:#3a2e1a;
 }}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.45}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55}
 a{color:inherit}
 button{font:inherit;color:inherit}
-.wrap{max-width:1280px;margin:0 auto;padding:0 20px}
-
-/* Header */
-header{padding:28px 0 18px;display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px}
-.brand{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500}
-h1{font-family:var(--serif);font-weight:400;font-size:34px;line-height:1;margin:6px 0 0;letter-spacing:-.01em}
-.updated{font-size:12px;color:var(--muted)}
-.updated b{color:var(--ink);font-weight:500}
-.updated .fresh{color:var(--accent);font-weight:600}
-.takeaway{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:var(--radius);padding:12px 16px;font-size:15px;margin-bottom:14px}
-.takeaway b{font-weight:600}
-
-/* Stats */
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-bottom:20px}
-.stat{background:var(--panel);padding:10px 14px}
-.stat .v{font-family:var(--serif);font-size:24px;line-height:1.1;font-variant-numeric:tabular-nums}
-.stat .l{font-size:12px;color:var(--muted)}
-@media (max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}}
-
-/* Layout */
-.grid{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:20px;align-items:start;padding-bottom:48px}
-@media (max-width:1000px){.grid{grid-template-columns:minmax(0,1fr)}.aside{display:contents}.aside .watchp{order:-1}.aside section:not(.watchp){order:1}}
-.panel{min-width:0}
-.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius)}
-.ph{display:flex;align-items:baseline;justify-content:space-between;gap:8px;padding:12px 14px 8px}
-.ph h2{font-size:13px;font-weight:600;margin:0}
-.ph span{font-size:12px;color:var(--muted)}
-
-/* Controls */
-.controls{padding:0 14px 10px;display:flex;flex-direction:column;gap:8px;border-bottom:1px solid var(--line)}
-.stages{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
-.stages button{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:4px 10px;font-size:12px;cursor:pointer}
-.stages button b{font-weight:600;font-variant-numeric:tabular-nums;color:var(--muted)}
-.stages button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-.stages button[aria-pressed=true] b{color:var(--bg)}
-.row2{display:flex;gap:8px;flex-wrap:wrap}
-.row2 select,.row2 input{font-size:13px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 9px;color:var(--ink)}
-.row2 input{flex:1 1 200px;min-width:0}
-.dot{display:inline-block;width:8px;height:8px;border-radius:50%;flex:none}
-
-/* Trend list */
-.lh,.tr{display:grid;grid-template-columns:minmax(0,1fr) 104px 96px 44px 44px;gap:12px;align-items:center;padding:0 14px}
-.lh{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;padding-top:8px;padding-bottom:6px;border-bottom:1px solid var(--line)}
-.lh .r,.tr .r{text-align:right}
-.tr{width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding-top:9px;padding-bottom:9px;cursor:pointer}
-.tr:hover{background:var(--soft)}
-.tr[aria-expanded=true]{background:var(--soft)}
-.tt{display:flex;align-items:center;gap:8px;min-width:0}
-.tt .n{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.tt .new{font-size:10px;font-weight:600;color:var(--accent);border:1px solid var(--accent);border-radius:4px;padding:0 4px;flex:none}
-.ts{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:1px 0 0 16px}
-.cat{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.idea{font-size:12.5px;line-height:1.35;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.idea::before{content:"→ ";color:var(--accent);font-weight:600}
-.mo{display:flex;align-items:center;gap:6px;font-size:11px}
-.mo .lbl{color:var(--faint)} .mo .lbl.up{color:var(--accent);font-weight:600}
-.fit{font-size:9px;letter-spacing:1px;color:var(--accent);text-align:right} .fit i{color:var(--line);font-style:normal}
-.sc{font-family:var(--serif);font-size:18px;text-align:right;font-variant-numeric:tabular-nums}
-.empty{padding:24px 14px;color:var(--muted);text-align:center}
-@media (max-width:640px){
-  .lh{display:none}
-  .tr{grid-template-columns:minmax(0,1fr) 36px;row-gap:4px}
-  .tr .cat,.tr .fit{display:none}
-  .tr .mo{grid-column:1;grid-row:2;margin-left:16px}
-  .tr .sc{grid-row:1/span 2;grid-column:2}
-}
-
-/* Detail */
-.det{border-bottom:1px solid var(--line);padding:4px 14px 16px 30px;background:var(--soft)}
-.det p{margin:0 0 10px;max-width:62rem}
-.det .opp{background:var(--accent-soft);border-radius:8px;padding:8px 10px;margin-bottom:10px;max-width:62rem}
-.det .opp b{font-weight:600}
-.det .opp .why{font-size:12px;color:var(--muted);margin-top:4px}
-.det .meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted);margin-bottom:10px}
-.det .meta b{color:var(--ink);font-weight:500}
-.det ul{list-style:none;padding:0;margin:0;font-size:13px;max-width:62rem}
-.det li{display:flex;justify-content:space-between;gap:12px;padding:4px 0;border-top:1px dashed var(--line)}
-.det li span{color:var(--muted);white-space:nowrap;font-size:12px}
-.str-Strong{color:var(--ok)!important}
-
-/* Aside */
-.aside{display:flex;flex-direction:column;gap:16px}
-.watch{list-style:none;margin:0;padding:0 14px 8px;counter-reset:w}
-.watch li{display:grid;grid-template-columns:20px 1fr auto;gap:8px;align-items:start;padding:8px 0;border-top:1px solid var(--line);cursor:pointer}
-.watch li:first-child{border-top:0}
-.watch li::before{counter-increment:w;content:counter(w);font-family:var(--serif);font-size:16px;color:var(--accent);line-height:1.2}
-.watch .n{font-weight:600;line-height:1.3}
-.watch .a{font-size:12px;color:var(--muted);margin-top:2px}
-.watch .s{font-family:var(--serif);font-size:16px}
-.fade{list-style:none;margin:0;padding:0 14px 10px}
-.fade li{padding:6px 0;border-top:1px solid var(--line);cursor:pointer}
-.fade li:first-child{border-top:0}
-.fade .n{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--s-fade)}
-.fade .a{font-size:12px}
-.mk{padding:0 14px 12px}
-.mk h3{font-size:11px;color:var(--muted);font-weight:600;margin:8px 0 4px;text-transform:uppercase;letter-spacing:.05em}
-.mkr{display:grid;grid-template-columns:96px 1fr 44px;gap:8px;align-items:center;font-size:12px;margin:3px 0}
-.mkr .b{height:8px;border-radius:4px;background:var(--line)}
-.mkr .b.saff{background:var(--accent)}
-.mkr .v{text-align:right;font-variant-numeric:tabular-nums}
-.mkr .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.mkr .nm.saff{font-weight:600}
-.note{font-size:11px;color:var(--muted);margin:8px 0 0}
-
-.opps{margin:4px 0 24px}
-.sh{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 12px;margin-bottom:8px}
-.sh h2{font-family:var(--serif);font-weight:400;font-size:22px;margin:0}
-.sh span{font-size:12px;color:var(--muted)}
-.otabs{display:flex;gap:6px;margin-bottom:10px;flex-wrap:wrap}
-.otabs button{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:3px 10px;font-size:12px;cursor:pointer}
-.otabs button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-.ogrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,290px),1fr));gap:12px}
-.oc{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;display:flex;flex-direction:column;gap:8px}
-.oc .top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
-.oc h3{font-family:var(--serif);font-weight:500;font-size:19px;line-height:1.15;margin:0}
-.tm{font-size:11px;font-weight:600;border-radius:999px;padding:2px 8px;white-space:nowrap}
-.tm.now{background:var(--accent);color:#fff}.tm.test{background:var(--accent-soft);color:var(--accent)}.tm.watch{background:var(--soft);color:var(--muted)}
-.oc .sub{font-size:12px;color:var(--muted)}
-.oc dl{display:grid;grid-template-columns:62px 1fr;gap:3px 8px;margin:0;font-size:12.5px}
-.oc dt{color:var(--muted)}.oc dd{margin:0}
-.oc .notes{display:flex;flex-wrap:wrap;gap:4px}
-.oc .notes span{background:var(--soft);border-radius:6px;padding:1px 6px;font-size:12px}
-.oc .why{font-size:13px;line-height:1.45;margin:0}
-.oc .based{font-size:12px;color:var(--muted);border-top:1px dashed var(--line);padding-top:8px}
-.oc .based button{border:0;background:none;padding:0;color:var(--ink);text-decoration:underline;text-underline-offset:2px;cursor:pointer;font-size:12px}
-.cloudp{margin-bottom:20px}
-.cloud{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:2px 16px;padding:4px 20px 18px;min-height:120px}
-.cloud button{border:0;background:none;cursor:pointer;font-family:var(--serif);line-height:1.2;padding:2px 2px;border-radius:6px;transition:opacity .15s}
-.cloud button:hover{text-decoration:underline;text-underline-offset:4px}
-.cloud button.on{background:var(--ink);color:var(--bg)!important}
-.cloud.has-on button:not(.on){opacity:.45}
-.cloud .faded{text-decoration:line-through;text-decoration-thickness:1px}
-details.how{margin:0 0 40px}
-details.how summary{cursor:pointer;font-weight:600;font-size:13px;padding:10px 14px;list-style:none}
-details.how summary::before{content:"+ ";color:var(--accent)}
-details.how[open] summary::before{content:"– "}
-.howg{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px;padding:0 14px 14px;font-size:13px;color:var(--muted)}
-.howg h3{font-size:12px;color:var(--ink);margin:0 0 6px}
-.howg ul{margin:0;padding-left:16px}
-.howg li{margin-bottom:4px}
-.howg b{color:var(--ink);font-weight:500}
-.err{background:var(--accent-soft);border-radius:var(--radius);padding:12px 14px;margin-bottom:14px}
-footer{color:var(--muted);font-size:11px;padding:0 0 32px}
-nav.jump{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);margin:0 -20px 18px;padding:0 20px}
-nav.jump div{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
-nav.jump a{font-size:12.5px;font-weight:500;color:var(--muted);text-decoration:none;padding:10px 10px;white-space:nowrap;border-bottom:2px solid transparent}
-nav.jump a:hover{color:var(--ink);border-bottom-color:var(--accent)}
-section.blk{margin-bottom:26px;scroll-margin-top:52px}
-.bh{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 12px;margin-bottom:10px}
-.bh h2{font-family:var(--serif);font-weight:400;font-size:22px;margin:0}
-.bh span{font-size:12px;color:var(--muted)}
-.oneline{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:var(--radius);padding:14px 18px;font-size:15.5px;line-height:1.5;margin-bottom:14px}
-.oneline .lbl{display:block;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
-.tk{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:10px}
-.tkc{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;display:flex;flex-direction:column;gap:6px}
-.tkc .no{font-family:var(--serif);color:var(--accent);font-size:20px;line-height:1}
-.tkc h3{font-size:14px;margin:0;line-height:1.3}
-.tkc p{margin:0;font-size:13px;color:var(--muted)}
-.tkc .sw{font-size:13px;background:var(--accent-soft);border-radius:8px;padding:7px 9px;margin-top:auto}
-.tkc .sw b{font-weight:600}
-.pchips{display:flex;flex-wrap:wrap;gap:4px}
-.pc{font-size:11.5px;border:1px solid var(--line);border-radius:6px;padding:1px 6px;background:var(--panel);white-space:nowrap}
-.acts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
-@media (max-width:900px){.acts{grid-template-columns:minmax(0,1fr)}}
-.acol{background:var(--soft);border-radius:var(--radius);padding:10px}
-.acol h3{font-size:13px;margin:2px 4px 2px;display:flex;justify-content:space-between}
-.acol h3 span{font-weight:400;color:var(--muted);font-size:12px}
-.acol .hint{font-size:11.5px;color:var(--muted);margin:0 4px 8px}
-.ac{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-bottom:8px;display:flex;flex-direction:column;gap:6px}
-.ac h4{margin:0;font-size:14px}
-.ac p{margin:0;font-size:12.5px;line-height:1.45}
-.ac .tags{display:flex;flex-wrap:wrap;gap:4px}
-.tg{font-size:11px;border-radius:999px;padding:1px 8px;background:var(--soft);color:var(--ink)}
-.tg.type{background:var(--accent-soft);color:var(--accent);font-weight:600}
-.ac .kpi{font-size:11.5px;color:var(--muted)}
-.ac .kpi b{color:var(--ink);font-weight:500}
-.ac .lk{font-size:11.5px;color:var(--muted)}
-.ac .lk button,.mapt button{border:0;background:none;padding:0;color:var(--ink);text-decoration:underline;text-underline-offset:2px;cursor:pointer;font-size:inherit;text-align:left}
-.mapt{width:100%;border-collapse:collapse;font-size:13px}
-.mapt th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:500;padding:8px 12px;border-bottom:1px solid var(--line)}
-.mapt td{padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:top}
-.mapt td.tn{font-weight:600;min-width:180px}
-.mapt td.nt{color:var(--muted);min-width:200px}
-.mapwrap{overflow-x:auto}
-.cov{display:inline-block;font-size:11px;font-weight:600;border-radius:999px;padding:1px 8px;white-space:nowrap}
-.cov.ws{background:var(--accent);color:#fff}.cov.pa{background:var(--accent-soft);color:var(--accent)}.cov.co{background:var(--soft);color:var(--ok)}.cov.wa{background:var(--soft);color:var(--muted)}.cov.cx{background:none;color:var(--faint);border:1px solid var(--line)}
-.worldsp{margin-bottom:12px}
-.worlds{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr));gap:8px;padding:0 14px 14px}
-.world{border:1px solid var(--line);border-radius:10px;padding:8px 10px}
-.world b{font-size:13.5px}
-.world .fm{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
-.world .fm span{font-size:11px;background:var(--soft);border-radius:6px;padding:1px 6px}
-button.more{display:block;width:100%;border:0;border-top:1px solid var(--line);background:none;padding:9px;font-size:12.5px;color:var(--accent);font-weight:600;cursor:pointer;border-radius:0 0 var(--radius) var(--radius)}
-button.more:hover{background:var(--soft)}
-.mapsum{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--muted);padding:10px 12px 4px}
-.mapsum b{color:var(--ink)}
-.cats{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px}
-.catc{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px}
-.catc h3{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 6px}
-.catc .it{padding:8px 0;border-top:1px dashed var(--line)}
-.catc .it:first-of-type{border-top:0}
-.catc .it b{font-weight:600;font-size:13.5px}
-.catc .it p{margin:3px 0 5px;font-size:12.5px;color:var(--muted)}
-.three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
-@media (max-width:900px){.three{grid-template-columns:minmax(0,1fr)}}
-.three .panel{padding-bottom:6px}
-.cal{list-style:none;margin:0;padding:0 14px 8px}
-.cal li{display:grid;grid-template-columns:62px 1fr;gap:10px;padding:7px 0;border-top:1px solid var(--line)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+header{padding:28px 0 8px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:8px 20px}
+.brand{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:30px;font-weight:700;letter-spacing:-.02em;margin:4px 0 0;line-height:1.1}
+.updated{font-size:13px;color:var(--muted)}
+.updated b{color:var(--ink);font-weight:600}
+.updated .fresh{color:var(--ok);font-weight:600}
+.cloudc{background:var(--card);border:1px solid var(--line);border-radius:var(--r);margin:16px 0 18px;padding:14px 18px 18px}
+.cloudh{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.cloudh h2{font-size:15px;margin:0;font-weight:600}
+.cloudh span{font-size:13px;color:var(--muted)}
+.cloud{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:4px 18px;padding:12px 4px 2px;min-height:110px}
+.cloud span{line-height:1.25;font-weight:600;letter-spacing:-.01em;cursor:default}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;font-size:12.5px;color:var(--muted);margin-top:10px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+nav.tabs{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0;margin-bottom:18px}
+nav.tabs div{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+nav.tabs button{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:8px 16px;font-size:14.5px;font-weight:600;cursor:pointer;white-space:nowrap;color:var(--ink2)}
+nav.tabs button[aria-selected=true]{background:var(--tc);border-color:var(--tc);color:#fff}
+@media (prefers-color-scheme:dark){nav.tabs button[aria-selected=true]{color:#131313}}
+.msg{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--seg);border-radius:var(--r);padding:20px 24px;margin-bottom:16px}
+.msg .k{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--seg)}
+.msg p{font-size:21px;line-height:1.45;font-weight:600;margin:6px 0 0;letter-spacing:-.01em}
+@media (max-width:640px){.msg p{font-size:18px}}
+.three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:22px}
+@media (max-width:860px){.three{grid-template-columns:1fr}}
+.box{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px}
+.box h3{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin:0 0 10px;color:var(--ink2);display:flex;align-items:center;gap:8px}
+.box h3 .n{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:var(--seg);color:#fff;font-size:12px;letter-spacing:0}
+@media (prefers-color-scheme:dark){.box h3 .n{color:#131313}}
+.box ul{margin:0;padding-left:18px}
+.box li{margin-bottom:8px;color:var(--ink)}
+.gaps{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.gapc{font-size:13px;font-weight:600;background:var(--gap-soft);color:var(--gap);border-radius:8px;padding:3px 9px}
+h2.sec{font-size:19px;font-weight:700;margin:0 0 10px;letter-spacing:-.01em}
+.acts{display:flex;flex-direction:column;gap:10px;margin-bottom:26px}
+.act{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px 18px;display:grid;grid-template-columns:104px 1fr;gap:4px 16px}
+@media (max-width:640px){.act{grid-template-columns:1fr}}
+.when{font-size:13px;font-weight:700;border-radius:8px;padding:4px 0;text-align:center;align-self:start}
+.when.Now{background:var(--seg);color:#fff}.when.Next{background:var(--seg-soft);color:var(--seg)}.when.Later{background:var(--soft);color:var(--muted)}
+@media (prefers-color-scheme:dark){.when.Now{color:#131313}}
+@media (max-width:640px){.when{justify-self:start;padding:3px 10px}}
+.act h4{margin:0;font-size:17px;line-height:1.35}
+.act p{margin:2px 0 6px;color:var(--ink2);font-size:15px}
+.act .meta{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px}
+.act .meta b{color:var(--ink2);font-weight:600}
+.pchips{display:flex;flex-wrap:wrap;gap:5px;margin:4px 0 6px}
+.pc{font-size:12.5px;border:1px solid var(--line);border-radius:6px;padding:1px 7px;background:var(--soft);color:var(--ink2)}
+.tlist{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;margin-bottom:26px}
+.trow{width:100%;text-align:left;border:0;background:none;border-top:1px solid var(--line);padding:12px 18px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 14px;cursor:pointer;align-items:center}
+.trow:first-child{border-top:0}
+.trow:hover,.trow[aria-expanded=true]{background:var(--soft)}
+.trow .t{font-weight:600;font-size:15.5px}
+.trow .s{font-size:13.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:640px){.trow{grid-template-columns:1fr}.pills{justify-content:flex-start}}
+.pills{display:flex;gap:6px;justify-content:flex-end;flex-wrap:wrap}
+.pill{font-size:12px;font-weight:600;border-radius:999px;padding:2px 9px;white-space:nowrap}
+.st{background:var(--soft);color:var(--ink2)}
+.cv-Covered{background:var(--ok-soft);color:var(--ok)}.cv-Partial{background:var(--part-soft);color:var(--part)}.cv-White{background:var(--gap-soft);color:var(--gap)}.cv-Watch{background:var(--soft);color:var(--muted)}.cv-Context{display:none}
+.det{padding:4px 18px 16px;background:var(--soft);font-size:15px}
+.det p{margin:0 0 10px;color:var(--ink2)}
+.det .do{background:var(--card);border-left:4px solid var(--seg);border-radius:8px;padding:9px 12px;margin-bottom:10px}
+.det .do b{font-weight:700}
+.det .src{font-size:13px;color:var(--muted)}
+.det .src a{color:var(--ink2)}
+.more{display:block;width:100%;border:0;border-top:1px solid var(--line);background:none;padding:11px;font-size:14px;font-weight:600;color:var(--seg);cursor:pointer}
+.segs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:12px;margin-bottom:26px}
+.segc{background:var(--card);border:1px solid var(--line);border-top:5px solid var(--sc);border-radius:var(--r);padding:14px 18px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:8px}
+.segc:hover{border-color:var(--sc)}
+.segc h3{margin:0;font-size:16px;color:var(--sc)}
+.segc p{margin:0;font-size:15px;color:var(--ink)}
+.segc .go{font-size:13px;font-weight:600;color:var(--sc);margin-top:auto}
+.cal{background:var(--card);border:1px solid var(--line);border-radius:var(--r);margin-bottom:26px}
+.cal ul{margin:0;padding:0}
+.cal li{list-style:none;display:grid;grid-template-columns:100px 1fr;gap:12px;padding:11px 18px;border-top:1px solid var(--line)}
 .cal li:first-child{border-top:0}
-.cal .d{font-family:var(--serif);font-size:15px;line-height:1.15}
-.cal .d small{display:block;font-family:var(--sans);font-size:11px;color:var(--muted)}
-.cal li.past{opacity:.45}
-.cal li.next .d{color:var(--accent)}
-.cal b{font-size:13px}
-.cal p{margin:2px 0 0;font-size:12px;color:var(--muted)}
-.cmp{list-style:none;margin:0;padding:0 14px 8px}
-.cmp li{padding:7px 0;border-top:1px solid var(--line);font-size:12.5px}
-.cmp li:first-child{border-top:0}
-.cmp b{font-size:13px}
-.cmp .r{color:var(--accent);margin-top:3px}
-.rk{list-style:none;margin:0;padding:0 14px 6px}
-.rk li{padding:6px 0;border-top:1px solid var(--line);font-size:12.5px}
-.rk li:first-child{border-top:0}
-.rk b{font-size:13px}
-.wl{margin:0;padding:4px 14px 10px 30px;font-size:12.5px}
-.wl li{margin-bottom:4px}
-.srct{width:100%;border-collapse:collapse;font-size:12.5px}
-.srct th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:500;padding:8px 12px;border-bottom:1px solid var(--line)}
-.srct td{padding:7px 12px;border-bottom:1px solid var(--line);vertical-align:top}
-.covnote{font-size:12px;color:var(--muted);padding:10px 12px}
-.oc .bo{font-size:12.5px;background:var(--soft);border-radius:8px;padding:6px 8px}
-.oc .bo b{font-weight:600}
+.cal .d{font-weight:700}
+.cal .d small{display:block;font-weight:500;color:var(--muted);font-size:12.5px}
+.cal li.next .d{color:var(--ok)}
+.cal p{margin:0;color:var(--ink2);font-size:14.5px}
+.cal b{font-size:15px}
+.worlds{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,200px),1fr));gap:8px;margin-bottom:26px}
+.world{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.world b{font-size:15px}
+.world div{font-size:13px;color:var(--muted);margin-top:2px}
+.cmp{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:10px;margin-bottom:26px}
+.cmpc{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;font-size:14.5px}
+.cmpc b{font-size:16px}
+.cmpc .r{margin-top:8px;font-weight:600;color:var(--seg)}
+details.foot{background:var(--card);border:1px solid var(--line);border-radius:var(--r);margin-bottom:12px}
+details.foot summary{cursor:pointer;padding:12px 18px;font-weight:600;font-size:14.5px}
+details.foot .in{padding:0 18px 14px;font-size:14px;color:var(--ink2)}
+details.foot table{width:100%;border-collapse:collapse;font-size:13.5px}
+details.foot td,details.foot th{text-align:left;padding:6px 8px;border-top:1px solid var(--line);vertical-align:top}
+details.foot th{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;border-top:0}
+.err{background:var(--gap-soft);color:var(--gap);border-radius:var(--r);padding:12px 16px;margin:12px 0}
+footer{color:var(--muted);font-size:12.5px;padding:10px 0 36px}
+@media (prefers-reduced-motion:no-preference){section.view{animation:in .25s ease-out}}
+@keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <div>
-      <div class="brand">SAFF &amp; Co. · Product Development</div>
-      <h1>Trend Radar</h1>
-    </div>
+    <div><div class="brand">SAFF &amp; Co. · Product Development</div><h1>Trend Radar</h1></div>
     <div class="updated" id="updated">Loading…</div>
   </header>
-
-  <nav class="jump" aria-label="Sections"><div>
-    <a href="#brief">Today's brief</a><a href="#actions">What SAFF can do</a><a href="#map">Portfolio map</a><a href="#bycat">By category</a><a href="#calendar">Calendar &amp; competitors</a><a href="#trends">All trends</a><a href="#opps-sec">Opportunities</a><a href="#sources">Sources</a>
-  </div></nav>
   <div id="error" class="err" hidden></div>
 
-  <section class="blk" id="brief">
-    <div class="bh"><h2>Today's brief for SAFF &amp; Co.</h2><span id="bdate"></span></div>
-    <div class="oneline" id="oneline"><span class="lbl">In one line</span><span id="oneline-t">&nbsp;</span></div>
-    <div class="stats" id="stats"></div>
-    <div class="tk" id="takeaways"></div>
+  <section class="cloudc" aria-label="Word cloud">
+    <div class="cloudh"><h2 id="cloud-title">What everyone is talking about</h2><span>bigger = more sources and more recent mentions</span></div>
+    <div class="cloud" id="cloud"></div>
+    <div class="legend" id="legend"></div>
   </section>
 
-  <section class="blk" id="actions">
-    <div class="bh"><h2>What SAFF can do</h2><span>suggested actions, grouped by when they can land · for the team to evaluate</span></div>
-    <div class="acts" id="acts"></div>
-  </section>
+  <nav class="tabs" aria-label="Segments"><div id="tabs" role="tablist"></div></nav>
+  <main id="views"></main>
 
-  <section class="blk" id="map">
-    <div class="bh"><h2>Trend × SAFF portfolio</h2><span>which trends SAFF already answers, partly answers, or leaves open</span></div>
-    <div class="panel worldsp"><div class="ph"><h2>SAFF scent worlds you can layer today</h2><span>same scent across formats</span></div><div class="worlds" id="worlds"></div></div>
-    <div class="panel"><div class="mapsum" id="mapsum"></div><div class="mapwrap"><table class="mapt"><thead><tr><th>Trend</th><th>SAFF today</th><th>SAFF products</th><th>Note</th></tr></thead><tbody id="mapb"></tbody></table></div><button type="button" class="more" id="mapmore"></button></div>
-  </section>
-
-  <section class="blk" id="bycat">
-    <div class="bh"><h2>By category</h2><span>what's moving and how it lands on SAFF's line</span></div>
-    <div class="cats" id="cats"></div>
-  </section>
-
-  <section class="blk" id="calendar">
-    <div class="three">
-      <div class="panel"><div class="ph"><h2>Calendar of moments</h2><span>next 5 months</span></div><ul class="cal" id="cal"></ul></div>
-      <div class="panel"><div class="ph"><h2>Competitor moves</h2><span>and a SAFF response</span></div><ul class="cmp" id="cmp"></ul></div>
-      <div class="panel"><div class="ph"><h2>Risks to manage</h2></div><ul class="rk" id="risks"></ul><div class="ph"><h2>Early signals to watch</h2></div><ul class="wl" id="watchl"></ul></div>
-    </div>
-  </section>
-
-
-  <section class="panel cloudp">
-    <div class="ph"><h2>What sources are talking about</h2><span>notes, ingredients &amp; formats · click a word to filter</span></div>
-    <div class="cloud" id="cloud" aria-label="Keyword cloud"></div>
-  </section>
-
-  <div class="bh" id="trends" style="scroll-margin-top:52px"><h2>All trends</h2><span>the full radar behind the brief</span></div>
-  <div class="grid">
-    <main class="panel">
-      <div class="ph"><h2>All trends</h2><span id="count"></span></div>
-      <div class="controls">
-        <div class="stages" id="stages" role="group" aria-label="Filter by stage"></div>
-        <div class="row2">
-          <select id="f-cat" aria-label="Category"><option value="">All categories</option></select>
-          <select id="f-sort" aria-label="Sort">
-            <option value="score">Sort: radar score</option>
-            <option value="new">Sort: newest</option>
-            <option value="mom">Sort: momentum</option>
-            <option value="stage">Sort: stage</option>
-          </select>
-          <input id="f-q" type="search" placeholder="Search trends, notes, brands…" aria-label="Search">
-        </div>
-      </div>
-      <div class="lh"><span>Trend</span><span>SAFF</span><span>Momentum</span><span class="r">Fit</span><span class="r">Score</span></div>
-      <div id="list"></div>
-    </main>
-
-    <aside class="aside">
-      <section class="panel watchp">
-        <div class="ph"><h2>Top 5 to watch</h2><span>not yet mainstream</span></div>
-        <ol class="watch" id="watch"></ol>
-      </section>
-      <section class="panel">
-        <div class="ph"><h2>Fading</h2><span>moving away from</span></div>
-        <ul class="fade" id="fade"></ul>
-      </section>
-      <section class="panel">
-        <div class="ph"><h2>Shopee perfume share</h2><span>Compas</span></div>
-        <div class="mk" id="market"></div>
-      </section>
-    </aside>
-  </div>
-
-  <section class="opps" id="opps-sec" hidden>
-    <div class="sh"><h2>Product opportunities</h2><span id="ocount"></span></div>
-    <div class="ogrid" id="opps"></div>
-  </section>
-
-  <section class="blk" id="sources">
-    <div class="bh"><h2>Sources &amp; confidence</h2><span>for today's brief</span></div>
-    <div class="panel"><div class="mapwrap"><table class="srct"><thead><tr><th>Item</th><th>Source</th><th>Confidence</th></tr></thead><tbody id="srcb"></tbody></table></div><div class="covnote" id="covnote"></div></div>
-  </section>
-
-  <details class="how panel">
-    <summary>How to read this page</summary>
-    <div class="howg">
-      <div><h3>Stages</h3><ul>
-        <li><b>Upstream</b>: suppliers, fragrance houses, niche fairs, food &amp; drink trends.</li>
-        <li><b>Lead market</b>: popular in Korea, Japan, China, Middle East, US or Europe.</li>
-        <li><b>Local early adopters</b>: starting to be discussed in Indonesia.</li>
-        <li><b>Mainstream</b>: visible in Indonesian sales data or large surveys.</li>
-        <li><b>Fading</b>: being left behind.</li></ul></div>
-      <div><h3>Numbers</h3><ul>
-        <li><b>Momentum</b>: mentions in the last 4 months. Rising = 2+, Active = 1, Quiet = 0. The bars show the last 12 months.</li>
-        <li><b>Fit</b> (1–3 dots): Claude's initial judgement of fit with Indonesia (climate, scent preference, price, culture). Team should review.</li>
-        <li><b>Score</b> = fit × 2 + sources (max 4) + recent mentions (max 3).</li>
-        <li><b>Product opportunities</b> and the "what to create" line in each trend's detail are Claude's suggestions from the evidence, a starting point for the team, not validated concepts. Act now = early but high fit; Test next = promising, needs consumer testing; Watch = monitor first.</li>
-        <li><b>SAFF today</b>: Covered = an existing SAFF product answers the trend; Partial = adjacent notes or format, but not the full trend; White space = nothing in SAFF's public line; Watch = a SAFF product that could be exposed; Context = market or channel signal.</li>
-        <li><b>Word cloud</b>: keywords from the trends in view, sized by sources + recent mentions, coloured by the stage of the trend that uses them most.</li></ul></div>
-      <div><h3>Sources &amp; limits</h3><ul>
-        <li>Updated three times a day (around 07:00, 12:00 and 17:00 WIB) by Claude from supplier releases, niche fairs, lead-market beauty media, Jakarta F&amp;B trends, e-commerce data and consumer research.</li>
-        <li>TikTok, Instagram and Shopee are not read directly; signals come from published coverage. Google Trends is not covered yet.</li>
-        <li>Early signals don't always become big: use this to decide what to test, then validate.</li></ul></div>
-    </div>
-  </details>
-  <footer>Uses only public information (published articles, retail listings and review sites). Compiled and updated automatically by Claude for the SAFF &amp; Co. Product Development team. Summaries are paraphrased; open the sources for details.</footer>
+  <details class="foot"><summary>Sources &amp; how to read this page</summary><div class="in" id="foot"></div></details>
+  <footer>Uses only public information (published articles, retail listings, review sites) and SAFF's public product names and notes. Compiled and updated automatically by Claude; suggestions are for the team to evaluate.</footer>
 </div>
 
 <script>
 (() => {
-  const STAGES = [
-    {k: "Upstream", c: "var(--s-up)"},
-    {k: "Lead market", c: "var(--s-lead)"},
-    {k: "Local early adopters", c: "var(--s-early)"},
-    {k: "Mainstream", c: "var(--s-main)"},
-    {k: "Fading", c: "var(--s-fade)"}
+  const SEGS = [
+    {k: "Overview", c: "var(--c-ov)"},
+    {k: "Fragrance", c: "var(--c-fr)"},
+    {k: "Body & personal care", c: "var(--c-bo)"},
+    {k: "Home fragrance", c: "var(--c-ho)"},
+    {k: "Packaging & format", c: "var(--c-pa)"},
+    {k: "Market & consumer", c: "var(--c-ma)"}
   ];
-  const stageColor = Object.fromEntries(STAGES.map(s => [s.k, s.c]));
-  const stageOrder = Object.fromEntries(STAGES.map((s, i) => [s.k, i]));
-  const momRank = {Rising: 3, Active: 2, Quiet: 1};
-  const EARLY = ["Upstream", "Lead market", "Local early adopters"];
-  const DAY = 864e5, RECENT_DAYS = 120;
+  const segColor = Object.fromEntries(SEGS.map(s => [s.k, s.c]));
+  const slug = k => k.toLowerCase().replace(/[^a-z]+/g, "-").replace(/^-|-$/g, "");
+  const STAGE_ORDER = {"Upstream": 0, "Lead market": 1, "Local early adopters": 2, "Mainstream": 3, "Fading": 4};
+  const STAGE_LABEL = {"Upstream": "Upstream", "Lead market": "Lead market", "Local early adopters": "Early in Indonesia", "Mainstream": "Mainstream", "Fading": "Fading"};
+  const DAY = 864e5;
   const $ = s => document.querySelector(s);
   const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
-  const fmtDate = s => { const d = new Date(String(s).slice(0, 10) + "T00:00:00"); return isNaN(d) ? String(s) : d.toLocaleDateString("en-GB", {day: "numeric", month: "short", year: "numeric"}); };
   const safeUrl = u => /^https:\/\//.test(String(u || "")) ? String(u) : null;
+  const link = (text, url) => { const u = safeUrl(url); return u ? Object.assign(el("a", null, text), {href: u, target: "_blank", rel: "noopener noreferrer"}) : document.createTextNode(text); };
+  const fmtTime = s => { const d = new Date(s); return isNaN(d) ? "" : d.toLocaleString("en-GB", {day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Jakarta"}) + " WIB"; };
   const today = new Date(); today.setHours(0, 0, 0, 0);
-  let T = [], M = [], MS = [], OPP = [], PF = [], showCovered = false, B = null, firstFound = "", oTiming = "";
-  const st = {stage: "early", cat: "", q: "", sort: "score", open: null};
+  let T = [], M = [], B = null, PF = [], cur = "Overview", open = null, showAll = {};
 
   async function load(name) {
     const r = await fetch("data/" + name + "?v=" + Date.now(), {cache: "no-store"});
     if (!r.ok) throw new Error(name + " (" + r.status + ")");
     return r.json();
   }
-
   function enrich() {
     const by = {};
-    M.forEach(m => { (by[m.trend_id] = by[m.trend_id] || []).push(m); });
-    const months = [];
-    for (let i = 11; i >= 0; i--) months.push(new Date(today.getFullYear(), today.getMonth() - i, 1));
+    M.forEach(m => (by[m.trend_id] = by[m.trend_id] || []).push(m));
     T.forEach(t => {
       const ms = (by[t.id] || []).slice().sort((a, b) => a.date < b.date ? 1 : -1);
       t._m = ms;
       t.nsrc = new Set(ms.map(m => m.source_name)).size || 1;
-      t.recent = ms.filter(m => (today - new Date(m.date + "T00:00:00")) / DAY <= RECENT_DAYS).length;
-      t.momentum = t.recent >= 2 ? "Rising" : t.recent === 1 ? "Active" : "Quiet";
-      t.spark = months.map(m0 => ms.filter(m => { const d = new Date(m.date + "T00:00:00"); return d.getFullYear() === m0.getFullYear() && d.getMonth() === m0.getMonth(); }).length);
+      t.recent = ms.filter(m => (today - new Date(m.date + "T00:00:00")) / DAY <= 120).length;
       t.score = (Number(t.local_fit) || 1) * 2 + Math.min(t.nsrc, 4) + Math.min(t.recent, 3);
+      if (!t.segment) t.segment = "Market & consumer";
     });
   }
-
-  function spark(values, w = 48, h = 16) {
-    const ns = "http://www.w3.org/2000/svg", s = document.createElementNS(ns, "svg");
-    s.setAttribute("width", w); s.setAttribute("height", h); s.setAttribute("viewBox", `0 0 ${w} ${h}`); s.setAttribute("aria-hidden", "true");
-    const max = Math.max(1, ...values), bw = w / values.length;
-    values.forEach((v, i) => {
-      const r = document.createElementNS(ns, "rect"), bh = v ? Math.max(3, v / max * h) : 1;
-      r.setAttribute("x", i * bw + .5); r.setAttribute("y", h - bh); r.setAttribute("width", Math.max(1, bw - 1)); r.setAttribute("height", bh); r.setAttribute("rx", 1);
-      r.setAttribute("fill", v ? "var(--accent)" : "var(--line)"); s.appendChild(r);
-    });
-    return s;
-  }
-  const isNew = t => String(t.found) !== firstFound && (today - new Date(t.found + "T00:00:00")) / DAY <= 7;
-  const rank = (a, b) => b.score - a.score || b.recent - a.recent || stageOrder[a.stage] - stageOrder[b.stage];
-  const dot = stage => { const d = el("span", "dot"); d.style.background = stageColor[stage] || "var(--faint)"; d.title = stage; return d; };
-  const COV = {"White space": "ws", "Partial": "pa", "Covered": "co", "Watch": "wa", "Context": "cx"};
-  const covEl = t => { const c = (t.saff && t.saff.status) || "Context"; const e = el("span", "cov " + (COV[c] || "cx"), c); e.title = (t.saff && t.saff.note) || ""; return e; };
   const chips = list => { const w = el("div", "pchips"); (list || []).forEach(p => w.append(el("span", "pc", p))); return w; };
-  const fitEl = n => { const f = el("span", "fit"); f.title = "Indonesia fit " + n + "/3"; f.append("●".repeat(n), Object.assign(el("i"), {textContent: "●".repeat(3 - n)})); return f; };
-
-  function summaryLine() {
-    const ws = T.filter(t => t.saff && t.saff.status === "White space").length;
-    const nowActs = B ? B.actions.filter(a => a.horizon === "Now").length : 0;
-    let nextM = null;
-    if (B) nextM = B.moments.filter(m => new Date((m.end || m.date) + "T23:59:59") >= today).sort((a, b) => a.date.localeCompare(b.date))[0];
-    const days = nextM ? Math.max(0, Math.round((new Date(nextM.date + "T00:00:00") - today) / DAY)) : null;
-    const stats = [
-      [T.length, "trends tracked"],
-      [T.filter(t => t.stage === "Upstream" || t.stage === "Lead market").length, "not in Indonesia yet"],
-      [ws, "SAFF white spaces"],
-      [nowActs, "actions for this month"],
-      [days === null ? "—" : (days === 0 ? "Today" : days + " days"), nextM ? "to " + nextM.label.split(" (")[0] : "next moment"]
-    ];
-    const s = $("#stats"); s.textContent = ""; s.style.gridTemplateColumns = "repeat(auto-fit,minmax(140px,1fr))";
-    stats.forEach(([v, l]) => { const d = el("div", "stat"); d.append(el("div", "v", typeof v === "number" ? v.toLocaleString("en-US") : v), el("div", "l", l)); s.append(d); });
-  }
-
-  const tLink = (id, byId) => { const t = byId[id]; if (!t) return null; const b = el("button", null, t.trend); b.type = "button"; b.onclick = () => jumpTo(t); return b; };
-  function renderBrief() {
-    if (!B) return;
-    const byId = Object.fromEntries(T.map(t => [t.id, t]));
-    $("#bdate").textContent = fmtDate(B.date) + " · public sources only";
-    $("#oneline-t").textContent = B.one_line;
-    const tk = $("#takeaways"); tk.textContent = "";
-    B.takeaways.forEach((x, i) => {
-      const c = el("article", "tkc");
-      const sw = el("div", "sw"); sw.append(el("b", null, "For SAFF: "), x.so_what);
-      c.append(el("div", "no", i + 1), el("h3", null, x.title), el("p", null, x.text), sw, chips(x.products));
-      tk.append(c);
-    });
-    const H = [["Now", "this month", "content, bundles, copy"], ["Next", "1–6 months", "sets, packs, briefs"], ["Later", "6–18 months", "new products, research"]];
-    const ac = $("#acts"); ac.textContent = "";
-    H.forEach(([h, when, hint]) => {
-      const col = el("div", "acol"); const hh = el("h3"); hh.append(h, el("span", null, when)); col.append(hh, el("p", "hint", hint));
-      B.actions.filter(a => a.horizon === h).forEach(a => {
-        const c = el("div", "ac");
-        const tags = el("div", "tags"); tags.append(el("span", "tg type", a.type), el("span", "tg", "Effort " + a.effort), el("span", "tg", a.team));
-        const k = el("div", "kpi"); k.append(el("b", null, "Measure: "), a.metric);
-        c.append(el("h4", null, a.action), el("p", null, a.detail), tags);
-        if (a.products && a.products.length) c.append(chips(a.products));
-        c.append(k);
-        const links = (a.trend_ids || []).map(id => tLink(id, byId)).filter(Boolean);
-        if (links.length) { const lk = el("div", "lk"); lk.append("Trends: "); links.forEach((b, i) => lk.append(b, i < links.length - 1 ? ", " : "")); c.append(lk); }
-        col.append(c);
-      });
-      ac.append(col);
-    });
-    const cats = $("#cats"); cats.textContent = "";
-    B.categories.forEach(cg => {
-      const c = el("div", "catc"); c.append(el("h3", null, cg.name));
-      cg.items.forEach(it => { const d = el("div", "it"); d.append(el("b", null, it.title), el("p", null, it.text)); if (it.products && it.products.length) d.append(chips(it.products)); c.append(d); });
-      cats.append(c);
-    });
-    const cal = $("#cal"); cal.textContent = "";
-    let flagged = false;
-    B.moments.slice().sort((a, b) => a.date.localeCompare(b.date)).forEach(m => {
-      const d0 = new Date(m.date + "T00:00:00"), past = new Date((m.end || m.date) + "T23:59:59") < today;
-      const li = el("li", past ? "past" : (!flagged ? (flagged = true, "next") : ""));
-      const d = el("div", "d", d0.toLocaleDateString("en-GB", {day: "numeric", month: "short"})); d.append(el("small", null, d0.getFullYear()));
-      const mid = el("div"); mid.append(el("b", null, m.label), el("p", null, m.relevance)); li.append(d, mid); cal.append(li);
-    });
-    const cmp = $("#cmp"); cmp.textContent = "";
-    B.competitors.forEach(c => { const li = el("li"); const u = safeUrl(c.url); const n = u ? Object.assign(el("a", null, c.brand), {href: u, target: "_blank", rel: "noopener noreferrer"}) : el("span", null, c.brand); const b = el("b"); b.append(n); li.append(b, el("div", null, c.move), el("div", "r", "→ " + c.response)); cmp.append(li); });
-    const rk = $("#risks"); rk.textContent = "";
-    B.risks.forEach(r => { const li = el("li"); li.append(el("b", null, r.title), el("div", null, r.text)); rk.append(li); });
-    const wl = $("#watchl"); wl.textContent = ""; B.watch.forEach(w => wl.append(el("li", null, w)));
-    const sb = $("#srcb"); sb.textContent = "";
-    B.sources.forEach(x => { const tr = el("tr"); const u = safeUrl(x.url); const td = el("td"); td.append(u ? Object.assign(el("a", null, x.source), {href: u, target: "_blank", rel: "noopener noreferrer"}) : x.source); tr.append(el("td", null, x.item), td, el("td", null, x.confidence)); sb.append(tr); });
-    $("#covnote").textContent = "Coverage: " + B.coverage;
-  }
-
-  function renderMap() {
-    const order = {"White space": 0, "Partial": 1, "Watch": 2, "Covered": 3};
-    const all = T.filter(t => t.saff && t.saff.status !== "Context").sort((a, b) => (order[a.saff.status] - order[b.saff.status]) || ((b.local_fit || 1) - (a.local_fit || 1)) || b.score - a.score);
-    const rows = showCovered ? all : all.filter(t => t.saff.status !== "Covered");
-    const cnt = k => T.filter(t => t.saff && t.saff.status === k).length;
-    const sum = $("#mapsum"); sum.textContent = "";
-    ["White space", "Partial", "Watch", "Covered"].forEach(k => { const s = el("span"); s.append(el("span", "cov " + COV[k], k), " ", el("b", null, cnt(k))); sum.append(s); });
-    const tb = $("#mapb"); tb.textContent = "";
-    rows.forEach(t => {
-      const tr = el("tr"), tn = el("td", "tn"), b = el("button"); b.type = "button"; b.append(dot(t.stage), " ", t.trend); b.onclick = () => jumpTo(t); tn.append(b);
-      const c2 = el("td"); c2.append(covEl(t));
-      const c3 = el("td"); c3.append(t.saff.products.length ? chips(t.saff.products) : el("span", "cat", "—"));
-      tr.append(tn, c2, c3, el("td", "nt", t.saff.note)); tb.append(tr);
-    });
-    const mb = $("#mapmore"); mb.textContent = showCovered ? "Hide covered trends" : "Show " + cnt("Covered") + " trends SAFF already covers";
-    mb.onclick = () => { showCovered = !showCovered; renderMap(); };
-    const wb = $("#worlds"); wb.textContent = "";
-    const lineOf = Object.fromEntries(PF.map(p => [p.name, p.line]));
-    ((B && B.scent_worlds) || []).forEach(w => {
-      const c = el("div", "world"); c.append(el("b", null, w.name));
-      const fm = el("div", "fm"); w.items.forEach(n => { const sp = el("span", null, (lineOf[n] || "").replace("Body care · ", "") || n); sp.title = n; fm.append(sp); });
-      c.append(fm); wb.append(c);
-    });
-  }
-
-
-  function renderStages() {
-    const box = $("#stages"); box.textContent = "";
-    const opts = [{k: "early", label: "Not mainstream yet", n: T.filter(t => EARLY.includes(t.stage)).length},
-                  {k: "", label: "All", n: T.length},
-                  ...STAGES.map(s => ({k: s.k, label: s.k, n: T.filter(t => t.stage === s.k).length, c: s.c}))];
-    opts.forEach(o => {
-      const b = el("button"); b.type = "button"; b.setAttribute("aria-pressed", String(st.stage === o.k));
-      if (o.c) b.append(dot(o.k));
-      b.append(o.label, " ", el("b", null, o.n));
-      b.onclick = () => { st.stage = o.k; st.open = null; renderStages(); renderList(); };
-      box.append(b);
-    });
-  }
-
-  function filtered() {
-    const q = st.q.trim().toLowerCase();
-    const rows = T.filter(t =>
-      (st.stage === "" || (st.stage === "early" ? EARLY.includes(t.stage) : t.stage === st.stage)) &&
-      (!st.cat || t.category === st.cat) &&
-      (!q || [t.trend, t.summary, t.angle, t.source_name, t.category, (t.keywords || []).join(" ")].join(" ").toLowerCase().includes(q)));
-    const cmp = {
-      score: rank,
-      new: (a, b) => String(b.found).localeCompare(String(a.found)) || b.score - a.score,
-      mom: (a, b) => (momRank[b.momentum] - momRank[a.momentum]) || b.recent - a.recent || b.score - a.score,
-      stage: (a, b) => stageOrder[a.stage] - stageOrder[b.stage] || b.score - a.score
-    }[st.sort];
-    return rows.sort(cmp);
-  }
-
-  function detail(t) {
-    const d = el("div", "det");
-    d.append(el("p", null, t.summary));
-    if (t.idea || t.angle) { const o = el("div", "opp"); o.append(el("b", null, "What to create: "), t.idea || t.angle); if (t.idea && t.angle) o.append(el("div", "why", "Why: " + t.angle)); d.append(o); }
-    if (t.saff && t.saff.status !== "Context") { const sf = el("div", "opp"); sf.append(el("b", null, "SAFF today: "), covEl(t), " " + t.saff.note); if (t.saff.products.length) { sf.append(" "); sf.append(chips(t.saff.products)); } d.append(sf); }
-    const meta = el("div", "meta");
-    const item = (k, v, cls) => { const s = el("span"); s.append(k + " ", Object.assign(el("b", cls), {textContent: v})); meta.append(s); };
-    item("Stage", t.stage); item("Strength", t.strength, "str-" + t.strength); item("Fit", (t.local_fit || 1) + "/3");
-    item("Mentions (4 mo)", String(t.recent)); item("Added", fmtDate(t.found));
-    d.append(meta);
-    const ul = el("ul");
-    (t._m.length ? t._m : [{source_name: t.source_name, url: t.url, date: t.found}]).forEach(m => {
-      const li = el("li"), u = safeUrl(m.url);
-      li.append(u ? Object.assign(el("a", null, m.source_name), {href: u, target: "_blank", rel: "noopener noreferrer"}) : el("span", null, m.source_name),
-                el("span", null, (m.date_approx ? "± " : "") + fmtDate(m.date)));
-      ul.append(li);
-    });
-    d.append(ul);
-    return d;
-  }
+  const covPill = t => { const c = (t.saff && t.saff.status) || "Context"; return el("span", "pill cv-" + c.split(" ")[0], c === "White space" ? "Gap for SAFF" : c === "Covered" ? "SAFF has it" : c === "Partial" ? "SAFF partly" : c); };
 
   function renderCloud() {
     const box = $("#cloud"); box.textContent = "";
-    const base = T.filter(t => (st.stage === "" || (st.stage === "early" ? EARLY.includes(t.stage) : t.stage === st.stage)) && (!st.cat || t.category === st.cat));
+    const base = cur === "Overview" ? T : T.filter(t => t.segment === cur);
+    $("#cloud-title").textContent = cur === "Overview" ? "What everyone is talking about" : "What's talked about in " + cur;
     const words = {};
     base.forEach(t => (t.keywords || []).forEach(k => {
       const key = k.toLowerCase(), w = t.nsrc + t.recent;
-      const o = words[key] = words[key] || {k, w: 0, best: null, bw: -1};
-      o.w += w; if (w > o.bw) { o.bw = w; o.best = t; }
+      const o = words[key] = words[key] || {k, w: 0, seg: {}, fading: true};
+      o.w += w; o.seg[t.segment] = (o.seg[t.segment] || 0) + w; if (t.stage !== "Fading") o.fading = false;
     }));
-    const list = Object.values(words).sort((a, b) => b.w - a.w).slice(0, 40);
-    if (!list.length) { box.append(el("div", "empty", "No keywords for these filters.")); return; }
+    const list = Object.values(words).sort((a, b) => b.w - a.w).slice(0, (cur === "Overview" ? 36 : 24) - (window.innerWidth < 640 ? 14 : 0));
+    if (!list.length) { box.append(el("span", null, "No keywords yet.")); return; }
     const max = list[0].w, min = list[list.length - 1].w;
     const hash = s => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
-    const q = st.q.trim().toLowerCase();
-    box.classList.toggle("has-on", list.some(o => o.k.toLowerCase() === q));
     list.sort((a, b) => hash(a.k) - hash(b.k)).forEach(o => {
-      const b = el("button", null, o.k); b.type = "button";
-      const size = 13 + (max === min ? 0.5 : (o.w - min) / (max - min)) * 25;
-      b.style.fontSize = size.toFixed(1) + "px";
-      b.style.fontWeight = size > 26 ? "500" : "400";
-      b.style.color = o.best.stage === "Fading" ? "var(--faint)" : (stageColor[o.best.stage] || "var(--ink)");
-      if (o.best.stage === "Fading") b.classList.add("faded");
-      b.title = o.k + " · " + o.w + " (sources + recent mentions) · strongest in: " + o.best.trend;
-      if (o.k.toLowerCase() === q) b.classList.add("on");
-      b.onclick = () => {
-        const on = o.k.toLowerCase() === q;
-        st.q = on ? "" : o.k; $("#f-q").value = st.q; st.open = null; renderList();
-        if (!on) $("#list").scrollIntoView({behavior: "smooth", block: "start"});
-      };
-      box.append(b);
+      const s = el("span", null, o.k);
+      const size = 14 + (max === min ? .5 : (o.w - min) / (max - min)) * 26;
+      const seg = Object.entries(o.seg).sort((a, b) => b[1] - a[1])[0][0];
+      s.style.fontSize = size.toFixed(1) + "px";
+      s.style.color = o.fading ? "var(--muted)" : segColor[seg];
+      if (o.fading) s.style.textDecoration = "line-through";
+      s.title = o.k + " · " + seg;
+      box.append(s);
     });
+    const lg = $("#legend"); lg.textContent = "";
+    if (cur === "Overview") SEGS.slice(1).forEach(s => { const x = el("span"); const i = el("i"); i.style.background = s.c; x.append(i, s.k); lg.append(x); });
   }
 
-  function renderList() {
-    renderCloud();
-    const rows = filtered(), box = $("#list"); box.textContent = "";
-    $("#count").textContent = rows.length + " of " + T.length;
-    if (!rows.length) { box.append(el("div", "empty", "No trends match these filters.")); return; }
-    rows.forEach(t => {
-      const b = el("button", "tr"); b.type = "button"; b.setAttribute("aria-expanded", String(st.open === t.id));
-      const left = el("div");
-      const tt = el("div", "tt"); tt.append(dot(t.stage), el("span", "n", t.trend));
-      if (isNew(t)) tt.append(el("span", "new", "NEW"));
-      left.append(tt, el("div", "ts", t.summary));
-      const mo = el("div", "mo"); mo.append(spark(t.spark), el("span", "lbl" + (t.momentum === "Rising" ? " up" : ""), t.momentum));
-      const cc = el("div", "cat"); cc.append(covEl(t)); b.append(left, cc, mo, fitEl(Number(t.local_fit) || 1), el("div", "sc r", t.score));
-      b.onclick = () => { st.open = st.open === t.id ? null : t.id; renderList(); };
-      box.append(b);
-      if (st.open === t.id) box.append(detail(t));
+  function renderTabs() {
+    const tb = $("#tabs"); tb.textContent = "";
+    SEGS.forEach(s => {
+      const b = el("button", null, s.k); b.type = "button"; b.setAttribute("role", "tab"); b.setAttribute("aria-selected", String(cur === s.k));
+      b.style.setProperty("--tc", s.c); b.onclick = () => go(s.k); tb.append(b);
     });
   }
+  function go(k) {
+    cur = k; open = null; history.replaceState(null, "", "#" + slug(k));
+    renderTabs(); renderCloud(); renderView();
+    const nav = document.querySelector("nav.tabs"); if (nav.getBoundingClientRect().top < 0) nav.scrollIntoView({behavior: "smooth"});
+  }
 
-  function renderOpps() {
-    const sec = $("#opps-sec"); sec.hidden = !OPP.length; if (!OPP.length) return;
-    const byId = Object.fromEntries(T.map(t => [t.id, t]));
-    const order = {"Act now": 0, "Test next": 1, "Watch": 2};
-    $("#ocount").textContent = OPP.length + " product concepts built on SAFF's line and the trends above · a starting point for the team to evaluate";
-    const box = $("#opps"); box.textContent = "";
-    OPP.filter(o => !oTiming || o.timing === oTiming).sort((a, b) => (order[a.timing] ?? 3) - (order[b.timing] ?? 3)).forEach(o => {
-      const c = el("article", "oc");
-      const top = el("div", "top"); top.append(el("h3", null, o.name), el("span", "tm " + ({"Act now": "now", "Test next": "test"}[o.timing] || "watch"), o.timing));
-      c.append(top, el("div", "sub", [o.format, o.price].filter(Boolean).join(" · ")));
-      const dl = el("dl");
-      const row = (k, v) => { if (!v) return; dl.append(el("dt", null, k)); const dd = el("dd"); if (v instanceof Node) dd.append(v); else dd.textContent = v; dl.append(dd); };
-      if (o.notes && o.notes.length) { const n = el("div", "notes"); o.notes.forEach(x => n.append(el("span", null, x))); row("Scent", n); }
-      row("Pack", o.packaging); row("For", o.target);
-      c.append(dl, el("p", "why", o.why));
-      if ((o.builds_on && o.builds_on.length) || o.gap) { const bo = el("div", "bo"); bo.append(el("b", null, "Builds on SAFF: "), (o.builds_on && o.builds_on.length) ? o.builds_on.join(", ") : "new territory"); if (o.gap) bo.append(" · " + o.gap); c.append(bo); }
-      const based = el("div", "based"); based.append("Based on: ");
-      (o.trend_ids || []).map(id => byId[id]).filter(Boolean).forEach((t, i, arr) => {
-        const b = el("button", null, t.trend); b.type = "button"; b.onclick = () => jumpTo(t);
-        based.append(b, i < arr.length - 1 ? ", " : "");
+  function actionCard(a) {
+    const c = el("article", "act");
+    c.append(el("div", "when " + a.horizon, a.horizon === "Now" ? "This month" : a.horizon === "Next" ? "1–6 months" : "6–18 months"));
+    const body = el("div");
+    body.append(el("h4", null, a.action), el("p", null, a.detail));
+    if (a.products && a.products.length) body.append(chips(a.products));
+    const m = el("div", "meta");
+    const item = (k, v) => { const s = el("span"); s.append(el("b", null, k + ": "), v); m.append(s); };
+    item("Team", a.team); item("Effort", {S: "small", M: "medium", L: "large"}[a.effort] || a.effort); item("Measure", a.metric);
+    body.append(m); c.append(body);
+    return c;
+  }
+  function trendList(seg) {
+    const rows = T.filter(t => t.segment === seg).sort((a, b) => ((STAGE_ORDER[a.stage] >= 3) - (STAGE_ORDER[b.stage] >= 3)) || b.score - a.score);
+    const wrap = el("div", "tlist");
+    const limit = showAll[seg] ? rows.length : 6;
+    rows.slice(0, limit).forEach(t => {
+      const b = el("button", "trow"); b.type = "button"; b.setAttribute("aria-expanded", String(open === t.id));
+      const l = el("div"); l.append(el("div", "t", t.trend), el("div", "s", t.summary));
+      const p = el("div", "pills"); p.append(el("span", "pill st", STAGE_LABEL[t.stage] || t.stage), covPill(t));
+      b.append(l, p); b.onclick = () => { open = open === t.id ? null : t.id; renderView(); };
+      wrap.append(b);
+      if (open === t.id) {
+        const d = el("div", "det");
+        d.append(el("p", null, t.summary));
+        const doo = el("div", "do"); doo.append(el("b", null, "What SAFF could do: "), t.idea || t.angle || ""); d.append(doo);
+        if (t.saff && t.saff.status !== "Context") { const sf = el("p"); sf.append(el("b", null, "SAFF today: "), t.saff.note); d.append(sf); if (t.saff.products.length) d.append(chips(t.saff.products)); }
+        const src = el("div", "src"); src.append("Sources: ");
+        (t._m.length ? t._m : [{source_name: t.source_name, url: t.url}]).forEach((m, i, arr) => src.append(link(m.source_name, m.url), i < arr.length - 1 ? " · " : ""));
+        d.append(src); wrap.append(d);
+      }
+    });
+    if (rows.length > 6) { const mb = el("button", "more", showAll[seg] ? "Show fewer" : "Show all " + rows.length + " trends"); mb.type = "button"; mb.onclick = () => { showAll[seg] = !showAll[seg]; renderView(); }; wrap.append(mb); }
+    return wrap;
+  }
+
+  function renderView() {
+    const v = $("#views"); v.textContent = "";
+    const sec = el("section", "view"); sec.style.setProperty("--seg", segColor[cur]);
+    sec.style.setProperty("--seg-soft", "color-mix(in srgb, " + segColor[cur] + " 12%, transparent)");
+    const A = Object.fromEntries((B ? B.actions : []).map(a => [a.id, a]));
+    const order = h => ["Now", "Next", "Later"].indexOf(h);
+    if (cur === "Overview") {
+      const msg = el("div", "msg"); msg.append(el("div", "k", "The one thing to know today"), el("p", null, B.one_line)); sec.append(msg);
+      sec.append(el("h2", "sec", "Top 3 things to do"));
+      const acts = el("div", "acts"); (B.overview_action_ids || []).map(id => A[id]).filter(Boolean).forEach(a => acts.append(actionCard(a))); sec.append(acts);
+      sec.append(el("h2", "sec", "By segment"));
+      const segs = el("div", "segs");
+      (B.segments || []).forEach(s => {
+        const c = el("button", "segc"); c.type = "button"; c.style.setProperty("--sc", segColor[s.name]);
+        c.append(el("h3", null, s.name), el("p", null, s.message), el("span", "go", "Open " + s.name + " →"));
+        c.onclick = () => go(s.name); segs.append(c);
       });
-      c.append(based); box.append(c);
-    });
-  }
-
-  function jumpTo(t) {
-    st.stage = ""; st.cat = ""; st.q = ""; $("#f-cat").value = ""; $("#f-q").value = "";
-    st.open = t.id; renderStages(); renderList();
-    const idx = filtered().findIndex(x => x.id === t.id);
-    const btn = $("#list").querySelectorAll(".tr")[idx];
-    if (btn) btn.scrollIntoView({behavior: "smooth", block: "center"});
-  }
-
-  function renderAside() {
-    const w = $("#watch"); w.textContent = "";
-    T.filter(t => EARLY.includes(t.stage)).sort(rank).slice(0, 5).forEach(t => {
-      const li = el("li"); li.tabIndex = 0; li.onclick = () => jumpTo(t); li.onkeydown = e => { if (e.key === "Enter") jumpTo(t); };
-      const mid = el("div"); mid.append(el("div", "n", t.trend), el("div", "a", t.stage + " · " + t.momentum));
-      li.append(mid, el("span", "s", t.score)); w.append(li);
-    });
-    const f = $("#fade"); f.textContent = "";
-    T.filter(t => t.stage === "Fading").forEach(t => {
-      const li = el("li"); li.tabIndex = 0; li.onclick = () => jumpTo(t);
-      li.append(el("div", "n", t.trend), el("div", "a", t.angle || "")); f.append(li);
-    });
-    const mk = $("#market"); mk.textContent = "";
-    const groups = {};
-    MS.forEach(r => { (groups[r.period] = groups[r.period] || {order: Number(r.order), rows: []}).rows.push(r); });
-    const max = Math.max(...MS.map(r => Number(r.share)));
-    Object.entries(groups).sort((a, b) => b[1].order - a[1].order).forEach(([p, g]) => {
-      mk.append(el("h3", null, p));
-      g.rows.sort((a, b) => b.share - a.share).forEach(r => {
-        const saff = /saff/i.test(r.brand), row = el("div", "mkr"), u = safeUrl(r.url);
-        const nm = el("div", "nm" + (saff ? " saff" : ""));
-        if (u) nm.append(Object.assign(el("a", null, r.brand), {href: u, target: "_blank", rel: "noopener noreferrer", title: r.note || ""})); else nm.textContent = r.brand;
-        const tr = el("div"), bar = el("div", "b" + (saff ? " saff" : "")); bar.style.width = (r.share / max * 100) + "%"; tr.append(bar);
-        row.append(nm, tr, el("div", "v", Number(r.share).toFixed(2) + "%")); mk.append(row);
+      sec.append(segs);
+      sec.append(el("h2", "sec", "Coming up"));
+      const cal = el("div", "cal"), ul = el("ul"); let flagged = false;
+      (B.moments || []).filter(m => new Date((m.end || m.date) + "T23:59:59") >= today).sort((a, b) => a.date.localeCompare(b.date)).forEach(m => {
+        const d0 = new Date(m.date + "T00:00:00"), days = Math.round((d0 - today) / DAY);
+        const li = el("li", flagged ? "" : (flagged = true, "next"));
+        const d = el("div", "d", d0.toLocaleDateString("en-GB", {day: "numeric", month: "short"})); d.append(el("small", null, days <= 0 ? "now" : "in " + days + " days"));
+        const mid = el("div"); mid.append(el("b", null, m.label), el("p", null, m.relevance));
+        li.append(d, mid); ul.append(li);
       });
-    });
-    mk.append(el("p", "note", "Only figures named in public articles."));
+      cal.append(ul); sec.append(cal);
+    } else {
+      const S = (B.segments || []).find(s => s.name === cur);
+      if (S) {
+        const msg = el("div", "msg"); msg.append(el("div", "k", cur + " · what you need to know"), el("p", null, S.message)); sec.append(msg);
+        const three = el("div", "three");
+        const box = (n, title, items, extra) => { const b = el("div", "box"); const h = el("h3"); h.append(el("span", "n", n), title); b.append(h); const ul = el("ul"); items.forEach(x => ul.append(el("li", null, x))); b.append(ul); if (extra) b.append(extra); return b; };
+        const gaps = el("div", "gaps"); (S.gaps || []).forEach(g => gaps.append(el("span", "gapc", g)));
+        const acts = (S.action_ids || []).map(id => A[id]).filter(Boolean).sort((a, b) => order(a.horizon) - order(b.horizon));
+        three.append(box(1, "What's happening", S.happening), box(2, "What SAFF already has", S.saff_has, (S.gaps || []).length ? gaps : null), box(3, "What to do", acts.map(a => a.action)));
+        sec.append(three);
+        sec.append(el("h2", "sec", "Actions"));
+        const ab = el("div", "acts"); acts.forEach(a => ab.append(actionCard(a))); sec.append(ab);
+        if (cur === "Body & personal care" && B.scent_worlds) {
+          sec.append(el("h2", "sec", "Scent worlds SAFF can sell as sets today"));
+          const lineOf = Object.fromEntries(PF.map(p => [p.name, p.line.replace("Body care · ", "")]));
+          const w = el("div", "worlds");
+          B.scent_worlds.forEach(x => { const c = el("div", "world"); c.append(el("b", null, x.name), el("div", null, x.items.map(n => lineOf[n] || n).join(" · "))); w.append(c); });
+          sec.append(w);
+        }
+        if (cur === "Market & consumer" && B.competitors) {
+          sec.append(el("h2", "sec", "Competitors and how SAFF answers"));
+          const g = el("div", "cmp");
+          B.competitors.forEach(c => { const x = el("div", "cmpc"); const h = el("b"); h.append(link(c.brand, c.url)); x.append(h, el("div", null, c.move), el("div", "r", "SAFF: " + c.response)); g.append(x); });
+          sec.append(g);
+        }
+      }
+      sec.append(el("h2", "sec", "Trends in " + cur), trendList(cur));
+    }
+    v.append(sec);
   }
 
-  function wire() {
-    [...new Set(T.map(t => t.category))].sort().forEach(c => $("#f-cat").append(Object.assign(el("option", null, c), {value: c})));
-    $("#f-cat").onchange = e => { st.cat = e.target.value; st.open = null; renderList(); };
-    $("#f-sort").onchange = e => { st.sort = e.target.value; renderList(); };
-    $("#f-q").oninput = e => { st.q = e.target.value; st.open = null; if (st.q) { st.stage = ""; renderStages(); } renderList(); };
-  }
-
-  const fmtTime = s => { const d = new Date(s); return isNaN(d) ? "" : d.toLocaleString("en-GB", {day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Jakarta"}) + " WIB"; };
-  let lastStamp = null, wired = false, toastTimer;
-  function setUpdated(meta, fresh) {
-    const u = $("#updated"); u.textContent = "";
-    u.append("Last updated ", el("b", null, meta.updated_at ? fmtTime(meta.updated_at) : "—"), " · updates 3× daily, page refreshes itself");
-    if (fresh) {
-      const t = el("span", "fresh", " · new data loaded"); u.append(t);
-      clearTimeout(toastTimer); toastTimer = setTimeout(() => t.remove(), 8000);
+  function renderFoot() {
+    const f = $("#foot"); f.textContent = "";
+    f.append(el("p", null, "Stages: Upstream = suppliers, niche fairs, food & drink trends · Lead market = popular in Korea, Japan, China, Middle East, US or Europe · Early in Indonesia = starting to be discussed locally · Mainstream = visible in sales data · Fading = being left behind."));
+    f.append(el("p", null, "SAFF has it = an existing SAFF product answers the trend · SAFF partly = adjacent notes or format · Gap for SAFF = nothing in the current line."));
+    if (B.coverage) f.append(el("p", null, "Coverage: " + B.coverage));
+    if (B.sources) {
+      const t = el("table"), h = el("tr"); ["Item", "Source", "Confidence"].forEach(x => h.append(el("th", null, x))); t.append(h);
+      B.sources.forEach(s => { const r = el("tr"), td = el("td"); td.append(link(s.source, s.url)); r.append(el("td", null, s.item), td, el("td", null, s.confidence)); t.append(r); });
+      f.append(t);
     }
   }
+
+  let lastStamp = null, toastTimer, ready = false;
   async function refresh(first) {
     const meta = await load("meta.json").catch(() => ({}));
     if (!first && meta.updated_at && meta.updated_at === lastStamp) return;
-    const [t, m, ms, op, br] = await Promise.all([load("trends.json"), load("mentions.json"), load("market_share.json"), load("opportunities.json").catch(() => []), load("brief.json").catch(() => null), load("portfolio.json").catch(() => [])]).then(r => { PF = Array.isArray(r[5]) ? r[5] : []; return r; });
-    B = br && br.actions ? br : null;
-    OPP = Array.isArray(op) ? op : [];
-    T = t; M = m; MS = ms; firstFound = T.map(x => String(x.found)).sort()[0] || ""; enrich();
-    lastStamp = meta.updated_at || null;
-    setUpdated(meta, !first);
-    if (!wired) { wire(); wired = true; }
-    else {
-      const sel = $("#f-cat"), cur = sel.value; while (sel.options.length > 1) sel.remove(1);
-      [...new Set(T.map(x => x.category))].sort().forEach(c => sel.append(Object.assign(el("option", null, c), {value: c}))); sel.value = cur;
-    }
-    summaryLine(); renderBrief(); renderMap(); renderOpps(); renderStages(); renderList(); renderAside();
+    const [t, m, br, pf] = await Promise.all([load("trends.json"), load("mentions.json"), load("brief.json"), load("portfolio.json").catch(() => [])]);
+    T = t; M = m; B = br; PF = Array.isArray(pf) ? pf : []; enrich(); lastStamp = meta.updated_at || null;
+    const u = $("#updated"); u.textContent = "";
+    u.append("Updated ", el("b", null, meta.updated_at ? fmtTime(meta.updated_at) : "—"), " · refreshes itself");
+    if (!first) { const x = el("span", "fresh", " · new data"); u.append(x); clearTimeout(toastTimer); toastTimer = setTimeout(() => x.remove(), 8000); }
+    if (first) { const h = location.hash.slice(1); const s = SEGS.find(x => slug(x.k) === h); if (s) cur = s.k; }
+    renderTabs(); renderCloud(); renderView(); renderFoot(); ready = true;
   }
-  refresh(true).catch(err => {
-    const e = $("#error"); e.hidden = false;
-    e.textContent = "Data could not be loaded (" + err.message + "). Make sure the 'data' folder is in the repo, and open the page through its GitHub Pages link.";
-    $("#updated").textContent = "";
-  });
-  const poll = () => { if (!document.hidden && wired) refresh(false).catch(() => {}); };
+  refresh(true).catch(err => { const e = $("#error"); e.hidden = false; e.textContent = "Data could not be loaded (" + err.message + "). Open the page through its GitHub Pages link."; $("#updated").textContent = ""; });
+  const poll = () => { if (!document.hidden && ready) refresh(false).catch(() => {}); };
   setInterval(poll, 5 * 60 * 1000);
   document.addEventListener("visibilitychange", poll);
 })();

@@ -1,6 +1,6 @@
 {
  "date": "2026-10-28",
- "one_line": "December is SAFF's nearest opening: BTS plays GBK on 26, 27 and 29 Dec and longevity is the claim rivals get criticised on, so travel-size Extraits plus Deo Potion and a travel Cloud Mist make a ready concert kit. SAFF also already sells matching scents across perfume, deo, hand and body care, and tea across its Cloud Mists, but sells neither as a system; the clearest product gaps are osmanthus, a kopi susu gourmand and an alcohol-free format.",
+ "one_line": "December is SAFF's nearest win: build a concert kit from products SAFF already has for BTS at GBK (26–29 Dec), and start selling same-scent products as layering sets.",
  "takeaways": [
   {
    "title": "Concert season is a longevity moment",
@@ -380,6 +380,20 @@
     "t035"
    ],
    "metric": "Feasibility note"
+  },
+  {
+   "id": "a11",
+   "action": "Test packs at thumbnail size",
+   "detail": "Before signing off any new pack or set, check it at Shopee/Tokopedia thumbnail size next to Mykonos, Scarlett and HMNS listings.",
+   "type": "Research",
+   "horizon": "Now",
+   "effort": "S",
+   "team": "Packdev",
+   "products": [],
+   "trend_ids": [
+    "t023"
+   ],
+   "metric": "Every new pack reviewed at thumbnail size"
   }
  ],
  "moments": [
@@ -635,5 +649,123 @@
     "Echoes of Irai Leima Body Potion"
    ]
   }
+ ],
+ "segments": [
+  {
+   "name": "Fragrance",
+   "message": "Concert season makes staying power the reason to buy. Lead with SAFF's Extrait longevity now, and brief osmanthus and a kopi susu gourmand as the next scents.",
+   "happening": [
+    "BTS plays GBK on 26, 27 and 29 Dec; longevity is what concert-goers look for, and rivals are criticised for fading fast.",
+    "Gourmands are growing up: creamy, toasted and coffee notes rise while candy-sweet scents fade.",
+    "Osmanthus and tea notes lead 2026 launches; tea bars made osmanthus oolong a Jakarta cue."
+   ],
+   "saff_has": [
+    "All 24 perfumes are Extrait de Parfum, in 35, 8 and 2 ml.",
+    "Night-wear Extraits for concerts: S.O.T.B, CHNO, Las Pozas, SAFF.",
+    "Coffee (CHNO), milky (Minouet) and saffron (SAFF) already in the line."
+   ],
+   "gaps": [
+    "No osmanthus",
+    "No kopi susu / palm-sugar gourmand",
+    "Sweeter scents (Xocolatl, S.O.T.B) to watch"
+   ],
+   "action_ids": [
+    "a1",
+    "a7",
+    "a8",
+    "a9"
+   ]
+  },
+  {
+   "name": "Body & personal care",
+   "message": "SAFF already has a layering system and a tea mist collection. The job is to sell them as sets, not as single products.",
+   "happening": [
+    "Layering (perfume + mist + body care) is how people now build a signature scent.",
+    "Body mists drive impulse buys and are the entry point for new customers.",
+    "Alcohol-free fragrance is rising abroad and suits halal-minded and sensitive-skin shoppers."
+   ],
+   "saff_has": [
+    "Loui in 5 formats: Extrait, Deo, Hand, Body and Shower Potion.",
+    "Ostara, S.O.T.B, SAFF, Solaris, S.O.F.R and Irai Leima in 2–3 formats each.",
+    "Three tea Cloud Mists (Annabel Lee, Remedia Amoris, Sonnet 116) with matching Hand Dews."
+   ],
+   "gaps": [
+    "Layering not merchandised as sets",
+    "No alcohol-free fragrance"
+   ],
+   "action_ids": [
+    "a2",
+    "a3",
+    "a4",
+    "a10"
+   ]
+  },
+  {
+   "name": "Home fragrance",
+   "message": "Home scent is going room by room. The Eden already has every format; it needs the room story and a calming bedroom scent.",
+   "happening": [
+    "'Scentscaping' matches diffusers, room sprays and linen sprays to each room's mood.",
+    "Bedroom scents lean lavender, chamomile and jasmine with a wellbeing angle.",
+    "Tea and herbal notes read naturally as home scents."
+   ],
+   "saff_has": [
+    "Isola Bella (Room Potion), Quinta da Regaleira (Ambience Mist), Petali di Seta (Fabric Potion).",
+    "Petali di Seta is antibacterial, a natural fit for 'clean laundry'."
+   ],
+   "gaps": [
+    "No room-by-room story",
+    "No calming bedroom scent"
+   ],
+   "action_ids": [
+    "a5"
+   ]
+  },
+  {
+   "name": "Packaging & format",
+   "message": "Small sizes and sets are the new default. SAFF's 8 ml and 2 ml sizes are ready for a discovery set before Ramadan 2027 (from about 8 Feb).",
+   "happening": [
+    "50 ml and discovery sets replace 100 ml as the default size.",
+    "Packs are first seen as a marketplace thumbnail.",
+    "Refill and connected (QR/NFC) packs are growing abroad."
+   ],
+   "saff_has": [
+    "Extraits in 35, 8 and 2 ml.",
+    "Travel-size Cloud Mist (Annabel Lee)."
+   ],
+   "gaps": [
+    "No curated discovery or gift set",
+    "No refill format",
+    "No QR/NFC pack"
+   ],
+   "action_ids": [
+    "a4",
+    "a11"
+   ]
+  },
+  {
+   "name": "Market & consumer",
+   "message": "Rivals win on low price and creator volume. SAFF should win on proof (longevity) and story (Indonesian ingredients, Japan launch).",
+   "happening": [
+    "Mykonos leads Shopee share (6.78%, Q2 2026) through creator reviews; Scarlett sells Extrait under Rp60k.",
+    "Local brands dominate Shopee's top 5; shoppers prefer official stores for authenticity.",
+    "Local brands are going global; SAFF launched in Japan in May 2026."
+   ],
+   "saff_has": [
+    "Indonesian materials already in the line: Sumatra benzoin, Sulawesi patchouli, cajuput.",
+    "Story-led names that suit narrative content."
+   ],
+   "gaps": [
+    "Nusantara-ingredient story not told as a series"
+   ],
+   "action_ids": [
+    "a6",
+    "a1"
+   ]
+  }
+ ],
+ "overview_action_ids": [
+  "a1",
+  "a2",
+  "a4"
  ]
 }

@@ -31,7 +31,8 @@
     "Mechline"
    ],
    "note": "Deep fresh bench across citrus, aquatic and green."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t002",
@@ -63,7 +64,8 @@
     "Alencine"
    ],
    "note": "Green and fig-leaf scents with genderless names."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t003",
@@ -94,7 +96,8 @@
     "Kie Raha"
    ],
    "note": "Lavender and cajuput notes exist, but no mood or calm claim in copy."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t004",
@@ -126,7 +129,8 @@
     "Remedia Amoris"
    ],
    "note": "Coffee-almond, milky and chantilly-cream gourmands already in the line."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t005",
@@ -159,7 +163,8 @@
     "CHNO"
    ],
    "note": "Tea is the Cloud Mist signature (iced lychee tea, kyobancha, fukamushicha); matcha and hojicha not used."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t006",
@@ -191,7 +196,8 @@
     "Mechline"
    ],
    "note": "Musky, powdery skin scents exist; not positioned as 'skin scent'."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t007",
@@ -221,7 +227,8 @@
     "Eulalie"
    ],
    "note": "Saffron is the brand's namesake scent; raspberry in Ostara and Eulalie."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t008",
@@ -249,7 +256,8 @@
     "Postojna"
    ],
    "note": "Postojna's cave story is a natural mineral angle, but no mineral accord is named."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t009",
@@ -280,7 +288,8 @@
     "Am Kamin"
    ],
    "note": "Woody-fresh, aromatic and leather-woody options."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t010",
@@ -310,7 +319,8 @@
     "All Extraits"
    ],
    "note": "Entire perfume line is Extrait; competitors now push Extrait at lower prices."
-  }
+  },
+  "segment": "Market & consumer"
  },
  {
   "id": "t011",
@@ -341,7 +351,8 @@
     "Annabel Lee"
    ],
    "note": "SAFF already sells matching scents across Extrait, Deo, Hand and Body Potion and Cloud Mist, but not as a layering system."
-  }
+  },
+  "segment": "Body & personal care"
  },
  {
   "id": "t012",
@@ -372,7 +383,8 @@
     "Petali di Seta"
    ],
    "note": "The Eden covers room, ambience and fabric formats."
-  }
+  },
+  "segment": "Home fragrance"
  },
  {
   "id": "t013",
@@ -401,7 +413,8 @@
     "All Extraits"
    ],
    "note": "Story-led names (places, myths, literature) suit narrative content."
-  }
+  },
+  "segment": "Market & consumer"
  },
  {
   "id": "t014",
@@ -433,7 +446,8 @@
     "SAFF"
    ],
    "note": "Amber, vanilla and saffron hits already in range."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t015",
@@ -459,7 +473,8 @@
    "status": "Context",
    "products": [],
    "note": "Market context: SAFF competes in the local top tier."
-  }
+  },
+  "segment": "Market & consumer"
  },
  {
   "id": "t016",
@@ -489,7 +504,8 @@
     "SAFF"
    ],
    "note": "Sidr honey, birch tar and saffron-amber are adjacent; no oud-led scent."
-  }
+  },
+  "segment": "Market & consumer"
  },
  {
   "id": "t017",
@@ -516,7 +532,8 @@
    "status": "Context",
    "products": [],
    "note": "Collaboration lever; evaluate case by case."
-  }
+  },
+  "segment": "Market & consumer"
  },
  {
   "id": "t018",
@@ -548,7 +565,8 @@
     "Rae Nira"
    ],
    "note": "Sampaguita and jasmine sambac used as accents, not as a soliflore."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t019",
@@ -575,7 +593,8 @@
    "status": "Context",
    "products": [],
    "note": "Channel behaviour: keep official stores and authenticity cues strong."
-  }
+  },
+  "segment": "Market & consumer"
  },
  {
   "id": "t020",
@@ -602,7 +621,8 @@
    "status": "Context",
    "products": [],
    "note": "Channel behaviour: TikTok Shop and Shopee for Gen Z."
-  }
+  },
+  "segment": "Market & consumer"
  },
  {
   "id": "t021",
@@ -628,7 +648,8 @@
    "status": "Context",
    "products": [],
    "note": "Packaging direction."
-  }
+  },
+  "segment": "Packaging & format"
  },
  {
   "id": "t022",
@@ -655,7 +676,8 @@
    "status": "Context",
    "products": [],
    "note": "Packaging direction for younger lines."
-  }
+  },
+  "segment": "Packaging & format"
  },
  {
   "id": "t023",
@@ -681,7 +703,8 @@
    "status": "Context",
    "products": [],
    "note": "Test packs at marketplace thumbnail size."
-  }
+  },
+  "segment": "Packaging & format"
  },
  {
   "id": "t024",
@@ -708,7 +731,8 @@
    "status": "White space",
    "products": [],
    "note": "No connected (QR/NFC) packaging."
-  }
+  },
+  "segment": "Packaging & format"
  },
  {
   "id": "t025",
@@ -735,7 +759,8 @@
    "status": "White space",
    "products": [],
    "note": "No refill format."
-  }
+  },
+  "segment": "Packaging & format"
  },
  {
   "id": "t026",
@@ -762,7 +787,8 @@
    "status": "Context",
    "products": [],
    "note": "Unboxing and ritual moments."
-  }
+  },
+  "segment": "Packaging & format"
  },
  {
   "id": "t027",
@@ -790,7 +816,8 @@
     "All Extraits"
    ],
    "note": "Mass-premium Extrait pricing fits the non-luxury growth story."
-  }
+  },
+  "segment": "Market & consumer"
  },
  {
   "id": "t028",
@@ -822,7 +849,8 @@
     "S.O.F.R"
    ],
    "note": "Launched in Japan (Don Quijote) in May 2026 with 10 scents in 8 ml."
-  }
+  },
+  "segment": "Market & consumer"
  },
  {
   "id": "t029",
@@ -856,7 +884,8 @@
     "Rae Nira"
    ],
    "note": "Uses Sumatra benzoin, Sulawesi patchouli and cajuput, but the Nusantara-ingredient story isn't told as a series."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t030",
@@ -887,7 +916,8 @@
     "Minouet"
    ],
    "note": "Sonnet 116 already pairs rice powder with milk mousse; Minouet has fior di latte."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t031",
@@ -917,7 +947,8 @@
     "CHNO"
    ],
    "note": "Coffee exists in CHNO; no kopi susu / palm-sugar gourmand."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t032",
@@ -949,7 +980,8 @@
     "S.O.T.B"
    ],
    "note": "Tonka is already a recurring base."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t033",
@@ -980,7 +1012,8 @@
     "Petali di Seta"
    ],
    "note": "Loui (verbena, aldehyde, musk) plus Fabric Potion cover the clean-laundry idea; not framed that way yet."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t034",
@@ -1013,7 +1046,8 @@
     "Postojna"
    ],
    "note": "Lychee, passionfruit and lilikoi covered; guava/mangosteen not."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t035",
@@ -1040,7 +1074,8 @@
    "status": "White space",
    "products": [],
    "note": "No alcohol-free fragrance format."
-  }
+  },
+  "segment": "Body & personal care"
  },
  {
   "id": "t036",
@@ -1070,7 +1105,8 @@
     "8 ml & 2 ml sizes"
    ],
    "note": "8 ml and 2 ml sizes exist; a curated wardrobe/discovery set is the missing step."
-  }
+  },
+  "segment": "Packaging & format"
  },
  {
   "id": "t037",
@@ -1098,7 +1134,8 @@
     "All Extraits"
    ],
    "note": "Distinctive named materials give strong ingredient stories."
-  }
+  },
+  "segment": "Market & consumer"
  },
  {
   "id": "t038",
@@ -1124,7 +1161,8 @@
    "status": "White space",
    "products": [],
    "note": "No scent-finder tool."
-  }
+  },
+  "segment": "Market & consumer"
  },
  {
   "id": "t039",
@@ -1151,7 +1189,8 @@
    "status": "Context",
    "products": [],
    "note": "Retail activation idea."
-  }
+  },
+  "segment": "Market & consumer"
  },
  {
   "id": "t040",
@@ -1177,7 +1216,8 @@
    "status": "Context",
    "products": [],
    "note": "Supplier relationship lever."
-  }
+  },
+  "segment": "Market & consumer"
  },
  {
   "id": "t041",
@@ -1207,7 +1247,8 @@
     "S.O.T.B"
    ],
    "note": "Sweeter scents to monitor in reviews as overt sweetness fades."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t042",
@@ -1235,7 +1276,8 @@
     "8 ml & 2 ml sizes"
    ],
    "note": "Smaller sizes already part of the range."
-  }
+  },
+  "segment": "Packaging & format"
  },
  {
   "id": "t043",
@@ -1263,7 +1305,8 @@
     "All Extraits"
    ],
    "note": "Names carry no gender labels."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t044",
@@ -1298,7 +1341,8 @@
     "Into SAFF's Shadow Deo"
    ],
    "note": "Night-wear Extraits, travel sizes, a travel Cloud Mist and Deo Potion make a ready concert offer."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t045",
@@ -1330,7 +1374,8 @@
     "Sonnet 116"
    ],
    "note": "Three tea-based Cloud Mists already; no osmanthus or oolong."
-  }
+  },
+  "segment": "Fragrance"
  },
  {
   "id": "t046",
@@ -1362,6 +1407,7 @@
     "Petali di Seta"
    ],
    "note": "All three room formats exist; the room-by-room story and a calming bedroom scent are missing."
-  }
+  },
+  "segment": "Home fragrance"
  }
 ]
