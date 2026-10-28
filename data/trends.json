@@ -20,7 +20,18 @@
    "green",
    "aquatic"
   ],
-  "idea": "Keep a citrus-aquatic hero EDP in every launch wave; test a 'fresh after-shower' body mist extension."
+  "idea": "Keep a citrus-aquatic hero EDP in every launch wave; test a 'fresh after-shower' body mist extension.",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "Loui",
+    "Coco",
+    "Kie Raha",
+    "Morfosia",
+    "Mechline"
+   ],
+   "note": "Deep fresh bench across citrus, aquatic and green."
+  }
  },
  {
   "id": "t002",
@@ -42,7 +53,17 @@
    "gender-neutral",
    "unisex"
   ],
-  "idea": "Launch a green-tea/fig-leaf unisex EDP named without gender cues."
+  "idea": "Launch a green-tea/fig-leaf unisex EDP named without gender cues.",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "Solaris",
+    "Las Pozas",
+    "Träumerei",
+    "Alencine"
+   ],
+   "note": "Green and fig-leaf scents with genderless names."
+  }
  },
  {
   "id": "t003",
@@ -65,7 +86,15 @@
    "wellbeing",
    "mood"
   ],
-  "idea": "Create a 'Calm' scent (lavender, chamomile, soft musk) with mood-led copy and a bedtime ritual card."
+  "idea": "Create a 'Calm' scent (lavender, chamomile, soft musk) with mood-led copy and a bedtime ritual card.",
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "Rae Nira",
+    "Kie Raha"
+   ],
+   "note": "Lavender and cajuput notes exist, but no mood or calm claim in copy."
+  }
  },
  {
   "id": "t004",
@@ -88,7 +117,16 @@
    "caramel",
    "lactonic"
   ],
-  "idea": "Reformulate the sweetest variant toward toasted, nutty vanilla (hazelnut, caramel, tonka)."
+  "idea": "Reformulate the sweetest variant toward toasted, nutty vanilla (hazelnut, caramel, tonka).",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "CHNO",
+    "Minouet",
+    "Remedia Amoris"
+   ],
+   "note": "Coffee-almond, milky and chantilly-cream gourmands already in the line."
+  }
  },
  {
   "id": "t005",
@@ -111,7 +149,17 @@
    "espresso",
    "hojicha"
   ],
-  "idea": "Develop a 'Matcha Peach' or 'Hojicha Fig' EDP for a younger, café-culture line."
+  "idea": "Develop a 'Matcha Peach' or 'Hojicha Fig' EDP for a younger, café-culture line.",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "Annabel Lee",
+    "Remedia Amoris",
+    "Sonnet 116",
+    "CHNO"
+   ],
+   "note": "Tea is the Cloud Mist signature (iced lychee tea, kyobancha, fukamushicha); matcha and hojicha not used."
+  }
  },
  {
   "id": "t006",
@@ -134,7 +182,16 @@
    "soft woods",
    "oud"
   ],
-  "idea": "Add a low-projection 'skin musk' EDP for office and public-transport wear."
+  "idea": "Add a low-projection 'skin musk' EDP for office and public-transport wear.",
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "Omnia",
+    "Irai Leima",
+    "Mechline"
+   ],
+   "note": "Musky, powdery skin scents exist; not positioned as 'skin scent'."
+  }
  },
  {
   "id": "t007",
@@ -155,7 +212,16 @@
    "saffron",
    "raspberry"
   ],
-  "idea": "Use saffron as the signature note in a new amber-woody EDP; raspberry as the fruity top."
+  "idea": "Use saffron as the signature note in a new amber-woody EDP; raspberry as the fruity top.",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "SAFF",
+    "Ostara",
+    "Eulalie"
+   ],
+   "note": "Saffron is the brand's namesake scent; raspberry in Ostara and Eulalie."
+  }
  },
  {
   "id": "t008",
@@ -176,7 +242,14 @@
    "mineral",
    "fresh"
   ],
-  "idea": "Run a small panel test of a mineral/'rain on stone' accord before committing to a SKU."
+  "idea": "Run a small panel test of a mineral/'rain on stone' accord before committing to a SKU.",
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "Postojna"
+   ],
+   "note": "Postojna's cave story is a natural mineral angle, but no mineral accord is named."
+  }
  },
  {
   "id": "t009",
@@ -198,7 +271,16 @@
    "clean masculine",
    "unisex"
   ],
-  "idea": "Build a woody-fresh men's/unisex EDP tuned for heat and humidity (vetiver, cedar, citrus)."
+  "idea": "Build a woody-fresh men's/unisex EDP tuned for heat and humidity (vetiver, cedar, citrus).",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "Solaris",
+    "Maleali",
+    "Am Kamin"
+   ],
+   "note": "Woody-fresh, aromatic and leather-woody options."
+  }
  },
  {
   "id": "t010",
@@ -221,7 +303,14 @@
    "long-lasting",
    "mass price"
   ],
-  "idea": "Hold price below key competitors with an Extrait line; communicate longevity hours clearly."
+  "idea": "Hold price below key competitors with an Extrait line; communicate longevity hours clearly.",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "All Extraits"
+   ],
+   "note": "Entire perfume line is Extrait; competitors now push Extrait at lower prices."
+  }
  },
  {
   "id": "t011",
@@ -242,7 +331,17 @@
    "body mist",
    "layering"
   ],
-  "idea": "Design layering bundles: EDP + matching body mist + hair mist with a layering guide."
+  "idea": "Design layering bundles: EDP + matching body mist + hair mist with a layering guide.",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "Loui's Lullaby Deo",
+    "Loui's Lullaby Hand Potion",
+    "Loui's Lullaby Body Potion",
+    "Annabel Lee"
+   ],
+   "note": "SAFF already sells matching scents across Extrait, Deo, Hand and Body Potion and Cloud Mist, but not as a layering system."
+  }
  },
  {
   "id": "t012",
@@ -264,7 +363,16 @@
    "rituals",
    "candles"
   ],
-  "idea": "Extend the best-selling scent into a room spray or reed diffuser."
+  "idea": "Extend the best-selling scent into a room spray or reed diffuser.",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "Isola Bella",
+    "Quinta da Regaleira",
+    "Petali di Seta"
+   ],
+   "note": "The Eden covers room, ambience and fabric formats."
+  }
  },
  {
   "id": "t013",
@@ -286,7 +394,14 @@
    "storytelling",
    "compliments"
   ],
-  "idea": "Prepare a 'compliment' storytelling content kit and safety stock for fast TikTok spikes."
+  "idea": "Prepare a 'compliment' storytelling content kit and safety stock for fast TikTok spikes.",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "All Extraits"
+   ],
+   "note": "Story-led names (places, myths, literature) suit narrative content."
+  }
  },
  {
   "id": "t014",
@@ -309,7 +424,16 @@
    "vanilla",
    "saffron"
   ],
-  "idea": "Create a TikTok-friendly amber-vanilla hero, balanced with a fresh top for the tropics."
+  "idea": "Create a TikTok-friendly amber-vanilla hero, balanced with a fresh top for the tropics.",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "S.O.T.B",
+    "CHNO",
+    "SAFF"
+   ],
+   "note": "Amber, vanilla and saffron hits already in range."
+  }
  },
  {
   "id": "t015",
@@ -330,7 +454,12 @@
    "local brands",
    "Shopee"
   ],
-  "idea": "Benchmark SAFF's price, concentration and bottle size against the top 3 on Shopee."
+  "idea": "Benchmark SAFF's price, concentration and bottle size against the top 3 on Shopee.",
+  "saff": {
+   "status": "Context",
+   "products": [],
+   "note": "Market context: SAFF competes in the local top tier."
+  }
  },
  {
   "id": "t016",
@@ -352,7 +481,15 @@
    "Middle East",
    "arabian"
   ],
-  "idea": "Test an accessible oud-amber or 'Arabian musk' variant for the mass segment."
+  "idea": "Test an accessible oud-amber or 'Arabian musk' variant for the mass segment.",
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "Kirithra",
+    "SAFF"
+   ],
+   "note": "Sidr honey, birch tar and saffron-amber are adjacent; no oud-led scent."
+  }
  },
  {
   "id": "t017",
@@ -374,7 +511,12 @@
    "e-sports",
    "collaborations"
   ],
-  "idea": "Explore a gaming or anime IP collaboration aimed at Gen Alpha/Gen Z."
+  "idea": "Explore a gaming or anime IP collaboration aimed at Gen Alpha/Gen Z.",
+  "saff": {
+   "status": "Context",
+   "products": [],
+   "note": "Collaboration lever; evaluate case by case."
+  }
  },
  {
   "id": "t018",
@@ -396,7 +538,17 @@
    "local ingredients",
    "floral"
   ],
-  "idea": "Create a soliflore series from Indonesian flowers (melati, cempaka, sedap malam)."
+  "idea": "Create a soliflore series from Indonesian flowers (melati, cempaka, sedap malam).",
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "S.O.F.R",
+    "Kirithra",
+    "Eulalie",
+    "Rae Nira"
+   ],
+   "note": "Sampaguita and jasmine sambac used as accents, not as a soliflore."
+  }
  },
  {
   "id": "t019",
@@ -418,7 +570,12 @@
    "authenticity",
    "Shopee"
   ],
-  "idea": "Prioritise official-store exclusives and authenticity cues (seal, QR check) on packaging."
+  "idea": "Prioritise official-store exclusives and authenticity cues (seal, QR check) on packaging.",
+  "saff": {
+   "status": "Context",
+   "products": [],
+   "note": "Channel behaviour: keep official stores and authenticity cues strong."
+  }
  },
  {
   "id": "t020",
@@ -440,7 +597,12 @@
    "TikTok Shop",
    "Shopee"
   ],
-  "idea": "Plan TikTok Shop-first launches with live-selling bundles for Gen Z."
+  "idea": "Plan TikTok Shop-first launches with live-selling bundles for Gen Z.",
+  "saff": {
+   "status": "Context",
+   "products": [],
+   "note": "Channel behaviour: TikTok Shop and Shopee for Gen Z."
+  }
  },
  {
   "id": "t021",
@@ -461,7 +623,12 @@
    "bottle design",
    "experimental packaging"
   ],
-  "idea": "Commission one signature collectible bottle shape for a hero line."
+  "idea": "Commission one signature collectible bottle shape for a hero line.",
+  "saff": {
+   "status": "Context",
+   "products": [],
+   "note": "Packaging direction."
+  }
  },
  {
   "id": "t022",
@@ -483,7 +650,12 @@
    "soft-touch",
    "tactile"
   ],
-  "idea": "Refresh the younger line's packaging with soft pastels and a soft-touch matte coating."
+  "idea": "Refresh the younger line's packaging with soft pastels and a soft-touch matte coating.",
+  "saff": {
+   "status": "Context",
+   "products": [],
+   "note": "Packaging direction for younger lines."
+  }
  },
  {
   "id": "t023",
@@ -504,7 +676,12 @@
    "thumbnail design",
    "e-commerce"
   ],
-  "idea": "Test every new pack at Shopee thumbnail size before final artwork."
+  "idea": "Test every new pack at Shopee thumbnail size before final artwork.",
+  "saff": {
+   "status": "Context",
+   "products": [],
+   "note": "Test packs at marketplace thumbnail size."
+  }
  },
  {
   "id": "t024",
@@ -526,7 +703,12 @@
    "mono-material",
    "aluminium"
   ],
-  "idea": "Add a QR on the box linking to notes, layering tips and an authenticity check."
+  "idea": "Add a QR on the box linking to notes, layering tips and an authenticity check.",
+  "saff": {
+   "status": "White space",
+   "products": [],
+   "note": "No connected (QR/NFC) packaging."
+  }
  },
  {
   "id": "t025",
@@ -548,7 +730,12 @@
    "paper packaging",
    "sustainability"
   ],
-  "idea": "Pilot a paper-based outer box or a refill pouch on one bestseller."
+  "idea": "Pilot a paper-based outer box or a refill pouch on one bestseller.",
+  "saff": {
+   "status": "White space",
+   "products": [],
+   "note": "No refill format."
+  }
  },
  {
   "id": "t026",
@@ -570,7 +757,12 @@
    "unboxing",
    "rituals"
   ],
-  "idea": "Design an unboxing moment (scented card, reveal layer) that works as content."
+  "idea": "Design an unboxing moment (scented card, reveal layer) that works as content.",
+  "saff": {
+   "status": "Context",
+   "products": [],
+   "note": "Unboxing and ritual moments."
+  }
  },
  {
   "id": "t027",
@@ -591,7 +783,14 @@
    "mass-premium",
    "non-luxury"
   ],
-  "idea": "Position new launches as mass-premium: Extrait quality at a mass price point."
+  "idea": "Position new launches as mass-premium: Extrait quality at a mass price point.",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "All Extraits"
+   ],
+   "note": "Mass-premium Extrait pricing fits the non-luxury growth story."
+  }
  },
  {
   "id": "t028",
@@ -612,7 +811,18 @@
    "local ingredients",
    "Indonesian identity"
   ],
-  "idea": "Build a 'Nusantara ingredients' story line with origin cards for export readiness."
+  "idea": "Build a 'Nusantara ingredients' story line with origin cards for export readiness.",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "Troupe",
+    "Ostara",
+    "Las Pozas",
+    "Irai Leima",
+    "S.O.F.R"
+   ],
+   "note": "Launched in Japan (Don Quijote) in May 2026 with 10 scents in 8 ml."
+  }
  },
  {
   "id": "t029",
@@ -635,7 +845,18 @@
    "sheer",
    "local ingredients"
   ],
-  "idea": "Create a sheer 'Nusantara' series around local heritage ingredients (pandan, rice, kopi)."
+  "idea": "Create a sheer 'Nusantara' series around local heritage ingredients (pandan, rice, kopi).",
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "Las Pozas",
+    "Maleali",
+    "Kirithra",
+    "Kie Raha",
+    "Rae Nira"
+   ],
+   "note": "Uses Sumatra benzoin, Sulawesi patchouli and cajuput, but the Nusantara-ingredient story isn't told as a series."
+  }
  },
  {
   "id": "t030",
@@ -658,7 +879,15 @@
    "nutty",
    "makgeolli"
   ],
-  "idea": "Develop a rice/sticky-rice milk or coconut-milk accord as a comforting milky scent."
+  "idea": "Develop a rice/sticky-rice milk or coconut-milk accord as a comforting milky scent.",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "Sonnet 116",
+    "Minouet"
+   ],
+   "note": "Sonnet 116 already pairs rice powder with milk mousse; Minouet has fior di latte."
+  }
  },
  {
   "id": "t031",
@@ -681,7 +910,14 @@
    "gourmand",
    "milky"
   ],
-  "idea": "Launch a kopi susu gula aren gourmand EDP; partner with a Jakarta coffee chain."
+  "idea": "Launch a kopi susu gula aren gourmand EDP; partner with a Jakarta coffee chain.",
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "CHNO"
+   ],
+   "note": "Coffee exists in CHNO; no kopi susu / palm-sugar gourmand."
+  }
  },
  {
   "id": "t032",
@@ -704,7 +940,16 @@
    "gourmand",
    "vanilla"
   ],
-  "idea": "Swap vanilla for tonka in a creamy almond-tonka gourmand."
+  "idea": "Swap vanilla for tonka in a creamy almond-tonka gourmand.",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "CHNO",
+    "Coco",
+    "S.O.T.B"
+   ],
+   "note": "Tonka is already a recurring base."
+  }
  },
  {
   "id": "t033",
@@ -727,7 +972,15 @@
    "lavender",
    "herbal"
   ],
-  "idea": "Create a clean-laundry + herbal unisex scent (white musk, aldehydes, lavender)."
+  "idea": "Create a clean-laundry + herbal unisex scent (white musk, aldehydes, lavender).",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "Loui",
+    "Petali di Seta"
+   ],
+   "note": "Loui (verbena, aldehyde, musk) plus Fabric Potion cover the clean-laundry idea; not framed that way yet."
+  }
  },
  {
   "id": "t034",
@@ -750,7 +1003,17 @@
    "lychee",
    "fig"
   ],
-  "idea": "Launch realistic local fruits (jambu biji, leci, manggis) without candy sweetness."
+  "idea": "Launch realistic local fruits (jambu biji, leci, manggis) without candy sweetness.",
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "Annabel Lee",
+    "Eulalie",
+    "Ostara",
+    "Postojna"
+   ],
+   "note": "Lychee, passionfruit and lilikoi covered; guava/mangosteen not."
+  }
  },
  {
   "id": "t035",
@@ -772,7 +1035,12 @@
    "water-based",
    "halal"
   ],
-  "idea": "Develop an alcohol-free, water-based mist or parfum; check halal certification path."
+  "idea": "Develop an alcohol-free, water-based mist or parfum; check halal certification path.",
+  "saff": {
+   "status": "White space",
+   "products": [],
+   "note": "No alcohol-free fragrance format."
+  }
  },
  {
   "id": "t036",
@@ -795,7 +1063,14 @@
    "discovery set",
    "layering"
   ],
-  "idea": "Create a 5×10 ml discovery wardrobe set across moods and occasions."
+  "idea": "Create a 5×10 ml discovery wardrobe set across moods and occasions.",
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "8 ml & 2 ml sizes"
+   ],
+   "note": "8 ml and 2 ml sizes exist; a curated wardrobe/discovery set is the missing step."
+  }
  },
  {
   "id": "t037",
@@ -816,7 +1091,14 @@
    "ingredient literacy",
    "transparency"
   ],
-  "idea": "Add an ingredient-origin panel to packaging and PDP copy."
+  "idea": "Add an ingredient-origin panel to packaging and PDP copy.",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "All Extraits"
+   ],
+   "note": "Distinctive named materials give strong ingredient stories."
+  }
  },
  {
   "id": "t038",
@@ -837,7 +1119,12 @@
    "biotech",
    "AI scent matching"
   ],
-  "idea": "Prototype an e-commerce scent-finder quiz; watch biotech naturals via suppliers."
+  "idea": "Prototype an e-commerce scent-finder quiz; watch biotech naturals via suppliers.",
+  "saff": {
+   "status": "White space",
+   "products": [],
+   "note": "No scent-finder tool."
+  }
  },
  {
   "id": "t039",
@@ -859,7 +1146,12 @@
    "DIY blending",
    "pop-up"
   ],
-  "idea": "Run pop-ups with a blending/layering bar and a mood-based scent menu."
+  "idea": "Run pop-ups with a blending/layering bar and a mood-based scent menu.",
+  "saff": {
+   "status": "Context",
+   "products": [],
+   "note": "Retail activation idea."
+  }
  },
  {
   "id": "t040",
@@ -880,7 +1172,12 @@
    "niche",
    "fragrance houses"
   ],
-  "idea": "Ask fragrance-house partners for access to their newest captives and accords."
+  "idea": "Ask fragrance-house partners for access to their newest captives and accords.",
+  "saff": {
+   "status": "Context",
+   "products": [],
+   "note": "Supplier relationship lever."
+  }
  },
  {
   "id": "t041",
@@ -902,7 +1199,15 @@
    "candy",
    "vanilla"
   ],
-  "idea": "Audit sweet SKUs; cut overt sweetness or add texture (toasted, creamy) on reformulation."
+  "idea": "Audit sweet SKUs; cut overt sweetness or add texture (toasted, creamy) on reformulation.",
+  "saff": {
+   "status": "Watch",
+   "products": [
+    "Xocolatl",
+    "S.O.T.B"
+   ],
+   "note": "Sweeter scents to monitor in reviews as overt sweetness fades."
+  }
  },
  {
   "id": "t042",
@@ -923,7 +1228,14 @@
    "signature scent",
    "100 ml"
   ],
-  "idea": "Shift new launches to 30–50 ml as the default; keep 100 ml only for proven bestsellers."
+  "idea": "Shift new launches to 30–50 ml as the default; keep 100 ml only for proven bestsellers.",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "8 ml & 2 ml sizes"
+   ],
+   "note": "Smaller sizes already part of the range."
+  }
  },
  {
   "id": "t043",
@@ -944,6 +1256,112 @@
    "gendered labels",
    "unisex"
   ],
-  "idea": "Name new variants by mood or material instead of 'pour homme/femme'."
+  "idea": "Name new variants by mood or material instead of 'pour homme/femme'.",
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "All Extraits"
+   ],
+   "note": "Names carry no gender labels."
+  }
+ },
+ {
+  "id": "t044",
+  "found": "2026-10-28",
+  "published": "2026-08",
+  "category": "Consumer behavior",
+  "trend": "Longevity is the purchase driver",
+  "summary": "Long events like concerts make staying power the deciding factor: BTS plays GBK on 26, 27 and 29 Dec 2026, rivals are criticised for scents fading within about 2 hours, and mass brands win by signalling 'long-lasting' through Extrait concentration.",
+  "angle": "SAFF's whole perfume line is Extrait de Parfum, so longevity is a claim it can own.",
+  "idea": "Run a 'still there at 11 pm' longevity proof series and a concert kit built from travel sizes.",
+  "source_type": "News & industry",
+  "source_name": "RCTI+, Mojok, GoodStats",
+  "url": "https://www.rctiplus.com/news/detail/seleb/5451095/8-idol-k-pop-akan-konser-di-jakarta-paruh-kedua-2026--catat-tanggalnya-",
+  "strength": "Strong",
+  "status": "New",
+  "stage": "Mainstream",
+  "local_fit": 3,
+  "keywords": [
+   "long-lasting",
+   "extrait",
+   "travel size",
+   "concert"
+  ],
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "S.O.T.B",
+    "CHNO",
+    "Las Pozas",
+    "8 ml & 2 ml sizes",
+    "Annabel Lee",
+    "Into SAFF's Shadow Deo"
+   ],
+   "note": "Night-wear Extraits, travel sizes, a travel Cloud Mist and Deo Potion make a ready concert offer."
+  }
+ },
+ {
+  "id": "t045",
+  "found": "2026-10-28",
+  "published": "2026-06",
+  "category": "Scent & notes",
+  "trend": "Osmanthus & oriental tea notes",
+  "summary": "Premium tea bars such as Chagee (osmanthus oolong) made oriental tea a Jakarta lifestyle cue, while niche houses lead 2026 launches with osmanthus; tea and matcha accords are also rising globally.",
+  "angle": "SAFF's Cloud Mist line is already built on tea; osmanthus is the missing note.",
+  "idea": "Brief an osmanthus-oolong Cloud Mist as the next tea in the line, kept sheer so tea doesn't feel heavy.",
+  "source_type": "News & industry",
+  "source_name": "Popmama, ScentAdvice",
+  "url": "https://www.popmama.com/life/health/rekomendasi-oriental-teh-kekinian-di-jakarta-00-f62c5-gk63gp",
+  "strength": "Medium",
+  "status": "New",
+  "stage": "Lead market",
+  "local_fit": 3,
+  "keywords": [
+   "osmanthus",
+   "oolong",
+   "tea",
+   "lychee"
+  ],
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "Annabel Lee",
+    "Remedia Amoris",
+    "Sonnet 116"
+   ],
+   "note": "Three tea-based Cloud Mists already; no osmanthus or oolong."
+  }
+ },
+ {
+  "id": "t046",
+  "found": "2026-10-28",
+  "published": "2026-05",
+  "category": "Product format",
+  "trend": "Scentscaping: a scent for each room",
+  "summary": "Indonesian lifestyle media frame home fragrance as room-by-room 'scentscaping': diffusers, candles and linen sprays matched to each room's mood, e.g. lavender, chamomile and jasmine for the bedroom, citrus and herbs for the kitchen.",
+  "angle": "Turns a single home-fragrance purchase into a set of rooms.",
+  "idea": "Sell The Eden as a room system: Room Potion for living spaces, Ambience Mist for quick refresh, Fabric Potion for the bedroom.",
+  "source_type": "News & industry",
+  "source_name": "Kontan MomsMoney, VOI",
+  "url": "https://momsmoney.kontan.co.id/news/tren-scentscaping-2026-cara-simpel-bikin-rumah-terasa-lebih-nyaman-dan-rileks",
+  "strength": "Medium",
+  "status": "New",
+  "stage": "Local early adopters",
+  "local_fit": 3,
+  "keywords": [
+   "home fragrance",
+   "reed diffuser",
+   "linen spray",
+   "bedroom"
+  ],
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "Isola Bella",
+    "Quinta da Regaleira",
+    "Petali di Seta"
+   ],
+   "note": "All three room formats exist; the room-by-room story and a calming bedroom scent are missing."
+  }
  }
 ]

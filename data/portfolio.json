@@ -1,0 +1,551 @@
+[
+ {
+  "name": "Troupe",
+  "line": "Extrait de Parfum",
+  "family": "Floral · Fruity · Ambery",
+  "notes": [
+   "mandarin orange",
+   "pear",
+   "rose",
+   "neroli",
+   "freesia",
+   "patchouli"
+  ],
+  "world": "Troupe"
+ },
+ {
+  "name": "Loui",
+  "line": "Extrait de Parfum",
+  "family": "Fresh · Floral · Musky",
+  "notes": [
+   "verbena",
+   "violet leaf",
+   "aldehyde",
+   "rose",
+   "peony",
+   "muguet"
+  ],
+  "world": "Loui"
+ },
+ {
+  "name": "Coco",
+  "line": "Extrait de Parfum",
+  "family": "Citrus · Woody · Balsamic",
+  "notes": [
+   "bergamot",
+   "mandarin",
+   "neroli",
+   "ylang-ylang",
+   "turkish rose",
+   "ivy"
+  ],
+  "world": "Coco"
+ },
+ {
+  "name": "Omnia",
+  "line": "Extrait de Parfum",
+  "family": "Floral · Woody · Musky",
+  "notes": [
+   "grapefruit",
+   "orchid leaf",
+   "rose",
+   "hyacinth",
+   "iris",
+   "cashmere wood"
+  ],
+  "world": "Omnia"
+ },
+ {
+  "name": "CHNO",
+  "line": "Extrait de Parfum",
+  "family": "Spicy · Oriental · Floral",
+  "notes": [
+   "pink pepper",
+   "orange blossom",
+   "pear",
+   "coffee",
+   "jasmine",
+   "bitter almond"
+  ],
+  "world": "CHNO"
+ },
+ {
+  "name": "SAFF",
+  "line": "Extrait de Parfum",
+  "family": "Leather · Smoky · Musky",
+  "notes": [
+   "bergamot",
+   "mandarin",
+   "saffron",
+   "ylang-ylang",
+   "lily of the valley",
+   "jasmine"
+  ],
+  "world": "SAFF"
+ },
+ {
+  "name": "S.O.T.B",
+  "line": "Extrait de Parfum",
+  "family": "Floral · Woody · Oriental",
+  "notes": [
+   "mandarin",
+   "galbanum",
+   "ylang-ylang",
+   "tuberose",
+   "jasmine",
+   "orange flower"
+  ],
+  "world": "S.O.T.B"
+ },
+ {
+  "name": "Ostara",
+  "line": "Extrait de Parfum",
+  "family": "Floral · Fruity · Chypre",
+  "notes": [
+   "raspberry",
+   "passionfruit",
+   "pear",
+   "cassis buds",
+   "lily of the valley",
+   "amber"
+  ],
+  "world": "Ostara"
+ },
+ {
+  "name": "Solaris",
+  "line": "Extrait de Parfum",
+  "family": "Green · Floral · Woody",
+  "notes": [
+   "bergamot",
+   "mandarin",
+   "violet leaves",
+   "orris",
+   "freesia",
+   "cedarwood"
+  ],
+  "world": "Solaris"
+ },
+ {
+  "name": "Las Pozas",
+  "line": "Extrait de Parfum",
+  "family": "Green · Floral · Woody",
+  "notes": [
+   "datura a.k.a the angel’s trumpet",
+   "sumatra benzoin",
+   "nutmeg",
+   "cashmeran",
+   "cedar",
+   "sandalwood"
+  ],
+  "world": "Las Pozas"
+ },
+ {
+  "name": "Xocolatl",
+  "line": "Extrait de Parfum",
+  "family": "Floral · Fruity · Gourmand",
+  "notes": [
+   "mandarin",
+   "pear",
+   "apple",
+   "heliotrope",
+   "plumeria",
+   "maltol"
+  ],
+  "world": "Xocolatl"
+ },
+ {
+  "name": "Iliad",
+  "line": "Extrait de Parfum",
+  "family": "Spicy · Ambery · Floral",
+  "notes": [
+   "pink peppercorn",
+   "peony",
+   "muguet",
+   "ylang-ylang",
+   "iris",
+   "hedione"
+  ],
+  "world": "Iliad"
+ },
+ {
+  "name": "Minouet",
+  "line": "Extrait de Parfum",
+  "family": "Floral · Ambery · Gourmand",
+  "notes": [
+   "starkrimson",
+   "galbanum",
+   "roseraie de l'hay",
+   "bigarade orange",
+   "iris pallida",
+   "cashmere wood"
+  ],
+  "world": "Minouet"
+ },
+ {
+  "name": "Maleali",
+  "line": "Extrait de Parfum",
+  "family": "Spicy · Woody · Musky",
+  "notes": [
+   "bush juniper",
+   "tellicherry pepper",
+   "palo santo a.k.a the tree of life",
+   "red sandalwood",
+   "nagarmotha",
+   "sulawesi patchouli"
+  ],
+  "world": "Maleali"
+ },
+ {
+  "name": "Irai Leima",
+  "line": "Extrait de Parfum",
+  "family": "Floral · Powdery · Musky",
+  "notes": [
+   "cassis bud",
+   "dalanghita",
+   "pink peppercorn",
+   "duchesse de nemours",
+   "water iris",
+   "raat ki raani"
+  ],
+  "world": "Irai Leima"
+ },
+ {
+  "name": "Morfosia",
+  "line": "Extrait de Parfum",
+  "family": "Citrus · Floral · Woody",
+  "notes": [
+   "rhubarb",
+   "yuzu",
+   "elletaria",
+   "shogayu",
+   "narcissus",
+   "cape jasmine"
+  ],
+  "world": "Morfosia"
+ },
+ {
+  "name": "Kirithra",
+  "line": "Extrait de Parfum",
+  "family": "Floral · Woody · Ambery",
+  "notes": [
+   "sidr honey",
+   "clementine",
+   "birch tar",
+   "roseraie de l'hay",
+   "sampaguita",
+   "akigalawood"
+  ],
+  "world": "Kirithra"
+ },
+ {
+  "name": "S.O.F.R",
+  "line": "Extrait de Parfum",
+  "family": "Citrus · Floral · Oriental",
+  "notes": [
+   "tangerine heart",
+   "bergamot",
+   "charentais",
+   "sampaguita",
+   "mimosa",
+   "tuberose"
+  ],
+  "world": "S.O.F.R"
+ },
+ {
+  "name": "Kie Raha",
+  "line": "Extrait de Parfum",
+  "family": "Ambery · Aquatic · Aromatic",
+  "notes": [
+   "cajuput",
+   "yuzu",
+   "bigarade",
+   "aquamare",
+   "orchid",
+   "crystal amber"
+  ],
+  "world": "Kie Raha"
+ },
+ {
+  "name": "Rae Nira",
+  "line": "Extrait de Parfum",
+  "family": "Oriental · Woody · Ambery",
+  "notes": [
+   "cajuput",
+   "bigarade",
+   "lavender",
+   "jasmine sambac",
+   "calypsone",
+   "immortelle"
+  ],
+  "world": "Rae Nira"
+ },
+ {
+  "name": "Eulalie",
+  "line": "Extrait de Parfum",
+  "family": "Floral · Fruity · Ambery",
+  "notes": [
+   "lychee",
+   "crème de framboise",
+   "petalia",
+   "sampaguita",
+   "roseraie de l'hay",
+   "akigalawood"
+  ],
+  "world": "Eulalie"
+ },
+ {
+  "name": "Postojna",
+  "line": "Extrait de Parfum",
+  "family": "Fruity · Woody · Ambery",
+  "notes": [
+   "blue apple",
+   "lillikoi",
+   "violet leaves",
+   "muguet",
+   "pink pepper",
+   "maillette"
+  ],
+  "world": "Postojna"
+ },
+ {
+  "name": "Alencine",
+  "line": "Extrait de Parfum",
+  "family": "Woody · Floral · Ambery",
+  "notes": [
+   "cypress",
+   "pine needle",
+   "baie rose",
+   "jasmine sambac",
+   "pompon rose",
+   "magnolia"
+  ],
+  "world": "Alencine"
+ },
+ {
+  "name": "Mechline",
+  "line": "Extrait de Parfum",
+  "family": "Floral · Citrus · Musky",
+  "notes": [
+   "monarda",
+   "pompelmo",
+   "violet leaf",
+   "lotus",
+   "rose de mai",
+   "lily of the valley"
+  ],
+  "world": "Mechline"
+ },
+ {
+  "name": "Annabel Lee",
+  "line": "Cloud Mist",
+  "family": "",
+  "notes": [
+   "iced lychee tea",
+   "pear",
+   "petalia",
+   "akigalawood",
+   "roseraie de l'hay",
+   "cashmeran"
+  ],
+  "world": "Annabel Lee"
+ },
+ {
+  "name": "Remedia Amoris",
+  "line": "Cloud Mist",
+  "family": "",
+  "notes": [
+   "bergamot",
+   "spearmint",
+   "kyobancha",
+   "jasmine bud",
+   "sweet violet",
+   "chantilly cream"
+  ],
+  "world": "Remedia Amoris"
+ },
+ {
+  "name": "Sonnet 116",
+  "line": "Cloud Mist",
+  "family": "",
+  "notes": [
+   "virgin mojito",
+   "rice powder",
+   "fukamushicha",
+   "jasmine sambac",
+   "cyclamen",
+   "milk mousse"
+  ],
+  "world": "Sonnet 116"
+ },
+ {
+  "name": "Träumerei",
+  "line": "Cloud Mist",
+  "family": "",
+  "notes": [
+   "bergamot",
+   "fig leaves",
+   "golden sage",
+   "cyclamen",
+   "peppercorn",
+   "haitian vetiver"
+  ],
+  "world": "Träumerei"
+ },
+ {
+  "name": "Am Kamin",
+  "line": "Cloud Mist",
+  "family": "",
+  "notes": [
+   "sichuan pepper",
+   "elettaria",
+   "thyme",
+   "cosmofruit",
+   "lily of the valley",
+   "patchouli"
+  ],
+  "world": "Am Kamin"
+ },
+ {
+  "name": "Isola Bella",
+  "line": "Home · Room Potion",
+  "family": "",
+  "notes": [
+   "rose",
+   "magnolia"
+  ],
+  "world": "The Eden"
+ },
+ {
+  "name": "Quinta da Regaleira",
+  "line": "Home · Ambience Mist",
+  "family": "",
+  "notes": [
+   "litseacubeba",
+   "daffodil"
+  ],
+  "world": "The Eden"
+ },
+ {
+  "name": "Petali di Seta",
+  "line": "Home · Fabric Potion",
+  "family": "",
+  "notes": [
+   "ambrette",
+   "oris"
+  ],
+  "world": "The Eden"
+ },
+ {
+  "name": "Loui's Lullaby Body Potion",
+  "line": "Body care · Body Potion",
+  "family": "",
+  "notes": [
+   "violet leaf",
+   "rose",
+   "peony"
+  ],
+  "world": "Loui"
+ },
+ {
+  "name": "Loui's Lullaby Shower Potion",
+  "line": "Body care · Shower Potion",
+  "family": "",
+  "notes": [
+   "violet leaf",
+   "rose",
+   "peony"
+  ],
+  "world": "Loui"
+ },
+ {
+  "name": "My Annabel Lee Hand Dew",
+  "line": "Hand Dew",
+  "family": "",
+  "notes": [],
+  "world": "Annabel Lee"
+ },
+ {
+  "name": "Remedia the Nostalgia Hand Dew",
+  "line": "Hand Dew",
+  "family": "",
+  "notes": [],
+  "world": "Remedia Amoris"
+ },
+ {
+  "name": "Solace of Sonnet Hand Dew",
+  "line": "Hand Dew",
+  "family": "",
+  "notes": [],
+  "world": "Sonnet 116"
+ },
+ {
+  "name": "Into SAFF's Shadow Deo",
+  "line": "Deo",
+  "family": "",
+  "notes": [],
+  "world": "SAFF"
+ },
+ {
+  "name": "Reign of Solaris Deo",
+  "line": "Deo",
+  "family": "",
+  "notes": [],
+  "world": "Solaris"
+ },
+ {
+  "name": "Loui's Lullaby Deo",
+  "line": "Deo",
+  "family": "",
+  "notes": [],
+  "world": "Loui"
+ },
+ {
+  "name": "Ode to Ostara Deo",
+  "line": "Deo",
+  "family": "",
+  "notes": [],
+  "world": "Ostara"
+ },
+ {
+  "name": "Sanctum on the Beach Hand Potion",
+  "line": "Hand Potion",
+  "family": "",
+  "notes": [],
+  "world": "S.O.T.B"
+ },
+ {
+  "name": "Loui's Lullaby Hand Potion",
+  "line": "Hand Potion",
+  "family": "",
+  "notes": [],
+  "world": "Loui"
+ },
+ {
+  "name": "Ode to Ostara Hand Potion",
+  "line": "Hand Potion",
+  "family": "",
+  "notes": [],
+  "world": "Ostara"
+ },
+ {
+  "name": "Serenade on French Riviera Body Potion",
+  "line": "Body Potion",
+  "family": "",
+  "notes": [],
+  "world": "S.O.F.R"
+ },
+ {
+  "name": "Echoes of Irai Leima Body Potion",
+  "line": "Body Potion",
+  "family": "",
+  "notes": [],
+  "world": "Irai Leima"
+ },
+ {
+  "name": "8 ml & 2 ml sizes",
+  "line": "Extrait de Parfum",
+  "family": "",
+  "notes": [],
+  "world": ""
+ }
+]

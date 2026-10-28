@@ -19,7 +19,11 @@
    "t004",
    "t032",
    "t030"
-  ]
+  ],
+  "builds_on": [
+   "CHNO"
+  ],
+  "gap": "No local kopi susu gourmand yet"
  },
  {
   "id": "o2",
@@ -41,7 +45,14 @@
    "t011",
    "t001",
    "t036"
-  ]
+  ],
+  "builds_on": [
+   "Annabel Lee",
+   "Remedia Amoris",
+   "Sonnet 116",
+   "Rae Nira"
+  ],
+  "gap": "Mood framing for the mists"
  },
  {
   "id": "o3",
@@ -64,7 +75,11 @@
    "t042",
    "t011",
    "t039"
-  ]
+  ],
+  "builds_on": [
+   "8 ml & 2 ml sizes"
+  ],
+  "gap": "No curated set; fits Ramadan & Lebaran 2027"
  },
  {
   "id": "o4",
@@ -87,7 +102,14 @@
    "t018",
    "t028",
    "t006"
-  ]
+  ],
+  "builds_on": [
+   "Las Pozas",
+   "Maleali",
+   "Kirithra",
+   "Kie Raha"
+  ],
+  "gap": "Story not told as a series"
  },
  {
   "id": "o5",
@@ -110,7 +132,14 @@
    "t001",
    "t022",
    "t041"
-  ]
+  ],
+  "builds_on": [
+   "Annabel Lee",
+   "Eulalie",
+   "Ostara",
+   "Postojna"
+  ],
+  "gap": "Guava / mangosteen not covered"
  },
  {
   "id": "o6",
@@ -133,7 +162,12 @@
    "t009",
    "t043",
    "t006"
-  ]
+  ],
+  "builds_on": [
+   "Loui",
+   "Petali di Seta"
+  ],
+  "gap": "Clean-laundry framing"
  },
  {
   "id": "o7",
@@ -153,6 +187,94 @@
    "t035",
    "t016",
    "t037"
-  ]
+  ],
+  "builds_on": [],
+  "gap": "White space"
+ },
+ {
+  "id": "o8",
+  "name": "Concert Kit",
+  "timing": "Act now",
+  "format": "8 ml Extrait + travel Cloud Mist + Deo Potion + Hand Dew",
+  "price": "Mass-premium",
+  "notes": [
+   "tuberose",
+   "coffee",
+   "benzoin",
+   "iced lychee tea"
+  ],
+  "packaging": "Pouch that fits a concert bag, with a wear-time card",
+  "target": "Concert-goers, Dec 2026 – early 2027",
+  "why": "BTS plays GBK on 26, 27 and 29 Dec and longevity is what concert-goers look for; SAFF can assemble the whole kit from existing products.",
+  "trend_ids": [
+   "t044",
+   "t011",
+   "t013"
+  ],
+  "builds_on": [
+   "S.O.T.B",
+   "CHNO",
+   "Las Pozas",
+   "Annabel Lee",
+   "Into SAFF's Shadow Deo",
+   "My Annabel Lee Hand Dew"
+  ],
+  "gap": "Bundle + content only"
+ },
+ {
+  "id": "o9",
+  "name": "Osmanthus Oolong Cloud Mist",
+  "timing": "Test next",
+  "format": "Cloud Mist + matching Hand Dew",
+  "price": "Mass-premium",
+  "notes": [
+   "osmanthus",
+   "oolong",
+   "pear",
+   "soft musk"
+  ],
+  "packaging": "Joins the Cloud Mist family; tea-amber tint",
+  "target": "Gen Z tea-bar regulars",
+  "why": "Osmanthus tea is a Jakarta lifestyle cue and a 2026 niche launch theme, and SAFF's mists are already a tea collection.",
+  "trend_ids": [
+   "t045",
+   "t005",
+   "t011"
+  ],
+  "builds_on": [
+   "Annabel Lee",
+   "Remedia Amoris",
+   "Sonnet 116"
+  ],
+  "gap": "No osmanthus in the line"
+ },
+ {
+  "id": "o10",
+  "name": "Scent World Sets",
+  "timing": "Act now",
+  "format": "Extrait + Deo + Hand/Body Potion in one scent",
+  "price": "Mass-premium",
+  "notes": [
+   "violet leaf",
+   "rose",
+   "peony",
+   "raspberry"
+  ],
+  "packaging": "One box per scent world with a layering card",
+  "target": "Gift buyers (Christmas, Ramadan, Lebaran) and existing fans",
+  "why": "Layering is how people build a signature, and SAFF already makes matching Deo, Hand and Body Potions for its key Extraits.",
+  "trend_ids": [
+   "t011",
+   "t036",
+   "t042"
+  ],
+  "builds_on": [
+   "Loui",
+   "Loui's Lullaby Deo",
+   "Loui's Lullaby Body Potion",
+   "Ostara",
+   "Ode to Ostara Hand Potion"
+  ],
+  "gap": "Bundle + pack only"
  }
 ]
