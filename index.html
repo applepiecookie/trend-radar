@@ -124,6 +124,15 @@ h2.sec{font-size:19px;font-weight:700;margin:0 0 10px;letter-spacing:-.01em}
 .cmpc{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;font-size:14.5px}
 .cmpc b{font-size:16px}
 .cmpc .r{margin-top:8px;font-weight:600;color:var(--seg)}
+.ideas{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:12px;margin-bottom:26px}
+.idea{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--seg);border-radius:var(--r);padding:14px 16px;font-size:14.5px}
+.idea .hd{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.idea h4{margin:0;font-size:17px}
+.idea .tm{font-size:12px;font-weight:600;white-space:nowrap;border-radius:99px;padding:2px 9px;background:var(--seg-soft);color:var(--seg)}
+.idea .fm{color:var(--muted);font-size:13.5px;margin:3px 0 8px}
+.idea p{margin:8px 0}
+.idea .lb{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-top:8px}
+.idea .gp{margin-top:8px;font-size:13.5px;font-weight:600;color:var(--seg)}
 details.foot{background:var(--card);border:1px solid var(--line);border-radius:var(--r);margin-bottom:12px}
 details.foot summary{cursor:pointer;padding:12px 18px;font-weight:600;font-size:14.5px}
 details.foot .in{padding:0 18px 14px;font-size:14px;color:var(--ink2)}
@@ -178,7 +187,7 @@ footer{color:var(--muted);font-size:12.5px;padding:10px 0 36px}
   const link = (text, url) => { const u = safeUrl(url); return u ? Object.assign(el("a", null, text), {href: u, target: "_blank", rel: "noopener noreferrer"}) : document.createTextNode(text); };
   const fmtTime = s => { const d = new Date(s); return isNaN(d) ? "" : d.toLocaleString("en-GB", {day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Jakarta"}) + " WIB"; };
   const today = new Date(); today.setHours(0, 0, 0, 0);
-  let T = [], M = [], B = null, PF = [], cur = "Overview", open = null, showAll = {};
+  let T = [], M = [], B = null, PF = [], OP = [], cur = "Overview", open = null, showAll = {};
 
   async function load(name) {
     const r = await fetch("data/" + name + "?v=" + Date.now(), {cache: "no-store"});
@@ -326,6 +335,23 @@ footer{color:var(--muted);font-size:12.5px;padding:10px 0 36px}
         sec.append(three);
         sec.append(el("h2", "sec", "Actions"));
         const ab = el("div", "acts"); acts.forEach(a => ab.append(actionCard(a))); sec.append(ab);
+        const ideas = OP.filter(o => o.segment === cur).sort((a, b) => (a.rank || 99) - (b.rank || 99));
+        if (ideas.length) {
+          sec.append(el("h2", "sec", "Product ideas for SAFF"));
+          const g = el("div", "ideas");
+          ideas.forEach(o => {
+            const c = el("article", "idea"); const hd = el("div", "hd");
+            hd.append(el("h4", null, o.name), el("span", "tm", o.timing === "Act now" ? "Do now" : o.timing === "Test next" ? "Test next" : "Watch"));
+            c.append(hd, el("div", "fm", [o.format, o.price].filter(Boolean).join(" · ")));
+            if (o.notes && o.notes.length) { c.append(el("div", "lb", "Notes")); c.append(chips(o.notes)); }
+            c.append(el("p", null, o.why));
+            if (o.packaging) { const pk = el("p"); pk.append(el("b", null, "Pack: "), o.packaging); c.append(pk); }
+            if (o.builds_on && o.builds_on.length) { c.append(el("div", "lb", "Builds on")); c.append(chips(o.builds_on)); }
+            if (o.gap) c.append(el("div", "gp", "New for SAFF: " + o.gap));
+            g.append(c);
+          });
+          sec.append(g);
+        }
         if (cur === "Body & personal care" && B.scent_worlds) {
           sec.append(el("h2", "sec", "Scent worlds SAFF can sell as sets today"));
           const lineOf = Object.fromEntries(PF.map(p => [p.name, p.line.replace("Body care · ", "")]));
@@ -361,8 +387,8 @@ footer{color:var(--muted);font-size:12.5px;padding:10px 0 36px}
   async function refresh(first) {
     const meta = await load("meta.json").catch(() => ({}));
     if (!first && meta.updated_at && meta.updated_at === lastStamp) return;
-    const [t, m, br, pf] = await Promise.all([load("trends.json"), load("mentions.json"), load("brief.json"), load("portfolio.json").catch(() => [])]);
-    T = t; M = m; B = br; PF = Array.isArray(pf) ? pf : []; enrich(); lastStamp = meta.updated_at || null;
+    const [t, m, br, pf, op] = await Promise.all([load("trends.json"), load("mentions.json"), load("brief.json"), load("portfolio.json").catch(() => []), load("opportunities.json").catch(() => [])]);
+    T = t; M = m; B = br; PF = Array.isArray(pf) ? pf : []; OP = Array.isArray(op) ? op : []; enrich(); lastStamp = meta.updated_at || null;
     const u = $("#updated"); u.textContent = "";
     u.append("Updated ", el("b", null, meta.updated_at ? fmtTime(meta.updated_at) : "—"), " · refreshes itself");
     if (!first) { const x = el("span", "fresh", " · new data"); u.append(x); clearTimeout(toastTimer); toastTimer = setTimeout(() => x.remove(), 8000); }

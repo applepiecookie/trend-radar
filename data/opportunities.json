@@ -23,7 +23,9 @@
   "builds_on": [
    "CHNO"
   ],
-  "gap": "No local kopi susu gourmand yet"
+  "gap": "No local kopi susu gourmand yet",
+  "segment": "Fragrance",
+  "rank": 2
  },
  {
   "id": "o2",
@@ -52,7 +54,9 @@
    "Sonnet 116",
    "Rae Nira"
   ],
-  "gap": "Mood framing for the mists"
+  "gap": "Mood framing for the mists",
+  "segment": "Body & personal care",
+  "rank": 2
  },
  {
   "id": "o3",
@@ -79,7 +83,8 @@
   "builds_on": [
    "8 ml & 2 ml sizes"
   ],
-  "gap": "No curated set; fits Ramadan & Lebaran 2027"
+  "gap": "No curated set; fits Ramadan & Lebaran 2027",
+  "segment": "Packaging & format"
  },
  {
   "id": "o4",
@@ -109,7 +114,9 @@
    "Kirithra",
    "Kie Raha"
   ],
-  "gap": "Story not told as a series"
+  "gap": "Story not told as a series",
+  "segment": "Fragrance",
+  "rank": 3
  },
  {
   "id": "o5",
@@ -139,7 +146,9 @@
    "Ostara",
    "Postojna"
   ],
-  "gap": "Guava / mangosteen not covered"
+  "gap": "Guava / mangosteen not covered",
+  "segment": "Fragrance",
+  "rank": 4
  },
  {
   "id": "o6",
@@ -167,7 +176,9 @@
    "Loui",
    "Petali di Seta"
   ],
-  "gap": "Clean-laundry framing"
+  "gap": "Clean-laundry framing",
+  "segment": "Fragrance",
+  "rank": 5
  },
  {
   "id": "o7",
@@ -189,7 +200,9 @@
    "t037"
   ],
   "builds_on": [],
-  "gap": "White space"
+  "gap": "White space",
+  "segment": "Body & personal care",
+  "rank": 3
  },
  {
   "id": "o8",
@@ -219,34 +232,37 @@
    "Into SAFF's Shadow Deo",
    "My Annabel Lee Hand Dew"
   ],
-  "gap": "Bundle + content only"
+  "gap": "Bundle + content only",
+  "segment": "Market & consumer"
  },
  {
   "id": "o9",
-  "name": "Osmanthus Oolong Cloud Mist",
+  "name": "Osmanthus Milk Tea Cloud Mist",
   "timing": "Test next",
   "format": "Cloud Mist + matching Hand Dew",
   "price": "Mass-premium",
   "notes": [
    "osmanthus",
    "oolong",
+   "milk mousse",
    "pear",
    "soft musk"
   ],
-  "packaging": "Joins the Cloud Mist family; tea-amber tint",
+  "packaging": "Joins the Cloud Mist family; milk-tea beige tint",
   "target": "Gen Z tea-bar regulars",
-  "why": "Osmanthus tea is a Jakarta lifestyle cue and a 2026 niche launch theme, and SAFF's mists are already a tea collection.",
+  "why": "Floral milk teas like Chagee's osmanthus oolong are a daily Jakarta drink, and milky notes are 2026's comfort cue. Sonnet 116 already proves SAFF can do tea + milk; osmanthus is the next 'drink you can wear'.",
   "trend_ids": [
+   "t053",
    "t045",
-   "t005",
    "t011"
   ],
   "builds_on": [
-   "Annabel Lee",
-   "Remedia Amoris",
-   "Sonnet 116"
+   "Sonnet 116",
+   "Annabel Lee"
   ],
-  "gap": "No osmanthus in the line"
+  "gap": "Osmanthus and oolong, not yet in the line",
+  "segment": "Fragrance",
+  "rank": 1
  },
  {
   "id": "o10",
@@ -275,6 +291,36 @@
    "Ostara",
    "Ode to Ostara Hand Potion"
   ],
-  "gap": "Bundle + pack only"
+  "gap": "Bundle + pack only",
+  "segment": "Body & personal care",
+  "rank": 1
+ },
+ {
+  "id": "o11",
+  "segment": "Packaging & format",
+  "rank": 2,
+  "name": "Tea Bar Mist Trio",
+  "timing": "Act now",
+  "format": "3 × travel Cloud Mist in one box",
+  "price": "Mass",
+  "notes": [
+   "iced lychee tea",
+   "fukamushicha",
+   "milk mousse",
+   "kyobancha"
+  ],
+  "packaging": "Box styled like a tea-bar menu card: one 'drink' per mist",
+  "target": "First-time buyers and gift shoppers",
+  "why": "Milk tea and tea bars are how young shoppers already talk about taste. Selling the tea mists as a 'menu' turns a drink habit into a first SAFF purchase.",
+  "trend_ids": [
+   "t053",
+   "t045"
+  ],
+  "builds_on": [
+   "Annabel Lee",
+   "Sonnet 116",
+   "Remedia Amoris"
+  ],
+  "gap": "Set and pack only"
  }
 ]
