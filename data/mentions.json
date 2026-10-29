@@ -742,5 +742,37 @@
   "date_approx": false,
   "source_name": "Knowledge Sourcing",
   "url": "https://www.knowledge-sourcing.com/report/indonesia-home-fragrance-market"
+ },
+ {
+  "id": "t053-popbela-20251006",
+  "trend_id": "t053",
+  "date": "2025-10-06",
+  "date_approx": false,
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/lifestyle/food/menu-unggulan-chagee-00-9z5cw-49g0x5/amp"
+ },
+ {
+  "id": "t053-fortuneidn-20250409",
+  "trend_id": "t053",
+  "date": "2025-04-09",
+  "date_approx": false,
+  "source_name": "Fortune IDN",
+  "url": "https://www.fortuneidn.com/business/diboyong-erajaya-chagee-buka-gerai-pertama-di-indonesia-00-5mjpg-ytncqd"
+ },
+ {
+  "id": "t053-thestar-20260606",
+  "trend_id": "t053",
+  "date": "2026-06-06",
+  "date_approx": false,
+  "source_name": "The Star",
+  "url": "https://www.thestar.com.my/lifestyle/style/2026/06/06/what-does-milk-smell-like-the-fragrance-world-is-suddenly-and-oddly-obsessed"
+ },
+ {
+  "id": "t053-marieclaire-2026",
+  "trend_id": "t053",
+  "date": "2026",
+  "date_approx": true,
+  "source_name": "Marie Claire",
+  "url": "https://www.marieclaire.com/beauty/fragrance/milk-perfumes/"
  }
 ]

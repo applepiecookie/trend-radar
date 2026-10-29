@@ -1357,7 +1357,7 @@
   "source_name": "Popmama, ScentAdvice",
   "url": "https://www.popmama.com/life/health/rekomendasi-oriental-teh-kekinian-di-jakarta-00-f62c5-gk63gp",
   "strength": "Medium",
-  "status": "New",
+  "status": "Ongoing",
   "stage": "Lead market",
   "local_fit": 3,
   "keywords": [
@@ -1604,6 +1604,40 @@
     "Petali di Seta"
    ],
    "note": "Room, ambience and fabric formats exist; no candle."
+  }
+ },
+ {
+  "id": "t053",
+  "found": "2026-10-29",
+  "published": "2026-06",
+  "segment": "Fragrance",
+  "category": "Scent & notes",
+  "trend": "Milk tea as a scent cue",
+  "summary": "Chagee's floral milk teas (osmanthus oolong, jasmine green, gardenia) made tea-with-milk a daily Jakarta drink since its 2025 opening, while milky notes are a 2026 fragrance obsession (Glossier, Mugler, DedCool).",
+  "angle": "SAFF already has a milk tea in the line: Sonnet 116 pairs fukamushicha green tea with milk mousse. Gen Z links these drinks to scent, so it's a ready content hook.",
+  "idea": "Tell Sonnet 116 and Annabel Lee as 'drinks you can wear' (green milk tea, iced lychee tea), then brief an osmanthus-oolong milk tea mist as the next one.",
+  "source_type": "News & industry",
+  "source_name": "Popbela, The Star",
+  "url": "https://www.popbela.com/lifestyle/food/menu-unggulan-chagee-00-9z5cw-49g0x5/amp",
+  "strength": "Medium",
+  "status": "New",
+  "stage": "Local early adopters",
+  "local_fit": 3,
+  "keywords": [
+   "milk tea",
+   "osmanthus",
+   "oolong",
+   "milk",
+   "green tea"
+  ],
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "Sonnet 116",
+    "Annabel Lee",
+    "Minouet"
+   ],
+   "note": "Sonnet 116 is already green tea + milk mousse; no osmanthus or oolong milk tea yet."
   }
  }
 ]

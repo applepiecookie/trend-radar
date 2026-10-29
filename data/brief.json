@@ -454,20 +454,20 @@
   },
   {
    "id": "a7",
-   "action": "Osmanthus-oolong Cloud Mist brief",
-   "detail": "Brief an osmanthus tea mist as the next in the tea collection; keep projection soft and panel-test for 'too heavy' feedback.",
+   "action": "Osmanthus milk tea mist",
+   "detail": "Brief an osmanthus-oolong milk tea Cloud Mist as the next 'drink you can wear', building on Sonnet 116's tea + milk base; keep it sheer and panel-test for 'too heavy'.",
    "type": "NPD",
-   "horizon": "Later",
-   "effort": "L",
+   "horizon": "Next",
+   "effort": "M",
    "team": "Prodev",
    "products": [
-    "Annabel Lee",
     "Sonnet 116"
    ],
    "trend_ids": [
+    "t053",
     "t045"
    ],
-   "metric": "Brief to supplier; panel test score"
+   "metric": "Concept test score vs Sonnet 116"
   },
   {
    "id": "a10",
@@ -482,6 +482,23 @@
     "t035"
    ],
    "metric": "Feasibility note"
+  },
+  {
+   "id": "a17",
+   "action": "'Drinks you can wear' content",
+   "detail": "Show Sonnet 116 as green milk tea and Annabel Lee as iced lychee tea next to the drinks people already buy; a quick hook that avoids the crowded matcha lane.",
+   "type": "Content",
+   "horizon": "Now",
+   "effort": "S",
+   "team": "Marketing · Copywriting",
+   "products": [
+    "Sonnet 116",
+    "Annabel Lee"
+   ],
+   "trend_ids": [
+    "t053"
+   ],
+   "metric": "Saves and shares vs other Cloud Mist posts"
   }
  ],
  "moments": [
@@ -702,6 +719,18 @@
    "source": "Jakpat via GoodStats",
    "url": "https://goodstats.id/publication/jakpat-consumer-dan-commerce-outlook-2026-3fTnc",
    "confidence": "Survey summary"
+  },
+  {
+   "item": "Chagee floral milk teas in Jakarta",
+   "source": "Popbela (Oct 2025)",
+   "url": "https://www.popbela.com/lifestyle/food/menu-unggulan-chagee-00-9z5cw-49g0x5/amp",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Milky notes trend",
+   "source": "The Star (6 Jun 2026)",
+   "url": "https://www.thestar.com.my/lifestyle/style/2026/06/06/what-does-milk-smell-like-the-fragrance-world-is-suddenly-and-oddly-obsessed",
+   "confidence": "Editorial"
   }
  ],
  "scent_worlds": [
@@ -783,7 +812,7 @@
  "segments": [
   {
    "name": "Fragrance",
-   "message": "Staying power is the reason to buy this season. Prove SAFF's Extraits last, and move gourmands toward creamy coffee rather than more sugar.",
+   "message": "Staying power is the reason to buy this season, and milk tea is the scent people already crave. Prove the Extraits last, and turn SAFF's tea mists into 'drinks you can wear'.",
    "happening": [
     {
      "text": "BTS plays Stadion Utama GBK on 26, 27 and 29 Dec; concert-goers want scent that lasts a whole show.",
@@ -796,24 +825,30 @@
      "url": "https://mojok.co/terminal/parfum-hmns-bikin-saya-kecewa-wanginya-nggak-tahan-lama/"
     },
     {
-     "text": "'Gourmand 2.0' (creamy, toasted, textured) is rising while overt sweetness declines.",
-     "source": "Cosmetics Business",
-     "url": "https://cosmeticsbusiness.com/the-fragrance-shop-and-cpl-aromas-unveil-the"
+     "text": "Chagee's floral milk teas (osmanthus oolong, jasmine, gardenia) became a Jakarta habit after its 2025 opening at PIK Avenue.",
+     "source": "Popbela",
+     "url": "https://www.popbela.com/lifestyle/food/menu-unggulan-chagee-00-9z5cw-49g0x5/amp"
+    },
+    {
+     "text": "Milky notes are 2026's comfort cue: Glossier, Mugler and DedCool all launched milk scents.",
+     "source": "The Star",
+     "url": "https://www.thestar.com.my/lifestyle/style/2026/06/06/what-does-milk-smell-like-the-fragrance-world-is-suddenly-and-oddly-obsessed"
     }
    ],
    "saff_has": [
     "All 24 perfumes are Extrait de Parfum.",
     "Night-wear picks: S.O.T.B, CHNO, Las Pozas, SAFF.",
-    "Creamy gourmands already: CHNO (coffee, almond), Minouet (milk)."
+    "A milk tea already: Sonnet 116 (green tea + milk mousse); milky Minouet; iced lychee tea in Annabel Lee."
    ],
    "gaps": [
-    "No kopi susu / palm-sugar gourmand",
-    "Sweeter scents to watch: Xocolatl, S.O.T.B"
+    "No osmanthus / oolong milk tea",
+    "No kopi susu / palm-sugar gourmand"
    ],
    "action_ids": [
     "a1",
-    "a8",
-    "a9"
+    "a17",
+    "a7",
+    "a8"
    ]
   },
   {
