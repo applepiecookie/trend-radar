@@ -1,0 +1,194 @@
+[
+ {
+  "id": "m001",
+  "date": "2026-02-18",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/extrait-de-parfum-4",
+  "type": "Review site",
+  "sentiment": "Negative",
+  "themes": [
+   "Packaging & bottle"
+  ],
+  "summary": "Reviewer says the new SAFF bottle is too big to carry around, and the old bottle leaked several times."
+ },
+ {
+  "id": "m002",
+  "date": "2026-05-20",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Lazada blog",
+  "url": "https://www.lazada.co.id/blog/?p=4803",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Longevity",
+   "Authenticity & fakes"
+  ],
+  "summary": "Retailer guide on choosing long-lasting SAFF scents addresses the 'scent fades fast' complaint and warns about fake products."
+ },
+ {
+  "id": "m003",
+  "date": "2026-06-01",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Lazada blog",
+  "url": "https://www.lazada.co.id/blog/saff-co-long-lasting-daily-fragrance/",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Longevity"
+  ],
+  "summary": "Second retailer article on SAFF longevity, stressing skin chemistry and that long-lasting does not mean strong sillage."
+ },
+ {
+  "id": "m004",
+  "date": "2026-06-01",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/make-up/review-parfum-saff-co-irai-leima-00-p4hpf-b2r8jd/amp",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity",
+   "Repurchase"
+  ],
+  "summary": "Irai Leima reviewed as clean, elegant aquatic-floral; fairly long-lasting and often repurchased."
+ },
+ {
+  "id": "m005",
+  "date": "2026-01-15",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/make-up/daftar-brand-parfum-lokal-terbaik-2026-n3v01-00-fzpls-z9pxmb/amp",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation"
+  ],
+  "summary": "SAFF & Co. named among top local fragrance brands of 2026 next to HMNS, Mykonos and Project 1945."
+ },
+ {
+  "id": "m006",
+  "date": "2026-04-01",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "RIGGS Journal (Shopee study)",
+  "url": "https://journal.ilmudata.co.id/index.php/RIGGS/article/download/8627/9843",
+  "type": "Research",
+  "sentiment": "Positive",
+  "themes": [
+   "Ratings & reviews"
+  ],
+  "summary": "Academic study cites about 266,680 Shopee reviews for SAFF with a 4.94 average; rating mattered more than review text for purchase intent."
+ },
+ {
+  "id": "m007",
+  "date": "2026-06-01",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/cocosweet-unique-charming-solid-perfume-2",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Price & value",
+   "Availability"
+  ],
+  "summary": "Coco reviewers praise long wear, fair price, large size and easy availability."
+ },
+ {
+  "id": "m008",
+  "date": "2026-05-11",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/hmns-perfume/unrosed",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Unrosed praised as a powdery, slightly spicy rose that is not sweet and lasts long."
+ },
+ {
+  "id": "m009",
+  "date": "2026-01-30",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/hmns-perfume/orgasm",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "Orgasm reviewer says a little goes a long way and it lasts on clothes."
+ },
+ {
+  "id": "m010",
+  "date": "2026-06-12",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/eau-de-parfum-paradise-1",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Price & value",
+   "Range & sizes"
+  ],
+  "summary": "Paradise liked as a soft daily scent; fans cite wide choice and travel sizes."
+ },
+ {
+  "id": "m011",
+  "date": "2026-06-01",
+  "date_approx": true,
+  "brand": "Mykonos",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/eau-de-parfum-rouge-2",
+  "type": "Review site",
+  "sentiment": "Negative",
+  "themes": [
+   "Texture & oiliness",
+   "Longevity"
+  ],
+  "summary": "Rouge reviewer finds it very oily, lasting 3–4 hours; would not repurchase."
+ },
+ {
+  "id": "m012",
+  "date": "2025-08-21",
+  "date_approx": false,
+  "brand": "Onix",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/onix/fresh-book-passion",
+  "type": "Review site",
+  "sentiment": "Negative",
+  "themes": [
+   "Longevity"
+  ],
+  "summary": "Fresh Book Passion reviewer says it lasts only 1–2 hours and the dry-down disappears."
+ },
+ {
+  "id": "m013",
+  "date": "2026-01-20",
+  "date_approx": true,
+  "brand": "Alchemist",
+  "source_name": "Harper's Bazaar MY",
+  "url": "https://harpersbazaar.my/beauty/the-alchemist-out-west-collection/",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation",
+   "New launch"
+  ],
+  "summary": "Alchemist launches Out West collection with IFF perfumers; brand cites Best Perfume Brand Indonesia wins in 2022 and 2024."
+ }
+]

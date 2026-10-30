@@ -1,0 +1,47 @@
+{
+ "date": "2026-10-30",
+ "headline": "SAFF & Co. leads local rivals on review volume and holds a solid 4.3 rating, but its most-reviewed scent (S.O.T.B) is also its lowest-rated, and packaging and longevity are the pain points to watch.",
+ "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
+ "insights": [
+  {
+   "text": "SAFF has the most Female Daily reviews of the brands tracked (1,746 on its top 16 products vs 1,537 for HMNS) with a 4.32 weighted rating, second only to Alchemist (4.46).",
+   "evidence": "ratings"
+  },
+  {
+   "text": "S.O.T.B holds a third of SAFF's Female Daily reviews but rates 4.1, the lowest in the line along with Ostara and SAFF. The hero product pulls the brand average down.",
+   "evidence": "ratings"
+  },
+  {
+   "text": "Packaging shows up as a pain point: a 2026 review says the new bottle is too big to carry and the old one leaked.",
+   "evidence": "m001"
+  },
+  {
+   "text": "Retailers are publishing content about SAFF 'fading fast' and about fakes, a sign that longevity and authenticity questions recur among shoppers.",
+   "evidence": "m002"
+  }
+ ],
+ "recommendations": [
+  {
+   "text": "Dig into S.O.T.B low-star reviews (marketplace export) to find whether the issue is scent, longevity or batch, then fix copy, sampling or formula.",
+   "horizon": "Now"
+  },
+  {
+   "text": "Add a travel or slim bottle option and check leak complaints with QC; packaging is the clearest experience gap.",
+   "horizon": "Next"
+  },
+  {
+   "text": "Publish 'how to make it last' and 'how to spot a fake' content on product pages and inserts, to get ahead of longevity and authenticity doubts.",
+   "horizon": "Now"
+  },
+  {
+   "text": "Run a short quarterly survey (awareness, consideration, NPS) so the report covers all brand health KPIs, not only online sentiment.",
+   "horizon": "Later"
+  }
+ ],
+ "watch": [
+  "Weekly change in S.O.T.B rating",
+  "New packaging complaints",
+  "Mentions of fakes or resellers",
+  "HMNS and Mykonos launches"
+ ]
+}

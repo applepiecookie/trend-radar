@@ -1,0 +1,377 @@
+{
+ "note": "Female Daily brand pages list the 16 most-reviewed products. weighted_rating = review-weighted average of those products. Onix has no Female Daily brand page in search results yet.",
+ "snapshots": [
+  {
+   "date": "2026-10-30",
+   "brand": "SAFF & Co.",
+   "source": "Female Daily",
+   "url": "https://reviews.femaledaily.com/brands/product/saff-co",
+   "products_total": 35,
+   "products_counted": 16,
+   "reviews_counted": 1746,
+   "weighted_rating": 4.32,
+   "products_below_4": 0,
+   "products": [
+    {
+     "name": "S.O.T.B Extrait de Parfum",
+     "rating": 4.1,
+     "reviews": 586
+    },
+    {
+     "name": "Loui Extrait de Parfum",
+     "rating": 4.3,
+     "reviews": 176
+    },
+    {
+     "name": "Omnia Extrait de Parfum",
+     "rating": 4.5,
+     "reviews": 141
+    },
+    {
+     "name": "Ostara Extrait de Parfum",
+     "rating": 4.1,
+     "reviews": 104
+    },
+    {
+     "name": "Chno Extrait de Parfum",
+     "rating": 4.3,
+     "reviews": 100
+    },
+    {
+     "name": "Troupe Extrait de Parfum",
+     "rating": 4.6,
+     "reviews": 95
+    },
+    {
+     "name": "Las Pozas Extrait de Parfum",
+     "rating": 4.6,
+     "reviews": 91
+    },
+    {
+     "name": "Xocolatl Extrait de Parfum",
+     "rating": 4.7,
+     "reviews": 91
+    },
+    {
+     "name": "Coco Extrait de Parfum",
+     "rating": 4.4,
+     "reviews": 76
+    },
+    {
+     "name": "Minouet Extrait de Parfum",
+     "rating": 4.5,
+     "reviews": 51
+    },
+    {
+     "name": "Cascavel Extrait de Parfum",
+     "rating": 4.3,
+     "reviews": 50
+    },
+    {
+     "name": "Saff Extrait de Parfum",
+     "rating": 4.1,
+     "reviews": 48
+    },
+    {
+     "name": "Irai Leima EDP",
+     "rating": 4.7,
+     "reviews": 45
+    },
+    {
+     "name": "Iliad Extrait de Parfum",
+     "rating": 4.6,
+     "reviews": 33
+    },
+    {
+     "name": "Cloud Mist Annabel Lee",
+     "rating": 4.7,
+     "reviews": 30
+    },
+    {
+     "name": "Solaris Extrait de Parfum",
+     "rating": 4.6,
+     "reviews": 29
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "brand": "HMNS",
+   "source": "Female Daily",
+   "url": "https://reviews.femaledaily.com/brands/product/hmns-perfume",
+   "products_total": 34,
+   "products_counted": 16,
+   "reviews_counted": 1537,
+   "weighted_rating": 4.15,
+   "products_below_4": 2,
+   "products": [
+    {
+     "name": "Orgasm",
+     "rating": 4.0,
+     "reviews": 526
+    },
+    {
+     "name": "Essence of Sun",
+     "rating": 4.2,
+     "reviews": 268
+    },
+    {
+     "name": "Ambar Janma",
+     "rating": 4.2,
+     "reviews": 156
+    },
+    {
+     "name": "Alpha",
+     "rating": 4.4,
+     "reviews": 84
+    },
+    {
+     "name": "Unrosed",
+     "rating": 4.4,
+     "reviews": 77
+    },
+    {
+     "name": "Farhampton",
+     "rating": 4.1,
+     "reviews": 69
+    },
+    {
+     "name": "Drops of Sunshine",
+     "rating": 4.3,
+     "reviews": 66
+    },
+    {
+     "name": "HMNS x Tsana Fragrance Mist Elea",
+     "rating": 4.2,
+     "reviews": 55
+    },
+    {
+     "name": "My 1st O",
+     "rating": 4.5,
+     "reviews": 46
+    },
+    {
+     "name": "Darker Shades of Orgasm",
+     "rating": 4.4,
+     "reviews": 42
+    },
+    {
+     "name": "The Perfection",
+     "rating": 4.2,
+     "reviews": 33
+    },
+    {
+     "name": "Scent of a Woman",
+     "rating": 3.7,
+     "reviews": 28
+    },
+    {
+     "name": "Y? Series XX",
+     "rating": 4.3,
+     "reviews": 27
+    },
+    {
+     "name": "Philea",
+     "rating": 4.2,
+     "reviews": 23
+    },
+    {
+     "name": "Essence of The Night",
+     "rating": 4.1,
+     "reviews": 20
+    },
+    {
+     "name": "Addict",
+     "rating": 3.9,
+     "reviews": 17
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "brand": "Mykonos",
+   "source": "Female Daily",
+   "url": "https://reviews.femaledaily.com/brands/product/mykonos",
+   "products_total": 86,
+   "products_counted": 16,
+   "reviews_counted": 990,
+   "weighted_rating": 4.27,
+   "products_below_4": 2,
+   "products": [
+    {
+     "name": "Aphrodite EDP",
+     "rating": 4.0,
+     "reviews": 131
+    },
+    {
+     "name": "Enchanted Extrait de Parfum",
+     "rating": 4.6,
+     "reviews": 117
+    },
+    {
+     "name": "Vanilla Clouds EDP",
+     "rating": 3.9,
+     "reviews": 90
+    },
+    {
+     "name": "Matcha Latte Extrait de Parfum",
+     "rating": 3.8,
+     "reviews": 80
+    },
+    {
+     "name": "Baby Love EDP",
+     "rating": 4.4,
+     "reviews": 80
+    },
+    {
+     "name": "Avra Kehdabra EDP",
+     "rating": 4.6,
+     "reviews": 63
+    },
+    {
+     "name": "Utopia Extrait de Parfum",
+     "rating": 4.8,
+     "reviews": 59
+    },
+    {
+     "name": "Blossom EDP",
+     "rating": 4.7,
+     "reviews": 49
+    },
+    {
+     "name": "Coconut Dreams EDP",
+     "rating": 4.0,
+     "reviews": 48
+    },
+    {
+     "name": "Satin Blanc Extrait de Parfum",
+     "rating": 4.2,
+     "reviews": 48
+    },
+    {
+     "name": "Moroccan Vanilla EDP",
+     "rating": 4.4,
+     "reviews": 45
+    },
+    {
+     "name": "Verve EDP",
+     "rating": 4.3,
+     "reviews": 41
+    },
+    {
+     "name": "Milk Drops Extrait de Parfum",
+     "rating": 4.0,
+     "reviews": 40
+    },
+    {
+     "name": "Pink Beach EDP",
+     "rating": 4.6,
+     "reviews": 36
+    },
+    {
+     "name": "Bonfire Vanilla Extrait de Parfum",
+     "rating": 4.1,
+     "reviews": 32
+    },
+    {
+     "name": "Ivory EDP",
+     "rating": 4.1,
+     "reviews": 31
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "brand": "Alchemist",
+   "source": "Female Daily",
+   "url": "https://reviews.femaledaily.com/brands/product/alchemist-fragrance",
+   "products_total": 18,
+   "products_counted": 16,
+   "reviews_counted": 569,
+   "weighted_rating": 4.46,
+   "products_below_4": 0,
+   "products": [
+    {
+     "name": "Pink Laundry EDP",
+     "rating": 4.4,
+     "reviews": 136
+    },
+    {
+     "name": "Got My Mojo Back EDP",
+     "rating": 4.5,
+     "reviews": 101
+    },
+    {
+     "name": "Powder Room EDP",
+     "rating": 4.3,
+     "reviews": 91
+    },
+    {
+     "name": "Galleria EDP",
+     "rating": 4.6,
+     "reviews": 61
+    },
+    {
+     "name": "Home Garden EDP",
+     "rating": 4.3,
+     "reviews": 53
+    },
+    {
+     "name": "Out West Extrait de Parfum",
+     "rating": 4.2,
+     "reviews": 43
+    },
+    {
+     "name": "Onirique Extrait de Parfum",
+     "rating": 4.7,
+     "reviews": 41
+    },
+    {
+     "name": "Musc Laiteux EDP",
+     "rating": 5.0,
+     "reviews": 8
+    },
+    {
+     "name": "Jatuh Hati EDP",
+     "rating": 4.9,
+     "reviews": 7
+    },
+    {
+     "name": "07 Galleria Body Lotion",
+     "rating": 4.7,
+     "reviews": 6
+    },
+    {
+     "name": "Cachemire EDP",
+     "rating": 4.8,
+     "reviews": 6
+    },
+    {
+     "name": "Bois et Musc EDP",
+     "rating": 4.8,
+     "reviews": 6
+    },
+    {
+     "name": "Musc Vanille EDP",
+     "rating": 5.0,
+     "reviews": 4
+    },
+    {
+     "name": "04 Home Garden Body Lotion",
+     "rating": 4.8,
+     "reviews": 4
+    },
+    {
+     "name": "03 Got My Mojo Back Body Lotion",
+     "rating": 5.0,
+     "reviews": 1
+    },
+    {
+     "name": "01 Powder Room Body Lotion",
+     "rating": 5.0,
+     "reviews": 1
+    }
+   ]
+  }
+ ]
+}

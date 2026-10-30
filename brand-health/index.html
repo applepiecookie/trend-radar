@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Brand Health · SAFF &amp; Co.</title>
+<meta name="description" content="Daily brand health monitor for SAFF & Co.: ratings, sentiment, experience pain points and competitors.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f7f5; --card:#ffffff; --ink:#161616; --ink2:#3d3d3d; --muted:#6b6b6b; --line:#e4e2de; --soft:#f1f0ed;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4;
+  --good:#1d7a3a; --good-soft:#e5f3e9; --bad:#b42318; --bad-soft:#fdecea; --neu:#8a8984; --neu-soft:#efeeea;
+  --r:14px; --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#131313; --card:#1c1c1c; --ink:#f2f2f2; --ink2:#d2d2d2; --muted:#a3a3a3; --line:#323232; --soft:#262626;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181;
+  --good:#6fd08d; --good-soft:#1d3324; --bad:#ff8a80; --bad-soft:#3a1f1d; --neu:#9a9993; --neu-soft:#2a2a28;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px 60px}
+header{padding:28px 0 8px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:8px 20px}
+.brand{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.brand a{text-decoration:none;border-bottom:1px solid var(--line)}
+h1{font-size:30px;font-weight:700;letter-spacing:-.02em;margin:4px 0 0;line-height:1.1}
+.updated{font-size:13px;color:var(--muted)}
+.updated b{color:var(--ink);font-weight:600}
+h2{font-size:19px;margin:34px 0 4px;letter-spacing:-.01em}
+.sub{font-size:14px;color:var(--muted);margin:0 0 14px}
+.msg{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--s1);border-radius:var(--r);padding:20px 24px;margin:16px 0}
+.msg .k{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--s1)}
+.msg p{font-size:20px;line-height:1.45;font-weight:600;margin:6px 0 0;letter-spacing:-.01em}
+@media (max-width:640px){.msg p{font-size:17px}}
+.tiles{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+@media (max-width:980px){.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px}
+.tile .l{font-size:12.5px;color:var(--muted);font-weight:500}
+.tile .v{font-size:28px;font-weight:700;letter-spacing:-.02em;margin-top:2px}
+.tile .d{font-size:13px;color:var(--ink2)}
+.tile.pending .v{font-size:17px;color:var(--muted);font-weight:600;margin-top:8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px}
+@media (max-width:860px){.two{grid-template-columns:1fr}}
+.card h3{font-size:14px;margin:0 0 12px;font-weight:600}
+.bars .row{display:grid;grid-template-columns:120px 1fr 64px;align-items:center;gap:10px;margin:8px 0;position:relative}
+.bars .nm{font-size:14px;font-weight:500;display:flex;align-items:center;gap:7px}
+.bars .nm i{width:10px;height:10px;border-radius:3px;flex:none}
+.bars .track{height:16px;background:var(--soft);border-radius:4px;position:relative}
+.bars .fill{height:16px;border-radius:0 4px 4px 0;position:absolute;left:0;top:0}
+.bars .val{font-size:14px;font-weight:600;text-align:right;font-variant-numeric:tabular-nums}
+.bars .row:hover .fill{filter:brightness(1.08)}
+.axisnote{font-size:12px;color:var(--muted);margin-top:6px}
+.prod{width:100%;border-collapse:collapse;font-size:14px}
+.prod th{font-size:12px;color:var(--muted);font-weight:600;text-align:left;padding:6px 6px;border-bottom:1px solid var(--line)}
+.prod td{padding:7px 6px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+.prod td.n{text-align:right}
+.prod .mini{display:inline-block;height:8px;border-radius:0 3px 3px 0;background:var(--s1);vertical-align:middle;margin-right:6px}
+.flag{font-size:11.5px;font-weight:600;padding:2px 7px;border-radius:999px;background:var(--bad-soft);color:var(--bad);white-space:nowrap}
+.list{margin:0;padding:0;list-style:none}
+.list li{padding:10px 0;border-bottom:1px solid var(--line);font-size:15px}
+.list li:last-child{border-bottom:0}
+.hz{font-size:11.5px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--soft);color:var(--ink2);margin-right:6px;white-space:nowrap}
+.theme{display:grid;grid-template-columns:150px 1fr 32px;gap:10px;align-items:center;margin:7px 0;font-size:14px}
+.stack{display:flex;height:14px;gap:2px}
+.stack span{display:block;height:14px}
+.stack span:first-child{border-radius:0}
+.stack span:last-child{border-radius:0 4px 4px 0}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--muted);margin:4px 0 10px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.filters button{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 13px;font:inherit;font-size:13.5px;font-weight:600;cursor:pointer;color:var(--ink2)}
+.filters button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.mention{padding:12px 0;border-bottom:1px solid var(--line)}
+.mention:last-child{border-bottom:0}
+.mention .meta{font-size:12.5px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center}
+.mention p{margin:4px 0 0;font-size:15px}
+.chip{font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:999px}
+.chip.Positive{background:var(--good-soft);color:var(--good)}
+.chip.Negative{background:var(--bad-soft);color:var(--bad)}
+.chip.Neutral{background:var(--neu-soft);color:var(--ink2)}
+.chip.t{background:var(--soft);color:var(--ink2);font-weight:500}
+.empty{font-size:14px;color:var(--muted);background:var(--soft);border-radius:10px;padding:14px 16px}
+.steps{margin:8px 0 0;padding-left:20px;font-size:14.5px}
+.steps li{margin-bottom:6px}
+#tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);font-size:12.5px;padding:7px 10px;border-radius:8px;max-width:260px;opacity:0;transition:opacity .1s;z-index:20}
+svg text{font-family:var(--sans)}
+footer{font-size:13px;color:var(--muted);margin-top:36px;border-top:1px solid var(--line);padding-top:14px}
+footer ul{padding-left:18px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div>
+    <div class="brand">SAFF &amp; Co. · <a href="../">Trend Radar</a> · Brand Health</div>
+    <h1>Brand Health Monitor</h1>
+  </div>
+  <div class="updated" id="updated">Loading…</div>
+</header>
+
+<div class="msg"><div class="k">The one thing to know</div><p id="headline"></p></div>
+
+<div class="tiles" id="tiles"></div>
+
+<h2>Ratings vs competitors</h2>
+<p class="sub">Female Daily, review-weighted average of each brand's 16 most-reviewed products. Hover a bar for details.</p>
+<div class="two">
+  <div class="card"><h3>Weighted rating (out of 5)</h3><div class="bars" id="ratingBars"></div><div class="axisnote">Bars start at 3.5 to show differences; all brands sit between 4 and 4.5.</div></div>
+  <div class="card"><h3>Review volume (proxy for engagement)</h3><div class="bars" id="volBars"></div><div class="axisnote">Number of reviews on the counted products.</div></div>
+</div>
+
+<h2>Rating trend</h2>
+<p class="sub">One point per daily snapshot.</p>
+<div class="card"><div class="legend" id="trendLegend"></div><div id="trend"></div></div>
+
+<h2>SAFF products on Female Daily</h2>
+<p class="sub">Sorted by number of reviews. Flagged when rating is below 4.3 (brand average).</p>
+<div class="card" style="overflow-x:auto"><table class="prod" id="prodTable"></table></div>
+
+<h2>Experience pain points</h2>
+<p class="sub">Themes in public mentions of SAFF, split by sentiment. Grows every day as new mentions are logged.</p>
+<div class="two">
+  <div class="card"><div class="legend"><span><i style="background:var(--bad)"></i>Negative</span><span><i style="background:var(--neu)"></i>Neutral</span><span><i style="background:var(--good)"></i>Positive</span></div><div id="themes"></div></div>
+  <div class="card"><h3>Share of voice (public mentions logged)</h3><div class="bars" id="sovBars"></div><div class="axisnote" id="sovNote"></div></div>
+</div>
+
+<h2>Insights for management</h2>
+<div class="two">
+  <div class="card"><h3>What the data says</h3><ul class="list" id="insights"></ul></div>
+  <div class="card"><h3>What to do</h3><ul class="list" id="recs"></ul></div>
+</div>
+
+<h2>Marketplace (Shopee, Tokopedia)</h2>
+<p class="sub">From review exports dropped in the team Google Drive folder. Only totals and themes are shown here, never buyer names or order data.</p>
+<div class="card" id="market"></div>
+
+<h2>Mention log</h2>
+<div class="card">
+  <div class="filters" id="brandFilter"></div>
+  <div class="filters" id="sentFilter"></div>
+  <div id="feed"></div>
+</div>
+
+<footer>
+  <p><b>Method.</b> Updated daily by a Claude scheduled task from public sources: Female Daily brand and product pages, news and media, retailer content, forums and research. Sentiment and themes are tagged per mention. Awareness and NPS need a consumer survey and are not measured here.</p>
+  <ul id="sources"></ul>
+</footer>
+</div>
+<div id="tip" role="tooltip"></div>
+
+<script>
+const COLORS={"SAFF & Co.":"var(--s1)","HMNS":"var(--s2)","Mykonos":"var(--s3)","Alchemist":"var(--s4)","Onix":"var(--s5)"};
+const BRANDS=Object.keys(COLORS);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const tip=document.getElementById("tip");
+function bindTip(el,html){el.addEventListener("mousemove",e=>{tip.innerHTML=html;tip.style.opacity=1;const x=Math.min(e.clientX+14,innerWidth-270);tip.style.left=x+"px";tip.style.top=(e.clientY+14)+"px"});el.addEventListener("mouseleave",()=>tip.style.opacity=0)}
+const fmtDate=d=>new Date(d+"T00:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
+
+async function load(f){const r=await fetch("data/"+f+"?v="+Date.now());return r.json()}
+Promise.all(["ratings.json","mentions.json","brief.json","marketplace.json","meta.json"].map(load)).then(([R,M,B,MK,META])=>{
+  const up=new Date(META.updated_at);
+  document.getElementById("updated").innerHTML="Updated <b>"+up.toLocaleString("en-GB",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit",timeZone:"Asia/Jakarta"})+" WIB</b>";
+  document.getElementById("headline").textContent=B.headline;
+
+  const snaps=R.snapshots;
+  const lastDate=snaps.map(s=>s.date).sort().pop();
+  const latest=snaps.filter(s=>s.date===lastDate);
+  const saff=latest.find(s=>s.brand==="SAFF & Co.");
+  const prevDates=[...new Set(snaps.map(s=>s.date))].sort();
+  const prev=prevDates.length>1?snaps.find(s=>s.brand==="SAFF & Co."&&s.date===prevDates[prevDates.length-2]):null;
+  const rankR=[...latest].sort((a,b)=>b.weighted_rating-a.weighted_rating).findIndex(s=>s.brand==="SAFF & Co.")+1;
+  const rankV=[...latest].sort((a,b)=>b.reviews_counted-a.reviews_counted).findIndex(s=>s.brand==="SAFF & Co.")+1;
+  const sm=M.filter(m=>m.brand==="SAFF & Co.");
+  const pos=sm.filter(m=>m.sentiment==="Positive").length, neg=sm.filter(m=>m.sentiment==="Negative").length;
+  const delta=prev?(saff.weighted_rating-prev.weighted_rating):null;
+  const mkLast=MK.periods&&MK.periods.length?MK.periods[MK.periods.length-1]:null;
+  const tiles=[
+    {l:"Female Daily rating",v:saff.weighted_rating.toFixed(2),d:"#"+rankR+" of "+latest.length+" brands"+(delta!==null?" · "+(delta>=0?"+":"")+delta.toFixed(2)+" vs last":"")},
+    {l:"Female Daily reviews",v:saff.reviews_counted.toLocaleString("en-US"),d:"#"+rankV+" of "+latest.length+" on volume"},
+    {l:"Positive mentions (SAFF)",v:sm.length?Math.round(pos/sm.length*100)+"%":"–",d:neg+" negative of "+sm.length+" logged"},
+    mkLast?{l:"Marketplace rating",v:mkLast.avg_rating.toFixed(2),d:mkLast.reviews.toLocaleString("en-US")+" reviews · "+mkLast.period}:{l:"Marketplace rating",v:"Waiting for first export",d:"See Marketplace section",p:1},
+    {l:"Awareness & NPS",v:"Needs a survey",d:"Not measurable from web data",p:1}
+  ];
+  document.getElementById("tiles").innerHTML=tiles.map(t=>`<div class="tile${t.p?" pending":""}"><div class="l">${esc(t.l)}</div><div class="v">${esc(t.v)}</div><div class="d">${esc(t.d)}</div></div>`).join("");
+
+  function bars(id,items,val,fmt,min,max,tipf){
+    const el=document.getElementById(id);el.innerHTML="";
+    items.forEach(s=>{const w=Math.max(2,(val(s)-min)/(max-min)*100);
+      const row=document.createElement("div");row.className="row";
+      row.innerHTML=`<div class="nm"><i style="background:${COLORS[s.brand]}"></i>${esc(s.brand)}</div><div class="track"><div class="fill" style="width:${w}%;background:${COLORS[s.brand]}"></div></div><div class="val">${fmt(val(s))}</div>`;
+      bindTip(row,tipf(s));el.appendChild(row)});
+  }
+  const byR=[...latest].sort((a,b)=>b.weighted_rating-a.weighted_rating);
+  bars("ratingBars",byR,s=>s.weighted_rating,v=>v.toFixed(2),3.5,5,s=>`<b>${esc(s.brand)}</b><br>${s.weighted_rating.toFixed(2)} weighted rating<br>${s.products_counted} of ${s.products_total} products counted<br>${s.products_below_4} product(s) below 4.0`);
+  const byV=[...latest].sort((a,b)=>b.reviews_counted-a.reviews_counted);
+  const maxV=Math.max(...latest.map(s=>s.reviews_counted));
+  bars("volBars",byV,s=>s.reviews_counted,v=>v.toLocaleString("en-US"),0,maxV,s=>`<b>${esc(s.brand)}</b><br>${s.reviews_counted.toLocaleString("en-US")} reviews<br>Top product: ${esc(s.products[0].name)} (${s.products[0].reviews})`);
+
+  // trend
+  const dates=prevDates, tr=document.getElementById("trend");
+  document.getElementById("trendLegend").innerHTML=latest.map(s=>`<span><i style="background:${COLORS[s.brand]}"></i>${esc(s.brand)}</span>`).join("");
+  if(dates.length<2){tr.innerHTML=`<div class="empty">First snapshot taken ${fmtDate(dates[0])}. The trend line appears from the second daily update.</div>`}
+  else{
+    const W=1000,H=260,pl=40,pr=140,pt=14,pb=28;
+    const vals=snaps.map(s=>s.weighted_rating);let lo=Math.floor(Math.min(...vals)*10-1)/10,hi=Math.ceil(Math.max(...vals)*10+1)/10;
+    const x=i=>pl+(dates.length===1?0:i/(dates.length-1)*(W-pl-pr)), y=v=>pt+(hi-v)/(hi-lo)*(H-pt-pb);
+    let g="";for(let v=lo;v<=hi+1e-9;v+=0.1){g+=`<line x1="${pl}" x2="${W-pr}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)"/><text x="${pl-6}" y="${y(v)+4}" text-anchor="end" font-size="12" fill="var(--muted)">${v.toFixed(1)}</text>`}
+    const step=Math.ceil(dates.length/8);dates.forEach((d,i)=>{if(i%step===0||i===dates.length-1)g+=`<text x="${x(i)}" y="${H-8}" text-anchor="middle" font-size="12" fill="var(--muted)">${new Date(d+"T00:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"short"})}</text>`});
+    BRANDS.forEach(b=>{const pts=dates.map((d,i)=>{const s=snaps.find(q=>q.brand===b&&q.date===d);return s?[x(i),y(s.weighted_rating),s.weighted_rating]:null}).filter(Boolean);if(!pts.length)return;
+      g+=`<polyline fill="none" stroke="${COLORS[b]}" stroke-width="2" points="${pts.map(p=>p[0]+","+p[1]).join(" ")}"/>`;
+      const l=pts[pts.length-1];g+=`<circle cx="${l[0]}" cy="${l[1]}" r="4" fill="${COLORS[b]}" stroke="var(--card)" stroke-width="2"/><text x="${l[0]+8}" y="${l[1]+4}" font-size="12" fill="var(--ink2)">${esc(b)} ${l[2].toFixed(2)}</text>`});
+    tr.innerHTML=`<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Weighted rating over time per brand">${g}</svg>`;
+  }
+
+  // products
+  const ps=[...saff.products].sort((a,b)=>b.reviews-a.reviews), mx=ps[0].reviews;
+  document.getElementById("prodTable").innerHTML=`<tr><th>Product</th><th class="n">Rating</th><th>Reviews</th><th></th></tr>`+ps.map(p=>`<tr><td>${esc(p.name)}</td><td class="n">${p.rating.toFixed(1)}</td><td><span class="mini" style="width:${Math.max(3,p.reviews/mx*160)}px"></span>${p.reviews}</td><td>${p.rating<4.3?'<span class="flag">Below average</span>':""}</td></tr>`).join("");
+
+  // themes
+  const th={};sm.forEach(m=>m.themes.forEach(t=>{th[t]=th[t]||{Negative:0,Neutral:0,Positive:0};th[t][m.sentiment]++}));
+  const tl=Object.entries(th).sort((a,b)=>(b[1].Negative*10+b[1].Neutral*3+b[1].Positive)-(a[1].Negative*10+a[1].Neutral*3+a[1].Positive));
+  const tmax=Math.max(1,...tl.map(([k,v])=>v.Negative+v.Neutral+v.Positive));
+  const te=document.getElementById("themes");te.innerHTML="";
+  tl.forEach(([k,v])=>{const tot=v.Negative+v.Neutral+v.Positive;const row=document.createElement("div");row.className="theme";
+    row.innerHTML=`<div>${esc(k)}</div><div class="stack" style="width:${tot/tmax*100}%">${["Negative","Neutral","Positive"].filter(s=>v[s]).map(s=>`<span style="flex:${v[s]};background:var(--${s==="Negative"?"bad":s==="Neutral"?"neu":"good"})"></span>`).join("")}</div><div style="text-align:right;font-weight:600">${tot}</div>`;
+    bindTip(row,`<b>${esc(k)}</b><br>${v.Negative} negative · ${v.Neutral} neutral · ${v.Positive} positive`);te.appendChild(row)});
+
+  // share of voice
+  const cnt=BRANDS.map(b=>({brand:b,n:M.filter(m=>m.brand===b).length})).filter(c=>c.n).sort((a,b)=>b.n-a.n);
+  const tot=cnt.reduce((a,c)=>a+c.n,0);
+  bars("sovBars",cnt,c=>c.n,v=>Math.round(v/tot*100)+"%",0,Math.max(...cnt.map(c=>c.n)),c=>`<b>${esc(c.brand)}</b><br>${c.n} of ${tot} mentions logged`);
+  document.getElementById("sovNote").textContent=tot+" mentions logged since "+fmtDate(M.map(m=>m.date).sort()[0])+". Small sample, read as direction only.";
+
+  // insights
+  document.getElementById("insights").innerHTML=B.insights.map(i=>`<li>${esc(i.text)}</li>`).join("");
+  document.getElementById("recs").innerHTML=B.recommendations.map(r=>`<li><span class="hz">${esc(r.horizon)}</span>${esc(r.text)}</li>`).join("")+(B.watch?`<li style="font-size:14px;color:var(--muted)"><b style="color:var(--ink2)">Watch:</b> ${B.watch.map(esc).join(" · ")}</li>`:"");
+
+  // marketplace
+  const mk=document.getElementById("market");
+  if(!MK.periods.length){mk.innerHTML=`<div class="empty"><b>No export yet.</b> ${esc(MK.benchmark.text)} <a href="${esc(MK.benchmark.url)}" target="_blank" rel="noopener">Source</a></div>
+   <ol class="steps"><li>In Shopee Seller Centre (or Tokopedia Seller), export product reviews as Excel or CSV.</li><li>Drop the file into the Google Drive folder <b>${esc(MK.folder)}</b>. Name it like <code>shopee_2026-10.xlsx</code>.</li><li>The next daily update reads it and fills this section with ratings, low-star share and complaint themes.</li></ol>`}
+  else{mk.innerHTML=MK.periods.slice().reverse().map(p=>`<div style="margin-bottom:14px"><b>${esc(p.platform)} · ${esc(p.period)}</b> — ${p.avg_rating.toFixed(2)} avg from ${p.reviews.toLocaleString("en-US")} reviews · ${p.low_star_pct}% 1–2 stars<div class="legend" style="margin-top:6px">${(p.top_complaints||[]).map(c=>`<span class="chip t">${esc(c.theme)} ${c.pct}%</span>`).join("")}</div>${p.note?`<div style="font-size:14px;color:var(--ink2)">${esc(p.note)}</div>`:""}</div>`).join("")}
+
+  // feed
+  let fb="All",fs="All";
+  const bf=document.getElementById("brandFilter"),sf=document.getElementById("sentFilter");
+  const mkBtns=(el,opts,get,set)=>{el.innerHTML=opts.map(o=>`<button aria-pressed="${o===get()}">${esc(o)}</button>`).join("");[...el.children].forEach((b,i)=>b.onclick=()=>{set(opts[i]);mkBtns(el,opts,get,set);feed()})};
+  mkBtns(bf,["All",...BRANDS.filter(b=>M.some(m=>m.brand===b))],()=>fb,v=>fb=v);
+  mkBtns(sf,["All","Negative","Neutral","Positive"],()=>fs,v=>fs=v);
+  function feed(){const list=M.filter(m=>(fb==="All"||m.brand===fb)&&(fs==="All"||m.sentiment===fs)).sort((a,b)=>b.date.localeCompare(a.date));
+    document.getElementById("feed").innerHTML=list.length?list.map(m=>`<div class="mention"><div class="meta"><b style="color:var(--ink)">${esc(m.brand)}</b><span>${m.date_approx?"~":""}${fmtDate(m.date)}</span><a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.source_name)}</a><span class="chip ${m.sentiment}">${m.sentiment}</span>${m.themes.map(t=>`<span class="chip t">${esc(t)}</span>`).join("")}</div><p>${esc(m.summary)}</p></div>`).join(""):`<div class="empty">No mentions for this filter.</div>`}
+  feed();
+
+  // sources
+  const src=[...new Map([...latest.map(s=>[s.url,s.source+" · "+s.brand]),...M.map(m=>[m.url,m.source_name+" · "+m.brand])]).entries()];
+  document.getElementById("sources").innerHTML=src.map(([u,n])=>`<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a></li>`).join("");
+}).catch(e=>{document.getElementById("headline").textContent="Could not load data: "+e.message});
+</script>
+</body>
+</html>
