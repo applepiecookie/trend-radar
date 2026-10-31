@@ -1,36 +1,44 @@
 {
- "date": "2026-10-30",
- "headline": "SAFF & Co. leads local rivals on review volume and holds a solid 4.3 rating, but its most-reviewed scent (S.O.T.B) is also its lowest-rated, and packaging and longevity are the pain points to watch.",
+ "date": "2026-10-31",
+ "headline": "SAFF holds steady at 4.32 on Female Daily with the most reviews tracked; packaging (new bottle size, Eulalie's weak bottle score) is now the most repeated SAFF pain point.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "SAFF has the most Female Daily reviews of the brands tracked (1,746 on its top 16 products vs 1,537 for HMNS) with a 4.32 weighted rating, second only to Alchemist (4.46).",
+   "text": "SAFF's Female Daily rating is flat at 4.32 on 1,746 reviews (no change since 30 Oct). It is now second to Alchemist only by 0.11 after Alchemist slipped to 4.43.",
    "evidence": "ratings"
   },
   {
-   "text": "S.O.T.B holds a third of SAFF's Female Daily reviews but rates 4.1, the lowest in the line along with Ostara and SAFF. The hero product pulls the brand average down.",
-   "evidence": "ratings"
+   "text": "S.O.T.B still holds a third of SAFF's reviews at 4.1; recent reviews praise 6–8 hour wear, but one calls it heady and 'too common now'.",
+   "evidence": "m014"
   },
   {
-   "text": "Packaging shows up as a pain point: a 2026 review says the new bottle is too big to carry and the old one leaked.",
-   "evidence": "m001"
+   "text": "Packaging comes up in 4 of the 9 new SAFF mentions, 3 of them critical: the new bottle is hard to carry (Loui), Eulalie's bottle scores 5.9/10 on Parfumo, and some boxes arrive dented.",
+   "evidence": "m019"
   },
   {
-   "text": "Retailers are publishing content about SAFF 'fading fast' and about fakes, a sign that longevity and authenticity questions recur among shoppers.",
-   "evidence": "m002"
+   "text": "Longevity is mixed by scent: Minouet and S.O.T.B are praised for wear, while Cascavel has the lowest recommend rate seen (86%) with weak-longevity comments.",
+   "evidence": "m017"
+  },
+  {
+   "text": "Official-store reviews are much higher than Female Daily: Cloud Mist Sonnet rates 4.8 from 1,165 Tokopedia ratings, with 94% satisfied.",
+   "evidence": "m021"
   }
  ],
  "recommendations": [
   {
-   "text": "Dig into S.O.T.B low-star reviews (marketplace export) to find whether the issue is scent, longevity or batch, then fix copy, sampling or formula.",
+   "text": "Dig into S.O.T.B and Loui low-star reviews (marketplace export) to see if 'too strong / headache' is a pattern, then add wear guidance (spray count, day vs night) to product pages.",
    "horizon": "Now"
   },
   {
-   "text": "Add a travel or slim bottle option and check leak complaints with QC; packaging is the clearest experience gap.",
+   "text": "Add a travel or slim bottle and review Eulalie's bottle design; ask QC to check leaks and outer-box damage in shipping.",
    "horizon": "Next"
   },
   {
-   "text": "Publish 'how to make it last' and 'how to spot a fake' content on product pages and inserts, to get ahead of longevity and authenticity doubts.",
+   "text": "Review Cascavel's longevity after the 2023 reformulation; consider a sample-first offer or clearer longevity claims.",
+   "horizon": "Next"
+  },
+  {
+   "text": "Flag suspicious, machine-written reviews to Female Daily and keep review requests organic to protect rating trust.",
    "horizon": "Now"
   },
   {
@@ -39,9 +47,10 @@
   }
  ],
  "watch": [
-  "Weekly change in S.O.T.B rating",
-  "New packaging complaints",
+  "S.O.T.B and Loui rating and 'too strong' comments",
+  "New packaging and bottle complaints (incl. Eulalie)",
   "Mentions of fakes or resellers",
+  "Mykonos and Alchemist rating swings on Female Daily",
   "HMNS and Mykonos launches"
  ]
 }

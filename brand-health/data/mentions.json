@@ -190,5 +190,200 @@
    "New launch"
   ],
   "summary": "Alchemist launches Out West collection with IFF perfumers; brand cites Best Perfume Brand Indonesia wins in 2022 and 2024."
+ },
+ {
+  "id": "m014",
+  "date": "2026-07-26",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/extrait-de-parfum-sotb-1",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Most 2026 S.O.T.B reviews praise its warm floral-vanilla scent and 6–8 hour wear; one April review calls it heady and too common now."
+ },
+ {
+  "id": "m015",
+  "date": "2026-06-30",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/extrait-de-parfum-5",
+  "type": "Review site",
+  "sentiment": "Negative",
+  "themes": [
+   "Scent character",
+   "Packaging & bottle"
+  ],
+  "summary": "Latest Loui review finds it long-lasting but strong enough to cause headaches; an April reviewer says the new bottle is harder to carry."
+ },
+ {
+  "id": "m016",
+  "date": "2026-07-05",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/extrait-de-parfum-xocolatl-2",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity",
+   "Ratings & reviews"
+  ],
+  "summary": "Xocolatl (4.7, 97% recommend) praised as a soft, non-cloying gourmand; one recent review looks machine-written, a review-quality risk."
+ },
+ {
+  "id": "m017",
+  "date": "2025-04-08",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/cascavel-extrait-de-parfum-reformulation-in-march-2023",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "Longevity",
+   "Scent character"
+  ],
+  "summary": "Cascavel (reformulated 2023) has the lowest recommend rate seen (86%); recent reviewers split, with weak longevity a repeat point."
+ },
+ {
+  "id": "m018",
+  "date": "2025-12-21",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/minouet-extrait-de-parfum",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Packaging & bottle",
+   "Repurchase"
+  ],
+  "summary": "Minouet reviewers like its sweet unisex scent, good wear in heat and the new packaging; one plans to repurchase after a sale."
+ },
+ {
+  "id": "m019",
+  "date": "2026-10-01",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Parfumo",
+  "url": "https://www.parfumo.com/Perfumes/saff-co/eulalie",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "New launch",
+   "Packaging & bottle"
+  ],
+  "summary": "New 2026 scent Eulalie scores 7.0/10 from 10 Parfumo ratings, with the bottle rated lowest (5.9) and longevity 6.6."
+ },
+ {
+  "id": "m020",
+  "date": "2026-05-25",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Lazada blog",
+  "url": "https://www.lazada.co.id/blog/?p=5786",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Longevity"
+  ],
+  "summary": "Third Lazada guide on picking SAFF scents that last all day in hot weather, featuring Eulalie and Troupe."
+ },
+ {
+  "id": "m021",
+  "date": "2026-10-31",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia (SAFF official store)",
+  "url": "https://www.tokopedia.com/saffnco/saff-co-cloud-mist-sonnet-116/review",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Packaging & bottle",
+   "Delivery & service",
+   "Repurchase"
+  ],
+  "summary": "Cloud Mist Sonnet rates 4.8 from 1,165 ratings (94% satisfied); buyers like the bottle and fast delivery, a few note dented boxes."
+ },
+ {
+  "id": "m022",
+  "date": "2025-07-01",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "ObserverID",
+  "url": "https://observerid.com/saff-co-presents-kirithra-with-inclusive-artists/",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Brand reputation"
+  ],
+  "summary": "SAFF launched Kirithra with an inclusive art studio whose artists with disabilities designed the merchandise."
+ },
+ {
+  "id": "m023",
+  "date": "2025-05-05",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "Mojok Terminal",
+  "url": "https://mojok.co/terminal/parfum-hmns-bikin-saya-kecewa-wanginya-nggak-tahan-lama/",
+  "type": "Forum & social",
+  "sentiment": "Negative",
+  "themes": [
+   "Longevity",
+   "Packaging & bottle"
+  ],
+  "summary": "Writer likes HMNS scents but says they fade in about 2 hours and the spray nozzle often fails; won't rebuy."
+ },
+ {
+  "id": "m024",
+  "date": "2026-06-13",
+  "date_approx": false,
+  "brand": "Alchemist",
+  "source_name": "The S Media",
+  "url": "https://thesmedia.id/posts/alchemist-fragrance-indonesia-goes-to-esxence-milan-",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation"
+  ],
+  "summary": "Alchemist invited to Esxence 2026 in Milan, framed as a first for an Indonesian niche fragrance label."
+ },
+ {
+  "id": "m025",
+  "date": "2026-06-13",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/when-in-paris-x-yves-ryan-when-in-paris-x-yves-ryan-2",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Range & sizes"
+  ],
+  "summary": "When In Paris (3.9, 17 reviews) liked as a fresh citrus scent for hot weather in a compact, bag-friendly size."
+ },
+ {
+  "id": "m026",
+  "date": "2024-03-27",
+  "date_approx": false,
+  "brand": "Onix",
+  "source_name": "JPNN",
+  "url": "https://m.jpnn.com/news/ramadan-penuh-berkah-onix-fragrance-berbagi-hadiah",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "Brand reputation"
+  ],
+  "summary": "Onix ran a large Ramadan giveaway and positions its 13 scents for Indonesia's humid climate."
  }
 ]
