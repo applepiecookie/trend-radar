@@ -1,10 +1,10 @@
 {
- "date": "2026-10-31",
- "headline": "SAFF holds steady at 4.32 on Female Daily with the most reviews tracked; packaging (new bottle size, Eulalie's weak bottle score) is now the most repeated SAFF pain point.",
+ "date": "2026-11-01",
+ "headline": "SAFF holds at 4.32 on Female Daily (all brands flat vs 31 Oct); no new SAFF complaints, but longevity doubts on 'Extrait' scents and fake-bottle risk remain the key watch points.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "SAFF's Female Daily rating is flat at 4.32 on 1,746 reviews (no change since 30 Oct). It is now second to Alchemist only by 0.11 after Alchemist slipped to 4.43.",
+   "text": "SAFF's Female Daily rating is flat at 4.32 on 1,746 reviews, the most of any brand tracked; it trails only Alchemist (4.43). No brand or product rating moved since 31 Oct.",
    "evidence": "ratings"
   },
   {
@@ -12,16 +12,16 @@
    "evidence": "m014"
   },
   {
-   "text": "Packaging comes up in 4 of the 9 new SAFF mentions, 3 of them critical: the new bottle is hard to carry (Loui), Eulalie's bottle scores 5.9/10 on Parfumo, and some boxes arrive dented.",
+   "text": "Packaging is the most repeated SAFF pain point: the new bottle is hard to carry (Loui) and Eulalie's bottle scores 5.9/10 on Parfumo, though Troupe reviewers like the upgraded look.",
    "evidence": "m019"
   },
   {
-   "text": "Longevity is mixed by scent: Minouet and S.O.T.B are praised for wear, while Cascavel has the lowest recommend rate seen (86%) with weak-longevity comments.",
-   "evidence": "m017"
+   "text": "Longevity is mixed by scent: Troupe has 95% recommend, yet some reviewers get only 4–5 hours on skin and say the 'Extrait' label over-promises; Cascavel's recommend rate is lowest seen (86%).",
+   "evidence": "m027"
   },
   {
-   "text": "Official-store reviews are much higher than Female Daily: Cloud Mist Sonnet rates 4.8 from 1,165 Tokopedia ratings, with 94% satisfied.",
-   "evidence": "m021"
+   "text": "SAFF is reaching new markets: 10 scents in 8 ml minis now sell in Japan (Don Quijote, 1,650 yen), while retailers publish guides on spotting fake SAFF bottles.",
+   "evidence": "m028"
   }
  ],
  "recommendations": [
@@ -30,16 +30,16 @@
    "horizon": "Now"
   },
   {
+   "text": "Set clear longevity expectations per scent (e.g. hours on skin vs fabric) so the 'Extrait' label does not over-promise; start with Troupe and Cascavel.",
+   "horizon": "Now"
+  },
+  {
    "text": "Add a travel or slim bottle and review Eulalie's bottle design; ask QC to check leaks and outer-box damage in shipping.",
    "horizon": "Next"
   },
   {
-   "text": "Review Cascavel's longevity after the 2023 reformulation; consider a sample-first offer or clearer longevity claims.",
+   "text": "Publish an official 'how to spot a fake' guide (batch code, hologram, official stores) on SAFF channels and product pages, including for Japan buyers.",
    "horizon": "Next"
-  },
-  {
-   "text": "Flag suspicious, machine-written reviews to Female Daily and keep review requests organic to protect rating trust.",
-   "horizon": "Now"
   },
   {
    "text": "Run a short quarterly survey (awareness, consideration, NPS) so the report covers all brand health KPIs, not only online sentiment.",
@@ -48,9 +48,9 @@
  ],
  "watch": [
   "S.O.T.B and Loui rating and 'too strong' comments",
+  "Longevity complaints on Extrait scents (Troupe, Cascavel)",
   "New packaging and bottle complaints (incl. Eulalie)",
   "Mentions of fakes or resellers",
-  "Mykonos and Alchemist rating swings on Female Daily",
-  "HMNS and Mykonos launches"
+  "Japan launch reviews and Mykonos/Alchemist rating swings"
  ]
 }

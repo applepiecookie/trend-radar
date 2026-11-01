@@ -385,5 +385,172 @@
    "Brand reputation"
   ],
   "summary": "Onix ran a large Ramadan giveaway and positions its 13 scents for Indonesia's humid climate."
+ },
+ {
+  "id": "m027",
+  "date": "2026-01-09",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/troupe-1",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity",
+   "Packaging & bottle"
+  ],
+  "summary": "Troupe holds 4.6 from 95 reviews (95% recommend); newer reviews like the upgraded packaging but some report only 4–5 hours on skin and call the scent common due to dupes."
+ },
+ {
+  "id": "m028",
+  "date": "2026-05-22",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "PR TIMES (Japan)",
+  "url": "https://prtimes.jp/main/html/rd/p/000000060.000028109.html",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Availability",
+   "Range & sizes"
+  ],
+  "summary": "SAFF & Co. launched in Japan via selected Don Quijote stores and an online store, with ten Extrait scents in 8 ml bottles at 1,650 yen."
+ },
+ {
+  "id": "m029",
+  "date": "2025-04-19",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Investor Trust",
+  "url": "https://investortrust.id/business/63294/jajaki-pasar-luar-negeri-saff-co-siap-ekspansi-ke-malaysia",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "Brand reputation",
+   "Availability"
+  ],
+  "summary": "Co-founder interview says Malaysia is the first target for regional expansion and cites over 2 million products sold."
+ },
+ {
+  "id": "m030",
+  "date": "2026-10-01",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Parfumo",
+  "url": "https://www.parfumo.com/Perfumes/saff-co/am-kamin",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Scent character"
+  ],
+  "summary": "Am Kamin (2025) has no community ratings yet; the only statement scores scent 10/10 and describes an incense, spicy-fruity character."
+ },
+ {
+  "id": "m031",
+  "date": "2026-09-30",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/make-up/nafi-khoiriyah/parfum-saff-co",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Price & value",
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Listicle recommends five SAFF women's scents (Loui, Las Pozas, Xocolatl, Ostara, Chno) as long-lasting and affordable at about Rp208k–237k."
+ },
+ {
+  "id": "m032",
+  "date": "2026-05-25",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Lazada LazBlog",
+  "url": "https://www.lazada.co.id/blog/?p=5794",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Authenticity & fakes"
+  ],
+  "summary": "Retailer guide explains how to spot fake SAFF bottles (batch code, hologram, box print, spray) and advises buying from official stores."
+ },
+ {
+  "id": "m033",
+  "date": "2026-11-01",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Watsons Indonesia",
+  "url": "https://www.watsons.co.id/id/saff-co-extrait-de-parfum-s.o.f.r-35-ml/p/BP_61351",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Range & sizes",
+   "Price & value"
+  ],
+  "summary": "Watsons lists S.O.F.R Extrait in a 35 ml size at Rp249,000, with no shopper ratings shown yet."
+ },
+ {
+  "id": "m034",
+  "date": "2026-09-16",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/hmns-perfume/sore-eterna-1",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "HMNS x SORE Eterna rates 4.4 from 17 reviews with 100% recommend; reviewers note a bright citrus opening and about 6–8 hours of wear."
+ },
+ {
+  "id": "m035",
+  "date": "2025-12-04",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/luminos-edp",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Availability"
+  ],
+  "summary": "Mykonos Luminos rates 4.7 from 11 reviews; fans like the soft fresh scent and glow-in-dark bottle, but one cites frequent stock-outs and reseller markups."
+ },
+ {
+  "id": "m036",
+  "date": "2026-06-29",
+  "date_approx": false,
+  "brand": "Alchemist",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/musc-vanille-edp",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Packaging & bottle",
+   "Price & value"
+  ],
+  "summary": "Alchemist Musc Vanille has 5.0 from 4 reviews; the latest praises sturdy leak-free packaging and fair price for quality."
+ },
+ {
+  "id": "m037",
+  "date": "2026-06-23",
+  "date_approx": false,
+  "brand": "Onix",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/onix/gala-extrait-de-parfum",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "Onix Gala Extrait rates 5.0 from 3 reviews; reviewers call it long-lasting, affordable and unisex, best for evening or indoor use."
  }
 ]
