@@ -1,32 +1,32 @@
 {
- "date": "2026-11-01",
- "headline": "SAFF holds at 4.32 on Female Daily (all brands flat vs 31 Oct); no new SAFF complaints, but longevity doubts on 'Extrait' scents and fake-bottle risk remain the key watch points.",
+ "date": "2026-11-02",
+ "headline": "SAFF holds at 4.32 on Female Daily with the most reviews tracked, but ranks only 4th on Shopee share (3.53%) behind Mykonos and HMNS; longevity and fakes stay the key risks.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "SAFF's Female Daily rating is flat at 4.32 on 1,746 reviews, the most of any brand tracked; it trails only Alchemist (4.43). No brand or product rating moved since 31 Oct.",
+   "text": "SAFF's Female Daily rating is flat at 4.32 on 1,746 reviews (most of any brand); Alchemist leads at 4.43. Mykonos slipped 4.27 to 4.26 as Moroccan Vanilla fell from 4.4 to 4.2.",
    "evidence": "ratings"
+  },
+  {
+   "text": "On Shopee, SAFF holds 3.53% perfume market share in Q2 2026, 4th behind Mykonos (6.78%), Scarlett and HMNS (5.09%): high review quality is not yet top volume.",
+   "evidence": "m038"
   },
   {
    "text": "S.O.T.B still holds a third of SAFF's reviews at 4.1; recent reviews praise 6–8 hour wear, but one calls it heady and 'too common now'.",
    "evidence": "m014"
   },
   {
-   "text": "Packaging is the most repeated SAFF pain point: the new bottle is hard to carry (Loui) and Eulalie's bottle scores 5.9/10 on Parfumo, though Troupe reviewers like the upgraded look.",
-   "evidence": "m019"
-  },
-  {
    "text": "Longevity is mixed by scent: Troupe has 95% recommend, yet some reviewers get only 4–5 hours on skin and say the 'Extrait' label over-promises; Cascavel's recommend rate is lowest seen (86%).",
    "evidence": "m027"
   },
   {
-   "text": "SAFF is reaching new markets: 10 scents in 8 ml minis now sell in Japan (Don Quijote, 1,650 yen), while retailers publish guides on spotting fake SAFF bottles.",
-   "evidence": "m028"
+   "text": "Social buzz is creator-led: a TikTok review calls Eulalie soft and addictive, while a Threads 'honest review' asks if a SAFF best-seller is just hype. Instagram search found no new public posts today.",
+   "evidence": "m040"
   }
  ],
  "recommendations": [
   {
-   "text": "Dig into S.O.T.B and Loui low-star reviews (marketplace export) to see if 'too strong / headache' is a pattern, then add wear guidance (spray count, day vs night) to product pages.",
+   "text": "Dig into S.O.T.B and Loui low-star reviews to see if 'too strong / headache' is a pattern, then add wear guidance (spray count, day vs night) to product pages; upload a marketplace export to the Drive folder to enable this.",
    "horizon": "Now"
   },
   {
@@ -34,23 +34,23 @@
    "horizon": "Now"
   },
   {
+   "text": "Close the Shopee gap with Mykonos and HMNS: push top-rated scents (Xocolatl, Irai Leima, Troupe) with review highlights and creator content on Shopee and Instagram.",
+   "horizon": "Next"
+  },
+  {
    "text": "Add a travel or slim bottle and review Eulalie's bottle design; ask QC to check leaks and outer-box damage in shipping.",
    "horizon": "Next"
   },
   {
-   "text": "Publish an official 'how to spot a fake' guide (batch code, hologram, official stores) on SAFF channels and product pages, including for Japan buyers.",
-   "horizon": "Next"
-  },
-  {
-   "text": "Run a short quarterly survey (awareness, consideration, NPS) so the report covers all brand health KPIs, not only online sentiment.",
+   "text": "Run a short quarterly survey (awareness, consideration, NPS) and add an official 'how to spot a fake' guide on SAFF channels, including for Japan buyers.",
    "horizon": "Later"
   }
  ],
  "watch": [
   "S.O.T.B and Loui rating and 'too strong' comments",
   "Longevity complaints on Extrait scents (Troupe, Cascavel)",
-  "New packaging and bottle complaints (incl. Eulalie)",
-  "Mentions of fakes or resellers",
-  "Japan launch reviews and Mykonos/Alchemist rating swings"
+  "Shopee share vs Mykonos and HMNS (next GoodStats/Compas update)",
+  "Fakes, resellers and new bottle complaints (incl. Eulalie)",
+  "Mykonos Moroccan Vanilla and Alchemist rating swings"
  ]
 }

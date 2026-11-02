@@ -552,5 +552,154 @@
    "Price & value"
   ],
   "summary": "Onix Gala Extrait rates 5.0 from 3 reviews; reviewers call it long-lasting, affordable and unisex, best for evening or indoor use."
+ },
+ {
+  "id": "m038",
+  "date": "2026-10-05",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "GoodStats",
+  "url": "https://data.goodstats.id/statistic/10-brand-parfum-wewangian-terlaris-di-shopee-pada-q2-2026-peringkat-atas-kebal-YAF3P",
+  "type": "Research",
+  "sentiment": "Neutral",
+  "themes": [
+   "Brand reputation"
+  ],
+  "summary": "Compas data for Q2 2026 puts SAFF 4th by Shopee perfume market share (3.53%), behind Mykonos (6.78%), Scarlett and HMNS (5.09%)."
+ },
+ {
+  "id": "m039",
+  "date": "2026-05-02",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/extrait-de-parfum-2",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Chno holds 4.3 from 100 reviews with 96% recommend; recent reviewers like its soft, creamy dry-down that clings to clothes."
+ },
+ {
+  "id": "m040",
+  "date": "2026-02-14",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "TikTok",
+  "url": "https://www.tiktok.com/@clarissaciell/video/7606664379781696788",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "New launch"
+  ],
+  "summary": "A creator review praises new scent Eulalie as soft, addictive and less mainstream than typical local perfumes."
+ },
+ {
+  "id": "m041",
+  "date": "2026-07-13",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Threads",
+  "url": "https://www.threads.com/@reviewbynid/post/DatuWyOn_qd",
+  "type": "Forum & social",
+  "sentiment": "Neutral",
+  "themes": [
+   "Brand reputation",
+   "Ratings & reviews"
+  ],
+  "summary": "An 'honest review' post tests whether a SAFF best-seller is worth the hype or just viral; full verdict not visible in search."
+ },
+ {
+  "id": "m042",
+  "date": "2024-07-12",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "ZALORA",
+  "url": "https://www.zalora.co.id/blog/kecantikan/beauty-recommendation/review-parfum-saff-co-minouet/",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Packaging & bottle"
+  ],
+  "summary": "Retailer review describes Minouet as sweet but not heavy, with a creamy vanilla dry-down and a sturdy black bottle in a pink box."
+ },
+ {
+  "id": "m043",
+  "date": "2025-02-25",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "SAFF & Co. (brand blog)",
+  "url": "https://world.saffnco.com/blogs/news/for-now-and-then-the-latest-saff-co-collection-inspired-by-two-phases-of-life",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "New launch",
+   "Range & sizes"
+  ],
+  "summary": "Brand blog introduces the 'For Now and Then' pair, Traumerei (citrus-amber) and Am Kamin (woody-leather); page now shows no stock."
+ },
+ {
+  "id": "m044",
+  "date": "2026-05-26",
+  "date_approx": false,
+  "brand": "Alchemist",
+  "source_name": "Harper's Bazaar Malaysia",
+  "url": "https://harpersbazaar.my/beauty/indonesian-perfume-brands/",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation",
+   "Scent character"
+  ],
+  "summary": "Regional feature on Indonesian perfume brands calls Alchemist super viral and picks Home Garden, Got My Mojo Back and Pink Laundry; SAFF is not featured."
+ },
+ {
+  "id": "m045",
+  "date": "2026-06-12",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Fragrance Forte",
+  "url": "https://fragranceforte.co.uk/blogs/news/mykonos-perfumes-indonesia-viral-fragrance-brand",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation",
+   "Price & value"
+  ],
+  "summary": "UK reseller blog credits TikTok and Instagram reels for Mykonos going viral and notes reseller prices rising on demand."
+ },
+ {
+  "id": "m046",
+  "date": "2025-07-17",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "IDN Times",
+  "url": "https://www.idntimes.com/life/women/parfum-sore-hmns-q9t04-00-6sxgf-ch9tl7",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Price & value"
+  ],
+  "summary": "HMNS launched two film-tie-in scents (Zena, Eterna) across online and stores, with free testers for movie ticket holders."
+ },
+ {
+  "id": "m047",
+  "date": "2026-06-15",
+  "date_approx": true,
+  "brand": "Onix",
+  "source_name": "Blibli",
+  "url": "https://www.blibli.com/p/onix-prj-x-blibli-2026-exclusive-duo-pack-perfume-50ml-30ml-35ml/ps--OND-70059-00127",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Range & sizes",
+   "Availability"
+  ],
+  "summary": "Onix sells a Blibli-exclusive 2026 duo pack tied to the Jakarta Fair, bundling two bottle sizes."
  }
 ]
