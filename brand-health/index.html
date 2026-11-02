@@ -87,6 +87,9 @@ h2{font-size:19px;margin:34px 0 4px;letter-spacing:-.01em}
 .chip.Neutral{background:var(--neu-soft);color:var(--ink2)}
 .chip.t{background:var(--soft);color:var(--ink2);font-weight:500}
 .empty{font-size:14px;color:var(--muted);background:var(--soft);border-radius:10px;padding:14px 16px}
+.ig-tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-bottom:14px}
+.ig-tiles .tile{background:var(--soft);border:0}
+.ig-tiles .tile .v{font-size:23px}
 .steps{margin:8px 0 0;padding-left:20px;font-size:14.5px}
 .steps li{margin-bottom:6px}
 #tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);font-size:12.5px;padding:7px 10px;border-radius:8px;max-width:260px;opacity:0;transition:opacity .1s;z-index:20}
@@ -141,6 +144,13 @@ footer ul{padding-left:18px}
 <p class="sub">From review exports dropped in the team Google Drive folder. Only totals and themes are shown here, never buyer names or order data.</p>
 <div class="card" id="market"></div>
 
+<h2>Instagram</h2>
+<p class="sub">SAFF &amp; Co.'s own account (public-level numbers only: posts, followers, likes, comments) plus Instagram content picked up in daily searches. No usernames or comment text are shown.</p>
+<div class="two">
+  <div class="card"><h3>Account, last 7 days</h3><div id="igAccount"></div></div>
+  <div class="card"><h3>Instagram mentions logged</h3><div id="igMentions"></div></div>
+</div>
+
 <h2>Mention log</h2>
 <div class="card">
   <div class="filters" id="brandFilter"></div>
@@ -149,7 +159,7 @@ footer ul{padding-left:18px}
 </div>
 
 <footer>
-  <p><b>Method.</b> Updated daily by a Claude scheduled task from public sources: Female Daily brand and product pages, news and media, retailer content, forums and research. Sentiment and themes are tagged per mention. Awareness and NPS need a consumer survey and are not measured here.</p>
+  <p><b>Method.</b> Updated daily by a Claude scheduled task from public sources: Female Daily brand and product pages, news and media, retailer content, forums, Instagram and research. Sentiment and themes are tagged per mention. Awareness and NPS need a consumer survey and are not measured here.</p>
   <ul id="sources"></ul>
 </footer>
 </div>
@@ -164,7 +174,7 @@ function bindTip(el,html){el.addEventListener("mousemove",e=>{tip.innerHTML=html
 const fmtDate=d=>new Date(d+"T00:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
 
 async function load(f){const r=await fetch("data/"+f+"?v="+Date.now());return r.json()}
-Promise.all(["ratings.json","mentions.json","brief.json","marketplace.json","meta.json"].map(load)).then(([R,M,B,MK,META])=>{
+Promise.all([...["ratings.json","mentions.json","brief.json","marketplace.json","meta.json"].map(load),load("instagram.json").catch(()=>({entries:[]}))]).then(([R,M,B,MK,META,IG])=>{
   const up=new Date(META.updated_at);
   document.getElementById("updated").innerHTML="Updated <b>"+up.toLocaleString("en-GB",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit",timeZone:"Asia/Jakarta"})+" WIB</b>";
   document.getElementById("headline").textContent=B.headline;
@@ -247,6 +257,26 @@ Promise.all(["ratings.json","mentions.json","brief.json","marketplace.json","met
   if(!MK.periods.length){mk.innerHTML=`<div class="empty"><b>No export yet.</b> ${esc(MK.benchmark.text)} <a href="${esc(MK.benchmark.url)}" target="_blank" rel="noopener">Source</a></div>
    <ol class="steps"><li>In Shopee Seller Centre (or Tokopedia Seller), export product reviews as Excel or CSV.</li><li>Drop the file into the Google Drive folder <b>${esc(MK.folder)}</b>. Name it like <code>shopee_2026-10.xlsx</code>.</li><li>The next daily update reads it and fills this section with ratings, low-star share and complaint themes.</li></ol>`}
   else{mk.innerHTML=MK.periods.slice().reverse().map(p=>`<div style="margin-bottom:14px"><b>${esc(p.platform)} · ${esc(p.period)}</b> — ${p.avg_rating.toFixed(2)} avg from ${p.reviews.toLocaleString("en-US")} reviews · ${p.low_star_pct}% 1–2 stars<div class="legend" style="margin-top:6px">${(p.top_complaints||[]).map(c=>`<span class="chip t">${esc(c.theme)} ${c.pct}%</span>`).join("")}</div>${p.note?`<div style="font-size:14px;color:var(--ink2)">${esc(p.note)}</div>`:""}</div>`).join("")}
+
+  // instagram
+  const ige=(IG&&IG.entries)||[], ia=document.getElementById("igAccount");
+  const n0=v=>v==null?"–":Number(v).toLocaleString("en-US",{maximumFractionDigits:1});
+  if(!ige.length){ia.innerHTML=`<div class="empty"><b>Not connected yet.</b> Account numbers appear here once the Supermetrics connector is linked to the daily update.</div>
+   <ol class="steps"><li>Connect Supermetrics in claude.ai connector settings, signed in with an account that manages the SAFF Instagram page.</li><li>Add Supermetrics to the connectors of the "Brand Health harian" scheduled task.</li><li>The next daily update fills this panel with posts, followers, likes and comments.</li></ol>`}
+  else{const e=ige[ige.length-1];
+    const fc=e.followers_change;
+    const t=[{l:"Followers",v:n0(e.followers),d:fc==null?"":(fc>=0?"+":"")+n0(fc)+" vs last"},{l:"Posts",v:n0(e.posts),d:"last "+(e.window_days||7)+" days"},{l:"Avg likes / post",v:n0(e.avg_likes_per_post),d:n0(e.likes)+" likes total"},{l:"Avg comments / post",v:n0(e.avg_comments_per_post),d:n0(e.comments)+" comments total"}];
+    let h=`<div class="ig-tiles">${t.map(x=>`<div class="tile"><div class="l">${esc(x.l)}</div><div class="v">${esc(x.v)}</div><div class="d">${esc(x.d)}</div></div>`).join("")}</div>`;
+    if(e.comment_themes&&e.comment_themes.length){h+=`<div style="font-size:13px;color:var(--muted);margin-bottom:4px">Comment themes${e.negative_pct!=null?" · "+e.negative_pct+"% negative":""}</div><div class="legend">${e.comment_themes.map(c=>`<span class="chip t">${esc(c.theme)} ${c.pct}%</span>`).join("")}</div>`}
+    if(e.top_posts&&e.top_posts.length){h+=`<table class="prod"><tr><th>Most-commented posts</th><th>Format</th><th class="n">Comments</th></tr>${e.top_posts.map(p=>`<tr><td>${p.date?esc(fmtDate(p.date))+" · ":""}${esc(p.topic)}</td><td>${esc(p.format)}</td><td class="n">${n0(p.comments)}</td></tr>`).join("")}</table>`}
+    h+=`<div class="axisnote">As of ${esc(fmtDate(e.date))}${ige.length>1?" · "+ige.length+" weekly readings logged":""}.</div>`;
+    ia.innerHTML=h}
+  const igm=M.filter(m=>/^instagram/i.test(m.source_name||"")||/instagram\.com/i.test(m.url||"")).sort((a,b)=>b.date.localeCompare(a.date));
+  const im=document.getElementById("igMentions");
+  if(!igm.length){im.innerHTML=`<div class="empty">None yet. Each daily update now runs Instagram searches for SAFF and competitors; few Instagram posts are indexed by search engines, so expect this to fill slowly.</div>`}
+  else{const ib=BRANDS.map(b=>({b,n:igm.filter(m=>m.brand===b).length})).filter(x=>x.n);
+    const ineg=igm.filter(m=>m.sentiment==="Negative").length;
+    im.innerHTML=`<div class="legend">${ib.map(x=>`<span><i style="background:${COLORS[x.b]}"></i>${esc(x.b)} ${x.n}</span>`).join("")}<span>· ${ineg} negative</span></div>`+igm.slice(0,5).map(m=>`<div class="mention"><div class="meta"><b style="color:var(--ink)">${esc(m.brand)}</b><span>${m.date_approx?"~":""}${fmtDate(m.date)}</span><a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.source_name)}</a><span class="chip ${m.sentiment}">${m.sentiment}</span></div><p>${esc(m.summary)}</p></div>`).join("")}
 
   // feed
   let fb="All",fs="All";
