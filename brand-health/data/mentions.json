@@ -701,5 +701,143 @@
    "Availability"
   ],
   "summary": "Onix sells a Blibli-exclusive 2026 duo pack tied to the Jakarta Fair, bundling two bottle sizes."
+ },
+ {
+  "id": "m048",
+  "date": "2026-10-28",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Tribunshopping",
+  "url": "https://shopping.tribunnews.com/2026/10/28/4-varian-saff-and-co-deo-potion-perlindungan-hingga-48-jam",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "New launch",
+   "Range & sizes",
+   "Price & value"
+  ],
+  "summary": "SAFF's Deo Potion antiperspirant comes in four perfume-inspired scents at about Rp109k; the 48-hour headline claim is not explained in the article."
+ },
+ {
+  "id": "m049",
+  "date": "2026-10-13",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Marketeers",
+  "url": "https://www.marketeers.com/saff-co-rilis-alencine-dan-mechline-padukan-aroma-dan-seni/",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Scent character"
+  ],
+  "summary": "SAFF launched two new Extrait collections, ALENCINE and MECHLINE, pairing scent with art around different female character types."
+ },
+ {
+  "id": "m050",
+  "date": "2026-07-19",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/ostara-3",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "Longevity",
+   "Packaging & bottle",
+   "Scent character"
+  ],
+  "summary": "Ostara (4.1, 92% recommend): recent reviews report 5+ hours of wear, but one says the all-black bottle hides how much is left and some find it too strong."
+ },
+ {
+  "id": "m051",
+  "date": "2026-05-14",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/extract-de-parfum-1",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Scent character"
+  ],
+  "summary": "Omnia holds 4.5 with 98% recommend; recent reviewers praise a fresh-to-sweet drydown that lasts all day, especially on clothes."
+ },
+ {
+  "id": "m052",
+  "date": "2025-11-06",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Start Friday Asia",
+  "url": "https://www.startfriday.asia/ideas/sudah-eksis-sejak-2020-apa-yang-bikin-parfum-lokal-saff-co-viral-di-media-sosial",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation"
+  ],
+  "summary": "Article credits SAFF's virality mainly to TikTok reviews, live shopping and flash sales; Instagram is linked but not named as a driver."
+ },
+ {
+  "id": "m053",
+  "date": "2026-06-17",
+  "date_approx": false,
+  "brand": "Alchemist",
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/make-up/refined-through-time-perjalanan-aroma-di-out-west-exhibition-00-mfw3q-qrfhfk",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Brand reputation"
+  ],
+  "summary": "Alchemist ran an immersive OUT WEST exhibition at Plaza Senayan and launched ABSOLU with a K-music artist as face of the line."
+ },
+ {
+  "id": "m054",
+  "date": "2024-01-04",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "MomsMoney (Kontan)",
+  "url": "https://momsmoney.kontan.co.id/news/cerita-jadi-kunci-pengembangan-bisnis-hmns",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "Brand reputation",
+   "Availability"
+  ],
+  "summary": "HMNS founder says storytelling drives the brand and Shopee makes up about 60% of its sales."
+ },
+ {
+  "id": "m055",
+  "date": "2026-09-05",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/bonfire-vanilla-extrait-de-parfum",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "Bonfire Vanilla (4.1, 93% recommend): reviewers like a warm, not-too-sweet vanilla with 6–8 hours on skin at an affordable price."
+ },
+ {
+  "id": "m056",
+  "date": "2026-09-06",
+  "date_approx": false,
+  "brand": "Onix",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/onix/fwb",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Range & sizes",
+   "Repurchase"
+  ],
+  "summary": "Onix FWB (4.1, 96% recommend): fans call it a long-lasting citrus-musk and one wished they had bought the larger size."
  }
 ]
