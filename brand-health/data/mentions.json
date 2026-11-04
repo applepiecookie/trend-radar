@@ -839,5 +839,129 @@
    "Repurchase"
   ],
   "summary": "Onix FWB (4.1, 96% recommend): fans call it a long-lasting citrus-musk and one wished they had bought the larger size."
+ },
+ {
+  "id": "m057",
+  "date": "2026-10-29",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "IDN Times",
+  "url": "https://idntimes.com/men/grooming/rekomendasi-parfum-lokal-aroma-amberwood-wanginya-tahan-lama-c1c2-01-491ts-1yfz8v",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Men's grooming list of five local amberwood perfumes includes SAFF Eulalie next to HMNS Ambar Janma and Mykonos Luminos, praising its staying power without giving hours."
+ },
+ {
+  "id": "m058",
+  "date": "2026-04-26",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/extrait-de-parfum-las-pozas-1",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity",
+   "Packaging & bottle"
+  ],
+  "summary": "Las Pozas holds 4.6 on 91 reviews (96% recommend); green-woody scent and cute packaging are praised, though some get only 5–6 hours."
+ },
+ {
+  "id": "m059",
+  "date": "2026-06-03",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Suara.com",
+  "url": "https://www.suara.com/lifestyle/2026/06/03/152803/5-parfum-saff-co-yang-wanginya-mewah-ala-brand-kelas-dunia-dan-lebih-terjangkau",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Price & value",
+   "Scent character"
+  ],
+  "summary": "Lifestyle article frames Troupe, Omnia and Loui as affordable alternatives to designer perfumes, at about Rp132k–190k per 30 ml."
+ },
+ {
+  "id": "m060",
+  "date": "2025-02-28",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "mybest Indonesia",
+  "url": "https://id.my-best.com/139763",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Range & sizes",
+   "Price & value"
+  ],
+  "summary": "Buying-guide ranking of top 10 SAFF products, led by S.O.T.B, Ostara and Omnia, based on marketplace best-sellers."
+ },
+ {
+  "id": "m061",
+  "date": "2022-09-28",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Beritasatu",
+  "url": "https://www.beritasatu.com/ekonomi/982169/persaingan-parfum-lokal-semakin-ketat-ini-strategi-saff-co",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "Brand reputation",
+   "Packaging & bottle"
+  ],
+  "summary": "Older business piece: SAFF's strategy against rising local competition rests on loyal customers, signature scents, longevity and its compact black bottle."
+ },
+ {
+  "id": "m062",
+  "date": "2026-02-25",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/hmns-perfume/untitled-humans",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity",
+   "Packaging & bottle"
+  ],
+  "summary": "Untitled Humans rates 4.5 on 12 reviews; woody fig scent is liked, but longevity is mixed and one reviewer finds the cap fragile."
+ },
+ {
+  "id": "m063",
+  "date": "2025-12-21",
+  "date_approx": false,
+  "brand": "Onix",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/onix/mexicola",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "Mexicola rates 4.2 on 53 reviews (92% recommend); sweet coconut-vanilla scent lasts well but can feel heavy in daytime heat."
+ },
+ {
+  "id": "m064",
+  "date": "2026-04-06",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "FridayCharm (India)",
+  "url": "https://www.fridaycharm.com/blogs/blog-post/mykonos-perfume-india-buying-guide-2026",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Availability",
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "Indian retailer guide markets Mykonos as Indonesia's viral brand with 8–12 hour claims, showing export reach beyond Southeast Asia."
  }
 ]
