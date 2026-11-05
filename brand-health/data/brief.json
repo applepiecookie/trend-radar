@@ -1,10 +1,10 @@
 {
- "date": "2026-11-04",
- "headline": "SAFF holds at 4.32 on Female Daily (1,746 reviews, most tracked), flat for a fifth day; new launches and press keep praise on scent and value, while longevity, fakes and bottle design remain the key risks.",
+ "date": "2026-11-05",
+ "headline": "SAFF holds at 4.32 on Female Daily (1,746 reviews) for a sixth flat day; the new ALENCINE and MECHLINE Extraits launch at Rp409k with art packaging, a premium step that still needs first reviews.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "Female Daily ratings are flat for a fifth day: SAFF 4.32 on 1,746 reviews, HMNS 4.15, Mykonos 4.26, Alchemist 4.43. Alchemist is still 0.03 below 30 Oct (4.46); no product rating changed vs yesterday.",
+   "text": "Female Daily ratings are flat for a sixth day: SAFF 4.32 on 1,746 reviews, HMNS 4.15, Mykonos 4.26, Alchemist 4.43. Alchemist is 0.03 below 30 Oct (4.46); no product rating changed vs yesterday.",
    "evidence": "ratings"
   },
   {
@@ -12,8 +12,8 @@
    "evidence": "m038"
   },
   {
-   "text": "SAFF is widening its range: ALENCINE and MECHLINE Extrait collections (13 Oct) and a 4-scent Deo Potion at about Rp109k (28 Oct). The '48-hour' claim in coverage is not backed up in the article.",
-   "evidence": "m048"
+   "text": "SAFF is moving up in price: ALENCINE and MECHLINE sell at Rp409k (core Extraits about Rp208k–249k), on sale in Indonesia and Malaysia since 25 Oct, plus a 4-scent Deo Potion at about Rp109k.",
+   "evidence": "m066"
   },
   {
    "text": "S.O.T.B still holds a third of SAFF's reviews at 4.1; Ostara (also 4.1, 92% recommend) shows the same pattern: good wear time but 'too strong' for some, and its all-black bottle hides the fill level.",
@@ -30,7 +30,7 @@
    "horizon": "Now"
   },
   {
-   "text": "Set clear longevity expectations per scent (hours on skin vs fabric) so the 'Extrait' label does not over-promise; start with Troupe, Cascavel and S.O.T.B, and add wear tips (spray count, day vs night).",
+   "text": "Set clear longevity expectations per scent (hours on skin vs fabric) so the 'Extrait' label does not over-promise, especially for the Rp409k ALENCINE/MECHLINE; start with Troupe, Cascavel and S.O.T.B, and add wear tips.",
    "horizon": "Now"
   },
   {
@@ -47,7 +47,7 @@
   }
  ],
  "watch": [
-  "First reviews of Deo Potion (skin reaction, 48h claim) and ALENCINE / MECHLINE",
+  "First reviews of ALENCINE / MECHLINE (value at Rp409k) and Deo Potion (skin reaction, 48h claim)",
   "S.O.T.B, Ostara and Loui rating and 'too strong' comments",
   "Longevity complaints on Extrait scents (Troupe, Cascavel)",
   "Shopee share vs Mykonos and HMNS (next GoodStats/Compas update)",

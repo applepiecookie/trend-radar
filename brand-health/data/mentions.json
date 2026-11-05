@@ -963,5 +963,128 @@
    "Price & value"
   ],
   "summary": "Indian retailer guide markets Mykonos as Indonesia's viral brand with 8–12 hour claims, showing export reach beyond Southeast Asia."
+ },
+ {
+  "id": "m065",
+  "date": "2026-10-21",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Grafis Masa Kini",
+  "url": "https://grafismasakini.com/article/saff--co-and-nindita-kirana-translate-sisterhood-through-a-hummingbird-in-a-visual-collaboration/en",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Packaging & bottle"
+  ],
+  "summary": "Design outlet covers the ALENCINE and MECHLINE boxes, illustrated by Nindita Kirana with a hummingbird that turns into a woman when opened, plus merch."
+ },
+ {
+  "id": "m066",
+  "date": "2026-10-20",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "kumparan",
+  "url": "https://kumparan.com/kumparanwoman/saff-and-co-hadirkan-alencine-dan-mechline-parfum-dengan-dua-karakter-feminin-28PaWwanh2g",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "New launch",
+   "Price & value",
+   "Availability"
+  ],
+  "summary": "ALENCINE (woody-floral) and MECHLINE (floral-citrus-musk) are priced at Rp409k, well above core Extraits, and on sale in Indonesia and Malaysia from 25 Oct."
+ },
+ {
+  "id": "m067",
+  "date": "2026-07-16",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "IDN Times",
+  "url": "https://www.idntimes.com/life/inspiration/deretan-parfum-lokal-yang-baru-launching-juni-2026-00-98756-9gg56p",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "New launch",
+   "Range & sizes",
+   "Price & value"
+  ],
+  "summary": "June 2026 launch round-up lists SAFF Postojna (35 ml, Rp349k) next to four new Mykonos scents and Alchemist's Out West trio at Rp579k–789k."
+ },
+ {
+  "id": "m068",
+  "date": "2023-12-29",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Medcom",
+  "url": "https://www.medcom.id/gaya/beauty/ob3Z02JN-mykonos-dan-saff-co-parfum-anak-negeri-yang-sukses-gaet-audiens-di-tiktok",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation"
+  ],
+  "summary": "Older feature credits TikTok live shopping and a TikTok-exclusive variant for making SAFF and Mykonos top perfume brands on the platform."
+ },
+ {
+  "id": "m069",
+  "date": "2025-11-15",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/body-wash/shower-gel-cream/saff-co/shower-potion-ode-to-ostara?cat_id=0&page=1",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "Shower Potion Ode to Ostara has 5.0 from 2 reviews; users like layering it with the perfume for all-day scent, though one finds it a bit pricey."
+ },
+ {
+  "id": "m070",
+  "date": "2023-06-01",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/@anderscent/7239613804676448770?region=id",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Scent character"
+  ],
+  "summary": "Creator post reviews Xocolatl, S.O.T.B, Las Pozas and Iliad and calls them among the tastiest, longest-lasting local perfumes (snippet only)."
+ },
+ {
+  "id": "m071",
+  "date": "2026-07-06",
+  "date_approx": false,
+  "brand": "Alchemist",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/got-my-mojo-back-eau-de-parfum",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Got My Mojo Back holds 4.5 on 101 reviews (98% recommend); recent reviewers report 5–8 hours, but one found the full bottle sharper than the sample."
+ },
+ {
+  "id": "m072",
+  "date": "2025-07-17",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/make-up/kolaborasi-parfum-hmns-n3v01-00-fzpls-z2mzdn/amp",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "New launch",
+   "Price & value",
+   "Brand reputation"
+  ],
+  "summary": "Round-up of seven HMNS collaborations (artists, musicians, a film) priced about Rp185k–398k, showing heavy use of partner launches."
  }
 ]
