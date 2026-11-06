@@ -1086,5 +1086,157 @@
    "Brand reputation"
   ],
   "summary": "Round-up of seven HMNS collaborations (artists, musicians, a film) priced about Rp185k–398k, showing heavy use of partner launches."
+ },
+ {
+  "id": "m073",
+  "date": "2026-11-06",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/make-up/rekomendasi-parfum-saff-co-untuk-perempuan-n3v01-00-m97rq-2m87q5",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "Price & value",
+   "New launch",
+   "Range & sizes"
+  ],
+  "summary": "Lists seven SAFF scents for women and prices ALENCINE and MECHLINE at Rp319k, below the Rp409k reported at launch."
+ },
+ {
+  "id": "m074",
+  "date": "2026-11-03",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Disway (Okinews)",
+  "url": "https://okinews.disway.id/lifestyle/read/18474/saff-co-loui-extrait-de-parfum-hadirkan-perpaduan-floral-fresh-dan-musky",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Price & value"
+  ],
+  "summary": "Profiles LOUI as a soft fresh-floral musk unisex scent, about Rp209k on sale vs Rp249k normal; no longevity claim."
+ },
+ {
+  "id": "m075",
+  "date": "2026-05-25",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Lazada blog",
+  "url": "https://www.lazada.co.id/blog/verify-saff-co-perfume-authenticity/",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Authenticity & fakes"
+  ],
+  "summary": "Retailer guide on spotting fake SAFF bottles: check batch code, hologram and box quality, and avoid unusually cheap sellers."
+ },
+ {
+  "id": "m076",
+  "date": "2026-06-29",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/body-wash/shower-gel-cream/saff-co/shower-potion-sanctum-on-the-beach?cat_id=0&page=1",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Shower Potion Sanctum on the Beach rates 5.0 from only 2 reviews; scent lingers after showering and skin does not feel dry."
+ },
+ {
+  "id": "m077",
+  "date": "2025-05-30",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/make-up/rekomendasi-extrait-de-parfum-lokal-n3v03-00-3hqh1-1rvrd8/amp",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "Price & value",
+   "Packaging & bottle",
+   "Longevity"
+  ],
+  "summary": "Local extrait round-up: SAFF Morfosia (Rp249k) praised for packaging but given no wear time, while HMNS, Mykonos and Alchemist get hour claims."
+ },
+ {
+  "id": "m078",
+  "date": "2025-03-21",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Times Indonesia",
+  "url": "https://timesindonesia.co.id/gaya-hidup/532751/5-rekomendasi-parfum-lokal-paling-diburu",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "Lists SAFF among most-sought local perfumes with sweet floral-fruity scents, 6–8 hour wear and Rp199k–219k pricing."
+ },
+ {
+  "id": "m079",
+  "date": "2026-02-04",
+  "date_approx": false,
+  "brand": "Alchemist",
+  "source_name": "Sports Kyunghyang",
+  "url": "https://sports.khan.co.kr/en/article/202602040113007",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation",
+   "New launch"
+  ],
+  "summary": "Korean singer DPR IAN fronts Alchemist's OUT WEST campaign, with queues at a Jakarta pop-up and an international push."
+ },
+ {
+  "id": "m080",
+  "date": "2026-03-23",
+  "date_approx": false,
+  "brand": "Onix",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/onix/gratitude",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Repurchase",
+   "Packaging & bottle"
+  ],
+  "summary": "Onix Gratitude rates 4.2 (23 reviews, 95% recommend) for a clean scent lasting 6–8+ hours; same plain bottle across variants."
+ },
+ {
+  "id": "m081",
+  "date": "2026-01-19",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/make-up/harga-parfum-hmns-go25q3-00-b57n8-z84xc6",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Price & value",
+   "Range & sizes"
+  ],
+  "summary": "HMNS price guide: mostly 100 ml EDPs from Rp195k to Rp510k (Ambar Janma), plus a Rp289k discovery set."
+ },
+ {
+  "id": "m082",
+  "date": "2024-07-28",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Substack (blog)",
+  "url": "https://ratryoshka.substack.com/p/mykonos-perfume-review",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "Blogger praises Mykonos wear time and value but says several scents are poor dupes and better judged on their own."
  }
 ]

@@ -1,10 +1,10 @@
 {
- "date": "2026-11-05",
- "headline": "SAFF holds at 4.32 on Female Daily (1,746 reviews) for a sixth flat day; the new ALENCINE and MECHLINE Extraits launch at Rp409k with art packaging, a premium step that still needs first reviews.",
+ "date": "2026-11-06",
+ "headline": "SAFF holds at 4.32 on Female Daily (1,746 reviews) for a seventh flat day; ALENCINE and MECHLINE now appear at Rp319k in a 6 Nov article vs Rp409k at launch, so price messaging is inconsistent.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "Female Daily ratings are flat for a sixth day: SAFF 4.32 on 1,746 reviews, HMNS 4.15, Mykonos 4.26, Alchemist 4.43. Alchemist is 0.03 below 30 Oct (4.46); no product rating changed vs yesterday.",
+   "text": "Female Daily ratings are flat for a seventh day: SAFF 4.32 on 1,746 reviews, HMNS 4.15, Mykonos 4.26, Alchemist 4.43. Alchemist is still 0.03 below 30 Oct (4.46); no product rating changed vs yesterday.",
    "evidence": "ratings"
   },
   {
@@ -12,8 +12,8 @@
    "evidence": "m038"
   },
   {
-   "text": "SAFF is moving up in price: ALENCINE and MECHLINE sell at Rp409k (core Extraits about Rp208k–249k), on sale in Indonesia and Malaysia since 25 Oct, plus a 4-scent Deo Potion at about Rp109k.",
-   "evidence": "m066"
+   "text": "New-collection pricing is unclear in public: a 6 Nov Popbela list gives ALENCINE and MECHLINE at Rp319k, while launch coverage said Rp409k; LOUI shows Rp209k on sale vs Rp249k normal.",
+   "evidence": "m073"
   },
   {
    "text": "S.O.T.B still holds a third of SAFF's reviews at 4.1; Ostara (also 4.1, 92% recommend) shows the same pattern: good wear time but 'too strong' for some, and its all-black bottle hides the fill level.",
@@ -26,7 +26,7 @@
  ],
  "recommendations": [
   {
-   "text": "Check that the Deo Potion '48-hour' and skin-benefit claims are backed by tests and worded the same on every channel; watch first reviews for skin reaction.",
+   "text": "Align ALENCINE/MECHLINE price messaging (normal vs promo) across the website, marketplaces and media kits, and check the Deo Potion '48-hour' and skin claims are backed and worded the same everywhere.",
    "horizon": "Now"
   },
   {
@@ -42,12 +42,12 @@
    "horizon": "Next"
   },
   {
-   "text": "Run a short quarterly survey (awareness, consideration, NPS), post a 'how to spot a fake' guide on SAFF channels, and upload a marketplace export to the Drive folder to measure low-star drivers.",
+   "text": "Run a short quarterly survey (awareness, consideration, NPS), post a 'how to spot a fake' guide on SAFF channels (retailers already publish one), and upload a marketplace export to the Drive folder to measure low-star drivers.",
    "horizon": "Later"
   }
  ],
  "watch": [
-  "First reviews of ALENCINE / MECHLINE (value at Rp409k) and Deo Potion (skin reaction, 48h claim)",
+  "First reviews of ALENCINE / MECHLINE (value at Rp319k–409k) and Deo Potion (skin reaction, 48h claim)",
   "S.O.T.B, Ostara and Loui rating and 'too strong' comments",
   "Longevity complaints on Extrait scents (Troupe, Cascavel)",
   "Shopee share vs Mykonos and HMNS (next GoodStats/Compas update)",
