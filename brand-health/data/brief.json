@@ -1,56 +1,56 @@
 {
- "date": "2026-11-06",
- "headline": "SAFF holds at 4.32 on Female Daily (1,746 reviews) for a seventh flat day; ALENCINE and MECHLINE now appear at Rp319k in a 6 Nov article vs Rp409k at launch, so price messaging is inconsistent.",
+ "date": "2026-11-07",
+ "headline": "SAFF holds at 4.32 on Female Daily (1,746 reviews) for an eighth flat day, while Mykonos launches its NCT Haechan collab Soft Hour (sales from 11 Nov), a fan-driven push SAFF has no answer to yet.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "Female Daily ratings are flat for a seventh day: SAFF 4.32 on 1,746 reviews, HMNS 4.15, Mykonos 4.26, Alchemist 4.43. Alchemist is still 0.03 below 30 Oct (4.46); no product rating changed vs yesterday.",
+   "text": "Female Daily ratings flat: SAFF 4.32 on 1,746 reviews, HMNS 4.15, Alchemist 4.43. Mykonos ticks up to 4.27 (from 4.26) as Moroccan Vanilla moves 4.2 to 4.4 and two Mykonos products lost a review each.",
    "evidence": "ratings"
   },
   {
-   "text": "On Shopee, SAFF holds 3.53% perfume market share in Q2 2026, 4th behind Mykonos (6.78%), Scarlett and HMNS (5.09%): high review quality is not yet top volume.",
-   "evidence": "m038"
+   "text": "Mykonos x NCT Haechan 'Soft Hour' was revealed on Instagram 4 Nov, with a Jakarta fan event 6–8 Nov and sales from 11 Nov; Mykonos already leads Shopee perfume share (6.78% vs SAFF 3.53%).",
+   "evidence": "m092"
   },
   {
-   "text": "New-collection pricing is unclear in public: a 6 Nov Popbela list gives ALENCINE and MECHLINE at Rp319k, while launch coverage said Rp409k; LOUI shows Rp209k on sale vs Rp249k normal.",
-   "evidence": "m073"
+   "text": "SAFF prices are shown with deep markdowns: Zalora lists Maleali at Rp229k (normal Rp299k) and Morfosia at Rp249k (normal Rp349k), and a 6 Nov list puts ALENCINE/MECHLINE at Rp319k vs Rp409k at launch.",
+   "evidence": "m091"
   },
   {
-   "text": "S.O.T.B still holds a third of SAFF's reviews at 4.1; Ostara (also 4.1, 92% recommend) shows the same pattern: good wear time but 'too strong' for some, and its all-black bottle hides the fill level.",
-   "evidence": "m050"
+   "text": "SAFF scents keep making editor lists for wear time: Maleali in a 6 Nov IDN Times woody list ('long-lasting') and Ostara in a 5 Oct floral list, next to HMNS Alpha and Alchemist Out West.",
+   "evidence": "m083"
   },
   {
-   "text": "Longevity is mixed by scent: Omnia gets 98% recommend for all-day wear and Eulalie made a 29 Oct 'long-lasting amberwood' list, while Las Pozas and Troupe reviewers report only 4–6 hours.",
-   "evidence": "m057"
+   "text": "Dark bottles hiding the fill level is a repeat complaint: now seen on Solaris (4.6, 100% recommend) as well as Ostara; S.O.T.B still holds a third of SAFF reviews at 4.1.",
+   "evidence": "m086"
   }
  ],
  "recommendations": [
   {
-   "text": "Align ALENCINE/MECHLINE price messaging (normal vs promo) across the website, marketplaces and media kits, and check the Deo Potion '48-hour' and skin claims are backed and worded the same everywhere.",
+   "text": "Prepare a response to Mykonos Soft Hour for the 11 Nov sales window and 11.11 campaigns: push top-rated scents (Xocolatl, Irai Leima, Troupe, Solaris) with review highlights and creator content on Shopee and Instagram.",
    "horizon": "Now"
   },
   {
-   "text": "Set clear longevity expectations per scent (hours on skin vs fabric) so the 'Extrait' label does not over-promise, especially for the Rp409k ALENCINE/MECHLINE; start with Troupe, Cascavel and S.O.T.B, and add wear tips.",
+   "text": "Align normal vs promo price messaging (ALENCINE/MECHLINE, Maleali, Morfosia) across website, marketplaces and Zalora so constant markdowns do not make 'normal' prices look inflated.",
    "horizon": "Now"
   },
   {
-   "text": "Close the Shopee gap with Mykonos and HMNS: push top-rated scents (Xocolatl, Irai Leima, Omnia, Troupe) and the new collections with review highlights and creator content on Shopee and Instagram.",
+   "text": "Set clear longevity expectations per scent (hours on skin vs fabric) and add wear tips, starting with S.O.T.B, S.O.F.R, Troupe and Cascavel, so the 'Extrait' label does not over-promise.",
    "horizon": "Next"
   },
   {
-   "text": "Packaging: add a fill-level window or lighter bottle option (Ostara, Eulalie) and a travel size; ask QC to check leaks and outer-box damage in shipping.",
+   "text": "Packaging: add a fill-level window or lighter bottle option for dark bottles (Ostara, Solaris, Eulalie) and a travel size; ask QC to check leaks and outer-box damage in shipping.",
    "horizon": "Next"
   },
   {
-   "text": "Run a short quarterly survey (awareness, consideration, NPS), post a 'how to spot a fake' guide on SAFF channels (retailers already publish one), and upload a marketplace export to the Drive folder to measure low-star drivers.",
+   "text": "Run a short quarterly survey (awareness, consideration, NPS), post a 'how to spot a fake' guide on SAFF channels, and upload a marketplace export to the Drive folder to measure low-star drivers.",
    "horizon": "Later"
   }
  ],
  "watch": [
-  "First reviews of ALENCINE / MECHLINE (value at Rp319k–409k) and Deo Potion (skin reaction, 48h claim)",
+  "Mykonos Soft Hour sales from 11 Nov: Shopee share, ratings and buzz vs SAFF",
+  "First reviews of ALENCINE / MECHLINE and Deo Potion (skin reaction, 48h claim)",
   "S.O.T.B, Ostara and Loui rating and 'too strong' comments",
-  "Longevity complaints on Extrait scents (Troupe, Cascavel)",
-  "Shopee share vs Mykonos and HMNS (next GoodStats/Compas update)",
-  "Alchemist rating slide (4.46 to 4.43) and fakes/reseller complaints"
+  "Dark-bottle fill-level complaints (Ostara, Solaris) and longevity on Extrait scents",
+  "Alchemist rating (4.43, down from 4.46 on 30 Oct) and fakes/reseller complaints"
  ]
 }

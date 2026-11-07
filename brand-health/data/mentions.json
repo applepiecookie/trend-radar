@@ -1238,5 +1238,186 @@
    "Price & value"
   ],
   "summary": "Blogger praises Mykonos wear time and value but says several scents are poor dupes and better judged on their own."
+ },
+ {
+  "id": "m083",
+  "date": "2026-11-06",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "IDN Times",
+  "url": "https://www.idntimes.com/men/grooming/ekomendasi-parfum-lokal-aroma-woody-c1c2-01-491ts-x04mmg",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Men's woody list picks SAFF Maleali as deep, smoky and long-lasting, next to HMNS Alpha and Alchemist Out West."
+ },
+ {
+  "id": "m084",
+  "date": "2026-10-05",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "IDN Times",
+  "url": "https://www.idntimes.com/men/grooming/rekomendasi-parfum-lokal-aroma-floral-yang-beri-kesan-menyenangkan-c1c2-01-491ts-rdj549",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Floral list includes SAFF Ostara as sweet and long-lasting, alongside Mykonos Enchanted and Alchemist Galleria."
+ },
+ {
+  "id": "m085",
+  "date": "2025-10-16",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Beautyhaul blog",
+  "url": "https://www.beautyhaul.com/blog/review-saff-n-co-sofr-edp-sotb-yang-lebih-delicate",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity",
+   "Packaging & bottle"
+  ],
+  "summary": "Reviewer likes S.O.F.R as a softer S.O.T.B with about six hours indoors, but notes weak projection outdoors."
+ },
+ {
+  "id": "m086",
+  "date": "2025-12-03",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/solaris-extrait-de-parfum",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Price & value",
+   "Packaging & bottle"
+  ],
+  "summary": "Solaris holds 4.6 with 100% recommend; praised for wear time and value, but the dark bottle hides the fill level."
+ },
+ {
+  "id": "m087",
+  "date": "2025-03-23",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Kantamedia",
+  "url": "https://www.kantamedia.com/bisnis/saff-co-kenalkan-heavenly-potions-sentuhan-unik-baru-dalam-menikmati-fragrance-favorit/",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "New launch",
+   "Range & sizes"
+  ],
+  "summary": "Covers the Heavenly Potions body care launch: four shower gels and four lotions with 5% niacinamide in SAFF scents."
+ },
+ {
+  "id": "m088",
+  "date": "2025-02-28",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Viral Sumsel",
+  "url": "https://www.viralsumsel.com/aroma-nostalgia-saff-co-rilis-parfum-yang-bisa-bawa-kamu-kembali-ke-masa-lalu/",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "New launch",
+   "Scent character"
+  ],
+  "summary": "Reports the For Now and Then Cloud Mist duo (Träumerei, Am Kamin) built around nostalgia; no price given."
+ },
+ {
+  "id": "m089",
+  "date": "2025-06-23",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/make-up/6-rekomendasi-parfume-saff-co-unisex-fresh-hingga-bold-00-mfw3q-qt3tpd/amp",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "Range & sizes",
+   "Scent character"
+  ],
+  "summary": "Lists six unisex SAFF scents by note profile, calling the line long-lasting but giving no prices or wear times."
+ },
+ {
+  "id": "m090",
+  "date": "2026-11-07",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Zalora",
+  "url": "https://www.zalora.co.id/p/saff-co-saff-co-extrait-de-parfum-maleali-4357957",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Price & value",
+   "Availability"
+  ],
+  "summary": "Zalora lists Maleali at Rp229k vs Rp299k normal, so the scent is sold at a steady discount."
+ },
+ {
+  "id": "m091",
+  "date": "2026-11-07",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Zalora",
+  "url": "https://www.zalora.co.id/p/saff-co-saff-co-extrait-de-parfum-morfosia-4782243",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Price & value"
+  ],
+  "summary": "Zalora lists Morfosia at Rp249k vs Rp349k normal, a 29% markdown on a newer scent."
+ },
+ {
+  "id": "m092",
+  "date": "2026-11-05",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Female Daily Editorial",
+  "url": "https://editorial.femaledaily.com/blog/2026/11/05/surprise-mykonos-resmi-gandeng-nct-haechan-untuk-parfum-terbaru-soft-hour",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Brand reputation"
+  ],
+  "summary": "Mykonos teams with NCT Haechan on Soft Hour, with a Jakarta fan event 6–8 Nov and sales from 11 Nov."
+ },
+ {
+  "id": "m093",
+  "date": "2026-11-04",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Instagram via X",
+  "url": "https://x.com/mybelovesun/status/2117950836282442101",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Brand reputation"
+  ],
+  "summary": "Fan account reshares the Mykonos Instagram reveal of Soft Hour with Haechan, driving K-pop fan buzz."
+ },
+ {
+  "id": "m094",
+  "date": "2026-02-02",
+  "date_approx": false,
+  "brand": "Alchemist",
+  "source_name": "IDN Times",
+  "url": "https://www.idntimes.com/life/women/rekomendasi-parfum-terbaru-2026-q9t04-00-6sxgf-828jyb",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "New launch",
+   "Price & value"
+  ],
+  "summary": "New-launch list: Alchemist Out West x DPR Ian at Rp579k–679k, above three Mykonos launches at Rp239k–335k."
  }
 ]
