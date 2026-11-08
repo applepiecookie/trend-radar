@@ -1419,5 +1419,139 @@
    "Price & value"
   ],
   "summary": "New-launch list: Alchemist Out West x DPR Ian at Rp579k–679k, above three Mykonos launches at Rp239k–335k."
+ },
+ {
+  "id": "m095",
+  "date": "2026-11-06",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/make-up/parfum-saff-co-00-m97rq-2m87q5/amp",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "Range & sizes",
+   "Price & value",
+   "New launch"
+  ],
+  "summary": "A 6 Nov guide lists seven SAFF scents incl. ALENCINE and MECHLINE at Rp319k and older scents around Rp202k–239k, and advises using Loui sparingly because it is strong."
+ },
+ {
+  "id": "m096",
+  "date": "2026-05-29",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/make-up/parfum-lokal-gourmand-go25q3-00-b57n8-pk0gp4/amp",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character"
+  ],
+  "summary": "A gourmand perfume roundup picks SAFF Xocolatl next to Alchemist Got My Mojo Back, Onix Mexicola and Mykonos Pandan Sticky Rice."
+ },
+ {
+  "id": "m097",
+  "date": "2025-07-25",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Orami",
+  "url": "https://www.orami.co.id/magazine/rekomendasi-parfum-lokal",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "A local perfume list cites SAFF Extrait at up to 6 hours from Rp88.9k, below the 7 hours it cites for HMNS Essence of the Sun."
+ },
+ {
+  "id": "m098",
+  "date": "2023-12-13",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "VOI",
+  "url": "https://voi.id/en/economy/344040",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Brand reputation"
+  ],
+  "summary": "VOI names SAFF and Mykonos as local brands often featured by TikTok creators, with SAFF launching Maleali in the 12.12 campaign."
+ },
+ {
+  "id": "m099",
+  "date": "2025-03-10",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "GoodStats",
+  "url": "https://data.goodstats.id/statistic/top-10-parfum-lokal-terlaris-tren-omzet-fantastis-di-pasar-indonesia-bIvRx",
+  "type": "Research",
+  "sentiment": "Neutral",
+  "themes": [
+   "Brand reputation"
+  ],
+  "summary": "GoodStats charts top-selling local perfume brands on e-commerce (May–Jul 2024) and cites a report of SAFF revenue up to Rp27bn a year."
+ },
+ {
+  "id": "m100",
+  "date": "2026-09-23",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/enchanted-extrait-de-parfum",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Scent character",
+   "Price & value"
+  ],
+  "summary": "Enchanted holds 4.3 on 118 reviews (97% recommend); recent reviewers like the soft floral scent but several buy on discount and note re-spraying."
+ },
+ {
+  "id": "m101",
+  "date": "2026-02-25",
+  "date_approx": false,
+  "brand": "Alchemist",
+  "source_name": "Popmama",
+  "url": "https://www.popmama.com/life/fashion-and-beauty/kolaborasi-parfum-lokal-dengan-dpr-ian-punya-wangi-manly-maksimal-00-6wd2h-wdl45n",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Availability"
+  ],
+  "summary": "Alchemist launched The New Out West A.M and P.M with artist DPR IAN at Rp579k–679k, sold only via C&F stores and site."
+ },
+ {
+  "id": "m102",
+  "date": "2026-05-21",
+  "date_approx": false,
+  "brand": "Onix",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/onix/jack",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "Longevity",
+   "Scent character"
+  ],
+  "summary": "Onix Jack has a single 4.0 review praising a clean woody masculine scent but rating longevity as only average."
+ },
+ {
+  "id": "m103",
+  "date": "2026-09-16",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/make-up/parfum-viral-di-tiktok-00-m9g5t-bwnj4x",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation"
+  ],
+  "summary": "A TikTok-viral perfume list features HMNS Orgsm and Alpha plus Mykonos California and Aphrodite; SAFF is not on the list."
  }
 ]
