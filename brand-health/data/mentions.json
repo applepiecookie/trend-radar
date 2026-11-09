@@ -1553,5 +1553,170 @@
    "Brand reputation"
   ],
   "summary": "A TikTok-viral perfume list features HMNS Orgsm and Alpha plus Mykonos California and Aphrodite; SAFF is not on the list."
+ },
+ {
+  "id": "m104",
+  "date": "2026-07-24",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/kirithra-extrait-de-parfum",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity",
+   "Packaging & bottle"
+  ],
+  "summary": "Kirithra holds 4.7 from 9 reviews (100% recommend); reviewers like the honey-amber scent, long wear and sprayer, but find it heavy in daytime heat."
+ },
+ {
+  "id": "m105",
+  "date": "2026-10-16",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/rae-nira-extrait-de-parfum",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Ratings & reviews"
+  ],
+  "summary": "Rae Nira (cajuput-sandalwood) has 5.0 from only 4 reviews, praised as warm and nostalgic; one review came from a PR package."
+ },
+ {
+  "id": "m106",
+  "date": "2026-10-20",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/irai-leima-edp",
+  "type": "Review site",
+  "sentiment": "Negative",
+  "themes": [
+   "Scent character",
+   "Ratings & reviews"
+  ],
+  "summary": "Irai Leima stays at 4.7 (88% recommend), but 3 of the 5 latest reviews do not recommend it, citing a too-aquatic or spicy opening; two look duplicated."
+ },
+ {
+  "id": "m107",
+  "date": "2026-04-12",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/extrait-de-parfum-iliad-1",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "Longevity",
+   "Texture & oiliness"
+  ],
+  "summary": "ILIAD rates 4.6 (90% recommend); some reviewers say projection is weak for an Extrait and note oily residue on clothes and bottle."
+ },
+ {
+  "id": "m108",
+  "date": "2026-11-03",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Suara.com (Yoursay)",
+  "url": "https://yoursay.suara.com/lifestyle/2026/11/03/095000/wangi-bunga-dan-bedak-yang-menenangkan-5-parfum-floral-powdery-terbaik",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Price & value"
+  ],
+  "summary": "A floral-powdery list picks SAFF Omnia at Rp179k as an office and event scent, alongside cheaper rivals from Rp58k."
+ },
+ {
+  "id": "m109",
+  "date": "2026-10-12",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "JPNN",
+  "url": "https://m.jpnn.com/news/rayakan-keberagaman-karakter-perempuan-saff-co-persembahkan-alencine-dan-mechline?page=3",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "New launch",
+   "Availability",
+   "Packaging & bottle"
+  ],
+  "summary": "ALENCINE and MECHLINE debuted at a Blok M pop-up on 16 Oct, with sales from 25 Oct in Indonesia and Malaysia and illustrated boxes."
+ },
+ {
+  "id": "m110",
+  "date": "2024-02-12",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia Blog",
+  "url": "https://www.tokopedia.com/blog/top-parfum-viral-tiktok-bty/",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation"
+  ],
+  "summary": "Tokopedia's TikTok-viral perfume list includes SAFF S.O.T.B next to HMNS Orgsm and two Mykonos scents."
+ },
+ {
+  "id": "m111",
+  "date": "2025-11-07",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Wolipop (detikcom)",
+  "url": "https://wolipop.detik.com/makeup-and-skincare/d-8199377/saff-co-rilis-koleksi-cajuput-parfum-dengan-aroma-khas-indonesia",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "New launch",
+   "Scent character"
+  ],
+  "summary": "Detik covered SAFF's cajuput collection, positioned as perfumes with a distinctly Indonesian scent."
+ },
+ {
+  "id": "m112",
+  "date": "2026-11-07",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Instagram via Medcom.id",
+  "url": "https://www.medcom.id/hiburan/montase/ybDyo0Xk-kolaborasi-mykonos-dan-haechan-nct-hadirkan-parfum-soft-hour",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Availability"
+  ],
+  "summary": "Medcom embeds Mykonos' Instagram reel for Soft Hour with NCT Haechan; online sales start 11 Nov and stores 15 Nov."
+ },
+ {
+  "id": "m113",
+  "date": "2026-11-09",
+  "date_approx": true,
+  "brand": "Mykonos",
+  "source_name": "Mykonos Europe",
+  "url": "https://mykonosperfumes.eu/products/mykonos-x-nct-haechan-soft-hour",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Availability",
+   "New launch"
+  ],
+  "summary": "A Mykonos EU store lists Soft Hour x NCT Haechan as a new Extrait coming to Europe."
+ },
+ {
+  "id": "m114",
+  "date": "2026-06-18",
+  "date_approx": false,
+  "brand": "Alchemist",
+  "source_name": "Fimela",
+  "url": "https://www.fimela.com/beauty/read/7893077/dpr-ian-hadirkan-parfum-out-west-absolu-dengan-perpaduan-pear-narcissus-dan-tobacco-yang-memikat",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch"
+  ],
+  "summary": "Alchemist closed its Out West trilogy with Out West Absolu, launched with DPR IAN at a Plaza Senayan exhibition."
  }
 ]
