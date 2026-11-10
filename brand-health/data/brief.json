@@ -1,32 +1,32 @@
 {
- "date": "2026-11-09",
- "headline": "SAFF holds 4.32 on Female Daily (1,746 reviews) for a tenth flat day as Mykonos Soft Hour opens online sales on 11 Nov; recent SAFF reviews flag strong openings and weak projection.",
+ "date": "2026-11-10",
+ "headline": "SAFF holds 4.32 on Female Daily (1,746 reviews) for an eleventh flat day, ahead of HMNS (4.15) and newly tracked Onix (4.17), as Mykonos Soft Hour opens online sales on 11 Nov.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "Female Daily ratings flat vs yesterday and 2 Nov: SAFF 4.32 (1,746 reviews), HMNS 4.15, Alchemist 4.43; Mykonos 4.26 (−0.01, page alternates between two versions). No SAFF product moved.",
+   "text": "Female Daily ratings flat vs yesterday and 3 Nov: SAFF 4.32 (1,746 reviews), Alchemist 4.43, Mykonos 4.26, HMNS 4.15. No SAFF product moved.",
    "evidence": "ratings"
   },
   {
-   "text": "Mykonos Soft Hour with NCT Haechan sells online from 11 Nov and in stores from 15 Nov, pushed by an Instagram reel; an EU store already lists it.",
-   "evidence": "m112"
+   "text": "Onix now tracked: 4.17 across 215 reviews on 14 rated products, with 2 below 4 (Helena 3.0, Scorpio 3.0); its review base is about one-eighth of SAFF's.",
+   "evidence": "ratings"
   },
   {
-   "text": "Irai Leima still rates 4.7, but 3 of its 5 latest Female Daily reviews do not recommend it (too aquatic or spicy opening).",
-   "evidence": "m106"
+   "text": "Mykonos Soft Hour (with NCT Haechan) sells online from 11 Nov after a 6–8 Nov launch event at Lotte Mall Jakarta.",
+   "evidence": "m123"
   },
   {
    "text": "Weak projection and oily residue recur on Extrait scents: ILIAD (4.6) reviewers say it needs many sprays and marks clothes.",
    "evidence": "m107"
   },
   {
-   "text": "SAFF prices are shown with deep markdowns: Zalora lists Maleali at Rp229k (normal Rp299k) and Morfosia at Rp249k (normal Rp349k); Omnia appears at Rp179k in a 3 Nov list.",
-   "evidence": "m091"
+   "text": "8 ml travel sizes already exist (Rp75k–109k at one retailer, 33 SAFF items listed), but complaints about big or dark bottles still appear, so the small size is not visible enough.",
+   "evidence": "m121"
   }
  ],
  "recommendations": [
   {
-   "text": "Prepare a response to Mykonos Soft Hour for the 11 Nov sales window and 11.11: push top-rated scents (Xocolatl, Irai Leima, Troupe, Solaris) with review highlights, and seed TikTok and Instagram creators so SAFF shows up in 'viral' lists.",
+   "text": "Counter Mykonos Soft Hour during 11.11: push top-rated scents (Xocolatl, Irai Leima, Troupe, Solaris) with review highlights, and seed TikTok and Instagram creators so SAFF shows up in 'viral' lists.",
    "horizon": "Now"
   },
   {
@@ -34,11 +34,11 @@
    "horizon": "Now"
   },
   {
-   "text": "Set clear longevity expectations per scent (hours on skin vs fabric) and add wear tips, starting with S.O.T.B, S.O.F.R, Troupe and Cascavel, so the 'Extrait' label does not over-promise.",
+   "text": "Make the 8 ml travel size easy to find on marketplace listings and in 11.11 bundles as a low-risk trial, especially for strong-opening scents like Irai Leima and S.O.T.B.",
    "horizon": "Next"
   },
   {
-   "text": "Packaging: add a fill-level window or lighter bottle option for dark bottles (Ostara, Solaris, Eulalie) and a travel size; ask QC to check leaks and outer-box damage in shipping.",
+   "text": "Set clear longevity expectations per scent (hours on skin vs fabric) and add wear tips, starting with S.O.T.B, Troupe, ILIAD and Cascavel, so the 'Extrait' label does not over-promise.",
    "horizon": "Next"
   },
   {
@@ -48,9 +48,9 @@
  ],
  "watch": [
   "Mykonos Soft Hour from 11 Nov (online) and 15 Nov (stores): ratings and buzz vs SAFF",
-  "First reviews of ALENCINE / MECHLINE (no Female Daily page yet) and Deo Potion",
+  "First reviews of ALENCINE / MECHLINE and Postojna (no Female Daily page yet)",
   "Irai Leima and S.O.T.B: 'opening too strong' and not-recommended reviews",
   "Projection, oily residue and dark-bottle fill-level complaints on Extrait scents",
-  "Alchemist rating (4.43) and fakes/reseller complaints"
+  "Onix rating (4.17) and its two low-rated products"
  ]
 }

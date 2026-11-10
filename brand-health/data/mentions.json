@@ -1718,5 +1718,196 @@
    "New launch"
   ],
   "summary": "Alchemist closed its Out West trilogy with Out West Absolu, launched with DPR IAN at a Plaza Senayan exhibition."
+ },
+ {
+  "id": "m115",
+  "date": "2026-11-10",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Instagram",
+  "url": "https://www.instagram.com/saffnco/",
+  "type": "Forum & social",
+  "sentiment": "Neutral",
+  "themes": [
+   "Brand reputation"
+  ],
+  "summary": "SAFF's official Instagram profile ranks top for 'viral perfume influencer' searches; page itself not readable, so no post-level detail."
+ },
+ {
+  "id": "m116",
+  "date": "2023-12-08",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "TikTok",
+  "url": "https://www.tiktok.com/@eaudesarah/video/7310102590728015109",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character"
+  ],
+  "summary": "Creator review frames Maleali as a strongly masculine scent for men (title only; video not readable)."
+ },
+ {
+  "id": "m117",
+  "date": "2025-12-04",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/maleali-extrait-de-parfum",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Scent character",
+   "Price & value"
+  ],
+  "summary": "Maleali rates 4.1 on 27 reviews (88% recommend): woody-smoky, near all-day wear and frequent promos; one reviewer dislikes the sandalwood."
+ },
+ {
+  "id": "m118",
+  "date": "2026-08-06",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "JPNN",
+  "url": "https://www.jpnn.com/news/libatkan-ran-saff-co-hadirkan-the-postojna-project",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch"
+  ],
+  "summary": "The Postojna Project: a multisensory pop-up with VR pods and sniffing bar at Kota Kasablanka to launch Postojna Extrait, with RAN as muse."
+ },
+ {
+  "id": "m119",
+  "date": "2026-10-19",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Fimela",
+  "url": "https://www.fimela.com/lifestyle/read/8315429/merayakan-ekspresi-feminin-seorang-perempuan-lewat-parfum",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Scent character"
+  ],
+  "summary": "ALENCINE (woody-floral-amber) and MECHLINE (floral-citrus-musk) launched under The Pink Society campaign, with merch sold only 16–27 Oct at Blok M."
+ },
+ {
+  "id": "m120",
+  "date": "2025-07-02",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Investor Trust",
+  "url": "https://investortrust.id/lifestyle/71253/saff-co-dorong-seniman-disabilitas-terlibat-lebih-dalam-industri-kreatif",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation",
+   "New launch"
+  ],
+  "summary": "Kirithra launch paired with artists with disabilities from an inclusive studio for visuals and merch, building a purpose-led brand image."
+ },
+ {
+  "id": "m121",
+  "date": "2026-11-10",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "HGL House",
+  "url": "https://hglhouse.com/collections/saff-co",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Range & sizes",
+   "Price & value"
+  ],
+  "summary": "Indonesian retailer lists 33 SAFF items incl. 8 ml travel sizes at Rp75k–109k and 35 ml at Rp209k–269k, some 5–10% off."
+ },
+ {
+  "id": "m122",
+  "date": "2026-01-26",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/make-up/parfum-lokal-wanita-tahan-lama-go25q3-00-b57n8-f1wmn0",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Brand reputation"
+  ],
+  "summary": "Irai Leima ranked #1 in a long-lasting local women's perfume list, ahead of Onix Mexicola, Mykonos Aphrodite and HMNS Orgsm."
+ },
+ {
+  "id": "m123",
+  "date": "2026-11-06",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "BeautyHaul",
+  "url": "https://www.beautyhaul.com/blog/launching-soft-hour-parfum-mykonos-terbaru-yang-collab-dengan-nct-haechan",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Availability"
+  ],
+  "summary": "Retailer blog promotes the 'Soft Hour On Air' launch experience at Lotte Mall Jakarta, 6–8 Nov, with free entry and sniffing."
+ },
+ {
+  "id": "m124",
+  "date": "2025-07-16",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "Instagram via IDN Times",
+  "url": "https://www.idntimes.com/life/women/kolaborasi-parfum-hmns-paling-ikonik-c1c2-01-4mf19-czt5cq",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation",
+   "New launch"
+  ],
+  "summary": "Roundup of six iconic HMNS collaborations (Tsana, Christian Sugiono, Maliq, Sore film), illustrated with posts from HMNS's Instagram."
+ },
+ {
+  "id": "m125",
+  "date": "2025-11-21",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/hmns-perfume/theta",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "HMNS Theta rates 4.4 on 8 reviews (87% recommend): clean woody scent that softens after 4–5 hours."
+ },
+ {
+  "id": "m126",
+  "date": "2026-03-22",
+  "date_approx": false,
+  "brand": "Alchemist",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/champagne-blush-edp",
+  "type": "Review site",
+  "sentiment": "Negative",
+  "themes": [
+   "Scent character"
+  ],
+  "summary": "Champagne Blush has one review (3.0, not recommended): sweet-fruity scent felt too common to buy."
+ },
+ {
+  "id": "m127",
+  "date": "2023-02-03",
+  "date_approx": false,
+  "brand": "Onix",
+  "source_name": "Instagram via UKM Indonesia",
+  "url": "https://ukmindonesia.id/baca-deskripsi-posts/onix-fragrance-sukses-menggandeng-influencer-lewat-kolaborasi-",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation"
+  ],
+  "summary": "Case study: Onix grew through Instagram and influencer co-created scents; one collab sold 1,000+ bottles in 30 minutes."
  }
 ]
