@@ -1909,5 +1909,233 @@
    "Brand reputation"
   ],
   "summary": "Case study: Onix grew through Instagram and influencer co-created scents; one collab sold 1,000+ bottles in 30 minutes."
+ },
+ {
+  "id": "m128",
+  "date": "2026-10-08",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Kontan Momsmoney",
+  "url": "https://momsmoney.kontan.co.id/news/aroma-parfum-tahan-lama-sampai-3-hari-formulanya-aman-untuk-kulit-sensitif",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Skin reaction"
+  ],
+  "summary": "Long-lasting perfume roundup lists S.O.T.B as a soft vanilla-floral for formal events, up to 8 hours and gentle on sensitive skin."
+ },
+ {
+  "id": "m129",
+  "date": "2026-02-24",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edc-body-mist-spray/saff-co/cloud-mist-annabel-lee",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "Longevity",
+   "Scent character"
+  ],
+  "summary": "Cloud Mist Annabel Lee (4.7, 30 reviews): lychee-tea scent is loved, but several recent reviewers say it fades within minutes to hours."
+ },
+ {
+  "id": "m130",
+  "date": "2026-09-03",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edc-body-mist-spray/saff-co/cloud-mist-sonnet-116",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity",
+   "Packaging & bottle"
+  ],
+  "summary": "Cloud Mist Sonnet 116 (5.0, 8 reviews): fresh tea-jasmine scent lasting about 4 hours; one reviewer says the square cap is hard to close."
+ },
+ {
+  "id": "m131",
+  "date": "2026-11-11",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia (SAFF official store)",
+  "url": "https://www.tokopedia.com/saffnco/saff-co-extrait-de-parfum-kie-raha-1732963360808666467",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Ratings & reviews",
+   "Price & value"
+  ],
+  "summary": "Kie Raha 35 ml rated 4.9 from 393 ratings on the official store, discounted 20% to Rp239k with a free vial for 11.11."
+ },
+ {
+  "id": "m132",
+  "date": "2026-11-11",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Watsons Indonesia",
+  "url": "https://www.watsons.co.id/en/saff-co-extrait-de-parfum-morfosia-35-ml/p/BP_45609",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Price & value",
+   "Availability"
+  ],
+  "summary": "Morfosia 35 ml listed at Rp249k with a gift-while-stock-lasts promo during Watsons 11.11 bundle deals; no ratings shown."
+ },
+ {
+  "id": "m133",
+  "date": "2025-01-22",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/@inikahfebri/7462762579237126674",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Range & sizes",
+   "Scent character",
+   "Packaging & bottle"
+  ],
+  "summary": "Creator reviews almost the full mini-size range, picks Loui, Maleali and Xocolatl, and recommends minis before buying full bottles."
+ },
+ {
+  "id": "m134",
+  "date": "2023-03-28",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/@ghinaaulaulaul/7215576755636077057",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "Ostara rated 9.5/10: fruity-floral with warm base, 6–8 hours on skin, and good value at about Rp219k for 30 ml."
+ },
+ {
+  "id": "m135",
+  "date": "2023-03-08",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/karinayolandaa/7208068050057314818",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Scent character",
+   "Availability"
+  ],
+  "summary": "S.O.T.B praised as elegant tropical-floral lasting 7–8 hours; downsides are that it is common and often sold out."
+ },
+ {
+  "id": "m136",
+  "date": "2026-03-28",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "eBay",
+  "url": "https://www.ebay.com/itm/356858339727",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Authenticity & fakes",
+   "Price & value"
+  ],
+  "summary": "Third-party seller from Indonesia lists Irai Leima at US$78, far above local price, with no authorised-reseller proof."
+ },
+ {
+  "id": "m137",
+  "date": "2026-09-01",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "KOL.ID",
+  "url": "https://kol.id/blog/10-influencer-parfum-paling-populer-di-indonesia",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation",
+   "Scent character"
+  ],
+  "summary": "List of top Indonesian perfume influencers notes one often features SAFF S.O.T.B for its creamy floral character."
+ },
+ {
+  "id": "m138",
+  "date": "2026-11-11",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "The Scent Base",
+  "url": "https://thescentbase.com/at/perfumes/saff-co/saff",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "Community wear report for SAFF puts longevity at about 4–6 hours with modest sillage, scent 3.6/5, value 3.8."
+ },
+ {
+  "id": "m139",
+  "date": "2026-04-13",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Fragrance Forte",
+  "url": "https://fragranceforte.co.uk/blogs/news/mykonos-perfume-uk-the-viral-indonesian-fragrance-brand-ready-to-disrupt-the-uk-dupe-market",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Availability",
+   "Brand reputation"
+  ],
+  "summary": "UK retailer launches Mykonos, pitching it as a viral, dupe-friendly Indonesian brand with about 700k Instagram followers."
+ },
+ {
+  "id": "m140",
+  "date": "2026-09-07",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/milk-drops-extrait-de-parfum",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "Longevity",
+   "Scent character"
+  ],
+  "summary": "Milk Drops (4.0, 41 reviews, 85% recommend): latest reviewer finds it faint with weak projection; earlier ones report 6–8 hours."
+ },
+ {
+  "id": "m141",
+  "date": "2026-02-25",
+  "date_approx": false,
+  "brand": "Alchemist",
+  "source_name": "Popmama",
+  "url": "https://www.popmama.com/life/fashion-and-beauty/kolaborasi-parfum-lokal-dengan-dpr-ian-punya-wangi-manly-maksimal-00-6wd2h-wdl45n/amp",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Price & value"
+  ],
+  "summary": "Alchemist x DPR IAN New Out West A.M and P.M launched at Rp579k–679k, sold only via C&F stores and online."
+ },
+ {
+  "id": "m142",
+  "date": "2024-01-27",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/hmns-perfume/scent-of-a-woman",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "Ratings & reviews",
+   "Availability"
+  ],
+  "summary": "Scent of a Woman sits at 3.7 with 64% recommend; reviewers like the floral but note it is hard to find or discontinued."
  }
 ]

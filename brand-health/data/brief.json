@@ -1,56 +1,56 @@
 {
- "date": "2026-11-10",
- "headline": "SAFF holds 4.32 on Female Daily (1,746 reviews) for an eleventh flat day, ahead of HMNS (4.15) and newly tracked Onix (4.17), as Mykonos Soft Hour opens online sales on 11 Nov.",
+ "date": "2026-11-11",
+ "headline": "SAFF holds 4.32 on Female Daily (1,746 reviews) for a twelfth flat day as 11.11 discounts run (Kie Raha 20% off, rated 4.9) and Mykonos Soft Hour goes on sale online.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "Female Daily ratings flat vs yesterday and 3 Nov: SAFF 4.32 (1,746 reviews), Alchemist 4.43, Mykonos 4.26, HMNS 4.15. No SAFF product moved.",
+   "text": "Female Daily ratings flat vs yesterday and 4 Nov for all five brands: Alchemist 4.43, SAFF 4.32 (1,746 reviews), Mykonos 4.26, Onix 4.17, HMNS 4.15. No product moved.",
    "evidence": "ratings"
   },
   {
-   "text": "Onix now tracked: 4.17 across 215 reviews on 14 rated products, with 2 below 4 (Helena 3.0, Scorpio 3.0); its review base is about one-eighth of SAFF's.",
-   "evidence": "ratings"
+   "text": "11.11 is live: Kie Raha 35 ml is 20% off (Rp239k) on SAFF's Tokopedia store with a 4.9 rating from 393 ratings; Watsons runs 11.11 bundles with Morfosia at Rp249k.",
+   "evidence": "m131"
   },
   {
-   "text": "Mykonos Soft Hour (with NCT Haechan) sells online from 11 Nov after a 6–8 Nov launch event at Lotte Mall Jakarta.",
-   "evidence": "m123"
+   "text": "Body mists are a longevity weak spot: Cloud Mist Annabel Lee scores 4.7 but recent reviewers say the lychee scent fades within minutes to hours.",
+   "evidence": "m129"
   },
   {
-   "text": "Weak projection and oily residue recur on Extrait scents: ILIAD (4.6) reviewers say it needs many sprays and marks clothes.",
-   "evidence": "m107"
+   "text": "Weak projection recurs beyond Extraits: a community wear report puts SAFF (the scent) at 4–6 hours with modest sillage, and ILIAD reviewers say it needs many sprays.",
+   "evidence": "m138"
   },
   {
-   "text": "8 ml travel sizes already exist (Rp75k–109k at one retailer, 33 SAFF items listed), but complaints about big or dark bottles still appear, so the small size is not visible enough.",
-   "evidence": "m121"
+   "text": "Grey-market pricing: a third-party eBay seller lists Irai Leima at US$78, several times local price, with no authorised-reseller proof.",
+   "evidence": "m136"
   }
  ],
  "recommendations": [
   {
-   "text": "Counter Mykonos Soft Hour during 11.11: push top-rated scents (Xocolatl, Irai Leima, Troupe, Solaris) with review highlights, and seed TikTok and Instagram creators so SAFF shows up in 'viral' lists.",
+   "text": "Counter Mykonos Soft Hour during 11.11: push top-rated scents (Kie Raha, Xocolatl, Irai Leima, Troupe) with review highlights, and seed TikTok and Instagram creators so SAFF appears in 'viral' lists.",
    "horizon": "Now"
   },
   {
-   "text": "Align normal vs promo price messaging (ALENCINE/MECHLINE, Maleali, Morfosia) across website, marketplaces and Zalora so constant markdowns do not make 'normal' prices look inflated.",
+   "text": "Align normal vs promo price messaging across website, Tokopedia, Watsons and Zalora so constant 11.11-style markdowns do not make 'normal' prices look inflated.",
    "horizon": "Now"
   },
   {
-   "text": "Make the 8 ml travel size easy to find on marketplace listings and in 11.11 bundles as a low-risk trial, especially for strong-opening scents like Irai Leima and S.O.T.B.",
+   "text": "Set honest wear-time claims for Cloud Mists (e.g. 'refresh every 2–3 hours') and bundle a mist with its matching Extrait for layering.",
    "horizon": "Next"
   },
   {
-   "text": "Set clear longevity expectations per scent (hours on skin vs fabric) and add wear tips, starting with S.O.T.B, Troupe, ILIAD and Cascavel, so the 'Extrait' label does not over-promise.",
+   "text": "Set clear longevity expectations per Extrait (hours on skin vs fabric) and add wear tips, starting with S.O.T.B, Troupe, ILIAD and Cascavel.",
    "horizon": "Next"
   },
   {
-   "text": "Run a short quarterly survey (awareness, consideration, NPS), post a 'how to spot a fake' guide on SAFF channels, and upload a marketplace export to the Drive folder to measure low-star drivers.",
+   "text": "Publish an official overseas-reseller list and a 'how to spot a fake' guide; run a quarterly survey (awareness, NPS) and upload a marketplace export to the Drive folder.",
    "horizon": "Later"
   }
  ],
  "watch": [
   "Mykonos Soft Hour from 11 Nov (online) and 15 Nov (stores): ratings and buzz vs SAFF",
-  "First reviews of ALENCINE / MECHLINE and Postojna (no Female Daily page yet)",
-  "Irai Leima and S.O.T.B: 'opening too strong' and not-recommended reviews",
-  "Projection, oily residue and dark-bottle fill-level complaints on Extrait scents",
+  "Post-11.11 reviews on Tokopedia and Watsons: delivery, fakes and promo-price complaints",
+  "Cloud Mist and Extrait longevity / projection complaints",
+  "First reviews of ALENCINE / MECHLINE, Postojna and Eulalie (no Female Daily reviews yet)",
   "Onix rating (4.17) and its two low-rated products"
  ]
 }
