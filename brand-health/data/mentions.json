@@ -2344,5 +2344,156 @@
    "Longevity"
   ],
   "summary": "Senoparty sits at 4.0 on 30 reviews (80% recommend); fans like the evening scent and ~6-hour wear, one calls it overrated."
+ },
+ {
+  "id": "m157",
+  "date": "2026-11-13",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia",
+  "url": "https://www.tokopedia.com/saffnco/saff-co-extrait-de-parfum-maleali/review",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Ratings & reviews",
+   "Packaging & bottle"
+  ],
+  "summary": "Maleali on the official Tokopedia store scores 4.9 from about 1,550 ratings, with only ~0.2% at 1–2 stars; buyers praise a soft woody scent and leak-free packing."
+ },
+ {
+  "id": "m158",
+  "date": "2026-11-13",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia",
+  "url": "https://www.tokopedia.com/saffnco/saff-co-extrait-de-parfum-iliad/review",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Ratings & reviews",
+   "Price & value",
+   "Longevity"
+  ],
+  "summary": "ILIAD scores 4.9 from about 2,900 Tokopedia ratings at 23% off (Rp229k); most praise wear time, though one buyer found it shorter than other SAFF scents."
+ },
+ {
+  "id": "m159",
+  "date": "2026-11-13",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia (third-party seller)",
+  "url": "https://www.tokopedia.com/tokobdg-1/parfum-saff-c-coco-inspired-by-tokobdg-parfum-unisex-saff-co-coco-35ml-90961/review",
+  "type": "Retail content",
+  "sentiment": "Negative",
+  "themes": [
+   "Authenticity & fakes",
+   "Price & value"
+  ],
+  "summary": "A third-party shop sells an 'inspired by' copy of SAFF Coco using the SAFFNCO name at Rp95k, with 53 ratings averaging 4.9."
+ },
+ {
+  "id": "m160",
+  "date": "2026-11-11",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Popmama",
+  "url": "https://www.popmama.com/life/fashion-and-beauty/rekomendasi-parfum-yang-cocok-untuk-acara-festival-outdoor-00-vfv85-my4k6l",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Price & value"
+  ],
+  "summary": "Festival-scent roundup picks Irai Leima (aquatic floral, about Rp246k) alongside HMNS ORGSM and Mykonos Sorento."
+ },
+ {
+  "id": "m161",
+  "date": "2026-11-13",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Watsons",
+  "url": "https://www.watsons.co.id/en/saff-co-saff-co-edp-solaris-30ml/p/BP_35861",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Availability",
+   "Price & value"
+  ],
+  "summary": "Watsons lists Solaris 30ml at Rp179.5k (18% off) but the page appears to show it as out of stock."
+ },
+ {
+  "id": "m162",
+  "date": "2026-09-01",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "NOW! Jakarta",
+  "url": "https://www.nowjakarta.co.id/?p=112548",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Packaging & bottle"
+  ],
+  "summary": "Feature on The POSTOJNA Project exhibition at Kota Kasablanka, noting the scent was made with a Bulgarian perfumer and the bottle designed in-house."
+ },
+ {
+  "id": "m163",
+  "date": "2026-07-23",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Berisik Radio",
+  "url": "https://berisikradio.id/update/ketika-musik-dan-aroma-bersatu-saff-co-gandeng-ran-dalam-rilis-parfum-terbaru/",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Brand reputation"
+  ],
+  "summary": "Music outlet covers the SAFF x RAN Postojna launch and immersive activation, describing SAFF as a brand that keeps creating buzz."
+ },
+ {
+  "id": "m164",
+  "date": "2025-08-20",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/@ngasihtaukamu/7540663736806310420?region=id",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Creator post recommends Ostara, Chno, Solaris and Las Pozas as long-lasting, with tips to apply on pulse points."
+ },
+ {
+  "id": "m165",
+  "date": "2026-04-27",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/hmns-perfume/unpatched",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Unpatched holds 4.8 on 12 reviews (100% recommend); reviewers like the bitter-chocolate gourmand and report around 8 hours."
+ },
+ {
+  "id": "m166",
+  "date": "2024-06-28",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "IDN Times",
+  "url": "https://www.idntimes.com/men/grooming/parfum-yang-viral-di-tiktok-dari-mykonos-hingga-hmns-00-qftxr-jcggxv",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation",
+   "Longevity"
+  ],
+  "summary": "TikTok-viral list features HMNS Orgsm and Alpha (about 6 hours), Mykonos California and Aphrodite, and SAFF S.O.T.B."
  }
 ]
