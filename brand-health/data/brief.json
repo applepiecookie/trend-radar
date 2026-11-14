@@ -1,36 +1,36 @@
 {
- "date": "2026-11-13",
- "headline": "SAFF stays at 4.32 on Female Daily (1,746 reviews) for a fourteenth flat day, while Tokopedia scores near 4.9 and a cheap 'inspired by' Coco copy using the SAFFNCO name surfaces.",
+ "date": "2026-11-14",
+ "headline": "SAFF holds 4.32 on Female Daily (1,746 reviews) for a fifteenth flat day, while new Shopee data puts SAFF 4th in local perfume share (3.52%), behind Mykonos and HMNS.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "Female Daily flat vs yesterday and 6 Nov: Alchemist 4.43, SAFF 4.32 (1,746 reviews), Mykonos 4.26, HMNS 4.15; no product moved. Onix page not found today.",
+   "text": "Female Daily flat vs yesterday: Alchemist 4.43, SAFF 4.32 (1,746 reviews), Mykonos 4.26, Onix 4.17, HMNS 4.15; no product moved. Mykonos dipped 0.01 vs 7 Nov.",
    "evidence": "ratings"
   },
   {
-   "text": "Marketplace ratings run far above Female Daily: ILIAD scores 4.9 from about 2,900 Tokopedia ratings (under 1% at 1–2 stars) vs 4.6 on Female Daily; Maleali 4.9 from about 1,550.",
-   "evidence": "m158"
+   "text": "Share gap: Compas Q2 2026 Shopee data ranks SAFF 4th at 3.52%, vs Mykonos 6.75% and HMNS 5.06%.",
+   "evidence": "m167"
   },
   {
-   "text": "New fake/dupe risk: a third-party Tokopedia shop sells an 'inspired by' Coco copy under the SAFFNCO name at Rp95k, under half the official price.",
-   "evidence": "m159"
+   "text": "Marketplace ratings run far above Female Daily: S.O.F.R scores 4.9 from about 1,500 Tokopedia ratings, ILIAD 4.9 from about 2,900.",
+   "evidence": "m168"
+  },
+  {
+   "text": "Unofficial resellers keep appearing: a non-official Tokopedia shop sells Troupe 30ml with no authorisation shown, after an 'inspired by' Coco copy earlier this week.",
+   "evidence": "m170"
   },
   {
    "text": "Short wear time is the most repeated weak point: Omnia's community profile shows about 3 hours with intimate sillage, in line with earlier SAFF and ILIAD projection reports.",
    "evidence": "m149"
-  },
-  {
-   "text": "Stock and price gaps at retail: Watsons shows Solaris 30ml at Rp179.5k (18% off) but appears out of stock.",
-   "evidence": "m163"
   }
  ],
  "recommendations": [
   {
-   "text": "Report the 'inspired by' SAFFNCO Coco listing to Tokopedia and publish an authorised-reseller list plus a 'how to spot a fake' guide.",
+   "text": "Report the 'inspired by' SAFFNCO Coco listing and unverified resellers to Tokopedia, and publish an authorised-reseller list plus a 'how to spot a fake' guide.",
    "horizon": "Now"
   },
   {
-   "text": "After 11.11, use the strong marketplace scores (ILIAD and Maleali 4.9 on Tokopedia) in ads and ask happy buyers to review on Female Daily too, before Mykonos Soft Hour reaches stores on 15 Nov.",
+   "text": "Counter Mykonos Soft Hour (in stores 15 Nov) with ads that use the 4.9 Tokopedia scores of S.O.F.R and ILIAD, and ask happy buyers to review on Female Daily too.",
    "horizon": "Now"
   },
   {
@@ -48,8 +48,8 @@
  ],
  "watch": [
   "Mykonos Soft Hour in stores from 15 Nov: ratings and buzz vs SAFF",
-  "'Inspired by' / fake SAFF listings on Tokopedia and Shopee",
-  "Post-11.11 reviews on Tokopedia and Watsons: delivery, stock and promo-price complaints",
+  "Shopee share ranking: SAFF 4th at 3.52% (Q2 2026) — track next quarter",
+  "Unofficial and 'inspired by' SAFF listings on Tokopedia and Shopee",
   "Extrait and Cloud Mist longevity / projection complaints (Omnia, ILIAD, SAFF)",
   "Instagram: no public SAFF posts surfaced in search again today"
  ]
