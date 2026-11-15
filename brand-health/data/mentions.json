@@ -2642,5 +2642,171 @@
    "Longevity"
   ],
   "summary": "Alchemist's first extrait, Out West (40% concentration), launched at Rp279k for 50ml as its longer-lasting option."
+ },
+ {
+  "id": "m177",
+  "date": "2026-05-06",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/@ngasihtaukamu/7647798082567799314",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Creator guide to eight SAFF scents reports about 4–6 hours of wear and suggests Saff or Ostara for first-time buyers."
+ },
+ {
+  "id": "m178",
+  "date": "2025-06-01",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/experience/review-parfum-saff-nco-by-hanasui",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Price & value",
+   "Range & sizes"
+  ],
+  "summary": "Comparison with NCO by Hanasui rates SAFF stronger on clothing and more varied, but pricier and capped at 30 ml."
+ },
+ {
+  "id": "m179",
+  "date": "2025-12-15",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Curanity",
+  "url": "https://curanity.com/brands/saff-n-co/reviews",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Ratings & reviews",
+   "Packaging & bottle",
+   "Repurchase"
+  ],
+  "summary": "Small review site shows 9 SAFF reviews, all 5 stars, praising giftable packaging and planning repurchase."
+ },
+ {
+  "id": "m180",
+  "date": "2026-11-15",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Zalora",
+  "url": "https://www.zalora.co.id/p/saff-co-saff-co-extrait-de-parfum-s-o-t-b-3905187",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Ratings & reviews",
+   "Price & value"
+  ],
+  "summary": "Zalora lists S.O.T.B at Rp299k with a 4.9 rating from 1,423 reviews, far above its 4.1 on Female Daily."
+ },
+ {
+  "id": "m181",
+  "date": "2026-11-15",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia",
+  "url": "https://www.tokopedia.com/idolapomade/saff-co-extrait-de-parfum-cascavel-540",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Authenticity & fakes",
+   "Availability"
+  ],
+  "summary": "A non-official Tokopedia shop lists Cascavel at Rp195k, sold out, with no brand authorisation shown."
+ },
+ {
+  "id": "m182",
+  "date": "2025-10-30",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Metro TV News",
+  "url": "https://www.metrotvnews.com/play/NQACYG0j-5-parfum-lokal-terbaik-2025-wangi-mewah-kelas-dunia-gaya-hidup",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation",
+   "Packaging & bottle",
+   "Longevity"
+  ],
+  "summary": "TV news list of top local perfumes names SAFF first, citing distinctive scents, good longevity and exclusive-looking packaging."
+ },
+ {
+  "id": "m183",
+  "date": "2024-07-25",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/yadecaofc/7398058944297681424",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "User post highlights SAFF's unique aromas and long wear."
+ },
+ {
+  "id": "m184",
+  "date": "2025-08-15",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/@inaraaputri2019/7537656683565285904",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "User review of S.O.T.B describes a sweet vanilla scent that lasts long."
+ },
+ {
+  "id": "m185",
+  "date": "2025-06-01",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/experience/saff-n-co-parfume-cowo",
+  "type": "Forum & social",
+  "sentiment": "Neutral",
+  "themes": [
+   "Range & sizes",
+   "Scent character"
+  ],
+  "summary": "Round-up of SAFF scents suited to men, helping buyers pick from the wide range."
+ },
+ {
+  "id": "m186",
+  "date": "2026-01-29",
+  "date_approx": false,
+  "brand": "Alchemist",
+  "source_name": "Tatler Asia",
+  "url": "https://www.tatlerasia.com/style/beauty/from-day-to-night-inside-out-west-alchemists-latest-collection",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "New launch"
+  ],
+  "summary": "Alchemist's Out West day/night duo uses IFF perfumers and a K-pop campaign face, raising the premium bar."
+ },
+ {
+  "id": "m187",
+  "date": "2021-10-25",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "Jawa Pos",
+  "url": "https://www.jawapos.com/ekonomi/2110250060/brand-parfum-lokal-saingi-merk-ternama-hmns-jadi-favorit-para-menteri",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation"
+  ],
+  "summary": "Older profile says HMNS won praise from ministers and ranked among top perfume sellers on Shopee and Tokopedia."
  }
 ]

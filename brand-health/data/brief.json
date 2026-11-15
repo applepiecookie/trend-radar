@@ -1,10 +1,10 @@
 {
- "date": "2026-11-14",
- "headline": "SAFF holds 4.32 on Female Daily (1,746 reviews) for a fifteenth flat day, while new Shopee data puts SAFF 4th in local perfume share (3.52%), behind Mykonos and HMNS.",
+ "date": "2026-11-15",
+ "headline": "SAFF holds 4.32 on Female Daily (1,746 reviews) for a sixteenth flat day, while Zalora shows S.O.T.B at 4.9 from 1,423 reviews versus 4.1 on Female Daily.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "Female Daily flat vs yesterday: Alchemist 4.43, SAFF 4.32 (1,746 reviews), Mykonos 4.26, Onix 4.17, HMNS 4.15; no product moved. Mykonos dipped 0.01 vs 7 Nov.",
+   "text": "Female Daily flat vs yesterday: Alchemist 4.43, SAFF 4.32 (1,746 reviews), Mykonos 4.26, HMNS 4.15; no product moved. Mykonos is 0.01 below 8 Nov. Onix page not found today.",
    "evidence": "ratings"
   },
   {
@@ -12,29 +12,29 @@
    "evidence": "m167"
   },
   {
-   "text": "Marketplace ratings run far above Female Daily: S.O.F.R scores 4.9 from about 1,500 Tokopedia ratings, ILIAD 4.9 from about 2,900.",
-   "evidence": "m168"
+   "text": "Retail scores run far above Female Daily: S.O.T.B has 4.9 from 1,423 Zalora reviews but 4.1 from 586 on Female Daily.",
+   "evidence": "m180"
   },
   {
-   "text": "Unofficial resellers keep appearing: a non-official Tokopedia shop sells Troupe 30ml with no authorisation shown, after an 'inspired by' Coco copy earlier this week.",
-   "evidence": "m170"
+   "text": "Unofficial resellers keep appearing: a second non-official Tokopedia shop lists Cascavel (Rp195k, sold out) with no authorisation shown, after a Troupe listing yesterday.",
+   "evidence": "m181"
   },
   {
-   "text": "Short wear time is the most repeated weak point: Omnia's community profile shows about 3 hours with intimate sillage, in line with earlier SAFF and ILIAD projection reports.",
-   "evidence": "m149"
+   "text": "Longevity is the swing factor: a new creator guide reports 4–6 hours on skin, while Omnia's community profile shows about 3 hours.",
+   "evidence": "m177"
   }
  ],
  "recommendations": [
   {
-   "text": "Report the 'inspired by' SAFFNCO Coco listing and unverified resellers to Tokopedia, and publish an authorised-reseller list plus a 'how to spot a fake' guide.",
+   "text": "Report unverified SAFF resellers (Troupe, Cascavel) and 'inspired by' listings to Tokopedia, and publish an authorised-reseller list plus a 'how to spot a fake' guide.",
    "horizon": "Now"
   },
   {
-   "text": "Counter Mykonos Soft Hour (in stores 15 Nov) with ads that use the 4.9 Tokopedia scores of S.O.F.R and ILIAD, and ask happy buyers to review on Female Daily too.",
+   "text": "Counter Mykonos Soft Hour (in stores from 15 Nov) with ads that use high retail scores (S.O.T.B 4.9 on Zalora, S.O.F.R and ILIAD 4.9 on Tokopedia), and ask happy buyers to review on Female Daily too.",
    "horizon": "Now"
   },
   {
-   "text": "Align normal vs promo price messaging and stock across website, Tokopedia, Watsons and Zalora so constant markdowns and out-of-stock pages do not hurt trust.",
+   "text": "Find out why S.O.T.B scores 4.1 on Female Daily vs 4.9 on Zalora: read its low-star Female Daily reviews and fix the top complaint in copy or product.",
    "horizon": "Next"
   },
   {
@@ -50,7 +50,7 @@
   "Mykonos Soft Hour in stores from 15 Nov: ratings and buzz vs SAFF",
   "Shopee share ranking: SAFF 4th at 3.52% (Q2 2026) — track next quarter",
   "Unofficial and 'inspired by' SAFF listings on Tokopedia and Shopee",
-  "Extrait and Cloud Mist longevity / projection complaints (Omnia, ILIAD, SAFF)",
+  "S.O.T.B rating gap: 4.1 Female Daily vs 4.9 Zalora",
   "Instagram: no public SAFF posts surfaced in search again today"
  ]
 }
