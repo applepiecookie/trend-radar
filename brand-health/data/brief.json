@@ -1,10 +1,10 @@
 {
- "date": "2026-11-15",
- "headline": "SAFF holds 4.32 on Female Daily (1,746 reviews) for a sixteenth flat day, while Zalora shows S.O.T.B at 4.9 from 1,423 reviews versus 4.1 on Female Daily.",
+ "date": "2026-11-16",
+ "headline": "SAFF stays at 4.32 on Female Daily (1,746 reviews) for a seventeenth flat day, while another unofficial Tokopedia shop sells SAFF Extrait at Rp169k with 4.9 from 539 ratings.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "Female Daily flat vs yesterday: Alchemist 4.43, SAFF 4.32 (1,746 reviews), Mykonos 4.26, HMNS 4.15; no product moved. Mykonos is 0.01 below 8 Nov. Onix page not found today.",
+   "text": "Female Daily flat vs yesterday and vs 9 Nov: Alchemist 4.43, SAFF 4.32 (1,746 reviews), Mykonos 4.26, HMNS 4.15; no product moved. Onix page not found today.",
    "evidence": "ratings"
   },
   {
@@ -16,8 +16,8 @@
    "evidence": "m180"
   },
   {
-   "text": "Unofficial resellers keep appearing: a second non-official Tokopedia shop lists Cascavel (Rp195k, sold out) with no authorisation shown, after a Troupe listing yesterday.",
-   "evidence": "m181"
+   "text": "Unofficial resellers keep growing: another non-official Tokopedia shop lists SAFF 30 ml Extrait at Rp169k with 4.9 from 539 ratings and no authorised-seller label.",
+   "evidence": "m188"
   },
   {
    "text": "Longevity is the swing factor: a new creator guide reports 4–6 hours on skin, while Omnia's community profile shows about 3 hours.",
@@ -26,7 +26,7 @@
  ],
  "recommendations": [
   {
-   "text": "Report unverified SAFF resellers (Troupe, Cascavel) and 'inspired by' listings to Tokopedia, and publish an authorised-reseller list plus a 'how to spot a fake' guide.",
+   "text": "Report unverified SAFF resellers on Tokopedia (Troupe, Cascavel, Loui listings), and publish an authorised-reseller list plus a 'how to spot a fake' guide.",
    "horizon": "Now"
   },
   {
@@ -49,8 +49,8 @@
  "watch": [
   "Mykonos Soft Hour in stores from 15 Nov: ratings and buzz vs SAFF",
   "Shopee share ranking: SAFF 4th at 3.52% (Q2 2026) — track next quarter",
-  "Unofficial and 'inspired by' SAFF listings on Tokopedia and Shopee",
+  "Unofficial SAFF listings on Tokopedia (at least 3 shops seen) and Shopee",
   "S.O.T.B rating gap: 4.1 Female Daily vs 4.9 Zalora",
-  "Instagram: no public SAFF posts surfaced in search again today"
+  "Morfosia on Watsons has no reviews yet; Eulalie now listed on Fragrantica"
  ]
 }

@@ -2808,5 +2808,127 @@
    "Brand reputation"
   ],
   "summary": "Older profile says HMNS won praise from ministers and ranked among top perfume sellers on Shopee and Tokopedia."
+ },
+ {
+  "id": "m188",
+  "date": "2026-11-16",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia (non-official shop)",
+  "url": "https://www.tokopedia.com/goodskin88/ready-saff-co-extrait-de-parfum-sotb-solaris-ostara-loui-laspozas-loui-d7247",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Authenticity & fakes",
+   "Price & value",
+   "Ratings & reviews"
+  ],
+  "summary": "Another non-official Tokopedia shop sells SAFF 30 ml Extrait (Loui variant) at Rp169k with 4.9 from 539 ratings and no authorised-seller label."
+ },
+ {
+  "id": "m189",
+  "date": "2026-11-16",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Watsons Indonesia",
+  "url": "https://www.watsons.co.id/id/saff-co-extrait-de-parfum-morfosia-35-ml/p/BP_45609",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Availability",
+   "Price & value",
+   "Ratings & reviews"
+  ],
+  "summary": "Watsons lists Morfosia Extrait 35 ml at Rp249k, orderable online but with no ratings or reviews shown yet."
+ },
+ {
+  "id": "m190",
+  "date": "2026-11-16",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Fragrantica",
+  "url": "https://www.fragrantica.com/perfume/SAFF-Co/Eulalie-133897.html",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "New launch"
+  ],
+  "summary": "Fragrantica now lists SAFF Eulalie as a new 2026 fragrance for women and men, opening a global review page."
+ },
+ {
+  "id": "m191",
+  "date": "2026-10-12",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Headtopics (syndicated)",
+  "url": "https://id.headtopics.com/news/saff-co-hadirkan-alencine-dan-mechline-sebagai-88727727",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Scent character"
+  ],
+  "summary": "Syndicated news on the Alencine and Mechline sisterhood-themed Extraits, made with perfumer Shyamala Maisondieu and illustrator Nindita Kirana."
+ },
+ {
+  "id": "m192",
+  "date": "2025-02-27",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Kompas Lifestyle",
+  "url": "https://lifestyle.kompas.com/read/2025/02/27/192515220/terinspirasi-dua-fase-kehidupan-saff-co-luncurkan-koleksi-terbaru",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Brand reputation"
+  ],
+  "summary": "Kompas covered SAFF's 'For Now and Then' collection, inspired by two phases of life."
+ },
+ {
+  "id": "m193",
+  "date": "2023-02-13",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "IDX Channel",
+  "url": "https://www.idxchannel.com/inspirator/kisah-inspiratif-pendiri-hmns-bisnis-parfum-harga-merakyat-gara-gara-merek-impor-mahal/all",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Price & value",
+   "Brand reputation"
+  ],
+  "summary": "Founder story says HMNS grew by offering luxury-style scents far below imported prices, boosted early by a viral Twitter testimonial."
+ },
+ {
+  "id": "m194",
+  "date": "2026-07-17",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Posisi.net",
+  "url": "https://posisi.net/bongkar-6-varian-baru-mykonos-perfume-2026-inikah-jawaban-dari-misteri-parfum-gaib-yang-sedang-viral",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Availability"
+  ],
+  "summary": "Article on six new 2026 Mykonos variants says drops often sell out within minutes, earning a 'parfum gaib' nickname on TikTok."
+ },
+ {
+  "id": "m195",
+  "date": "2025-08-17",
+  "date_approx": false,
+  "brand": "Onix",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/onix/call-me-bento",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Price & value",
+   "Longevity"
+  ],
+  "summary": "Call Me Bento holds 4.6 from 5 reviews (100% recommend); praised as affordable, with notes of oily feel and short outdoor wear."
  }
 ]
