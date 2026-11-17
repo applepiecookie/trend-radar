@@ -1,10 +1,10 @@
 {
- "date": "2026-11-16",
- "headline": "SAFF stays at 4.32 on Female Daily (1,746 reviews) for a seventeenth flat day, while another unofficial Tokopedia shop sells SAFF Extrait at Rp169k with 4.9 from 539 ratings.",
+ "date": "2026-11-17",
+ "headline": "SAFF holds 4.32 on Female Daily (now 1,747 reviews, Las Pozas +1), while non-official decant shops and Watsons travel sizes widen how shoppers try SAFF at Rp20k–89k.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "Female Daily flat vs yesterday and vs 9 Nov: Alchemist 4.43, SAFF 4.32 (1,746 reviews), Mykonos 4.26, HMNS 4.15; no product moved. Onix page not found today.",
+   "text": "Female Daily flat vs yesterday and vs 10 Nov: Alchemist 4.43, SAFF 4.32 (1,747 reviews; Las Pozas 91→92, still 4.6). HMNS, Mykonos and Onix pages not readable today.",
    "evidence": "ratings"
   },
   {
@@ -16,29 +16,29 @@
    "evidence": "m180"
   },
   {
-   "text": "Unofficial resellers keep growing: another non-official Tokopedia shop lists SAFF 30 ml Extrait at Rp169k with 4.9 from 539 ratings and no authorised-seller label.",
-   "evidence": "m188"
+   "text": "Unofficial channels keep growing: a non-official Tokopedia shop sells SAFF decants from about Rp20.5k (2 ml) labelled '100% original', with no authorised-seller proof.",
+   "evidence": "m198"
   },
   {
-   "text": "Longevity is the swing factor: a new creator guide reports 4–6 hours on skin, while Omnia's community profile shows about 3 hours.",
-   "evidence": "m177"
+   "text": "Packaging portability is a repeat theme: Eulalie's newest review (5.0) praises wear but says the bottle is not travel-friendly, echoing earlier big-bottle complaints.",
+   "evidence": "m196"
   }
  ],
  "recommendations": [
   {
-   "text": "Report unverified SAFF resellers on Tokopedia (Troupe, Cascavel, Loui listings), and publish an authorised-reseller list plus a 'how to spot a fake' guide.",
+   "text": "Report unverified SAFF resellers and decant shops on Tokopedia, and publish an authorised-reseller list plus a 'how to spot a fake' guide.",
    "horizon": "Now"
   },
   {
-   "text": "Counter Mykonos Soft Hour (in stores from 15 Nov) with ads that use high retail scores (S.O.T.B 4.9 on Zalora, S.O.F.R and ILIAD 4.9 on Tokopedia), and ask happy buyers to review on Female Daily too.",
+   "text": "Push the official 8 ml travel size (Watsons Morfosia Rp89k) as the safe trial option, and answer the 'bottle not travel-friendly' complaint in product copy.",
    "horizon": "Now"
   },
   {
-   "text": "Find out why S.O.T.B scores 4.1 on Female Daily vs 4.9 on Zalora: read its low-star Female Daily reviews and fix the top complaint in copy or product.",
+   "text": "Counter Mykonos Soft Hour with ads that use high retail scores (S.O.T.B 4.9 on Zalora), and ask happy buyers to review on Female Daily too.",
    "horizon": "Next"
   },
   {
-   "text": "Set clear longevity expectations per Extrait and Cloud Mist (hours on skin vs fabric) and add wear tips, starting with Omnia, S.O.T.B, ILIAD and Annabel Lee.",
+   "text": "Find out why S.O.T.B scores 4.1 on Female Daily vs 4.9 on Zalora: read its low-star reviews and fix the top complaint in copy or product.",
    "horizon": "Next"
   },
   {
@@ -48,9 +48,9 @@
  ],
  "watch": [
   "Mykonos Soft Hour in stores from 15 Nov: ratings and buzz vs SAFF",
-  "Shopee share ranking: SAFF 4th at 3.52% (Q2 2026) — track next quarter",
-  "Unofficial SAFF listings on Tokopedia (at least 3 shops seen) and Shopee",
+  "Unofficial SAFF listings and decants on Tokopedia (4+ shops seen)",
   "S.O.T.B rating gap: 4.1 Female Daily vs 4.9 Zalora",
-  "Morfosia on Watsons has no reviews yet; Eulalie now listed on Fragrantica"
+  "Travel sizes: Morfosia 8 ml on Watsons, Japan 8 ml line at Don Quijote",
+  "Eulalie (5.0, 2 reviews) and Morfosia: early reviews on new launches"
  ]
 }

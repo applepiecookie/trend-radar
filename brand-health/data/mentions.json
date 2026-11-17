@@ -2930,5 +2930,207 @@
    "Longevity"
   ],
   "summary": "Call Me Bento holds 4.6 from 5 reviews (100% recommend); praised as affordable, with notes of oily feel and short outdoor wear."
+ },
+ {
+  "id": "m196",
+  "date": "2026-11-13",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/eulalie-extrait-de-parfum",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Scent character",
+   "Packaging & bottle"
+  ],
+  "summary": "Eulalie's new review praises a sweet-fresh scent and long wear but says the bottle is not travel-friendly; 5.0 from 2 reviews."
+ },
+ {
+  "id": "m197",
+  "date": "2026-07-01",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/moisturizer-1/lotion/saff-co/body-potion-ode-to-ostara",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Texture & oiliness",
+   "Scent character",
+   "Availability"
+  ],
+  "summary": "Body Potion Ode to Ostara holds 4.8 from 6 reviews; light texture praised, but scent lasts 1–2 hours and stores rarely stock it."
+ },
+ {
+  "id": "m198",
+  "date": "2026-11-17",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia (non-official shop)",
+  "url": "https://www.tokopedia.com/fomostoree/decant-share-saff-co-extrait-de-parfum-morfosia-irai-leima-loui-omnia-chno-troupe-coco-cascavel-saff-s-o-t-b-ostara-solaris-las-pozas-xocolatl-iliad-minouet-maleali-kirithra-1731523166871717577",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Authenticity & fakes",
+   "Range & sizes",
+   "Price & value"
+  ],
+  "summary": "A non-official shop sells SAFF decants (2–10 ml, from about Rp20.5k for 2 ml) labelled '100% original' with no authorised-seller proof."
+ },
+ {
+  "id": "m199",
+  "date": "2026-11-17",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Watsons Indonesia",
+  "url": "https://www.watsons.co.id/en/saff-co-travel-size-morfosia-8-ml/p/BP_62350",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Range & sizes",
+   "Price & value",
+   "Availability"
+  ],
+  "summary": "Watsons lists Morfosia 8 ml travel size at Rp89k with home delivery; no reviews shown yet."
+ },
+ {
+  "id": "m200",
+  "date": "2026-08-03",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Popmama",
+  "url": "https://www.popmama.com/life/fashion-and-beauty/kolaborasi-seru-bersama-ran-hadirkan-the-postojna-project-00-fvmb5-h3c5nf",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Brand reputation"
+  ],
+  "summary": "Popmama covers the POSTOJNA Project event with RAN at Kota Kasablanka, showcasing a fruity-woody-amber 'blue hour' extrait."
+ },
+ {
+  "id": "m201",
+  "date": "2026-01-16",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/make-up/review-parfum-saff-co-sotb-wanginya-semerbak-tahan-lama-00-p4hpf-0mwsry",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Scent character",
+   "Price & value"
+  ],
+  "summary": "Popbela calls S.O.T.B very long-lasting and worth Rp260k, noting it may feel too strong for fans of subtle scents."
+ },
+ {
+  "id": "m202",
+  "date": "2026-01-08",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/make-up/review-parfum-saff-co-irai-leima-00-p4hpf-b2r8jd",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "Popbela reviews Irai Leima (Rp230k) as a soft aquatic-floral, safe for daily and formal wear, with fair longevity."
+ },
+ {
+  "id": "m203",
+  "date": "2026-05-22",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Resemom (PR Times)",
+  "url": "https://resemom.jp/release/prtimes/20260522/185098.html",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Availability",
+   "Range & sizes",
+   "New launch"
+  ],
+  "summary": "Release says SAFF & Co. entered Japan via Don Quijote with ten 8 ml extraits at 1,650 yen each."
+ },
+ {
+  "id": "m204",
+  "date": "2024-07-05",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/@mm.alzea/7388023400708522497",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Creator names Loui a favourite clean floral, lasting about 4–6 hours on skin and all day on fabric."
+ },
+ {
+  "id": "m205",
+  "date": "2024-01-06",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/@anderscent/7320870457622659586",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Range & sizes"
+  ],
+  "summary": "Creator guide maps SAFF variants to day or night use; related posts flag oily extrait texture and fabric stains."
+ },
+ {
+  "id": "m206",
+  "date": "2026-10-04",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/aphrodite-edp",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Mykonos Aphrodite holds 4.4 from 132 reviews; warm cinnamon and long wear praised, though some find it too strong in heat."
+ },
+ {
+  "id": "m207",
+  "date": "2025-09-11",
+  "date_approx": false,
+  "brand": "Alchemist",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/out-west-extrait-de-parfum",
+  "type": "Review site",
+  "sentiment": "Negative",
+  "themes": [
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "Alchemist Out West sits at 4.2 from 43 reviews; latest low reviews cite short wear and weak value."
+ },
+ {
+  "id": "m208",
+  "date": "2026-11-17",
+  "date_approx": true,
+  "brand": "HMNS",
+  "source_name": "Watsons Indonesia",
+  "url": "https://www.watsons.co.id/en/hmns-farhampton-edp-100ml/p/BP_42587",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Price & value",
+   "Availability"
+  ],
+  "summary": "Watsons lists HMNS Farhampton 100 ml at Rp369k with no discount and no reviews shown."
  }
 ]
