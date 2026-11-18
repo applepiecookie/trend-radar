@@ -3132,5 +3132,169 @@
    "Availability"
   ],
   "summary": "Watsons lists HMNS Farhampton 100 ml at Rp369k with no discount and no reviews shown."
+ },
+ {
+  "id": "m209",
+  "date": "2026-11-18",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Zalora",
+  "url": "https://www.zalora.co.id/p/saff-co-saff-co-extrait-de-parfum-irai-leima-4703352",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Ratings & reviews",
+   "Price & value"
+  ],
+  "summary": "Zalora shows Irai Leima at 4.9 from 1,424 reviews, the same count as other SAFF scents, so the score looks store-wide, not per product; price Rp269k vs Rp349k."
+ },
+ {
+  "id": "m210",
+  "date": "2026-11-18",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Zalora",
+  "url": "https://www.zalora.co.id/p/saff-co-saff-co-extrait-de-parfum-xocolatl-4296875",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Ratings & reviews",
+   "Price & value"
+  ],
+  "summary": "Zalora lists Xocolatl at Rp227.9k vs Rp299k with the same 4.9 from 1,424 reviews and identical review tags as Irai Leima."
+ },
+ {
+  "id": "m211",
+  "date": "2026-11-18",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia (official store)",
+  "url": "https://www.tokopedia.com/saffnco/saff-co-extrait-de-parfum-morfosia",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Ratings & reviews",
+   "Price & value"
+  ],
+  "summary": "Morfosia scores 4.9 from 1,095 ratings on SAFF's official Tokopedia store; only 12 ratings (1.1%) are 1–2 stars; price Rp242.5k, 31% off."
+ },
+ {
+  "id": "m212",
+  "date": "2026-11-18",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Watsons Indonesia",
+  "url": "https://www.watsons.co.id/en/saff-co-mini-size-maleali-5ml/p/BP_39686",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Range & sizes",
+   "Price & value"
+  ],
+  "summary": "Watsons sells the 5 ml Maleali mini at Rp29.5k after a 50% discount, a low-cost official trial option; 5.0 from one review."
+ },
+ {
+  "id": "m213",
+  "date": "2026-11-18",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "eBay",
+  "url": "https://www.ebay.com/itm/318448292715",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Authenticity & fakes",
+   "Availability"
+  ],
+  "summary": "An individual Jakarta-based eBay seller lists SAFF 35 ml at US$75 plus US$18 shipping, with no brand authorisation shown."
+ },
+ {
+  "id": "m214",
+  "date": "2026-11-18",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Instagram via KOL.ID",
+  "url": "https://kol.id/instagram/saffnco",
+  "type": "Forum & social",
+  "sentiment": "Neutral",
+  "themes": [
+   "Brand reputation"
+  ],
+  "summary": "Third-party tracker KOL.ID lists @saffnco at about 189.5K followers and 1.23% average engagement for November 2026; its other averages look unreliable."
+ },
+ {
+  "id": "m215",
+  "date": "2026-06-30",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/make-up/daftar-brand-parfum-lokal-terbaik-2026-n3v01-00-fzpls-z9pxmb",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation",
+   "Availability"
+  ],
+  "summary": "Popbela's 2026 local perfume list includes SAFF alongside HMNS, Mykonos, Alchemist and Onix, citing 9 stores and over 100 official resellers."
+ },
+ {
+  "id": "m216",
+  "date": "2025-06-20",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "BeautyHaul",
+  "url": "https://www.beautyhaul.com/blog/review-parfum-mini-size-saff-n-co-kemasan-gemas-aroma-unik-harga-terjangkau",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Range & sizes",
+   "Packaging & bottle"
+  ],
+  "summary": "Retailer blog praises SAFF minis from about Rp20k for portable, colourful bottles and distinctive scents; longevity is not covered."
+ },
+ {
+  "id": "m217",
+  "date": "2026-11-05",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edt/mykonos/slow-living-edt",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Scent character"
+  ],
+  "summary": "Slow Living EDT holds 4.4 from 19 reviews (94% recommend); the newest review likes its fresh scent and long wear in office and outdoor use."
+ },
+ {
+  "id": "m218",
+  "date": "2026-09-13",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/hmns-perfume/the-prestige",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Repurchase"
+  ],
+  "summary": "The Prestige has 5.0 from a single review; a sample user liked the citrus-tobacco-woody scent and plans to buy a full bottle."
+ },
+ {
+  "id": "m219",
+  "date": "2026-09-03",
+  "date_approx": true,
+  "brand": "Mykonos",
+  "source_name": "Parfumo",
+  "url": "https://www.parfumo.com/Perfumes/mykonos/reflection-elixir/reviews/708223",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "A Parfumo reviewer scores Reflection Elixir 8.5/10, citing over eight hours of wear and strong value against the designer scent it resembles."
  }
 ]
