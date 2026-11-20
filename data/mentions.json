@@ -838,5 +838,29 @@
   "date_approx": false,
   "source_name": "Jakpat",
   "url": "https://insight.jakpat.net/beauty-trend-quality-over-price-influencers/"
+ },
+ {
+  "id": "t054-kontan-20261113",
+  "trend_id": "t054",
+  "date": "2026-11-13",
+  "date_approx": false,
+  "source_name": "Kontan MomsMoney",
+  "url": "https://momsmoney.kontan.co.id/news/nco-perkenalkan-nco-extrait-de-parfum-aqeelas-signature"
+ },
+ {
+  "id": "t001-snapcart-20260526",
+  "trend_id": "t001",
+  "date": "2026-05-26",
+  "date_approx": false,
+  "source_name": "Snapcart",
+  "url": "https://snapcart.global/the-rise-of-everyday-fragrance/"
+ },
+ {
+  "id": "t020-databoks-apps-20260820",
+  "trend_id": "t020",
+  "date": "2026-08-20",
+  "date_approx": false,
+  "source_name": "Databoks / Snapcart",
+  "url": "https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/6a86b57febf12/ini-aplikasi-belanja-online-yang-banyak-digunakan-warga-indonesia-awal-2026"
  }
 ]
