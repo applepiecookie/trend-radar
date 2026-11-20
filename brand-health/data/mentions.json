@@ -3502,5 +3502,78 @@
    "Price & value"
   ],
   "summary": "Alchemist's Onirique extrait is listed at Rp449k on its official Tokopedia store, well above SAFF's Rp218k–254k."
+ },
+ {
+  "id": "m234",
+  "date": "2026-10-28",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Female Daily Editorial",
+  "url": "https://editorial.femaledaily.com/blog/2026/10/28/5-parfum-lokal-dengan-aroma-manis-dan-segar-untuk-dipakai-sehari-hari",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character"
+  ],
+  "summary": "Female Daily editors pick SAFF Troupe as a light pear-citrus daily scent, alongside HMNS ORGSM, Onix Mexicola and Alchemist Onirique."
+ },
+ {
+  "id": "m235",
+  "date": "2026-05-31",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "X",
+  "url": "https://x.com/bittercaffeines/status/2061055424691138688/photo/1",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Scent character"
+  ],
+  "summary": "A fan post previewed the Postojna scent ahead of its 6 June launch and urged followers to try it."
+ },
+ {
+  "id": "m236",
+  "date": "2023-12-15",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Industry.co.id",
+  "url": "https://www.industry.co.id/read/129115/tiktok-sukses-bikin-parfum-lokal-mykonos-dan-saff-co-sukses-raup-cuan-berlimpah-saat-1212",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation"
+  ],
+  "summary": "Report credits TikTok with strong 12.12 sales for SAFF & Co. and Mykonos."
+ },
+ {
+  "id": "m237",
+  "date": "2026-09-15",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/zora-edp",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Ratings & reviews",
+   "Longevity"
+  ],
+  "summary": "Zora EDP has 4.0 from 17 reviews and 94% recommend; most praise longevity, one needed to reapply."
+ },
+ {
+  "id": "m238",
+  "date": "2023-04-02",
+  "date_approx": false,
+  "brand": "HMNS",
+  "source_name": "Mojok",
+  "url": "https://mojok.co/terminal/rekomendasi-parfum-hmns-parfum-lokal-yang-worth-to-buy",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "Opinion piece calls HMNS worth buying for longevity, with prices from about Rp249k to Rp380k."
  }
 ]
