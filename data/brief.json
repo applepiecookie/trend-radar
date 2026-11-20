@@ -773,6 +773,18 @@
    "source": "Kontan MomsMoney (13 Nov 2026)",
    "url": "https://momsmoney.kontan.co.id/news/nco-perkenalkan-nco-extrait-de-parfum-aqeelas-signature",
    "confidence": "Press release"
+  },
+  {
+   "item": "UK best-selling fragrances 2026: body mist No. 1",
+   "source": "Retail Times (27 Oct 2026)",
+   "url": "https://retailtimes.co.uk/fragrance-report-lookfantastic-reveals-the-uks-best-selling-fragrances-of-2026/",
+   "confidence": "Retail data"
+  },
+  {
+   "item": "Botanical minimalism home fragrance trend",
+   "source": "Homes & Gardens (16 May 2026)",
+   "url": "https://www.homesandgardens.com/solved/stylish-botanical-minimalism-home-fragrance-trend",
+   "confidence": "Editorial"
   }
  ],
  "scent_worlds": [
@@ -911,6 +923,11 @@
      "text": "36% of consumers use deodorant beyond the underarm, led by 16–35s; a third want more premium scent.",
      "source": "IFF via Personal Care Insights",
      "url": "https://www.personalcareinsights.com/news/iff-deodorant-study-beyond-underarm.html"
+    },
+    {
+     "text": "The UK's No. 1 fragrance of 2026 at LOOKFANTASTIC was a body mist, Sol de Janeiro Cheirosa 62 (+6%).",
+     "source": "Retail Times",
+     "url": "https://retailtimes.co.uk/fragrance-report-lookfantastic-reveals-the-uks-best-selling-fragrances-of-2026/"
     }
    ],
    "saff_has": [
@@ -942,6 +959,11 @@
      "text": "'Scentscaping' matches scents to rooms: lavender and jasmine for bedrooms, citrus and herbs for kitchens.",
      "source": "Kontan MomsMoney",
      "url": "https://momsmoney.kontan.co.id/news/tren-scentscaping-2026-cara-simpel-bikin-rumah-terasa-lebih-nyaman-dan-rileks"
+    },
+    {
+     "text": "'Botanical minimalism': stone-look diffusers chosen as decor, so the device matters as much as the scent.",
+     "source": "Homes & Gardens",
+     "url": "https://www.homesandgardens.com/solved/stylish-botanical-minimalism-home-fragrance-trend"
     }
    ],
    "saff_has": [
