@@ -78,5 +78,15 @@
   "note": "Only brand to drop in rank",
   "source": "GoodStats / Compas",
   "url": "https://data.goodstats.id/statistic/10-brand-parfum-wewangian-terlaris-di-shopee-pada-q2-2026-peringkat-atas-kebal-YAF3P"
+ },
+ {
+  "id": "m9",
+  "period": "Q2 2026",
+  "order": 4,
+  "brand": "Saff & Co.",
+  "share": 3.53,
+  "note": "Rank 4",
+  "source": "Databoks / Compas",
+  "url": "https://databoks.katadata.co.id/produk-konsumen/statistik/6aa8d5a9330b1/mykonos-merek-parfum-terlaris-di-shopee-indonesia-pada-kuartal-ii-2026"
  }
 ]

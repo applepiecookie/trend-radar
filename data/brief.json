@@ -503,16 +503,28 @@
  ],
  "moments": [
   {
-   "date": "2026-11-11",
-   "label": "11.11 sale",
-   "relevance": "Marketplace peak; test concert-kit and scent-world bundles.",
-   "action_id": "a1"
-  },
-  {
    "date": "2026-11-21",
    "end": "2026-11-22",
    "label": "D.O. (EXO) at Istora Senayan",
    "relevance": "Warm-up for concert content.",
+   "action_id": "a1"
+  },
+  {
+   "date": "2026-11-22",
+   "label": "My Chemical Romance at JIS",
+   "relevance": "Big alt-rock crowd; long outdoor wear tests longevity.",
+   "action_id": "a1"
+  },
+  {
+   "date": "2026-12-05",
+   "label": "BOYNEXTDOOR at ICE BSD",
+   "relevance": "K-pop fans; concert-kit content.",
+   "action_id": "a1"
+  },
+  {
+   "date": "2026-12-06",
+   "label": "5 Seconds of Summer at Indonesia Arena",
+   "relevance": "Second Jakarta date; concert-kit push.",
    "action_id": "a1"
   },
   {
@@ -556,9 +568,9 @@
   },
   {
    "brand": "Scarlett",
-   "move": "Sells EDP and Extrait under Rp60k, building a 'luxurious and long-lasting' perception.",
+   "move": "Leads ShopTokopedia local perfume (12.72%, Q2 2026); sells EDP and Extrait under Rp60k; added Gulf-style 'Golden Scents'.",
    "response": "Defend price with materials, story and the body-care range, not discounts.",
-   "url": "https://data.goodstats.id/statistic/5-brand-parfum-wewangian-terlaris-di-shopee-april-2026-mana-favoritmu-UBLzL"
+   "url": "https://databoks.katadata.co.id/produk-konsumen/statistik/6ac47c7815fd8/10-merek-parfum-lokal-terlaris-di-shoptokopedia-pada-kuartal-ii-2026"
   },
   {
    "brand": "HMNS",
@@ -730,6 +742,24 @@
    "item": "Milky notes trend",
    "source": "The Star (6 Jun 2026)",
    "url": "https://www.thestar.com.my/lifestyle/style/2026/06/06/what-does-milk-smell-like-the-fragrance-world-is-suddenly-and-oddly-obsessed",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "ShopTokopedia local perfume shares Q2 2026",
+   "source": "Databoks / Compas (6 Oct 2026)",
+   "url": "https://databoks.katadata.co.id/produk-konsumen/statistik/6ac47c7815fd8/10-merek-parfum-lokal-terlaris-di-shoptokopedia-pada-kuartal-ii-2026",
+   "confidence": "Published data"
+  },
+  {
+   "item": "Beauty share of FMCG e-commerce H1 2026",
+   "source": "Databoks / Compas (26 Aug 2026)",
+   "url": "https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/6a8e9b010d73f/produk-kecantikan-pimpin-penjualan-fmcg-di-e-commerce-indonesia-semester-i-2026",
+   "confidence": "Published data"
+  },
+  {
+   "item": "Jakarta concerts Nov–Dec 2026",
+   "source": "Katadata (10 Nov 2026)",
+   "url": "https://katadata.co.id/lifestyle/varia/6af1eaf8ad120/jadwal-konser-november-desember-2026-ada-bts-dan-mcr",
    "confidence": "Editorial"
   }
  ],
@@ -951,12 +981,17 @@
   },
   {
    "name": "Market & consumer",
-   "message": "Online perfume grew 53% last year and men grew fastest. Rivals win on low prices; SAFF can win men and win on story.",
+   "message": "Online perfume grew 53% last year and men grew fastest. SAFF is #4 on Shopee but only #7 on ShopTokopedia, so the second channel is the easiest share to win.",
    "happening": [
     {
      "text": "Perfume e-commerce reached Rp6.1 trillion in 2025 (+53%); men's perfume grew +70%; average price rose to Rp53k.",
      "source": "Industry.co.id / Compas",
      "url": "https://www.industry.co.id/read/147440/kategori-parfum-catat-lonjakan-penjualan-signifikan-di-e-commerce-indonesia-sepanjang-tahun-2025"
+    },
+    {
+     "text": "On ShopTokopedia, Scarlett leads local perfume with 12.72% (Q2 2026); SAFF is #7 at 1.96%.",
+     "source": "Databoks / Compas",
+     "url": "https://databoks.katadata.co.id/produk-konsumen/statistik/6ac47c7815fd8/10-merek-parfum-lokal-terlaris-di-shoptokopedia-pada-kuartal-ii-2026"
     },
     {
      "text": "Mykonos leads Shopee share (6.78%, Q2 2026); Scarlett sells Extrait under Rp60k.",
@@ -976,7 +1011,8 @@
    ],
    "gaps": [
     "No men's edit",
-    "Nusantara story untold"
+    "Nusantara story untold",
+    "ShopTokopedia under-built"
    ],
    "action_ids": [
     "a13",

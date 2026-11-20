@@ -774,5 +774,69 @@
   "date_approx": true,
   "source_name": "Marie Claire",
   "url": "https://www.marieclaire.com/beauty/fragrance/milk-perfumes/"
+ },
+ {
+  "id": "t054-databoks-20261006",
+  "trend_id": "t054",
+  "date": "2026-10-06",
+  "date_approx": false,
+  "source_name": "Databoks / Compas",
+  "url": "https://databoks.katadata.co.id/produk-konsumen/statistik/6ac47c7815fd8/10-merek-parfum-lokal-terlaris-di-shoptokopedia-pada-kuartal-ii-2026"
+ },
+ {
+  "id": "t015-databoks-20260915",
+  "trend_id": "t015",
+  "date": "2026-09-15",
+  "date_approx": false,
+  "source_name": "Databoks / Compas",
+  "url": "https://databoks.katadata.co.id/produk-konsumen/statistik/6aa8d5a9330b1/mykonos-merek-parfum-terlaris-di-shopee-indonesia-pada-kuartal-ii-2026"
+ },
+ {
+  "id": "t020-databoks-20260826",
+  "trend_id": "t020",
+  "date": "2026-08-26",
+  "date_approx": false,
+  "source_name": "Databoks / Compas",
+  "url": "https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/6a8e9b010d73f/produk-kecantikan-pimpin-penjualan-fmcg-di-e-commerce-indonesia-semester-i-2026"
+ },
+ {
+  "id": "t044-katadata-20261110",
+  "trend_id": "t044",
+  "date": "2026-11-10",
+  "date_approx": false,
+  "source_name": "Katadata",
+  "url": "https://katadata.co.id/lifestyle/varia/6af1eaf8ad120/jadwal-konser-november-desember-2026-ada-bts-dan-mcr"
+ },
+ {
+  "id": "t044-jpnn-20260730",
+  "trend_id": "t044",
+  "date": "2026-07-30",
+  "date_approx": false,
+  "source_name": "JPNN",
+  "url": "https://www.jpnn.com/news/parfum-berkualitas-dinilai-dari-performa-bukan-sekadar-semprotan-pertama"
+ },
+ {
+  "id": "t016-fimela-20260317",
+  "trend_id": "t016",
+  "date": "2026-03-17",
+  "date_approx": false,
+  "source_name": "Fimela",
+  "url": "https://www.fimela.com/beauty/read/6299747/scarlett-rilis-the-golden-scents-koleksi-parfum-dengan-aroma-hangat-dan-berlapis-yang-mewah"
+ },
+ {
+  "id": "t050-goodstats-20260203",
+  "trend_id": "t050",
+  "date": "2026-02-03",
+  "date_approx": false,
+  "source_name": "GoodStats / Compas",
+  "url": "https://data.goodstats.id/statistic/5-brand-parfum-pria-terlaris-di-e-commerce-indonesia-braven-teratas-hEPxF"
+ },
+ {
+  "id": "t048-jakpat-20260618",
+  "trend_id": "t048",
+  "date": "2026-06-18",
+  "date_approx": false,
+  "source_name": "Jakpat",
+  "url": "https://insight.jakpat.net/beauty-trend-quality-over-price-influencers/"
  }
 ]
