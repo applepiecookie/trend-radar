@@ -427,7 +427,7 @@
   "source_type": "TikTok & IG",
   "source_name": "Scento",
   "url": "https://www.scento.com/blog/best-viral-tiktok-perfumes-scents-worth-hype",
-  "strength": "Medium",
+  "strength": "Strong",
   "status": "Ongoing",
   "stage": "Mainstream",
   "local_fit": 2,
@@ -745,7 +745,7 @@
   "source_type": "News & industry",
   "source_name": "CosmeticsDesign Europe",
   "url": "https://www.cosmeticsdesign-europe.com/Article/2026/01/16/4-beauty-packaging-trends-to-know-for-2026",
-  "strength": "Early",
+  "strength": "Medium",
   "status": "Ongoing",
   "stage": "Lead market",
   "local_fit": 1,
@@ -1356,7 +1356,7 @@
   "source_type": "News & industry",
   "source_name": "Popmama, ScentAdvice",
   "url": "https://www.popmama.com/life/health/rekomendasi-oriental-teh-kekinian-di-jakarta-00-f62c5-gk63gp",
-  "strength": "Medium",
+  "strength": "Strong",
   "status": "Ongoing",
   "stage": "Lead market",
   "local_fit": 3,
@@ -1668,6 +1668,72 @@
     "All Extraits"
    ],
    "note": "SAFF ranks lower on ShopTokopedia than on Shopee; the channel needs its own content."
+  }
+ },
+ {
+  "id": "t055",
+  "found": "2026-11-21",
+  "published": "2026-04",
+  "segment": "Packaging & format",
+  "category": "Product format",
+  "trend": "Solid perfume balms and sticks",
+  "summary": "Solid perfume searches rose 174.6% in 2025 (Spate). Sol de Janeiro launched alcohol-free jelly perfume balms with up to 10 hours of wear; Viking Revolution sold over 1 million solid tins.",
+  "angle": "A pocket-size, alcohol-free, spill-proof format suits concerts, travel, touch-ups and halal-minded shoppers, and no local leader owns it yet.",
+  "idea": "Test a solid Extrait stick in two best-sellers (Loui and SAFF) as a touch-up partner to the 8 ml spray.",
+  "source_type": "News & industry",
+  "source_name": "Glossy",
+  "url": "https://www.glossy.co/beauty/can-solid-perfume-be-the-next-body-mist/",
+  "strength": "Medium",
+  "status": "New",
+  "stage": "Lead market",
+  "local_fit": 3,
+  "keywords": [
+   "solid perfume",
+   "perfume balm",
+   "alcohol-free",
+   "travel size"
+  ],
+  "saff": {
+   "status": "White space",
+   "products": [
+    "Loui",
+    "SAFF",
+    "8 ml & 2 ml sizes"
+   ],
+   "note": "SAFF has spray Extraits and 8 ml travel sizes but no solid or balm format."
+  }
+ },
+ {
+  "id": "t056",
+  "found": "2026-11-21",
+  "published": "2026-11",
+  "segment": "Fragrance",
+  "category": "Scent & notes",
+  "trend": "Asian dessert flavours: pandan, ube, pistachio",
+  "summary": "Food trend trackers name pistachio, ube, pandan, black sesame and hojicha as rising flavours into 2027; matcha popularity is up 87% year on year.",
+  "angle": "Flavour trends reach fragrance about a year later, and pandan is an Indonesian cue that foreign brands cannot claim as their own.",
+  "idea": "Brief a sheer pandan-coconut milk Cloud Mist on Sonnet 116's rice and milk base, skipping the crowded matcha lane.",
+  "source_type": "News & industry",
+  "source_name": "FoodNavigator",
+  "url": "https://www.foodnavigator.com/Article/2026/11/18/5-flavours-brands-are-betting-on/",
+  "strength": "Medium",
+  "status": "New",
+  "stage": "Upstream",
+  "local_fit": 3,
+  "keywords": [
+   "pandan",
+   "ube",
+   "pistachio",
+   "black sesame",
+   "hojicha"
+  ],
+  "saff": {
+   "status": "White space",
+   "products": [
+    "Sonnet 116",
+    "CHNO"
+   ],
+   "note": "Sonnet 116 has rice and milk and CHNO has bitter almond, but SAFF has no pandan or Asian dessert scent."
   }
  }
 ]

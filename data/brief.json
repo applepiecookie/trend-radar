@@ -1,6 +1,6 @@
 {
- "date": "2026-10-28",
- "one_line": "Win December with proof, not discounts: show SAFF's Extraits lasting through BTS at GBK, sell same-scent body care as layering sets, and build a men's edit for the fastest-growing buyers.",
+ "date": "2026-11-21",
+ "one_line": "This weekend opens Jakarta's concert season: sell SAFF's 8 ml Extraits on proof they last a full show, and start briefing a pocket solid stick for next year.",
  "takeaways": [
   {
    "title": "Concert season is a longevity moment",
@@ -124,6 +124,13 @@
      "products": [
       "CHNO"
      ]
+    },
+    {
+     "title": "Pandan is the local flavour to watch",
+     "text": "Food trackers name pandan, ube and pistachio as rising Asian flavours. SAFF has rice and milk in Sonnet 116 but no pandan yet.",
+     "products": [
+      "Sonnet 116"
+     ]
     }
    ]
   },
@@ -190,6 +197,14 @@
      "title": "Packs are judged on a screen",
      "text": "Most first impressions are a marketplace thumbnail, so test new packs and sets at that size.",
      "products": []
+    },
+    {
+     "title": "Solid perfume is the pocket format",
+     "text": "Alcohol-free balm sticks are growing fast abroad; a solid Loui or SAFF stick would pair with the 8 ml spray.",
+     "products": [
+      "Loui",
+      "SAFF"
+     ]
     }
    ]
   }
@@ -217,7 +232,7 @@
   {
    "id": "a8",
    "action": "Kopi susu gula aren gourmand",
-   "detail": "Explore a local kopi susu / palm-sugar gourmand building on CHNO's coffee, as an Extrait or a CHNO flanker.",
+   "detail": "Explore a local gourmand building on CHNO's coffee: kopi susu with palm sugar first, with pandan as the next local flavour to watch.",
    "type": "NPD",
    "horizon": "Later",
    "effort": "L",
@@ -227,26 +242,10 @@
    ],
    "trend_ids": [
     "t031",
-    "t004"
+    "t004",
+    "t056"
    ],
    "metric": "Concept test vs CHNO"
-  },
-  {
-   "id": "a9",
-   "action": "Watch sweetness in reviews",
-   "detail": "Track reviews of the sweeter scents for 'too sweet' feedback before any reformulation or flanker.",
-   "type": "Research",
-   "horizon": "Later",
-   "effort": "S",
-   "team": "Market research",
-   "products": [
-    "Xocolatl",
-    "S.O.T.B"
-   ],
-   "trend_ids": [
-    "t041"
-   ],
-   "metric": "Share of 'too sweet' mentions per quarter"
   },
   {
    "id": "a16",
@@ -397,7 +396,7 @@
   {
    "id": "a15",
    "action": "Refillable 8 ml travel case",
-   "detail": "Brief a refillable travel case that takes SAFF's 8 ml refills, turning the travel size into an entry product.",
+   "detail": "Brief a refillable travel case that takes SAFF's 8 ml refills, turning the travel size into an entry product; screw-neck stock bottles now start at 1,000 units.",
    "type": "NPD",
    "horizon": "Later",
    "effort": "L",
@@ -406,7 +405,8 @@
     "8 ml & 2 ml sizes"
    ],
    "trend_ids": [
-    "t051"
+    "t051",
+    "t025"
    ],
    "metric": "Case brief; refill repurchase rate after launch"
   },
@@ -470,20 +470,6 @@
    "metric": "Concept test score vs Sonnet 116"
   },
   {
-   "id": "a10",
-   "action": "Alcohol-free fragrance scan",
-   "detail": "Scan suppliers and regulations for an alcohol-free mist or parfum as a halal-friendly extension of the body care line.",
-   "type": "Research",
-   "horizon": "Later",
-   "effort": "M",
-   "team": "Prodev",
-   "products": [],
-   "trend_ids": [
-    "t035"
-   ],
-   "metric": "Feasibility note"
-  },
-  {
    "id": "a17",
    "action": "'Drinks you can wear' content",
    "detail": "Show Sonnet 116 as green milk tea and Annabel Lee as iced lychee tea next to the drinks people already buy; a quick hook that avoids the crowded matcha lane.",
@@ -499,6 +485,25 @@
     "t053"
    ],
    "metric": "Saves and shares vs other Cloud Mist posts"
+  },
+  {
+   "id": "a18",
+   "action": "Solid Extrait stick test",
+   "detail": "Scope an alcohol-free solid stick in Loui and SAFF as a touch-up partner to the 8 ml spray; it also answers the halal-friendly, alcohol-free gap. Check wear time in heat.",
+   "type": "NPD",
+   "horizon": "Later",
+   "effort": "M",
+   "team": "Prodev · Packdev",
+   "products": [
+    "Loui",
+    "SAFF",
+    "8 ml & 2 ml sizes"
+   ],
+   "trend_ids": [
+    "t055",
+    "t035"
+   ],
+   "metric": "Feasibility and cost note; wear-time test at 30°C"
   }
  ],
  "moments": [
@@ -614,7 +619,9 @@
   "Osmanthus and tea launches by local brands.",
   "Coffee perfumes moving from Korea into Southeast Asia.",
   "Alcohol-free and water-based fragrance launches.",
-  "Q3 2026 Shopee perfume share data from Compas."
+  "Q3 2026 Shopee perfume share data from Compas.",
+  "Solid perfume or balm launches by local brands.",
+  "Pandan, ube and pistachio scents moving from food into fragrance."
  ],
  "coverage": "Open web only: news, retail listings, review sites and published data. X, TikTok, Instagram and Shopee are not read directly, so social buzz is under-represented. Product facts come from SAFF's own product list (names and notes only).",
  "sources": [
@@ -785,6 +792,48 @@
    "source": "Homes & Gardens (16 May 2026)",
    "url": "https://www.homesandgardens.com/solved/stylish-botanical-minimalism-home-fragrance-trend",
    "confidence": "Editorial"
+  },
+  {
+   "item": "Longevity in tropical climates",
+   "source": "InvestorTrust (26 Jul 2026)",
+   "url": "https://investortrust.id/lifestyle/110728/tren-berubah-konsumen-kini-pilih-parfum-berdasarkan-daya-tahan-aroma",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Asian flavours: pistachio, ube, pandan",
+   "source": "FoodNavigator (18 Nov 2026)",
+   "url": "https://www.foodnavigator.com/Article/2026/11/18/5-flavours-brands-are-betting-on/",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Solid perfume growth",
+   "source": "Glossy (25 Feb 2026)",
+   "url": "https://www.glossy.co/beauty/can-solid-perfume-be-the-next-body-mist/",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Fragrance wardrobe in Indonesia",
+   "source": "Fimela (14 Jun 2026)",
+   "url": "https://www.fimela.com/beauty/read/7890808/tren-fragrance-wardrobe-saat-generasi-muda-punya-parfum-untuk-setiap-suasana",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Refillable screw-neck bottles at Luxe Pack",
+   "source": "Premium Beauty News (12 Oct 2026)",
+   "url": "https://www.premiumbeautynews.com/en/high-end-packaging-5-trends,28331",
+   "confidence": "Trade show report"
+  },
+  {
+   "item": "Packs judged as a thumbnail",
+   "source": "BeautyMatter",
+   "url": "https://beautymatter.com/articles/the-beauty-packaging-trends-set-to-define-2026",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Shopee perfume shares Q2 2026",
+   "source": "GoodStats / Compas",
+   "url": "https://data.goodstats.id/statistic/10-brand-parfum-wewangian-terlaris-di-shopee-pada-q2-2026-peringkat-atas-kebal-YAF3P",
+   "confidence": "Published data"
   }
  ],
  "scent_worlds": [
@@ -866,7 +915,7 @@
  "segments": [
   {
    "name": "Fragrance",
-   "message": "Staying power is the reason to buy this season, and milk tea is the scent people already crave. Prove the Extraits last, and turn SAFF's tea mists into 'drinks you can wear'.",
+   "message": "Staying power decides the purchase in a hot, humid market, and drinks are where the next scents come from. Prove the Extraits last, keep milk tea as the hook, and watch pandan.",
    "happening": [
     {
      "text": "BTS plays Stadion Utama GBK on 26, 27 and 29 Dec; concert-goers want scent that lasts a whole show.",
@@ -874,9 +923,9 @@
      "url": "https://www.rctiplus.com/news/detail/seleb/5451095/8-idol-k-pop-akan-konser-di-jakarta-paruh-kedua-2026--catat-tanggalnya-"
     },
     {
-     "text": "A rival's perfumes are publicly criticised for fading in about 2 hours, despite a 6-hour claim.",
-     "source": "Mojok",
-     "url": "https://mojok.co/terminal/parfum-hmns-bikin-saya-kecewa-wanginya-nggak-tahan-lama/"
+     "text": "Indonesian buyers now judge perfume on 8–10 hour wear, and heat and AC change how scent develops.",
+     "source": "InvestorTrust",
+     "url": "https://investortrust.id/lifestyle/110728/tren-berubah-konsumen-kini-pilih-parfum-berdasarkan-daya-tahan-aroma"
     },
     {
      "text": "Chagee's floral milk teas (osmanthus oolong, jasmine, gardenia) became a Jakarta habit after its 2025 opening at PIK Avenue.",
@@ -884,19 +933,20 @@
      "url": "https://www.popbela.com/lifestyle/food/menu-unggulan-chagee-00-9z5cw-49g0x5/amp"
     },
     {
-     "text": "Milky notes are 2026's comfort cue: Glossier, Mugler and DedCool all launched milk scents.",
-     "source": "The Star",
-     "url": "https://www.thestar.com.my/lifestyle/style/2026/06/06/what-does-milk-smell-like-the-fragrance-world-is-suddenly-and-oddly-obsessed"
+     "text": "Pistachio, ube and pandan are the Asian flavours food brands are betting on; matcha is up 87% a year.",
+     "source": "FoodNavigator",
+     "url": "https://www.foodnavigator.com/Article/2026/11/18/5-flavours-brands-are-betting-on/"
     }
    ],
    "saff_has": [
     "All 24 perfumes are Extrait de Parfum.",
     "Night-wear picks: S.O.T.B, CHNO, Las Pozas, SAFF.",
-    "A milk tea already: Sonnet 116 (green tea + milk mousse); milky Minouet; iced lychee tea in Annabel Lee."
+    "A milk tea already: Sonnet 116 (green tea + milk mousse); iced lychee tea in Annabel Lee."
    ],
    "gaps": [
     "No osmanthus / oolong milk tea",
-    "No kopi susu / palm-sugar gourmand"
+    "No kopi susu / palm-sugar gourmand",
+    "No pandan or Asian dessert scent"
    ],
    "action_ids": [
     "a1",
@@ -981,7 +1031,7 @@
   },
   {
    "name": "Packaging & format",
-   "message": "The small bottle is now a product, not a sample. Use SAFF's 8 ml to recruit new buyers through sets now and a refillable case later.",
+   "message": "Fragrance is going pocket-size. Use SAFF's 8 ml to recruit through sets now, then add a refillable case and test a solid stick.",
    "happening": [
     {
      "text": "Suppliers report 10 ml sprays moving from sample to full product, used to recruit and cross-sell; refillable travel sprays are launching.",
@@ -989,9 +1039,14 @@
      "url": "https://www.premiumbeautynews.com/why-refillable-10-ml-formats-are,26979"
     },
     {
-     "text": "Shoppers build 'fragrance wardrobes' for moods and occasions instead of one big bottle.",
-     "source": "Cosmetics Business",
-     "url": "https://cosmeticsbusiness.com/the-fragrance-shop-and-cpl-aromas-unveil-the"
+     "text": "Solid perfume searches rose 174.6% in 2025; Sol de Janeiro's alcohol-free balm sticks claim up to 10 hours.",
+     "source": "Glossy",
+     "url": "https://www.glossy.co/beauty/can-solid-perfume-be-the-next-body-mist/"
+    },
+    {
+     "text": "Young Indonesians rotate several perfumes by mood and outfit instead of one signature scent.",
+     "source": "Fimela",
+     "url": "https://www.fimela.com/beauty/read/7890808/tren-fragrance-wardrobe-saat-generasi-muda-punya-parfum-untuk-setiap-suasana"
     },
     {
      "text": "Packs are first judged as a screen thumbnail, so impact must survive at small size.",
@@ -1005,12 +1060,14 @@
    ],
    "gaps": [
     "No discovery set",
-    "No refillable travel case"
+    "No refillable travel case",
+    "No solid / balm format"
    ],
    "action_ids": [
     "a4",
     "a11",
-    "a15"
+    "a15",
+    "a18"
    ]
   },
   {

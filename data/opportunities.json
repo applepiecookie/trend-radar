@@ -84,7 +84,8 @@
    "8 ml & 2 ml sizes"
   ],
   "gap": "No curated set; fits Ramadan & Lebaran 2027",
-  "segment": "Packaging & format"
+  "segment": "Packaging & format",
+  "rank": 1
  },
  {
   "id": "o4",
@@ -233,7 +234,8 @@
    "My Annabel Lee Hand Dew"
   ],
   "gap": "Bundle + content only",
-  "segment": "Market & consumer"
+  "segment": "Market & consumer",
+  "rank": 1
  },
  {
   "id": "o9",
@@ -322,5 +324,141 @@
    "Remedia Amoris"
   ],
   "gap": "Set and pack only"
+ },
+ {
+  "id": "o12",
+  "segment": "Fragrance",
+  "rank": 6,
+  "name": "Pandan Milk Cloud Mist",
+  "timing": "Watch",
+  "format": "Cloud Mist, hair & body",
+  "price": "Same as current Cloud Mist",
+  "notes": [
+   "pandan leaf",
+   "coconut milk",
+   "rice",
+   "soft musk"
+  ],
+  "packaging": "Current Cloud Mist bottle in a pale pandan green",
+  "target": "Gen Z who buy drinks for the flavour of the month",
+  "why": "Food trackers name pandan, ube and pistachio as rising Asian flavours into 2027. Pandan is a local cue foreign brands cannot claim.",
+  "trend_ids": [
+   "t056",
+   "t053",
+   "t030"
+  ],
+  "builds_on": [
+   "Sonnet 116"
+  ],
+  "gap": "No pandan or Asian dessert scent at SAFF"
+ },
+ {
+  "id": "o13",
+  "segment": "Packaging & format",
+  "rank": 3,
+  "name": "Solid Extrait Stick",
+  "timing": "Test next",
+  "format": "Alcohol-free solid stick, about 5 g",
+  "price": "Below the 8 ml Extrait",
+  "notes": [
+   "Loui",
+   "SAFF"
+  ],
+  "packaging": "Slim twist-up stick that fits a pocket or pouch",
+  "target": "Concert-goers, commuters and halal-minded shoppers",
+  "why": "Solid perfume searches rose 174.6% in 2025 and Sol de Janeiro's balm sticks claim 10-hour wear. It is spill-proof and alcohol-free.",
+  "trend_ids": [
+   "t055",
+   "t035",
+   "t044"
+  ],
+  "builds_on": [
+   "Loui",
+   "SAFF",
+   "8 ml & 2 ml sizes"
+  ],
+  "gap": "First solid format for SAFF"
+ },
+ {
+  "id": "o14",
+  "segment": "Home fragrance",
+  "rank": 1,
+  "name": "Eden Bedroom Calm Set",
+  "timing": "Act now",
+  "format": "Fabric Potion + Room Potion set, plus a new calming linen mist later",
+  "price": "Set price below two singles",
+  "notes": [
+   "ambrette",
+   "orris",
+   "lavender",
+   "chamomile"
+  ],
+  "packaging": "Bedroom-themed sleeve that groups the Eden formats",
+  "target": "Young renters and home-makers",
+  "why": "Scentscaping assigns a scent to each room, with calming notes for bedrooms. The Eden already has fabric and room formats.",
+  "trend_ids": [
+   "t046",
+   "t003",
+   "t033"
+  ],
+  "builds_on": [
+   "Petali di Seta",
+   "Isola Bella"
+  ],
+  "gap": "No room story or calming bedroom scent"
+ },
+ {
+  "id": "o15",
+  "segment": "Home fragrance",
+  "rank": 2,
+  "name": "Fresh Eden Gift Candle",
+  "timing": "Test next",
+  "format": "Candle, about 180 g",
+  "price": "Mass-premium gift",
+  "notes": [
+   "litsea cubeba",
+   "daffodil",
+   "citrus"
+  ],
+  "packaging": "Reusable glass or ceramic vessel that works as decor",
+  "target": "Gift buyers for Christmas and Lebaran",
+  "why": "Indonesia's home fragrance market grows about 7.5% a year, led by fresh scents and candles. Decor-led vessels drive choice.",
+  "trend_ids": [
+   "t052",
+   "t012"
+  ],
+  "builds_on": [
+   "Quinta da Regaleira"
+  ],
+  "gap": "No candle at SAFF"
+ },
+ {
+  "id": "o16",
+  "segment": "Market & consumer",
+  "rank": 2,
+  "name": "Men's Extrait + Deo Duo",
+  "timing": "Act now",
+  "format": "Bundle: Extrait 35 ml + matching Deo Potion",
+  "price": "Bundle saving vs singles",
+  "notes": [
+   "saffron",
+   "leather",
+   "orris",
+   "cedarwood"
+  ],
+  "packaging": "Dark sleeve for the men's edit",
+  "target": "Male online buyers, 20–35",
+  "why": "Men's perfume grew 70% online in 2025, the fastest segment. SAFF and Solaris each already have a matching deo.",
+  "trend_ids": [
+   "t050",
+   "t054"
+  ],
+  "builds_on": [
+   "SAFF",
+   "Into SAFF's Shadow Deo",
+   "Solaris",
+   "Reign of Solaris Deo"
+  ],
+  "gap": "No men's bundle or edit"
  }
 ]
