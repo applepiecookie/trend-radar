@@ -533,10 +533,11 @@
    "action_id": "a1"
   },
   {
-   "date": "2026-12-12",
-   "label": "12.12 Harbolnas",
-   "relevance": "Biggest year-end sale; push concert kit and gifting.",
-   "action_id": "a1"
+   "date": "2026-12-10",
+   "label": "Harbolnas 2026 (10–16 Dec, 12.12 peak)",
+   "relevance": "Biggest year-end sale week; push concert kit and gifting.",
+   "action_id": "a1",
+   "end": "2026-12-16"
   },
   {
    "date": "2026-12-25",
@@ -549,6 +550,12 @@
    "end": "2026-12-29",
    "label": "BTS at Stadion Utama GBK (26, 27, 29 Dec)",
    "relevance": "Biggest concert moment of the year; longevity proof.",
+   "action_id": "a1"
+  },
+  {
+   "date": "2027-02-05",
+   "label": "Maroon 5 at JIS",
+   "relevance": "First big stadium show of 2027; longevity proof again.",
    "action_id": "a1"
   },
   {
@@ -573,9 +580,9 @@
   },
   {
    "brand": "Scarlett",
-   "move": "Leads ShopTokopedia local perfume (12.72%, Q2 2026); sells EDP and Extrait under Rp60k; added Gulf-style 'Golden Scents'.",
+   "move": "Leads ShopTokopedia local perfume (12.72%, Q2 2026); sells Extrait under Rp60k; added two Gulf-inspired 30 ml Extraits in Nov 2026, now 21 scents.",
    "response": "Defend price with materials, story and the body-care range, not discounts.",
-   "url": "https://databoks.katadata.co.id/produk-konsumen/statistik/6ac47c7815fd8/10-merek-parfum-lokal-terlaris-di-shoptokopedia-pada-kuartal-ii-2026"
+   "url": "https://www.fortuneidn.com/luxury/scarlett-perluas-bisnis-parfum-kini-punya-21-varian-aroma-00-4vfn9-3vfx95"
   },
   {
    "brand": "HMNS",
@@ -834,6 +841,30 @@
    "source": "GoodStats / Compas",
    "url": "https://data.goodstats.id/statistic/10-brand-parfum-wewangian-terlaris-di-shopee-pada-q2-2026-peringkat-atas-kebal-YAF3P",
    "confidence": "Published data"
+  },
+  {
+   "item": "Local perfume share on Shopee, Q2 2026",
+   "source": "Databoks / Compas (12 Nov 2026)",
+   "url": "https://databoks.katadata.co.id/produk-konsumen/statistik/6af55e3e43df0/10-merek-parfum-lokal-terlaris-di-shopee-kuartal-ii-2026",
+   "confidence": "Published data"
+  },
+  {
+   "item": "Scarlett range now 21 scents",
+   "source": "Fortune IDN (13 Nov 2026)",
+   "url": "https://www.fortuneidn.com/luxury/scarlett-perluas-bisnis-parfum-kini-punya-21-varian-aroma-00-4vfn9-3vfx95",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Harbolnas 2026 dates (10–16 Dec)",
+   "source": "JournalArta (7 Nov 2026)",
+   "url": "https://journalarta.com/news/2026/11/07/harbolnas-2026/",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Maroon 5 at JIS, 5 Feb 2027",
+   "source": "JawaPos (5 Aug 2026)",
+   "url": "https://www.jawapos.com/entertainment/2608050183/maroon-5-bakal-gelar-konser-di-jis-jakarta-5-februari-2027",
+   "confidence": "Editorial"
   }
  ],
  "scent_worlds": [
@@ -1085,9 +1116,9 @@
      "url": "https://databoks.katadata.co.id/produk-konsumen/statistik/6ac47c7815fd8/10-merek-parfum-lokal-terlaris-di-shoptokopedia-pada-kuartal-ii-2026"
     },
     {
-     "text": "Mykonos leads Shopee share (6.78%, Q2 2026); Scarlett sells Extrait under Rp60k.",
-     "source": "GoodStats / Compas",
-     "url": "https://data.goodstats.id/statistic/10-brand-parfum-wewangian-terlaris-di-shopee-pada-q2-2026-peringkat-atas-kebal-YAF3P"
+     "text": "Among local brands on Shopee (Q2 2026): Mykonos 6.75%, Scarlett 5.43%, HMNS 5.06%, SAFF 3.52%.",
+     "source": "Databoks / Compas",
+     "url": "https://databoks.katadata.co.id/produk-konsumen/statistik/6af55e3e43df0/10-merek-parfum-lokal-terlaris-di-shopee-kuartal-ii-2026"
     },
     {
      "text": "Shoppers are becoming more rational and data-driven in 2026.",
