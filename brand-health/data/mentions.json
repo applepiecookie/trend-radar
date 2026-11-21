@@ -3575,5 +3575,156 @@
    "Price & value"
   ],
   "summary": "Opinion piece calls HMNS worth buying for longevity, with prices from about Rp249k to Rp380k."
+ },
+ {
+  "id": "m239",
+  "date": "2026-11-21",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia",
+  "url": "https://www.tokopedia.com/saffnco/saff-co-extrait-de-parfum-irai-leima",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Ratings & reviews",
+   "Repurchase"
+  ],
+  "summary": "Irai Leima on SAFF's official Tokopedia store shows 4.9 from 5,124 ratings, with about 0.5% at 1–2 stars and 98% satisfied."
+ },
+ {
+  "id": "m240",
+  "date": "2026-11-21",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia",
+  "url": "https://www.tokopedia.com/saffnco/saff-co-extrait-de-parfum-cascavel",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Availability",
+   "Ratings & reviews"
+  ],
+  "summary": "Cascavel is sold out on SAFF's official Tokopedia store despite a 4.9 rating from 1,992 ratings."
+ },
+ {
+  "id": "m241",
+  "date": "2026-11-21",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Zalora",
+  "url": "https://www.zalora.co.id/p/saff-co-saff-co-extrait-de-parfum-las-pozas-4296873",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Ratings & reviews",
+   "Scent character",
+   "Price & value"
+  ],
+  "summary": "Las Pozas on Zalora's official SAFF store: 4.9 from 1,424 reviews, with scent and price fit the most-cited points."
+ },
+ {
+  "id": "m242",
+  "date": "2026-11-21",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia",
+  "url": "https://www.tokopedia.com/saffnco/saff-co-extrait-de-parfum-xocolatl",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Price & value",
+   "Longevity"
+  ],
+  "summary": "Official Xocolatl listing is discounted 24% to about Rp227k and states 6-hour longevity with strong sillage."
+ },
+ {
+  "id": "m243",
+  "date": "2026-11-21",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Watsons",
+  "url": "https://www.watsons.co.id/en/saff-co-extr-de-parfum-saff-30ml/p/BP_35864",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Availability",
+   "Price & value"
+  ],
+  "summary": "Watsons sells SAFF Extrait 30 ml at Rp269k with a free gift, but shows no customer ratings yet."
+ },
+ {
+  "id": "m244",
+  "date": "2026-11-16",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Radar Pekalongan",
+  "url": "https://radarpekalongan.disway.id/kecantikan/read/116822/4-rekomendasi-parfum-aroma-manis-dan-segar-yang-tahan-lama-seharian",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Scent character"
+  ],
+  "summary": "Regional news listicle picks SAFF Troupe as a sweet-fresh, all-day scent, alongside HMNS ORGSM and Alchemist Onirique."
+ },
+ {
+  "id": "m245",
+  "date": "2026-09-23",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Parfumo",
+  "url": "https://www.parfumo.com/Perfumes/saff-co/coco",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "Brand reputation",
+   "Ratings & reviews"
+  ],
+  "summary": "SAFF Coco is listed on the global Parfumo database but has no community ratings yet, showing low international review presence."
+ },
+ {
+  "id": "m246",
+  "date": "2025-10-14",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/mykonos-black-opera-3",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Availability"
+  ],
+  "summary": "Black Opera rates 4.1 from 28 reviews with 92% recommend; liked as a sweet dupe, but full sizes are often out of stock."
+ },
+ {
+  "id": "m247",
+  "date": "2026-02-10",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/make-up/varian-best-seller-mykonos-go25q3-00-b57n8-gfp5tn/amp",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Price & value",
+   "Authenticity & fakes"
+  ],
+  "summary": "Listicle of five Mykonos best sellers at about Rp187k–239k, advising readers to buy only from authorised sellers."
+ },
+ {
+  "id": "m248",
+  "date": "2026-11-21",
+  "date_approx": true,
+  "brand": "Alchemist",
+  "source_name": "Scent Verdict",
+  "url": "https://scentverdict.com/brand/alchemist",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Price & value",
+   "Longevity"
+  ],
+  "summary": "Brand profile calls Alchemist a value-forward Jakarta house with moderate longevity and limited reach outside Indonesia."
  }
 ]

@@ -1,44 +1,44 @@
 {
- "date": "2026-11-20",
- "headline": "SAFF holds 4.32 on Female Daily and its lead over Mykonos widened back to 0.05 as Mykonos's Baby Love jump reversed; Las Pozas's 4.9 from 4,272 Tokopedia ratings remains SAFF's strongest proof point.",
+ "date": "2026-11-21",
+ "headline": "SAFF holds 4.32 on Female Daily, but its lead over Mykonos narrowed to 0.03 as Mykonos rose to 4.29; HMNS fell 0.03 to 4.15. Official-store proof stays strong: Irai Leima 4.9 from 5,124 Tokopedia ratings.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "Female Daily vs 19 Nov: Mykonos 4.29→4.27 (−0.02); SAFF 4.32, HMNS 4.18, Alchemist 4.43 and Onix 4.17 flat. Over 7 days HMNS is +0.03; SAFF's gap over Mykonos is back to 0.05.",
+   "text": "Female Daily vs 20 Nov: Mykonos 4.27→4.29 (+0.02; +0.03 over 7 days), HMNS 4.18→4.15 (−0.03), SAFF 4.32, Alchemist 4.43 and Onix 4.17 flat. SAFF's gap over Mykonos is now 0.03.",
    "evidence": "ratings"
   },
   {
-   "text": "Mykonos Baby Love fell back 4.6→4.2 (81 reviews), confirming yesterday's jump was a display lag; Moroccan Vanilla rose 4.2→4.4. SAFF Las Pozas gained one review (92) at 4.6.",
-   "evidence": "m231"
+   "text": "HMNS Drops of Sunshine fell 4.7→4.3 and Philea 4.6→4.2 (each one review fewer); Mykonos Baby Love flipped back up 4.2→4.6 (83 reviews) and Moroccan Vanilla 4.4→4.2. SAFF Las Pozas lost one review (91) at 4.6.",
+   "evidence": "ratings"
   },
   {
-   "text": "Las Pozas on SAFF's official Tokopedia store: 4.9 from 4,272 ratings, about 0.5% at 1–2 stars — a bigger base than Morfosia's 1,095.",
-   "evidence": "m220"
+   "text": "SAFF official-store ratings stay very high: Irai Leima 4.9 from 5,124 Tokopedia ratings (about 0.5% at 1–2 stars) and Las Pozas 4.9 from 1,424 Zalora reviews.",
+   "evidence": "m239"
+  },
+  {
+   "text": "Cascavel (4.9 from 1,992 ratings) shows as sold out on SAFF's official Tokopedia store — a lost-sale and reseller risk.",
+   "evidence": "m240"
   },
   {
    "text": "S.O.T.B (4.1 from 586, SAFF's most-reviewed scent): low reviews say the scent feels common or too strong, not that it fades.",
    "evidence": "m221"
-  },
-  {
-   "text": "Share gap: Compas Q2 2026 Shopee data ranks SAFF 4th at 3.52%, vs Mykonos 6.75% and HMNS 5.06%.",
-   "evidence": "m167"
   }
  ],
  "recommendations": [
   {
-   "text": "Use product-level proof such as Las Pozas 4.9 from 4,272 Tokopedia ratings in ads and product pages, not Zalora's store-wide 4.9.",
+   "text": "Restock Cascavel on the official Tokopedia store, or add a back-in-stock notice, so buyers do not move to unofficial sellers.",
+   "horizon": "Now"
+  },
+  {
+   "text": "Use product-level proof such as Irai Leima 4.9 from 5,124 Tokopedia ratings in ads and product pages, not store-wide scores.",
    "horizon": "Now"
   },
   {
    "text": "Report unverified SAFF resellers and decant shops, and publish an authorised-reseller list plus a 'how to spot a fake' guide.",
-   "horizon": "Now"
-  },
-  {
-   "text": "For S.O.T.B, add 'how much to spray' and 'best for evening / cool rooms' guidance in copy to answer 'too strong' and 'common' complaints.",
    "horizon": "Next"
   },
   {
-   "text": "Push official minis and travel sizes (Maleali 5 ml, Morfosia and Kirithra 8 ml at Rp89k on Watsons) as the safe trial option.",
+   "text": "For S.O.T.B, add 'how much to spray' and 'best for evening / cool rooms' guidance in copy to answer 'too strong' and 'common' complaints.",
    "horizon": "Next"
   },
   {
@@ -47,10 +47,10 @@
   }
  ],
  "watch": [
-  "Mykonos vs SAFF on Female Daily: 4.27 vs 4.32",
-  "Mykonos Soft Hour in stores from 15 Nov: ratings and buzz vs SAFF",
+  "Mykonos vs SAFF on Female Daily: 4.29 vs 4.32",
+  "HMNS at 4.15 after Drops of Sunshine and Philea drops — check if it holds",
+  "Cascavel stock on SAFF's official Tokopedia store",
   "Unofficial SAFF listings: decants, eBay resale, multi-brand stores",
-  "S.O.T.B at 4.1 on Female Daily, SAFF's most-reviewed scent",
   "New scents Kie Raha and Rae Nira: first ratings on Watsons and Female Daily"
  ]
 }
