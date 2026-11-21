@@ -1022,5 +1022,53 @@
   "date_approx": false,
   "source_name": "JawaPos",
   "url": "https://www.jawapos.com/entertainment/2608050183/maroon-5-bakal-gelar-konser-di-jis-jakarta-5-februari-2027"
+ },
+ {
+  "id": "t047-goodstats-bodymist-20260829",
+  "trend_id": "t047",
+  "date": "2026-08-29",
+  "date_approx": false,
+  "source_name": "GoodStats (Top Brand 2026)",
+  "url": "https://data.goodstats.id/statistic/top-7-brand-body-mist-terpopuler-di-indonesia-2026-ada-favoritmu-I1QAp"
+ },
+ {
+  "id": "t047-cosmeticsbusiness-olaplex-20260630",
+  "trend_id": "t047",
+  "date": "2026-06-30",
+  "date_approx": false,
+  "source_name": "Cosmetics Business",
+  "url": "https://cosmeticsbusiness.com/olaplex-enters-fragrance-category-limited-edition-hair-body-mist"
+ },
+ {
+  "id": "t048-marieclaire-perfumemilk-20260209",
+  "trend_id": "t048",
+  "date": "2026-02-09",
+  "date_approx": false,
+  "source_name": "Marie Claire",
+  "url": "https://www.marieclaire.com/beauty/fragrance/perfume-milk-trend/"
+ },
+ {
+  "id": "t048-cosmeticsbusiness-bodycare-20261105",
+  "trend_id": "t048",
+  "date": "2026-11-05",
+  "date_approx": false,
+  "source_name": "Cosmetics Business (Circana)",
+  "url": "https://cosmeticsbusiness.com/cosmetics-business-reveals-the-top-5-body-care-1"
+ },
+ {
+  "id": "t046-haibunda-reeddiffuser-20260816",
+  "trend_id": "t046",
+  "date": "2026-08-16",
+  "date_approx": false,
+  "source_name": "HaiBunda",
+  "url": "https://haibunda.com/rekomendasi-produk/9-rekomendasi-reed-diffuser-lokal-yang-wanginya-enak-tahan-lama-395967"
+ },
+ {
+  "id": "t012-stylus-scentofhome-20260303",
+  "trend_id": "t012",
+  "date": "2026-03-03",
+  "date_approx": false,
+  "source_name": "Stylus",
+  "url": "https://stylus.com/product-design/the-scent-of-home-2026"
  }
 ]

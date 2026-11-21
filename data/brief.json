@@ -865,6 +865,18 @@
    "source": "JawaPos (5 Aug 2026)",
    "url": "https://www.jawapos.com/entertainment/2608050183/maroon-5-bakal-gelar-konser-di-jis-jakarta-5-februari-2027",
    "confidence": "Editorial"
+  },
+  {
+   "item": "Indonesia body mist brand ranking",
+   "source": "GoodStats (Aug 2026)",
+   "url": "https://data.goodstats.id/statistic/top-7-brand-body-mist-terpopuler-di-indonesia-2026-ada-favoritmu-I1QAp",
+   "confidence": "Published survey"
+  },
+  {
+   "item": "Local reed diffuser prices",
+   "source": "HaiBunda (Aug 2026)",
+   "url": "https://haibunda.com/rekomendasi-produk/9-rekomendasi-reed-diffuser-lokal-yang-wanginya-enak-tahan-lama-395967",
+   "confidence": "Retail roundup"
   }
  ],
  "scent_worlds": [
@@ -1006,9 +1018,9 @@
      "url": "https://www.personalcareinsights.com/news/iff-deodorant-study-beyond-underarm.html"
     },
     {
-     "text": "The UK's No. 1 fragrance of 2026 at LOOKFANTASTIC was a body mist, Sol de Janeiro Cheirosa 62 (+6%).",
-     "source": "Retail Times",
-     "url": "https://retailtimes.co.uk/fragrance-report-lookfantastic-reveals-the-uks-best-selling-fragrances-of-2026/"
+     "text": "Indonesia's body mist ranking is led by The Body Shop (44.8%); the top local brand has under 4%.",
+     "source": "GoodStats",
+     "url": "https://data.goodstats.id/statistic/top-7-brand-body-mist-terpopuler-di-indonesia-2026-ada-favoritmu-I1QAp"
     }
    ],
    "saff_has": [
@@ -1045,6 +1057,11 @@
      "text": "'Botanical minimalism': stone-look diffusers chosen as decor, so the device matters as much as the scent.",
      "source": "Homes & Gardens",
      "url": "https://www.homesandgardens.com/solved/stylish-botanical-minimalism-home-fragrance-trend"
+    },
+    {
+     "text": "Local reed diffuser refills sell on Shopee from about Rp 27k, with tea and jasmine scents.",
+     "source": "HaiBunda",
+     "url": "https://haibunda.com/rekomendasi-produk/9-rekomendasi-reed-diffuser-lokal-yang-wanginya-enak-tahan-lama-395967"
     }
    ],
    "saff_has": [
