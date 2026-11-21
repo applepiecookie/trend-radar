@@ -460,5 +460,60 @@
    "Reign of Solaris Deo"
   ],
   "gap": "No men's bundle or edit"
+ },
+ {
+  "id": "o17",
+  "segment": "Fragrance",
+  "rank": 7,
+  "name": "Alencine Forest Cloud Mist",
+  "timing": "Test next",
+  "format": "Cloud Mist, 100 ml + travel size",
+  "price": "Cloud Mist price",
+  "notes": [
+   "cypress",
+   "pine needle",
+   "jasmine sambac",
+   "soft musk"
+  ],
+  "packaging": "Green-grey frosted bottle in the Cloud Mist family",
+  "target": "Unisex buyers who want fresh, non-sweet scents, 20–35",
+  "why": "Winter 2027 reports name pine, fir and cypress as rising notes. Conifers stay fresh in humid weather, and Alencine already uses them.",
+  "trend_ids": [
+   "t057",
+   "t001",
+   "t002"
+  ],
+  "builds_on": [
+   "Alencine"
+  ],
+  "gap": "First forest-themed Cloud Mist and first Alencine format beyond the Extrait"
+ },
+ {
+  "id": "o18",
+  "segment": "Home fragrance",
+  "rank": 3,
+  "name": "Eden Evening Incense Mist",
+  "timing": "Watch",
+  "format": "Ambience Mist",
+  "price": "In line with Quinta da Regaleira",
+  "notes": [
+   "palo santo",
+   "sandalwood",
+   "soft incense",
+   "cajuput"
+  ],
+  "packaging": "Stone-look holder that works as decor",
+  "target": "Young urban renters who want a calm evening ritual",
+  "why": "Livestream sales of incense and aromatherapy in China rose 461% in early 2026, led by young buyers. Calming scent is already a strong trend.",
+  "trend_ids": [
+   "t058",
+   "t003",
+   "t046"
+  ],
+  "builds_on": [
+   "Quinta da Regaleira",
+   "Maleali"
+  ],
+  "gap": "No incense or evening scent in The Eden"
  }
 ]

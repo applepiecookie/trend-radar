@@ -1,6 +1,6 @@
 {
- "date": "2026-11-21",
- "one_line": "This weekend opens Jakarta's concert season: sell SAFF's 8 ml Extraits on proof they last a full show, and start briefing a pocket solid stick for next year.",
+ "date": "2026-11-22",
+ "one_line": "Tea is now a luxury scent cue too: Louis Vuitton sells a tea perfume as a 3 × 10 ml set, so tell SAFF's tea Cloud Mists as one collection before Harbolnas.",
  "takeaways": [
   {
    "title": "Concert season is a longevity moment",
@@ -131,6 +131,14 @@
      "products": [
       "Sonnet 116"
      ]
+    },
+    {
+     "title": "Forest notes for the rainy season",
+     "text": "Pine, fir and cypress are rising for winter 2027 and stay fresh in humid weather. Alencine already has cypress and pine needle.",
+     "products": [
+      "Alencine",
+      "Solaris"
+     ]
     }
    ]
   },
@@ -179,6 +187,14 @@
      "text": "Clean-laundry accords are a niche-fair favourite; an antibacterial fabric spray with ambrette and orris is a natural fit for that framing.",
      "products": [
       "Petali di Seta"
+     ]
+    },
+    {
+     "title": "Incense is turning young",
+     "text": "Young Chinese buyers are driving incense and aromatherapy sales online. The Eden has no incense-style scent yet; Maleali shows the palo santo mood.",
+     "products": [
+      "Maleali",
+      "Quinta da Regaleira"
      ]
     }
    ]
@@ -300,8 +316,8 @@
     "Sonnet 116"
    ],
    "trend_ids": [
-    "t047",
-    "t045"
+    "t045",
+    "t047"
    ],
    "metric": "Cloud Mist sell-through; share of reviews mentioning hair"
   },
@@ -382,7 +398,7 @@
   {
    "id": "a11",
    "action": "Test packs at thumbnail size",
-   "detail": "Before signing off any new pack or set, check it at Shopee/Tokopedia thumbnail size next to Mykonos, Scarlett and HMNS listings.",
+   "detail": "Before signing off any new pack or set, check it at Shopee/Tokopedia thumbnail size next to Mykonos, Scarlett and HMNS listings. Packs are first judged as a screen thumbnail, so impact must survive small.",
    "type": "Research",
    "horizon": "Now",
    "effort": "S",
@@ -504,6 +520,24 @@
     "t035"
    ],
    "metric": "Feasibility and cost note; wear-time test at 30°C"
+  },
+  {
+   "id": "a19",
+   "action": "Incense-style evening mist test",
+   "detail": "Brief a soft incense and palo santo Ambience Mist for The Eden as a calm evening scent; panel-test projection.",
+   "type": "NPD brief",
+   "horizon": "Later",
+   "effort": "M",
+   "team": "Prodev",
+   "products": [
+    "Quinta da Regaleira",
+    "Maleali"
+   ],
+   "trend_ids": [
+    "t058",
+    "t003"
+   ],
+   "metric": "Brief approved; panel liking score"
   }
  ],
  "moments": [
@@ -628,7 +662,8 @@
   "Alcohol-free and water-based fragrance launches.",
   "Q3 2026 Shopee perfume share data from Compas.",
   "Solid perfume or balm launches by local brands.",
-  "Pandan, ube and pistachio scents moving from food into fragrance."
+  "Pandan, ube and pistachio scents moving from food into fragrance.",
+  "Incense, palo santo and other 'calm evening' home scents from Indonesian brands."
  ],
  "coverage": "Open web only: news, retail listings, review sites and published data. X, TikTok, Instagram and Shopee are not read directly, so social buzz is under-represented. Product facts come from SAFF's own product list (names and notes only).",
  "sources": [
@@ -877,6 +912,24 @@
    "source": "HaiBunda (Aug 2026)",
    "url": "https://haibunda.com/rekomendasi-produk/9-rekomendasi-reed-diffuser-lokal-yang-wanginya-enak-tahan-lama-395967",
    "confidence": "Retail roundup"
+  },
+  {
+   "item": "Winter 2027 notes: conifers, cashmere musk",
+   "source": "The Zoe Report (6 Nov 2026)",
+   "url": "https://www.thezoereport.com/beauty/winter-2027-fragrance-trends",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Louis Vuitton tea scents and 3 × 10 ml coffret",
+   "source": "Now Smell This (4 Aug 2026)",
+   "url": "https://nstperfume.com/2026/08/04/louis-vuitton-tea-storm-ink-mark-moon-tale-new-fragrances/",
+   "confidence": "Launch report"
+  },
+  {
+   "item": "Young Chinese buyers of incense and aromatherapy",
+   "source": "People's Daily Online (10 Nov 2026)",
+   "url": "https://en.people.cn/n3/2026/1110/c90000-20517433.html",
+   "confidence": "News, published data"
   }
  ],
  "scent_worlds": [
@@ -958,7 +1011,7 @@
  "segments": [
   {
    "name": "Fragrance",
-   "message": "Staying power decides the purchase in a hot, humid market, and drinks are where the next scents come from. Prove the Extraits last, keep milk tea as the hook, and watch pandan.",
+   "message": "Staying power decides the purchase, and drinks and forests are where the next scents come from. Prove the Extraits last, keep milk tea as the hook, and show Alencine's pine and cypress for the rainy season.",
    "happening": [
     {
      "text": "BTS plays Stadion Utama GBK on 26, 27 and 29 Dec; concert-goers want scent that lasts a whole show.",
@@ -966,9 +1019,9 @@
      "url": "https://www.rctiplus.com/news/detail/seleb/5451095/8-idol-k-pop-akan-konser-di-jakarta-paruh-kedua-2026--catat-tanggalnya-"
     },
     {
-     "text": "Indonesian buyers now judge perfume on 8–10 hour wear, and heat and AC change how scent develops.",
-     "source": "InvestorTrust",
-     "url": "https://investortrust.id/lifestyle/110728/tren-berubah-konsumen-kini-pilih-parfum-berdasarkan-daya-tahan-aroma"
+     "text": "Winter 2027 reports name pine, fir and cypress plus soft cashmere musks as rising notes.",
+     "source": "The Zoe Report",
+     "url": "https://www.thezoereport.com/beauty/winter-2027-fragrance-trends"
     },
     {
      "text": "Chagee's floral milk teas (osmanthus oolong, jasmine, gardenia) became a Jakarta habit after its 2025 opening at PIK Avenue.",
@@ -983,7 +1036,7 @@
    ],
    "saff_has": [
     "All 24 perfumes are Extrait de Parfum.",
-    "Night-wear picks: S.O.T.B, CHNO, Las Pozas, SAFF.",
+    "Night-wear picks: S.O.T.B, CHNO, Las Pozas, SAFF; forest notes in Alencine (cypress, pine needle).",
     "A milk tea already: Sonnet 116 (green tea + milk mousse); iced lychee tea in Annabel Lee."
    ],
    "gaps": [
@@ -1041,7 +1094,7 @@
   },
   {
    "name": "Home fragrance",
-   "message": "Indonesian home fragrance is a growing, fresh-scent market. Lead The Eden with its fresh scents, tell it room by room, and test a candle.",
+   "message": "Home fragrance in Indonesia is a growing, fresh-scent market, and incense is turning young in China. Tell The Eden room by room, then test a candle and an incense-style evening mist.",
    "happening": [
     {
      "text": "Market forecast: USD 212.7M (2026) to USD 305M (2031), 7.5% a year; fresh/citrus and candles lead.",
@@ -1054,14 +1107,14 @@
      "url": "https://momsmoney.kontan.co.id/news/tren-scentscaping-2026-cara-simpel-bikin-rumah-terasa-lebih-nyaman-dan-rileks"
     },
     {
-     "text": "'Botanical minimalism': stone-look diffusers chosen as decor, so the device matters as much as the scent.",
-     "source": "Homes & Gardens",
-     "url": "https://www.homesandgardens.com/solved/stylish-botanical-minimalism-home-fragrance-trend"
-    },
-    {
      "text": "Local reed diffuser refills sell on Shopee from about Rp 27k, with tea and jasmine scents.",
      "source": "HaiBunda",
      "url": "https://haibunda.com/rekomendasi-produk/9-rekomendasi-reed-diffuser-lokal-yang-wanginya-enak-tahan-lama-395967"
+    },
+    {
+     "text": "Livestream sales of Chinese incense and aromatherapy rose 461% in early 2026; over 60% of buyers are young.",
+     "source": "People's Daily Online",
+     "url": "https://en.people.cn/n3/2026/1110/c90000-20517433.html"
     }
    ],
    "saff_has": [
@@ -1069,12 +1122,13 @@
    ],
    "gaps": [
     "No candle",
-    "No room-by-room story",
-    "No calming bedroom scent"
+    "No calming bedroom scent",
+    "No incense-style evening scent"
    ],
    "action_ids": [
     "a5",
-    "a14"
+    "a14",
+    "a19"
    ]
   },
   {
@@ -1097,9 +1151,9 @@
      "url": "https://www.fimela.com/beauty/read/7890808/tren-fragrance-wardrobe-saat-generasi-muda-punya-parfum-untuk-setiap-suasana"
     },
     {
-     "text": "Packs are first judged as a screen thumbnail, so impact must survive at small size.",
-     "source": "BeautyMatter",
-     "url": "https://beautymatter.com/articles/the-beauty-packaging-trends-set-to-define-2026"
+     "text": "Louis Vuitton's new tea scents come as 100 ml and as a 3 × 10 ml coffret.",
+     "source": "Now Smell This",
+     "url": "https://nstperfume.com/2026/08/04/louis-vuitton-tea-storm-ink-mark-moon-tale-new-fragrances/"
     }
    ],
    "saff_has": [

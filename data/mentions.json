@@ -1070,5 +1070,93 @@
   "date_approx": false,
   "source_name": "Stylus",
   "url": "https://stylus.com/product-design/the-scent-of-home-2026"
+ },
+ {
+  "id": "t057-zoereport-winter2027-20261106",
+  "trend_id": "t057",
+  "date": "2026-11-06",
+  "date_approx": false,
+  "source_name": "The Zoe Report",
+  "url": "https://www.thezoereport.com/beauty/winter-2027-fragrance-trends"
+ },
+ {
+  "id": "t006-zoereport-cashmeremusk-20261106",
+  "trend_id": "t006",
+  "date": "2026-11-06",
+  "date_approx": false,
+  "source_name": "The Zoe Report",
+  "url": "https://www.thezoereport.com/beauty/winter-2027-fragrance-trends"
+ },
+ {
+  "id": "t058-peoplesdaily-incense-20261110",
+  "trend_id": "t058",
+  "date": "2026-11-10",
+  "date_approx": false,
+  "source_name": "People's Daily Online",
+  "url": "https://en.people.cn/n3/2026/1110/c90000-20517433.html"
+ },
+ {
+  "id": "t058-gci-incense-20260501",
+  "trend_id": "t058",
+  "date": "2026-05-01",
+  "date_approx": false,
+  "source_name": "Global Cosmetic Industry (Circana/Spate)",
+  "url": "https://www.gcimagazine.com/brands-products/fragrance-home/article/22963642/beyond-the-boom-strategic-growth-in-the-era-of-fragrance-normalization"
+ },
+ {
+  "id": "t045-nstperfume-lvteastorm-20260804",
+  "trend_id": "t045",
+  "date": "2026-08-04",
+  "date_approx": false,
+  "source_name": "Now Smell This",
+  "url": "https://nstperfume.com/2026/08/04/louis-vuitton-tea-storm-ink-mark-moon-tale-new-fragrances/"
+ },
+ {
+  "id": "t036-nstperfume-lvcoffret-20260804",
+  "trend_id": "t036",
+  "date": "2026-08-04",
+  "date_approx": false,
+  "source_name": "Now Smell This",
+  "url": "https://nstperfume.com/2026/08/04/louis-vuitton-tea-storm-ink-mark-moon-tale-new-fragrances/"
+ },
+ {
+  "id": "t051-cosmeticstoiletries-nomadrefill-20260518",
+  "trend_id": "t051",
+  "date": "2026-05-18",
+  "date_approx": false,
+  "source_name": "Cosmetics & Toiletries",
+  "url": "https://www.cosmeticsandtoiletries.com/home/article/22965964/fragrance-in-flux-how-packaging-formats-and-experience-are-redefining-the-category"
+ },
+ {
+  "id": "t051-cosmetech-luxepack-20261001",
+  "trend_id": "t051",
+  "date": "2026-10-01",
+  "date_approx": true,
+  "source_name": "Cosmetech",
+  "url": "https://cosmetech.co.in/article/refillable-fragrance-goes-mainstream-sourcing-and-compliance-lessons-for-india-from-luxepack-new"
+ },
+ {
+  "id": "t047-cosmeticstoiletries-bodymist-20260518",
+  "trend_id": "t047",
+  "date": "2026-05-18",
+  "date_approx": false,
+  "source_name": "Cosmetics & Toiletries",
+  "url": "https://www.cosmeticsandtoiletries.com/home/article/22965964/fragrance-in-flux-how-packaging-formats-and-experience-are-redefining-the-category"
+ },
+ {
+  "id": "t003-iclick-emotion-20260422",
+  "trend_id": "t003",
+  "date": "2026-04-22",
+  "date_approx": false,
+  "source_name": "iClick Interactive",
+  "url": "https://www.i-click.com/resources/navigating-chinas-perfume-effect-era-2026/"
+ },
+ {
+  "id": "t029-moneytoday-keyth-20261014",
+  "trend_id": "t029",
+  "date": "2026-10-14",
+  "date_approx": false,
+  "source_name": "MoneyToday",
+  "url": "https://www.mt.co.kr/en/living/2026/10/14/2026101409314259057"
  }
 ]

@@ -1555,7 +1555,7 @@
   "idea": "Treat 8 ml as an entry product: a refillable travel case plus 8 ml refills.",
   "stage": "Lead market",
   "local_fit": 3,
-  "strength": "Medium",
+  "strength": "Strong",
   "keywords": [
    "travel size",
    "refill",
@@ -1735,6 +1735,69 @@
     "CHNO"
    ],
    "note": "Sonnet 116 has rice and milk and CHNO has bitter almond, but SAFF has no pandan or Asian dessert scent."
+  }
+ },
+ {
+  "id": "t057",
+  "found": "2026-11-22",
+  "published": "2026-11",
+  "segment": "Fragrance",
+  "category": "Scent & notes",
+  "trend": "Forest conifer notes for winter 2027",
+  "summary": "Winter 2027 trend reports name pine, fir, cedar and cypress as a rising 'outdoor' family, next to cashmere musks and less literal gourmands.",
+  "angle": "Conifer notes read fresh rather than heavy, which suits humid Indonesia and the long rainy season.",
+  "idea": "Push Alencine (cypress, pine needle) as SAFF's rainy-season forest scent in content, paired with Solaris for a green-woody duo.",
+  "source_type": "News & industry",
+  "source_name": "The Zoe Report",
+  "url": "https://www.thezoereport.com/beauty/winter-2027-fragrance-trends",
+  "strength": "Early",
+  "status": "New",
+  "stage": "Lead market",
+  "local_fit": 2,
+  "keywords": [
+   "pine",
+   "cypress",
+   "fir",
+   "cedar"
+  ],
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "Alencine",
+    "Solaris"
+   ],
+   "note": "Alencine already opens on cypress and pine needle, and Solaris has cedarwood."
+  }
+ },
+ {
+  "id": "t058",
+  "found": "2026-11-22",
+  "published": "2026-11",
+  "segment": "Home fragrance",
+  "category": "Consumer behavior",
+  "trend": "Incense and aromatherapy turn young",
+  "summary": "Livestream sales of incense and aromatherapy from China's Yongchun cluster rose 461% year on year in early 2026, with over 60% young buyers; online forums also show rising interest in incense.",
+  "angle": "Young buyers use scent for calm at home, and incense smells are an Asian cue that local brands can own.",
+  "idea": "Test an incense-style evening Ambience Mist for The Eden, using the palo santo and sandalwood mood of Maleali.",
+  "source_type": "News & industry",
+  "source_name": "People's Daily Online",
+  "url": "https://en.people.cn/n3/2026/1110/c90000-20517433.html",
+  "strength": "Medium",
+  "status": "New",
+  "stage": "Lead market",
+  "local_fit": 2,
+  "keywords": [
+   "incense",
+   "aromatherapy",
+   "palo santo"
+  ],
+  "saff": {
+   "status": "White space",
+   "products": [
+    "Maleali",
+    "Quinta da Regaleira"
+   ],
+   "note": "Maleali has palo santo and sandalwood as a perfume, but The Eden home line has no incense-style scent."
   }
  }
 ]
