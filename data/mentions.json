@@ -1158,5 +1158,29 @@
   "date_approx": false,
   "source_name": "MoneyToday",
   "url": "https://www.mt.co.kr/en/living/2026/10/14/2026101409314259057"
+ },
+ {
+  "id": "t020-journalarta-harbolnas-20261107",
+  "trend_id": "t020",
+  "date": "2026-11-07",
+  "date_approx": false,
+  "source_name": "Journal Arta",
+  "url": "https://journalarta.com/news/2026/11/07/harbolnas-2026/"
+ },
+ {
+  "id": "t050-swa-menperfume-20260115",
+  "trend_id": "t050",
+  "date": "2026-01-15",
+  "date_approx": true,
+  "source_name": "SWA",
+  "url": "https://swa.co.id/read/468396/pasar-parfum-makin-harum-tembus-rp61-triliun-segmen-pria-paling-ngebut-70"
+ },
+ {
+  "id": "t033-scentadvice-mykonosconstantine-20260831",
+  "trend_id": "t033",
+  "date": "2026-08-31",
+  "date_approx": false,
+  "source_name": "ScentAdvice",
+  "url": "https://scentadvice.com/constantine-2026-mykonos/"
  }
 ]

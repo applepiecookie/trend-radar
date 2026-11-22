@@ -569,7 +569,7 @@
   {
    "date": "2026-12-10",
    "label": "Harbolnas 2026 (10–16 Dec, 12.12 peak)",
-   "relevance": "Biggest year-end sale week; push concert kit and gifting.",
+   "relevance": "Biggest year-end sale week (target ~Rp40T, vs Rp36.4T in 2025); push concert kit and gifting.",
    "action_id": "a1",
    "end": "2026-12-16"
   },
@@ -584,6 +584,12 @@
    "end": "2026-12-29",
    "label": "BTS at Stadion Utama GBK (26, 27, 29 Dec)",
    "relevance": "Biggest concert moment of the year; longevity proof.",
+   "action_id": "a1"
+  },
+  {
+   "date": "2027-01-16",
+   "label": "BIGBANG at JIS",
+   "relevance": "First Indonesia show since 2015; another stadium longevity moment.",
    "action_id": "a1"
   },
   {
@@ -930,6 +936,18 @@
    "source": "People's Daily Online (10 Nov 2026)",
    "url": "https://en.people.cn/n3/2026/1110/c90000-20517433.html",
    "confidence": "News, published data"
+  },
+  {
+   "item": "Harbolnas 2026 dates and Rp40T target",
+   "source": "Journal Arta (7 Nov 2026)",
+   "url": "https://journalarta.com/news/2026/11/07/harbolnas-2026/",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "BIGBANG Jakarta, 16 Jan 2027 at JIS",
+   "source": "Indonesia.travel",
+   "url": "https://www.indonesia.travel/gb/en/events/event-detail/bigbang-jakarta",
+   "confidence": "Official"
   }
  ],
  "scent_worlds": [
