@@ -8775,6 +8775,99 @@
      "reviews": 1
     }
    ]
+  },
+  {
+   "date": "2026-11-22",
+   "brand": "Alchemist",
+   "source": "Female Daily",
+   "url": "https://reviews.femaledaily.com/brands/product/alchemist-fragrance",
+   "products_total": 18,
+   "products_counted": 16,
+   "reviews_counted": 569,
+   "weighted_rating": 4.43,
+   "products_below_4": 0,
+   "products": [
+    {
+     "name": "Pink Laundry Eau de Parfum",
+     "rating": 4.4,
+     "reviews": 136
+    },
+    {
+     "name": "Got My Mojo Back Eau de Parfum",
+     "rating": 4.5,
+     "reviews": 101
+    },
+    {
+     "name": "Powder Room Eau de Parfum",
+     "rating": 4.3,
+     "reviews": 91
+    },
+    {
+     "name": "Galleria Eau de Parfum",
+     "rating": 4.4,
+     "reviews": 61
+    },
+    {
+     "name": "Home Garden Eau de Parfum",
+     "rating": 4.3,
+     "reviews": 53
+    },
+    {
+     "name": "Out West Extrait De Parfum",
+     "rating": 4.2,
+     "reviews": 43
+    },
+    {
+     "name": "Onirique Extrait de Parfum",
+     "rating": 4.7,
+     "reviews": 41
+    },
+    {
+     "name": "Musc Laiteux EDP",
+     "rating": 5.0,
+     "reviews": 8
+    },
+    {
+     "name": "Jatuh Hati EDP",
+     "rating": 4.9,
+     "reviews": 7
+    },
+    {
+     "name": "07 Galleria Body Lotion",
+     "rating": 4.7,
+     "reviews": 6
+    },
+    {
+     "name": "Cachemire EDP",
+     "rating": 4.8,
+     "reviews": 6
+    },
+    {
+     "name": "Bois et Music EDP",
+     "rating": 4.8,
+     "reviews": 6
+    },
+    {
+     "name": "Musc Vanille EDP",
+     "rating": 5.0,
+     "reviews": 4
+    },
+    {
+     "name": "04 Home Garden Body Lotion",
+     "rating": 4.8,
+     "reviews": 4
+    },
+    {
+     "name": "03 Got My Mojo Back Body Lotion",
+     "rating": 5.0,
+     "reviews": 1
+    },
+    {
+     "name": "01 Powder Room Body Lotion",
+     "rating": 5.0,
+     "reviews": 1
+    }
+   ]
   }
  ]
 }

@@ -3726,5 +3726,123 @@
    "Longevity"
   ],
   "summary": "Brand profile calls Alchemist a value-forward Jakarta house with moderate longevity and limited reach outside Indonesia."
+ },
+ {
+  "id": "m249",
+  "date": "2023-10-15",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Haibunda",
+  "url": "https://www.haibunda.com/rekomendasi-produk/20231015095041-218-318518/review-saff-co-parfum-varian-sotb-wangi-tahan-lama-hingga-6-jam/amp",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Scent character",
+   "Packaging & bottle"
+  ],
+  "summary": "Staff review rates S.O.T.B five stars, citing about six hours of wear and a sweet tropical scent."
+ },
+ {
+  "id": "m250",
+  "date": "2026-11-22",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "The Scent Base",
+  "url": "https://thescentbase.com/perfumes/saff-co/saff",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "Longevity",
+   "Scent character"
+  ],
+  "summary": "Database entry scores the Saff extrait 3.6/5 with 4–6 hour longevity, but has no community reviews yet."
+ },
+ {
+  "id": "m251",
+  "date": "2026-06-03",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Marketeers",
+  "url": "https://www.marketeers.com/saff-co-luncurkan-postojna-parfum-yang-terinspirasi-blue-hour/",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "New launch"
+  ],
+  "summary": "Reports the launch of POSTOJNA, a blue-hour-inspired extrait with musician RAN as muse."
+ },
+ {
+  "id": "m252",
+  "date": "2026-08-05",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Kumparan",
+  "url": "https://kumparan.com/kumparanwoman/8-produk-kecantikan-yang-rilis-di-bulan-juli-2026-27uJHEerJ02",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "New launch",
+   "Price & value"
+  ],
+  "summary": "Lists POSTOJNA among July 2026 beauty launches at Rp350,000, describing it as clean, soft and warm."
+ },
+ {
+  "id": "m253",
+  "date": "2026-06-10",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Threads",
+  "url": "https://www.threads.com/@anderscent/video/DZMOK4GjsrU/video-parfum-fruity-fresh-pertama-dari-saff-n-co-postojna/",
+  "type": "Forum & social",
+  "sentiment": "Neutral",
+  "themes": [
+   "New launch",
+   "Scent character"
+  ],
+  "summary": "Creator video frames POSTOJNA as SAFF's first fruity-fresh scent (search snippet only)."
+ },
+ {
+  "id": "m254",
+  "date": "2026-06-01",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "TikTok",
+  "url": "https://www.tiktok.com/@saffnco/video/7645236814613171474",
+  "type": "Forum & social",
+  "sentiment": "Neutral",
+  "themes": [
+   "New launch"
+  ],
+  "summary": "Official SAFF teaser video building anticipation for the POSTOJNA launch (search snippet only)."
+ },
+ {
+  "id": "m255",
+  "date": "2026-11-22",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Scentica",
+  "url": "https://scentica.id/brand/saff-co",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Range & sizes"
+  ],
+  "summary": "Retail catalogue lists 17 SAFF fragrances, mostly 2020 launches, and does not yet carry POSTOJNA."
+ },
+ {
+  "id": "m256",
+  "date": "2025-12-24",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Popmama",
+  "url": "https://www.popmama.com/life/fashion-and-beauty/rekomendasi-parfum-mykonos-best-seller-favorit-00-wjnl5-8w38zx",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Price & value",
+   "Longevity"
+  ],
+  "summary": "Best-seller roundup lists seven Mykonos scents from Rp109,000 to Rp499,000 with claimed 6–10 hour wear."
  }
 ]
