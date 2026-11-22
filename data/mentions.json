@@ -1182,5 +1182,37 @@
   "date_approx": false,
   "source_name": "ScentAdvice",
   "url": "https://scentadvice.com/constantine-2026-mykonos/"
+ },
+ {
+  "id": "t012-modernretail-nestholidaycandle-20261005",
+  "trend_id": "t012",
+  "date": "2026-10-05",
+  "date_approx": false,
+  "source_name": "Modern Retail",
+  "url": "https://www.modernretail.co/operations/why-nest-new-york-is-turning-its-bestselling-holiday-candle-into-fine-fragrance/"
+ },
+ {
+  "id": "t048-popbela-yesnowlotionparfum-20251102",
+  "trend_id": "t048",
+  "date": "2025-11-02",
+  "date_approx": false,
+  "source_name": "Popbela",
+  "url": "https://www.popbela.com/beauty/skin/lotion-parfum-extrait-de-parfum-produk-unggulan-terbaru-dari-yesnow-00-zj7nr-jsnhbh"
+ },
+ {
+  "id": "t047-fashionnetwork-fragrancemists-20250701",
+  "trend_id": "t047",
+  "date": "2025-07-01",
+  "date_approx": true,
+  "source_name": "FashionNetwork",
+  "url": "https://us.fashionnetwork.com/news/Fragrance-mists-when-lightness-and-accessibility-conquer-selective-perfumery,1747543.html"
+ },
+ {
+  "id": "t047-glossy-bodymistgrowup-20250630",
+  "trend_id": "t047",
+  "date": "2025-06-30",
+  "date_approx": false,
+  "source_name": "Glossy",
+  "url": "https://www.glossy.co/beauty/can-the-body-mist-category-grow-up/"
  }
 ]
