@@ -1214,5 +1214,101 @@
   "date_approx": false,
   "source_name": "Glossy",
   "url": "https://www.glossy.co/beauty/can-the-body-mist-category-grow-up/"
+ },
+ {
+  "id": "t056-ift-outlook2027-20261117",
+  "trend_id": "t056",
+  "date": "2026-11-17",
+  "date_approx": false,
+  "source_name": "IFT Food Technology",
+  "url": "https://www.ift.org/food-technology-magazine/outlook-2027-flavor-trends"
+ },
+ {
+  "id": "t030-foodmanufacture-kojimilk-20261015",
+  "trend_id": "t030",
+  "date": "2026-10-15",
+  "date_approx": false,
+  "source_name": "Food Manufacture",
+  "url": "https://www.foodmanufacture.co.uk/Article/2026/10/15/2027-flavours-from-buldak-to-koji-milk/"
+ },
+ {
+  "id": "t030-fashionsnap-riceaccord-20261007",
+  "trend_id": "t030",
+  "date": "2026-10-07",
+  "date_approx": false,
+  "source_name": "Fashionsnap",
+  "url": "https://www.fashionsnap.com/article/fragrance-globaltrends2026/"
+ },
+ {
+  "id": "t055-fashionsnap-balmsticks-20261007",
+  "trend_id": "t055",
+  "date": "2026-10-07",
+  "date_approx": false,
+  "source_name": "Fashionsnap",
+  "url": "https://www.fashionsnap.com/article/fragrance-globaltrends2026/"
+ },
+ {
+  "id": "t035-fashionsnap-alcoholfree-20261007",
+  "trend_id": "t035",
+  "date": "2026-10-07",
+  "date_approx": false,
+  "source_name": "Fashionsnap",
+  "url": "https://www.fashionsnap.com/article/fragrance-globaltrends2026/"
+ },
+ {
+  "id": "t027-personalcareinsights-givaudan-20261013",
+  "trend_id": "t027",
+  "date": "2026-10-13",
+  "date_approx": false,
+  "source_name": "Personal Care Insights",
+  "url": "https://www.personalcareinsights.com/news/givaudan-fragrance-beauty-sales-growth.html"
+ },
+ {
+  "id": "t036-gulfnews-scentwardrobe-20261006",
+  "trend_id": "t036",
+  "date": "2026-10-06",
+  "date_approx": false,
+  "source_name": "Gulf News",
+  "url": "https://gulfnews.com/gn-focus/fragrance-revolution-uae-embraces-scent-wardrobes-and-gender-fluid-perfumery-1.500699862"
+ },
+ {
+  "id": "t051-packaginginsights-bvlgaritravel-20260928",
+  "trend_id": "t051",
+  "date": "2026-09-28",
+  "date_approx": false,
+  "source_name": "Packaging Insights",
+  "url": "https://www.packaginginsights.com/news/aptar-bvlgari-refillable-travel-spray.html"
+ },
+ {
+  "id": "t051-packaginginsights-actbeauty-20260119",
+  "trend_id": "t051",
+  "date": "2026-01-19",
+  "date_approx": false,
+  "source_name": "Packaging Insights",
+  "url": "https://www.packaginginsights.com/news/act-beauty-refillable-perfume-bottles.html"
+ },
+ {
+  "id": "t025-thestar-lorealrefill-20260710",
+  "trend_id": "t025",
+  "date": "2026-07-10",
+  "date_approx": false,
+  "source_name": "The Star",
+  "url": "https://www.thestar.com.my/starpicks/2026/07/10/luxury-beauty-is-refillable"
+ },
+ {
+  "id": "t059-ift-burnthoney-20261117",
+  "trend_id": "t059",
+  "date": "2026-11-17",
+  "date_approx": false,
+  "source_name": "IFT Food Technology",
+  "url": "https://www.ift.org/food-technology-magazine/outlook-2027-flavor-trends"
+ },
+ {
+  "id": "t060-ift-calamansi-20261117",
+  "trend_id": "t060",
+  "date": "2026-11-17",
+  "date_approx": false,
+  "source_name": "IFT Food Technology",
+  "url": "https://www.ift.org/food-technology-magazine/outlook-2027-flavor-trends"
  }
 ]

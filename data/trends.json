@@ -897,7 +897,7 @@
   "source_type": "News & industry",
   "source_name": "BeautyMatter",
   "url": "https://beautymatter.com/articles/inside-the-k-fragrance-boom",
-  "strength": "Medium",
+  "strength": "Strong",
   "stage": "Lead market",
   "local_fit": 3,
   "found": "2026-10-27",
@@ -906,7 +906,8 @@
    "rice",
    "milky",
    "nutty",
-   "makgeolli"
+   "makgeolli",
+   "koji milk"
   ],
   "idea": "Develop a rice/sticky-rice milk or coconut-milk accord as a comforting milky scent.",
   "saff": {
@@ -1684,15 +1685,16 @@
   "source_type": "News & industry",
   "source_name": "Glossy",
   "url": "https://www.glossy.co/beauty/can-solid-perfume-be-the-next-body-mist/",
-  "strength": "Medium",
-  "status": "New",
+  "strength": "Strong",
+  "status": "Ongoing",
   "stage": "Lead market",
   "local_fit": 3,
   "keywords": [
    "solid perfume",
    "perfume balm",
    "alcohol-free",
-   "travel size"
+   "travel size",
+   "jelly stick"
   ],
   "saff": {
    "status": "White space",
@@ -1717,8 +1719,8 @@
   "source_type": "News & industry",
   "source_name": "FoodNavigator",
   "url": "https://www.foodnavigator.com/Article/2026/11/18/5-flavours-brands-are-betting-on/",
-  "strength": "Medium",
-  "status": "New",
+  "strength": "Strong",
+  "status": "Ongoing",
   "stage": "Upstream",
   "local_fit": 3,
   "keywords": [
@@ -1798,6 +1800,68 @@
     "Quinta da Regaleira"
    ],
    "note": "Maleali has palo santo and sandalwood as a perfume, but The Eden home line has no incense-style scent."
+  }
+ },
+ {
+  "id": "t059",
+  "found": "2026-11-23",
+  "published": "2026-11",
+  "segment": "Fragrance",
+  "category": "Scent & notes",
+  "trend": "Burnt honey as the new gourmand",
+  "summary": "Burnt honey is up 160% on US menus over four years and is named a 2027 flavour to watch.",
+  "angle": "A darker, less sugary gourmand fits the shift away from candy-sweet scents, and honey is already in SAFF's range.",
+  "idea": "Tell Kirithra's sidr honey as a 'burnt honey' evening scent in content before honey gourmands go mainstream.",
+  "source_type": "News & industry",
+  "source_name": "IFT Food Technology",
+  "url": "https://www.ift.org/food-technology-magazine/outlook-2027-flavor-trends",
+  "strength": "Early",
+  "status": "New",
+  "stage": "Upstream",
+  "local_fit": 2,
+  "keywords": [
+   "honey",
+   "caramel",
+   "gourmand"
+  ],
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "Kirithra"
+   ],
+   "note": "Kirithra has sidr honey and birch tar, but is not sold as a honey gourmand."
+  }
+ },
+ {
+  "id": "t060",
+  "found": "2026-11-23",
+  "published": "2026-11",
+  "segment": "Fragrance",
+  "category": "Scent & notes",
+  "trend": "Calamansi and yuzu, Asian citrus",
+  "summary": "2027 flavour forecasts list calamansi and yuzu next to pandan and hojicha as Asian flavours moving into the mainstream.",
+  "angle": "Calamansi (jeruk kalamansi) is a familiar local fruit, so SAFF can own it before global brands bring it in as 'exotic'.",
+  "idea": "Brief a sparkling calamansi Cloud Mist using the yuzu freshness of Morfosia and Kie Raha as the reference.",
+  "source_type": "News & industry",
+  "source_name": "IFT Food Technology",
+  "url": "https://www.ift.org/food-technology-magazine/outlook-2027-flavor-trends",
+  "strength": "Early",
+  "status": "New",
+  "stage": "Upstream",
+  "local_fit": 3,
+  "keywords": [
+   "calamansi",
+   "yuzu",
+   "citrus",
+   "fresh"
+  ],
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "Morfosia",
+    "Kie Raha"
+   ],
+   "note": "Morfosia and Kie Raha use yuzu, but SAFF has no calamansi scent."
   }
  }
 ]

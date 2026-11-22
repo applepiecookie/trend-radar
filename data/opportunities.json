@@ -515,5 +515,33 @@
    "Maleali"
   ],
   "gap": "No incense or evening scent in The Eden"
+ },
+ {
+  "id": "o19",
+  "segment": "Fragrance",
+  "rank": 8,
+  "name": "Calamansi Sparkling Cloud Mist",
+  "timing": "Test next",
+  "format": "Cloud Mist, hair & body, plus travel size",
+  "price": "Mass-premium",
+  "notes": [
+   "calamansi",
+   "yuzu",
+   "green tea",
+   "white musk"
+  ],
+  "packaging": "Clear bottle with a lime-green gradient, same family as the tea mists",
+  "target": "Gen Z and young professionals who like fresh scents in humid weather",
+  "why": "A Nov 2026 flavour outlook names calamansi and yuzu as rising Asian flavours. Fresh scents already lead Indonesian preference, and calamansi is a local fruit no rival owns in fragrance.",
+  "trend_ids": [
+   "t060",
+   "t001",
+   "t056"
+  ],
+  "builds_on": [
+   "Morfosia",
+   "Kie Raha"
+  ],
+  "gap": "First calamansi scent from a local brand"
  }
 ]

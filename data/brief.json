@@ -1,6 +1,6 @@
 {
- "date": "2026-11-22",
- "one_line": "Tea is now a luxury scent cue too: Louis Vuitton sells a tea perfume as a 3 × 10 ml set, so tell SAFF's tea Cloud Mists as one collection before Harbolnas.",
+ "date": "2026-11-23",
+ "one_line": "2027 food forecasts put pandan, hojicha, calamansi and burnt honey on the menu; SAFF already holds tea and honey scents, so tell those stories before rivals launch copies.",
  "takeaways": [
   {
    "title": "Concert season is a longevity moment",
@@ -126,10 +126,12 @@
      ]
     },
     {
-     "title": "Pandan is the local flavour to watch",
-     "text": "Food trackers name pandan, ube and pistachio as rising Asian flavours. SAFF has rice and milk in Sonnet 116 but no pandan yet.",
+     "title": "Asian flavours are next",
+     "text": "2027 food forecasts name pandan, hojicha, calamansi and burnt honey. SAFF has rice and milk in Sonnet 116, honey in Kirithra and yuzu in Morfosia, but no pandan or calamansi yet.",
      "products": [
-      "Sonnet 116"
+      "Sonnet 116",
+      "Kirithra",
+      "Morfosia"
      ]
     },
     {
@@ -216,7 +218,7 @@
     },
     {
      "title": "Solid perfume is the pocket format",
-     "text": "Alcohol-free balm sticks are growing fast abroad; a solid Loui or SAFF stick would pair with the 8 ml spray.",
+     "text": "Balms, jelly sticks and alcohol-free formats are growing abroad; a solid Loui or SAFF stick would pair with the 8 ml spray.",
      "products": [
       "Loui",
       "SAFF"
@@ -248,7 +250,7 @@
   {
    "id": "a8",
    "action": "Kopi susu gula aren gourmand",
-   "detail": "Explore a local gourmand building on CHNO's coffee: kopi susu with palm sugar first, with pandan as the next local flavour to watch.",
+   "detail": "Explore a local gourmand building on CHNO's coffee: kopi susu with palm sugar first; pandan and burnt honey are the next local-feeling flavours to watch.",
    "type": "NPD",
    "horizon": "Later",
    "effort": "L",
@@ -259,7 +261,8 @@
    "trend_ids": [
     "t031",
     "t004",
-    "t056"
+    "t056",
+    "t059"
    ],
    "metric": "Concept test vs CHNO"
   },
@@ -343,7 +346,7 @@
   {
    "id": "a5",
    "action": "Re-tell The Eden as rooms",
-   "detail": "Assign each Eden format a room and mood on PDPs and content; brief a calming bedroom scent (lavender, chamomile, jasmine).",
+   "detail": "Assign each Eden format a room and mood on PDPs and content; brief a calming bedroom scent (lavender, chamomile, jasmine) and scope a fresh Eden candle for holiday and Lebaran gifting.",
    "type": "Content + NPD brief",
    "horizon": "Next",
    "effort": "M",
@@ -355,25 +358,10 @@
    ],
    "trend_ids": [
     "t046",
-    "t012"
-   ],
-   "metric": "Multi-format home baskets; brief approved"
-  },
-  {
-   "id": "a14",
-   "action": "Candle test for gifting",
-   "detail": "Scope a candle in one fresh Eden scent for holiday and Lebaran gifting, the format that leads the home market.",
-   "type": "Research",
-   "horizon": "Later",
-   "effort": "M",
-   "team": "Prodev",
-   "products": [
-    "Quinta da Regaleira"
-   ],
-   "trend_ids": [
+    "t012",
     "t052"
    ],
-   "metric": "Cost and supplier feasibility note"
+   "metric": "Multi-format home baskets; bedroom brief approved; candle cost note"
   },
   {
    "id": "a4",
@@ -542,19 +530,6 @@
  ],
  "moments": [
   {
-   "date": "2026-11-21",
-   "end": "2026-11-22",
-   "label": "D.O. (EXO) at Istora Senayan",
-   "relevance": "Warm-up for concert content.",
-   "action_id": "a1"
-  },
-  {
-   "date": "2026-11-22",
-   "label": "My Chemical Romance at JIS",
-   "relevance": "Big alt-rock crowd; long outdoor wear tests longevity.",
-   "action_id": "a1"
-  },
-  {
    "date": "2026-12-05",
    "label": "BOYNEXTDOOR at ICE BSD",
    "relevance": "K-pop fans; concert-kit content.",
@@ -669,7 +644,8 @@
   "Q3 2026 Shopee perfume share data from Compas.",
   "Solid perfume or balm launches by local brands.",
   "Pandan, ube and pistachio scents moving from food into fragrance.",
-  "Incense, palo santo and other 'calm evening' home scents from Indonesian brands."
+  "Incense, palo santo and other 'calm evening' home scents from Indonesian brands.",
+  "Calamansi, pandan and burnt honey moving from food menus into local perfume launches."
  ],
  "coverage": "Open web only: news, retail listings, review sites and published data. X, TikTok, Instagram and Shopee are not read directly, so social buzz is under-represented. Product facts come from SAFF's own product list (names and notes only).",
  "sources": [
@@ -948,6 +924,24 @@
    "source": "Indonesia.travel",
    "url": "https://www.indonesia.travel/gb/en/events/event-detail/bigbang-jakarta",
    "confidence": "Official"
+  },
+  {
+   "item": "2027 flavours: pandan, hojicha, calamansi, burnt honey",
+   "source": "IFT Food Technology (17 Nov 2026)",
+   "url": "https://www.ift.org/food-technology-magazine/outlook-2027-flavor-trends",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Bvlgari refillable 10 ml travel spray",
+   "source": "Packaging Insights (28 Sep 2026)",
+   "url": "https://www.packaginginsights.com/news/aptar-bvlgari-refillable-travel-spray.html",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "New perfume formats: balms, jelly sticks, alcohol-free",
+   "source": "Fashionsnap (7 Oct 2026)",
+   "url": "https://www.fashionsnap.com/article/fragrance-globaltrends2026/",
+   "confidence": "Editorial"
   }
  ],
  "scent_worlds": [
@@ -1029,7 +1023,7 @@
  "segments": [
   {
    "name": "Fragrance",
-   "message": "Staying power decides the purchase, and drinks and forests are where the next scents come from. Prove the Extraits last, keep milk tea as the hook, and show Alencine's pine and cypress for the rainy season.",
+   "message": "Next year's scents are coming from Asian drinks and desserts. Keep milk tea as the hook, prove the Extraits last through concert season, and claim local flavours like calamansi and pandan first.",
    "happening": [
     {
      "text": "BTS plays Stadion Utama GBK on 26, 27 and 29 Dec; concert-goers want scent that lasts a whole show.",
@@ -1037,30 +1031,30 @@
      "url": "https://www.rctiplus.com/news/detail/seleb/5451095/8-idol-k-pop-akan-konser-di-jakarta-paruh-kedua-2026--catat-tanggalnya-"
     },
     {
-     "text": "Winter 2027 reports name pine, fir and cypress plus soft cashmere musks as rising notes.",
-     "source": "The Zoe Report",
-     "url": "https://www.thezoereport.com/beauty/winter-2027-fragrance-trends"
-    },
-    {
      "text": "Chagee's floral milk teas (osmanthus oolong, jasmine, gardenia) became a Jakarta habit after its 2025 opening at PIK Avenue.",
      "source": "Popbela",
      "url": "https://www.popbela.com/lifestyle/food/menu-unggulan-chagee-00-9z5cw-49g0x5/amp"
     },
     {
-     "text": "Pistachio, ube and pandan are the Asian flavours food brands are betting on; matcha is up 87% a year.",
-     "source": "FoodNavigator",
-     "url": "https://www.foodnavigator.com/Article/2026/11/18/5-flavours-brands-are-betting-on/"
+     "text": "A Nov 2026 flavour outlook names pandan, hojicha, calamansi and yuzu; burnt honey is up 160% on menus in four years.",
+     "source": "IFT Food Technology",
+     "url": "https://www.ift.org/food-technology-magazine/outlook-2027-flavor-trends"
+    },
+    {
+     "text": "Winter 2027 reports name pine, fir and cypress plus soft cashmere musks as rising notes.",
+     "source": "The Zoe Report",
+     "url": "https://www.thezoereport.com/beauty/winter-2027-fragrance-trends"
     }
    ],
    "saff_has": [
-    "All 24 perfumes are Extrait de Parfum.",
-    "Night-wear picks: S.O.T.B, CHNO, Las Pozas, SAFF; forest notes in Alencine (cypress, pine needle).",
-    "A milk tea already: Sonnet 116 (green tea + milk mousse); iced lychee tea in Annabel Lee."
+    "All 24 perfumes are Extrait; night-wear picks S.O.T.B, CHNO, Las Pozas, SAFF.",
+    "A milk tea already: Sonnet 116 (green tea + milk mousse); iced lychee tea in Annabel Lee.",
+    "Honey in Kirithra, yuzu in Morfosia and Kie Raha, pine and cypress in Alencine."
    ],
    "gaps": [
     "No osmanthus / oolong milk tea",
-    "No kopi susu / palm-sugar gourmand",
-    "No pandan or Asian dessert scent"
+    "No pandan or calamansi scent",
+    "No kopi susu / palm-sugar gourmand"
    ],
    "action_ids": [
     "a1",
@@ -1112,7 +1106,7 @@
   },
   {
    "name": "Home fragrance",
-   "message": "Home fragrance in Indonesia is a growing, fresh-scent market, and incense is turning young in China. Tell The Eden room by room, then test a candle and an incense-style evening mist.",
+   "message": "Home fragrance in Indonesia is a growing, fresh-scent market, and incense is turning young in China. Tell The Eden room by room, with a candle for gifting, then test an incense-style evening mist.",
    "happening": [
     {
      "text": "Market forecast: USD 212.7M (2026) to USD 305M (2031), 7.5% a year; fresh/citrus and candles lead.",
@@ -1145,18 +1139,17 @@
    ],
    "action_ids": [
     "a5",
-    "a14",
     "a19"
    ]
   },
   {
    "name": "Packaging & format",
-   "message": "Fragrance is going pocket-size. Use SAFF's 8 ml to recruit through sets now, then add a refillable case and test a solid stick.",
+   "message": "Perfume is leaving the bottle: balms, jelly sticks and refillable 10 ml cases are where formats are growing. Recruit with SAFF's 8 ml sets now, then test a refill case and a solid stick.",
    "happening": [
     {
-     "text": "Suppliers report 10 ml sprays moving from sample to full product, used to recruit and cross-sell; refillable travel sprays are launching.",
-     "source": "Premium Beauty News",
-     "url": "https://www.premiumbeautynews.com/why-refillable-10-ml-formats-are,26979"
+     "text": "Bvlgari's new 10 ml travel spray refills from the full bottle in under five seconds (Sep 2026).",
+     "source": "Packaging Insights",
+     "url": "https://www.packaginginsights.com/news/aptar-bvlgari-refillable-travel-spray.html"
     },
     {
      "text": "Solid perfume searches rose 174.6% in 2025; Sol de Janeiro's alcohol-free balm sticks claim up to 10 hours.",
@@ -1169,9 +1162,9 @@
      "url": "https://www.fimela.com/beauty/read/7890808/tren-fragrance-wardrobe-saat-generasi-muda-punya-parfum-untuk-setiap-suasana"
     },
     {
-     "text": "Louis Vuitton's new tea scents come as 100 ml and as a 3 × 10 ml coffret.",
-     "source": "Now Smell This",
-     "url": "https://nstperfume.com/2026/08/04/louis-vuitton-tea-storm-ink-mark-moon-tale-new-fragrances/"
+     "text": "Japanese trade press lists balms, jelly sticks, primers and alcohol-free formulas as fast-growing perfume formats (Oct 2026).",
+     "source": "Fashionsnap",
+     "url": "https://www.fashionsnap.com/article/fragrance-globaltrends2026/"
     }
    ],
    "saff_has": [
