@@ -1422,5 +1422,109 @@
   "date_approx": true,
   "source_name": "Harrods",
   "url": "https://www.harrods.com/c/stories/home/best-scented-candles-diffusers"
+ },
+ {
+  "id": "t030-bustle-20261103",
+  "trend_id": "t030",
+  "date": "2026-11-03",
+  "date_approx": false,
+  "source_name": "Bustle",
+  "url": "https://www.bustle.com/beauty/korean-perfumes-2026"
+ },
+ {
+  "id": "t029-bustle-20261103",
+  "trend_id": "t029",
+  "date": "2026-11-03",
+  "date_approx": false,
+  "source_name": "Bustle",
+  "url": "https://www.bustle.com/beauty/korean-perfumes-2026"
+ },
+ {
+  "id": "t057-osaji-20260916",
+  "trend_id": "t057",
+  "date": "2026-09-16",
+  "date_approx": false,
+  "source_name": "Have a Good Holiday",
+  "url": "https://www.haveagood-holiday.com/en/articles/osaji-eau-de-parfum-renewal-2026"
+ },
+ {
+  "id": "t045-globaltimes-20260827",
+  "trend_id": "t045",
+  "date": "2026-08-27",
+  "date_approx": false,
+  "source_name": "Global Times",
+  "url": "https://www.globaltimes.cn/page/202608/1369213.shtml"
+ },
+ {
+  "id": "t028-globaltimes-20260827",
+  "trend_id": "t028",
+  "date": "2026-08-27",
+  "date_approx": false,
+  "source_name": "Global Times",
+  "url": "https://www.globaltimes.cn/page/202608/1369213.shtml"
+ },
+ {
+  "id": "t045-indieperfumejournal-20261103",
+  "trend_id": "t045",
+  "date": "2026-11-03",
+  "date_approx": false,
+  "source_name": "Indie Perfume Journal",
+  "url": "https://www.indieperfumejournal.com/new-indie-perfume-releases-november-2026/"
+ },
+ {
+  "id": "t005-indieperfumejournal-20261103",
+  "trend_id": "t005",
+  "date": "2026-11-03",
+  "date_approx": false,
+  "source_name": "Indie Perfume Journal",
+  "url": "https://www.indieperfumejournal.com/new-indie-perfume-releases-november-2026/"
+ },
+ {
+  "id": "t036-scento-20261008",
+  "trend_id": "t036",
+  "date": "2026-10-08",
+  "date_approx": false,
+  "source_name": "Scento (citing Circana)",
+  "url": "https://www.scento.com/cz/blog/perfume-gifting-statistics-2026"
+ },
+ {
+  "id": "t029-jingdaily-20260407",
+  "trend_id": "t029",
+  "date": "2026-04-07",
+  "date_approx": true,
+  "source_name": "Jing Daily",
+  "url": "https://jingdaily.com/intels/2026-04/07/domestic-labels-propel-china-s-premium-fragrance-boom"
+ },
+ {
+  "id": "t056-idntimes-20251201",
+  "trend_id": "t056",
+  "date": "2025-12-01",
+  "date_approx": false,
+  "source_name": "IDN Times",
+  "url": "https://www.idntimes.com/life/women/tren-parfum-perempuan-2026-c1c2-01-bf19v-k0wyy8"
+ },
+ {
+  "id": "t055-journalarta-20260712",
+  "trend_id": "t055",
+  "date": "2026-07-12",
+  "date_approx": false,
+  "source_name": "JournalArta",
+  "url": "https://journalarta.com/en/technology/ipb-university-balm-stick-perfume-innovation/"
+ },
+ {
+  "id": "t055-manilabulletin-20260516",
+  "trend_id": "t055",
+  "date": "2026-05-16",
+  "date_approx": false,
+  "source_name": "Manila Bulletin",
+  "url": "https://mb.com.ph/2026/05/16/are-solid-perfumes-actually-better-than-liquid-fragrances"
+ },
+ {
+  "id": "t001-wolipop-20260422",
+  "trend_id": "t001",
+  "date": "2026-04-22",
+  "date_approx": false,
+  "source_name": "Wolipop (detikcom)",
+  "url": "https://wolipop.detik.com/sale-and-shop/d-8456507/5-brand-lokal-yang-rilis-parfum-terbaru-cocok-dipakai-saat-cuaca-panas"
  }
 ]

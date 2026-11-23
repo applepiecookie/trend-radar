@@ -543,5 +543,30 @@
    "Kie Raha"
   ],
   "gap": "First calamansi scent from a local brand"
+ },
+ {
+  "id": "o20",
+  "segment": "Packaging & format",
+  "rank": 4,
+  "name": "Refillable 8 ml Extrait Case",
+  "timing": "Test next",
+  "format": "Metal travel case + 8 ml refill vials",
+  "price": "Mass-premium",
+  "notes": [
+   "any SAFF Extrait"
+  ],
+  "packaging": "Slim aluminium case that takes SAFF 8 ml refills; bag-clip option",
+  "target": "Commuters, concert-goers and multi-scent rotators",
+  "why": "Brands like Bvlgari now sell 10 ml travel sprays that refill from the main bottle. Mini and discovery sets are the fastest-growing gift format.",
+  "trend_ids": [
+   "t051",
+   "t036",
+   "t025",
+   "t044"
+  ],
+  "builds_on": [
+   "8 ml & 2 ml sizes"
+  ],
+  "gap": "No refillable travel format at SAFF"
  }
 ]

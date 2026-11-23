@@ -908,7 +908,8 @@
    "milky",
    "nutty",
    "makgeolli",
-   "koji milk"
+   "koji milk",
+   "sesame"
   ],
   "idea": "Develop a rice/sticky-rice milk or coconut-milk accord as a comforting milky scent.",
   "saff": {
@@ -1753,15 +1754,16 @@
   "source_type": "News & industry",
   "source_name": "The Zoe Report",
   "url": "https://www.thezoereport.com/beauty/winter-2027-fragrance-trends",
-  "strength": "Early",
-  "status": "New",
+  "strength": "Medium",
+  "status": "Ongoing",
   "stage": "Lead market",
   "local_fit": 2,
   "keywords": [
    "pine",
    "cypress",
    "fir",
-   "cedar"
+   "cedar",
+   "hinoki"
   ],
   "saff": {
    "status": "Covered",

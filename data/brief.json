@@ -1,6 +1,6 @@
 {
- "date": "2026-11-23",
- "one_line": "2027 food forecasts put pandan, hojicha, calamansi and burnt honey on the menu; SAFF already holds tea and honey scents, so tell those stories before rivals launch copies.",
+ "date": "2026-11-24",
+ "one_line": "Gift season is here and mini sets grow fastest (+41% in US prestige); put SAFF's 8 ml Extraits into ready-made sets before Harbolnas on 10 Dec.",
  "takeaways": [
   {
    "title": "Concert season is a longevity moment",
@@ -365,10 +365,10 @@
   },
   {
    "id": "a4",
-   "action": "Ramadan & Lebaran 2027 sets",
-   "detail": "Scent-world gift sets (Extrait + Deo/Hand/Body Potion) plus a 4–5 × 8 ml discovery set with a 'which scent when' card. Decide before year-end for a mid-January launch.",
+   "action": "8 ml discovery sets: holiday, then Ramadan",
+   "detail": "Build a 3–4 scent 8 ml set for Harbolnas and Christmas now, then re-skin it for Ramadan & Lebaran 2027 with a Body or Hand Potion.",
    "type": "Bundle + Pack",
-   "horizon": "Next",
+   "horizon": "Now",
    "effort": "M",
    "team": "Prodev · Packdev",
    "products": [
@@ -634,6 +634,10 @@
   {
    "title": "Grey market",
    "text": "Reseller activity is rising around local hits; keep official-store authenticity cues visible."
+  },
+  {
+   "title": "Solids may be early for SEA",
+   "text": "A Philippine perfumer dropped a solid line after surveys showed buyers still prefer sprays; test solids in small runs first."
   }
  ],
  "watch": [
@@ -645,7 +649,9 @@
   "Solid perfume or balm launches by local brands.",
   "Pandan, ube and pistachio scents moving from food into fragrance.",
   "Incense, palo santo and other 'calm evening' home scents from Indonesian brands.",
-  "Calamansi, pandan and burnt honey moving from food menus into local perfume launches."
+  "Calamansi, pandan and burnt honey moving from food menus into local perfume launches.",
+  "Matcha and pistachio-milk gourmands moving from indie launches to mass brands.",
+  "Hinoki and other Japanese forest woods in new Asian launches."
  ],
  "coverage": "Open web only: news, retail listings, review sites and published data. X, TikTok, Instagram and Shopee are not read directly, so social buzz is under-represented. Product facts come from SAFF's own product list (names and notes only).",
  "sources": [
@@ -942,6 +948,42 @@
    "source": "Fashionsnap (7 Oct 2026)",
    "url": "https://www.fashionsnap.com/article/fragrance-globaltrends2026/",
    "confidence": "Editorial"
+  },
+  {
+   "item": "Indie osmanthus-oolong and matcha launches",
+   "source": "Indie Perfume Journal (3 Nov 2026)",
+   "url": "https://www.indieperfumejournal.com/new-indie-perfume-releases-november-2026/",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Korean perfume interest +147%; sesame, makgeolli notes",
+   "source": "Bustle (3 Nov 2026)",
+   "url": "https://www.bustle.com/beauty/korean-perfumes-2026",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Mini and discovery set growth; gift-set share",
+   "source": "Scento citing Circana (Oct 2026)",
+   "url": "https://www.scento.com/cz/blog/perfume-gifting-statistics-2026",
+   "confidence": "Secondary data"
+  },
+  {
+   "item": "Indonesian balm-stick perfume",
+   "source": "JournalArta (12 Jul 2026)",
+   "url": "https://journalarta.com/en/technology/ipb-university-balm-stick-perfume-innovation/",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Solid perfume caveat in the Philippines",
+   "source": "Manila Bulletin (16 May 2026)",
+   "url": "https://mb.com.ph/2026/05/16/are-solid-perfumes-actually-better-than-liquid-fragrances",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Japanese forest accords (hinoki, cedar)",
+   "source": "Have a Good Holiday (16 Sep 2026)",
+   "url": "https://www.haveagood-holiday.com/en/articles/osaji-eau-de-parfum-renewal-2026",
+   "confidence": "Editorial"
   }
  ],
  "scent_worlds": [
@@ -1023,27 +1065,27 @@
  "segments": [
   {
    "name": "Fragrance",
-   "message": "Next year's scents are coming from Asian drinks and desserts. Keep milk tea as the hook, prove the Extraits last through concert season, and claim local flavours like calamansi and pandan first.",
+   "message": "New launches from Korea to indie houses are built on tea and Asian food notes. Keep milk tea as SAFF's hook, prove Extrait longevity for concert season, and claim calamansi and pandan first.",
    "happening": [
-    {
-     "text": "BTS plays Stadion Utama GBK on 26, 27 and 29 Dec; concert-goers want scent that lasts a whole show.",
-     "source": "RCTI+",
-     "url": "https://www.rctiplus.com/news/detail/seleb/5451095/8-idol-k-pop-akan-konser-di-jakarta-paruh-kedua-2026--catat-tanggalnya-"
-    },
     {
      "text": "Chagee's floral milk teas (osmanthus oolong, jasmine, gardenia) became a Jakarta habit after its 2025 opening at PIK Avenue.",
      "source": "Popbela",
      "url": "https://www.popbela.com/lifestyle/food/menu-unggulan-chagee-00-9z5cw-49g0x5/amp"
     },
     {
+     "text": "November indie releases include an osmanthus-oolong perfume and a matcha gourmand with pistachio milk.",
+     "source": "Indie Perfume Journal",
+     "url": "https://www.indieperfumejournal.com/new-indie-perfume-releases-november-2026/"
+    },
+    {
+     "text": "Interest in Korean perfume is up 147% a year; new K-scents use toasted sesame, makgeolli and buttered corn.",
+     "source": "Bustle",
+     "url": "https://www.bustle.com/beauty/korean-perfumes-2026"
+    },
+    {
      "text": "A Nov 2026 flavour outlook names pandan, hojicha, calamansi and yuzu; burnt honey is up 160% on menus in four years.",
      "source": "IFT Food Technology",
      "url": "https://www.ift.org/food-technology-magazine/outlook-2027-flavor-trends"
-    },
-    {
-     "text": "Winter 2027 reports name pine, fir and cypress plus soft cashmere musks as rising notes.",
-     "source": "The Zoe Report",
-     "url": "https://www.thezoereport.com/beauty/winter-2027-fragrance-trends"
     }
    ],
    "saff_has": [
@@ -1144,8 +1186,13 @@
   },
   {
    "name": "Packaging & format",
-   "message": "Perfume is leaving the bottle: balms, jelly sticks and refillable 10 ml cases are where formats are growing. Recruit with SAFF's 8 ml sets now, then test a refill case and a solid stick.",
+   "message": "Small, refillable and solid formats are where perfume is growing. Recruit with SAFF's 8 ml sizes now, then test a refill case and a solid stick in small runs, since many Asian buyers still prefer sprays.",
    "happening": [
+    {
+     "text": "Mini and discovery sets rose 41% in US prestige fragrance (Jan–Sep 2025); gift sets are over a quarter of Q4 sales.",
+     "source": "Scento / Circana",
+     "url": "https://www.scento.com/cz/blog/perfume-gifting-statistics-2026"
+    },
     {
      "text": "Bvlgari's new 10 ml travel spray refills from the full bottle in under five seconds (Sep 2026).",
      "source": "Packaging Insights",
@@ -1157,14 +1204,9 @@
      "url": "https://www.glossy.co/beauty/can-solid-perfume-be-the-next-body-mist/"
     },
     {
-     "text": "Young Indonesians rotate several perfumes by mood and outfit instead of one signature scent.",
-     "source": "Fimela",
-     "url": "https://www.fimela.com/beauty/read/7890808/tren-fragrance-wardrobe-saat-generasi-muda-punya-parfum-untuk-setiap-suasana"
-    },
-    {
-     "text": "Japanese trade press lists balms, jelly sticks, primers and alcohol-free formulas as fast-growing perfume formats (Oct 2026).",
-     "source": "Fashionsnap",
-     "url": "https://www.fashionsnap.com/article/fragrance-globaltrends2026/"
+     "text": "IPB University students launched an alcohol-free perfume balm stick in Indonesia (Jul 2026).",
+     "source": "JournalArta",
+     "url": "https://journalarta.com/en/technology/ipb-university-balm-stick-perfume-innovation/"
     }
    ],
    "saff_has": [
@@ -1172,7 +1214,7 @@
     "Travel-size Cloud Mist (Annabel Lee)."
    ],
    "gaps": [
-    "No discovery set",
+    "No ready-made discovery set",
     "No refillable travel case",
     "No solid / balm format"
    ],
@@ -1227,6 +1269,6 @@
  "overview_action_ids": [
   "a1",
   "a2",
-  "a13"
+  "a4"
  ]
 }
