@@ -3844,5 +3844,49 @@
    "Longevity"
   ],
   "summary": "Best-seller roundup lists seven Mykonos scents from Rp109,000 to Rp499,000 with claimed 6–10 hour wear."
+ },
+ {
+  "id": "m257",
+  "date": "2026-11-23",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia (non-official shop)",
+  "url": "https://www.tokopedia.com/msbb/msbb-saff-co-extrait-de-parfum-morfosia-1731634118161826983",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Availability",
+   "Authenticity & fakes"
+  ],
+  "summary": "A multi-brand beauty shop lists SAFF Morfosia at Rp249,000 but shows it sold out, with a single 5-star rating."
+ },
+ {
+  "id": "m258",
+  "date": "2025-11-21",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "SkinSort",
+  "url": "https://skinsort.com/products/saff-co/body-potion",
+  "type": "Research",
+  "sentiment": "Neutral",
+  "themes": [
+   "Skin reaction"
+  ],
+  "summary": "Ingredient check of SAFF Body Potion flags fragrance and four possible fungal-acne triggers, but no pore-clogging ingredients."
+ },
+ {
+  "id": "m259",
+  "date": "2026-10-20",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Female Daily",
+  "url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/pink-drops-edp",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Pink Drops EDP scores 3.8 from 33 reviews; liked as a milky strawberry scent with about 7–8 hours wear, but too sweet in heat for some."
  }
 ]

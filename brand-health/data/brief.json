@@ -1,14 +1,18 @@
 {
- "date": "2026-11-22",
- "headline": "No Female Daily refresh for SAFF, HMNS, Mykonos or Onix today; last read SAFF 4.32 vs Mykonos 4.29. POSTOJNA, SAFF's first fruity-fresh scent (Rp350,000), is missing from some retail catalogues.",
+ "date": "2026-11-23",
+ "headline": "Female Daily refreshed: SAFF steady at 4.32 (1,747 reviews), Mykonos slipped to 4.27 and HMNS jumped to 4.20 (+0.05). SAFF's lead over Mykonos widens to 0.05; Morfosia shows sold out at a reseller.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "Female Daily vs 20 Nov: Mykonos 4.27→4.29 (+0.02; +0.03 over 7 days), HMNS 4.18→4.15 (−0.03), SAFF 4.32, Alchemist 4.43 and Onix 4.17 flat. SAFF's gap over Mykonos is now 0.03.",
+   "text": "Female Daily vs 21 Nov: HMNS 4.15→4.20 (+0.05; also +0.05 vs 16 Nov), Mykonos 4.29→4.27 (−0.02), SAFF 4.32 and Alchemist 4.43 flat. Onix not refreshed (4.17 on 20 Nov).",
    "evidence": "ratings"
   },
   {
-   "text": "HMNS Drops of Sunshine fell 4.7→4.3 and Philea 4.6→4.2 (each one review fewer); Mykonos Baby Love flipped back up 4.2→4.6 (83 reviews) and Moroccan Vanilla 4.4→4.2. SAFF Las Pozas lost one review (91) at 4.6.",
+   "text": "HMNS gain is partly mechanical: Drops of Sunshine 4.3→4.7, Philea 4.2→4.6, Elea 4.2→4.6, and SORE Eterna (4.9, 18 reviews) replaced Addict (3.9) in the top 16. These scores have flipped back and forth for days.",
+   "evidence": "ratings"
+  },
+  {
+   "text": "SAFF product scores did not move; Las Pozas added one review (92) at 4.6. S.O.T.B (4.1, 586 reviews) still drives a third of SAFF's Female Daily reviews.",
    "evidence": "ratings"
   },
   {
@@ -16,12 +20,8 @@
    "evidence": "m239"
   },
   {
-   "text": "Cascavel (4.9 from 1,992 ratings) shows as sold out on SAFF's official Tokopedia store — a lost-sale and reseller risk.",
-   "evidence": "m240"
-  },
-  {
-   "text": "POSTOJNA launched mid-2026 at Rp350,000 and is framed as SAFF's first fruity-fresh scent, but the Scentica catalogue still lists 17 older SAFF scents without it.",
-   "evidence": "m255"
+   "text": "Stock gaps recur: Cascavel sold out on SAFF's official Tokopedia store, and Morfosia (Rp249,000) sold out at a multi-brand Tokopedia shop.",
+   "evidence": "m257"
   }
  ],
  "recommendations": [
@@ -47,9 +47,9 @@
   }
  ],
  "watch": [
-  "Mykonos vs SAFF on Female Daily: 4.29 vs 4.32",
-  "HMNS at 4.15 after Drops of Sunshine and Philea drops — check if it holds",
-  "Cascavel stock on SAFF's official Tokopedia store",
+  "Mykonos vs SAFF on Female Daily: 4.27 vs 4.32",
+  "HMNS at 4.20 — check whether the Drops of Sunshine / Philea jumps hold",
+  "Cascavel and Morfosia stock on official and reseller Tokopedia stores",
   "Unofficial SAFF listings: decants, eBay resale, multi-brand stores",
   "New scents POSTOJNA, Kie Raha and Rae Nira: first ratings on Female Daily and retailer listings"
  ]
