@@ -1864,5 +1864,37 @@
    ],
    "note": "Morfosia and Kie Raha use yuzu, but SAFF has no calamansi scent."
   }
+ },
+ {
+  "id": "t061",
+  "found": "2026-11-23",
+  "published": "2026-10",
+  "segment": "Body & personal care",
+  "category": "Product format",
+  "trend": "Hand care becomes skincare plus scent",
+  "summary": "Hand cream is moving past basic moisture to brightening and firming claims; the global hand care market is forecast at US$42.6bn by 2033.",
+  "angle": "SAFF already sells hand products in its scent worlds, so a care claim can lift them from gift filler to daily skincare.",
+  "idea": "Add a simple care story (e.g. niacinamide or ceramide) to the next Hand Potion batch and pair Hand Dew with the matching Cloud Mist as a scent-and-care set.",
+  "source_type": "News & industry",
+  "source_name": "Retail Times",
+  "url": "https://retailtimes.co.uk/the-next-big-skincare-trend-isnt-on-your-face-its-in-your-hands/",
+  "strength": "Medium",
+  "status": "New",
+  "stage": "Lead market",
+  "local_fit": 2,
+  "keywords": [
+   "hand cream",
+   "skincare",
+   "niacinamide"
+  ],
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "Sanctum on the Beach Hand Potion",
+    "Loui's Lullaby Hand Potion",
+    "My Annabel Lee Hand Dew"
+   ],
+   "note": "SAFF has scented hand products but no clear skincare claim on them."
+  }
  }
 ]
