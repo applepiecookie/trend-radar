@@ -1310,5 +1310,61 @@
   "date_approx": false,
   "source_name": "IFT Food Technology",
   "url": "https://www.ift.org/food-technology-magazine/outlook-2027-flavor-trends"
+ },
+ {
+  "id": "t028-detik-menperinparfum-20261120",
+  "trend_id": "t028",
+  "date": "2026-11-20",
+  "date_approx": false,
+  "source_name": "detikFinance",
+  "url": "https://finance.detik.com/industri/d-8762561/menperin-resmikan-pabrik-parfum-dorong-bahan-baku-lokal-jadi-produk-unggulan"
+ },
+ {
+  "id": "t028-kontan-menperinbahanbaku-20261120",
+  "trend_id": "t028",
+  "date": "2026-11-20",
+  "date_approx": false,
+  "source_name": "Kontan",
+  "url": "https://industri.kontan.co.id/news/menperin-sarmuji-dorong-industri-parfum-nasional-tak-hanya-ekspor-bahan-baku"
+ },
+ {
+  "id": "t015-kontan-prospekparfumlokal-20261123",
+  "trend_id": "t015",
+  "date": "2026-11-23",
+  "date_approx": false,
+  "source_name": "Kontan Insight",
+  "url": "https://insight.kontan.co.id/news/prospek-bisnis-parfum-lokal-masih-harum"
+ },
+ {
+  "id": "t015-compas-top10shopeeq2-20261022",
+  "trend_id": "t015",
+  "date": "2026-10-22",
+  "date_approx": false,
+  "source_name": "Compas",
+  "url": "https://compas.co.id/article/top-10-brand-parfum-lokal-di-shopee/"
+ },
+ {
+  "id": "t010-kontan-mandomextrait-20261120",
+  "trend_id": "t010",
+  "date": "2026-11-20",
+  "date_approx": false,
+  "source_name": "Kontan",
+  "url": "https://industri.kontan.co.id/news/mandom-indonesia-andalkan-inovasi-produk-untuk-hadapi-persaingan-pasar-parfum"
+ },
+ {
+  "id": "t016-whatsnew-scarlett9years-20261113",
+  "trend_id": "t016",
+  "date": "2026-11-13",
+  "date_approx": false,
+  "source_name": "What's New Indonesia",
+  "url": "https://whatsnewindonesia.com/jakarta/scarlett-celebrates-9-years-with-two-new-perfumes"
+ },
+ {
+  "id": "t050-popmama-alchemistdprian-20260225",
+  "trend_id": "t050",
+  "date": "2026-02-25",
+  "date_approx": false,
+  "source_name": "Popmama",
+  "url": "https://www.popmama.com/life/fashion-and-beauty/kolaborasi-parfum-lokal-dengan-dpr-ian-punya-wangi-manly-maksimal-00-6wd2h-wdl45n"
  }
 ]
