@@ -1,40 +1,40 @@
 {
- "date": "2026-11-23",
- "headline": "Female Daily refreshed: SAFF steady at 4.32 (1,747 reviews), Mykonos slipped to 4.27 and HMNS jumped to 4.20 (+0.05). SAFF's lead over Mykonos widens to 0.05; Morfosia shows sold out at a reseller.",
+ "date": "2026-11-24",
+ "headline": "SAFF holds 4.32 on Female Daily (flat vs yesterday and 7 days ago), still 0.05 ahead of Mykonos. New watch item: a 'saffnco.batam' Instagram account of unclear official status.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "Female Daily vs 21 Nov: HMNS 4.15→4.20 (+0.05; also +0.05 vs 16 Nov), Mykonos 4.29→4.27 (−0.02), SAFF 4.32 and Alchemist 4.43 flat. Onix not refreshed (4.17 on 20 Nov).",
+   "text": "Female Daily today: SAFF 4.32 (1,747 reviews) and Alchemist 4.43 (569) unchanged vs 23 Nov and 17 Nov; no SAFF product score moved. HMNS, Mykonos and Onix pages could not be read today (last: 4.20, 4.27, 4.17).",
    "evidence": "ratings"
   },
   {
-   "text": "HMNS gain is partly mechanical: Drops of Sunshine 4.3→4.7, Philea 4.2→4.6, Elea 4.2→4.6, and SORE Eterna (4.9, 18 reviews) replaced Addict (3.9) in the top 16. These scores have flipped back and forth for days.",
+   "text": "S.O.T.B (4.1, 586 reviews) still makes up a third of SAFF's Female Daily reviews, so it sets the brand score more than any other scent.",
    "evidence": "ratings"
   },
   {
-   "text": "SAFF product scores did not move; Las Pozas added one review (92) at 4.6. S.O.T.B (4.1, 586 reviews) still drives a third of SAFF's Female Daily reviews.",
-   "evidence": "ratings"
+   "text": "Editorial reach continues: IDN Times put SAFF Morfosia in its 14 Nov rainy-season picks and Coco in its citrus picks, each next to HMNS and Mykonos.",
+   "evidence": "m260"
   },
   {
    "text": "SAFF official-store ratings stay very high: Irai Leima 4.9 from 5,124 Tokopedia ratings (about 0.5% at 1–2 stars) and Las Pozas 4.9 from 1,424 Zalora reviews.",
    "evidence": "m239"
   },
   {
-   "text": "Stock gaps recur: Cascavel sold out on SAFF's official Tokopedia store, and Morfosia (Rp249,000) sold out at a multi-brand Tokopedia shop.",
-   "evidence": "m257"
+   "text": "Unofficial channels keep growing: a 'saffnco.batam' Instagram account and multi-brand Tokopedia shops (Irai Leima 35ml at Rp259,000) sell or use the SAFF name.",
+   "evidence": "m266"
   }
  ],
  "recommendations": [
+  {
+   "text": "Confirm whether the 'saffnco.batam' Instagram account is an official partner; if not, report it and pin a list of official accounts on the main profile.",
+   "horizon": "Now"
+  },
   {
    "text": "Restock Cascavel on the official Tokopedia store, or add a back-in-stock notice, so buyers do not move to unofficial sellers.",
    "horizon": "Now"
   },
   {
    "text": "Use product-level proof such as Irai Leima 4.9 from 5,124 Tokopedia ratings in ads and product pages, not store-wide scores.",
-   "horizon": "Now"
-  },
-  {
-   "text": "Report unverified SAFF resellers and decant shops, and publish an authorised-reseller list plus a 'how to spot a fake' guide.",
    "horizon": "Next"
   },
   {
@@ -49,8 +49,8 @@
  "watch": [
   "Mykonos vs SAFF on Female Daily: 4.27 vs 4.32",
   "HMNS at 4.20 — check whether the Drops of Sunshine / Philea jumps hold",
+  "'saffnco.batam' and other unofficial SAFF accounts and resellers",
   "Cascavel and Morfosia stock on official and reseller Tokopedia stores",
-  "Unofficial SAFF listings: decants, eBay resale, multi-brand stores",
   "New scents POSTOJNA, Kie Raha and Rae Nira: first ratings on Female Daily and retailer listings"
  ]
 }

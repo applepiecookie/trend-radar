@@ -3888,5 +3888,139 @@
    "Longevity"
   ],
   "summary": "Pink Drops EDP scores 3.8 from 33 reviews; liked as a milky strawberry scent with about 7–8 hours wear, but too sweet in heat for some."
+ },
+ {
+  "id": "m260",
+  "date": "2026-11-14",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "IDN Times",
+  "url": "https://www.idntimes.com/men/grooming/rekomendasi-parfum-lokal-musim-hujan-c1c2-01-5ltmv-97485w",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character"
+  ],
+  "summary": "Rainy-season picks list SAFF Morfosia for office or dinner, next to HMNS Farhampton and Mykonos Inception."
+ },
+ {
+  "id": "m261",
+  "date": "2026-10-04",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "IDN Times",
+  "url": "https://www.idntimes.com/men/grooming/rekomendasi-parfum-lokal-aroma-citrus-wangi-segar-seharian-c1c2-01-491ts-y4tcnd",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Citrus picks name SAFF Coco as a unisex scent said to last all day, alongside HMNS Alpha and Mykonos Sorrento."
+ },
+ {
+  "id": "m262",
+  "date": "2026-07-22",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Suara.com",
+  "url": "https://www.suara.com/lifestyle/2026/07/22/170839/5-merek-parfum-lokal-paling-populer-di-indonesia-2026-laris-manis-dibeli-lewat-shopee",
+  "type": "News & media",
+  "sentiment": "Neutral",
+  "themes": [
+   "Brand reputation"
+  ],
+  "summary": "Citing Compas data, SAFF is one of five local perfume brands leading Q1 2026 e-commerce sales; Mykonos ranks first."
+ },
+ {
+  "id": "m263",
+  "date": "2025-04-04",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "TIMES Indonesia (Kupang)",
+  "url": "https://kupang.times.co.id/news/peristiwa/HeNxwq8OY/5-rekomendasi-parfum-lokal-paling-diburu",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "Local perfume roundup credits SAFF with 6–8 hours wear at about Rp199,000–219,000; also lists HMNS, Mykonos and Onix."
+ },
+ {
+  "id": "m264",
+  "date": "2026-06-17",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Silloria",
+  "url": "https://www.silloria.com/en/perfumes/saff-co/saff",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Profile of the Saff scent praises lasting leather warmth but warns it can feel too strong and is not a safe blind buy."
+ },
+ {
+  "id": "m265",
+  "date": "2026-11-24",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia (non-official shop)",
+  "url": "https://www.tokopedia.com/glam-beaute/saff-co-irai-leima-35ml-1731297364284638977",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Price & value",
+   "Availability"
+  ],
+  "summary": "A multi-brand Tokopedia shop lists Irai Leima 35ml at Rp259,000 with no buyer reviews yet."
+ },
+ {
+  "id": "m266",
+  "date": "2026-11-24",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Instagram",
+  "url": "https://www.instagram.com/saffnco.batam/",
+  "type": "Forum & social",
+  "sentiment": "Neutral",
+  "themes": [
+   "Authenticity & fakes",
+   "Availability"
+  ],
+  "summary": "A 'saffnco.batam' Instagram account using the SAFF & Co. name appears in search; its official status is unclear."
+ },
+ {
+  "id": "m267",
+  "date": "2026-11-21",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "Parfumo",
+  "url": "https://www.parfumo.com/Perfumes/mykonos/mykonos-x-rrq-empire",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "Scent character",
+   "Price & value",
+   "Longevity"
+  ],
+  "summary": "Imperium (Mykonos x RRQ) scores 8.4 for scent from 114 ratings and 8.8 for value; some find it cheap-smelling."
+ },
+ {
+  "id": "m268",
+  "date": "2026-09-17",
+  "date_approx": false,
+  "brand": "Onix",
+  "source_name": "Parfumo",
+  "url": "https://www.parfumo.com/Perfumes/onix/senoparty",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "Ratings & reviews",
+   "Scent character"
+  ],
+  "summary": "Senoparty has an amber-caramel note profile on Parfumo but no community ratings yet."
  }
 ]
