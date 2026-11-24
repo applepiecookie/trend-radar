@@ -1,6 +1,6 @@
 {
- "date": "2026-11-24",
- "one_line": "Gift season is here and mini sets grow fastest (+41% in US prestige); put SAFF's 8 ml Extraits into ready-made sets before Harbolnas on 10 Dec.",
+ "date": "2026-11-25",
+ "one_line": "Japan-style matcha, rice and hinoki are the 'safe gift' notes this season; lead December content with Sonnet 116 and Alencine before rivals copy the cue.",
  "takeaways": [
   {
    "title": "Concert season is a longevity moment",
@@ -140,6 +140,14 @@
      "products": [
       "Alencine",
       "Solaris"
+     ]
+    },
+    {
+     "title": "Tea goes darker",
+     "text": "Black tea, rooibos and chai are new tea directions for evening wear. Remedia Amoris (kyobancha) and Am Kamin (cardamom) are the closest SAFF scents.",
+     "products": [
+      "Remedia Amoris",
+      "Am Kamin"
      ]
     }
    ]
@@ -476,7 +484,7 @@
   {
    "id": "a17",
    "action": "'Drinks you can wear' content",
-   "detail": "Show Sonnet 116 as green milk tea and Annabel Lee as iced lychee tea next to the drinks people already buy; a quick hook that avoids the crowded matcha lane.",
+   "detail": "Show Sonnet 116 as green milk tea and Annabel Lee as iced lychee tea next to the drinks people already buy; a quick hook that avoids the crowded matcha lane. Add matcha and rice cues (Japanese-style quiet gifts) for December.",
    "type": "Content",
    "horizon": "Now",
    "effort": "S",
@@ -486,7 +494,8 @@
     "Annabel Lee"
    ],
    "trend_ids": [
-    "t053"
+    "t053",
+    "t005"
    ],
    "metric": "Saves and shares vs other Cloud Mist posts"
   },
@@ -651,7 +660,8 @@
   "Incense, palo santo and other 'calm evening' home scents from Indonesian brands.",
   "Calamansi, pandan and burnt honey moving from food menus into local perfume launches.",
   "Matcha and pistachio-milk gourmands moving from indie launches to mass brands.",
-  "Hinoki and other Japanese forest woods in new Asian launches."
+  "Hinoki and other Japanese forest woods in new Asian launches.",
+  "Dark tea, chai and rooibos accords moving from niche into mass-premium launches."
  ],
  "coverage": "Open web only: news, retail listings, review sites and published data. X, TikTok, Instagram and Shopee are not read directly, so social buzz is under-represented. Product facts come from SAFF's own product list (names and notes only).",
  "sources": [
@@ -990,6 +1000,24 @@
    "source": "Popbela (21 Sep 2026)",
    "url": "https://www.popbela.com/beauty/hair/botanical-essentials-luncurkan-hair-body-moodshake-mist-00-9z5cw-lnynqd",
    "confidence": "Editorial"
+  },
+  {
+   "item": "Japanese-style matcha, rice, hinoki notes as gifts",
+   "source": "New York Times via DNYUZ (5 Nov 2026)",
+   "url": "https://dnyuz.com/2026/11/05/giving-the-scent-of-japan/",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Dark tea Extrait launch (Regime des Fleurs)",
+   "source": "Now Smell This (27 Sep 2026)",
+   "url": "https://nstperfume.com/2026/09/27/regime-des-fleurs-dark-subtle-teas-new-fragrance/",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "Hinoki/yuzu holiday sets (KITOWA)",
+   "source": "Have a Good Holiday (23 Oct 2026)",
+   "url": "https://haveagood-holiday.com/en/articles/kitowa-holiday-collection-2026-isetan-shinjuku-pop-up",
+   "confidence": "Editorial"
   }
  ],
  "scent_worlds": [
@@ -1071,7 +1099,7 @@
  "segments": [
   {
    "name": "Fragrance",
-   "message": "New launches from Korea to indie houses are built on tea and Asian food notes. Keep milk tea as SAFF's hook, prove Extrait longevity for concert season, and claim calamansi and pandan first.",
+   "message": "Tea is SAFF's hook and it is getting broader: milk tea in cafés, matcha and rice in Japanese-style gifts, and darker spiced tea for evenings. Keep longevity proof for concerts and claim calamansi and pandan first.",
    "happening": [
     {
      "text": "Chagee's floral milk teas (osmanthus oolong, jasmine, gardenia) became a Jakarta habit after its 2025 opening at PIK Avenue.",
@@ -1084,25 +1112,25 @@
      "url": "https://www.indieperfumejournal.com/new-indie-perfume-releases-november-2026/"
     },
     {
-     "text": "Interest in Korean perfume is up 147% a year; new K-scents use toasted sesame, makgeolli and buttered corn.",
-     "source": "Bustle",
-     "url": "https://www.bustle.com/beauty/korean-perfumes-2026"
+     "text": "Matcha and rice are now popular Japanese-style notes, pitched as quiet, safe gifts next to hinoki and yuzu.",
+     "source": "New York Times",
+     "url": "https://dnyuz.com/2026/11/05/giving-the-scent-of-japan/"
     },
     {
-     "text": "A Nov 2026 flavour outlook names pandan, hojicha, calamansi and yuzu; burnt honey is up 160% on menus in four years.",
-     "source": "IFT Food Technology",
-     "url": "https://www.ift.org/food-technology-magazine/outlook-2027-flavor-trends"
+     "text": "A new $220 limited Extrait is built on black tea, rooibos and maté, with tea as the lead note (Sep 2026).",
+     "source": "Now Smell This",
+     "url": "https://nstperfume.com/2026/09/27/regime-des-fleurs-dark-subtle-teas-new-fragrance/"
     }
    ],
    "saff_has": [
     "All 24 perfumes are Extrait; night-wear picks S.O.T.B, CHNO, Las Pozas, SAFF.",
-    "A milk tea already: Sonnet 116 (green tea + milk mousse); iced lychee tea in Annabel Lee.",
+    "Tea already: Sonnet 116 (fukamushicha + rice powder + milk mousse), Annabel Lee (iced lychee tea), Remedia Amoris (kyobancha).",
     "Honey in Kirithra, yuzu in Morfosia and Kie Raha, pine and cypress in Alencine."
    ],
    "gaps": [
     "No osmanthus / oolong milk tea",
     "No pandan or calamansi scent",
-    "No kopi susu / palm-sugar gourmand"
+    "No dark-tea / chai Extrait"
    ],
    "action_ids": [
     "a1",
@@ -1192,7 +1220,7 @@
   },
   {
    "name": "Packaging & format",
-   "message": "Small, refillable and solid formats are where perfume is growing. Recruit with SAFF's 8 ml sizes now, then test a refill case and a solid stick in small runs, since many Asian buyers still prefer sprays.",
+   "message": "Small, refillable and solid formats are where perfume is growing, and holiday buyers want ready-made sets. Recruit with SAFF's 8 ml sizes now, then test a refill case and a solid stick in small runs.",
    "happening": [
     {
      "text": "Mini and discovery sets rose 41% in US prestige fragrance (Jan–Sep 2025); gift sets are over a quarter of Q4 sales.",
@@ -1210,9 +1238,9 @@
      "url": "https://www.glossy.co/beauty/can-solid-perfume-be-the-next-body-mist/"
     },
     {
-     "text": "IPB University students launched an alcohol-free perfume balm stick in Indonesia (Jul 2026).",
-     "source": "JournalArta",
-     "url": "https://journalarta.com/en/technology/ipb-university-balm-stick-perfume-innovation/"
+     "text": "Japan's KITOWA sells holiday sets pairing hinoki and yuzu bath and hand products (JPY 13,200–19,800, Nov 2026).",
+     "source": "Have a Good Holiday",
+     "url": "https://haveagood-holiday.com/en/articles/kitowa-holiday-collection-2026-isetan-shinjuku-pop-up"
     }
    ],
    "saff_has": [

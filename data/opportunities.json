@@ -568,5 +568,33 @@
    "8 ml & 2 ml sizes"
   ],
   "gap": "No refillable travel format at SAFF"
+ },
+ {
+  "id": "o21",
+  "segment": "Fragrance",
+  "rank": 9,
+  "name": "Dark Tea Chai Extrait",
+  "timing": "Watch",
+  "format": "Extrait de Parfum 35 ml + 8 ml",
+  "price": "Same as current Extraits",
+  "notes": [
+   "black tea",
+   "cardamom",
+   "rooibos",
+   "benzoin"
+  ],
+  "packaging": "Deep amber glass in the current Extrait bottle",
+  "target": "Tea-mist fans who want an evening, rainy-season scent",
+  "why": "A new niche Extrait leads with black tea, rooibos and maté. Chai and smoky launches made 2026 best-new lists.",
+  "trend_ids": [
+   "t063",
+   "t045",
+   "t004"
+  ],
+  "builds_on": [
+   "Remedia Amoris",
+   "Am Kamin"
+  ],
+  "gap": "SAFF has no dark or spiced tea Extrait"
  }
 ]

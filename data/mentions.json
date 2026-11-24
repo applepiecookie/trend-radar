@@ -1582,5 +1582,69 @@
   "date_approx": false,
   "source_name": "ABC13",
   "url": "https://abc13.com/post/best-scented-candles-elevate-home-holidays-top-candle-picks/20006831/"
+ },
+ {
+  "id": "t063-regimedesfleurs-nst-20260927",
+  "trend_id": "t063",
+  "date": "2026-09-27",
+  "date_approx": false,
+  "source_name": "Now Smell This",
+  "url": "https://nstperfume.com/2026/09/27/regime-des-fleurs-dark-subtle-teas-new-fragrance/"
+ },
+ {
+  "id": "t063-marieclaire-best2026-20260213",
+  "trend_id": "t063",
+  "date": "2026-02-13",
+  "date_approx": false,
+  "source_name": "Marie Claire",
+  "url": "https://www.marieclaire.com/beauty/fragrance/best-2026-perfumes/"
+ },
+ {
+  "id": "t004-marieclaire-grownup-20260213",
+  "trend_id": "t004",
+  "date": "2026-02-13",
+  "date_approx": false,
+  "source_name": "Marie Claire",
+  "url": "https://www.marieclaire.com/beauty/fragrance/best-2026-perfumes/"
+ },
+ {
+  "id": "t005-nyt-japan-matcha-20261105",
+  "trend_id": "t005",
+  "date": "2026-11-05",
+  "date_approx": false,
+  "source_name": "New York Times (via DNYUZ)",
+  "url": "https://dnyuz.com/2026/11/05/giving-the-scent-of-japan/"
+ },
+ {
+  "id": "t030-nyt-japan-rice-20261105",
+  "trend_id": "t030",
+  "date": "2026-11-05",
+  "date_approx": false,
+  "source_name": "New York Times (via DNYUZ)",
+  "url": "https://dnyuz.com/2026/11/05/giving-the-scent-of-japan/"
+ },
+ {
+  "id": "t005-stylist-dirtymatcha-20261009",
+  "trend_id": "t005",
+  "date": "2026-10-09",
+  "date_approx": true,
+  "source_name": "Stylist",
+  "url": "https://www.stylist.co.uk/food-drink/drinks-trends-2027/1117932"
+ },
+ {
+  "id": "t057-kitowa-hinoki-20261023",
+  "trend_id": "t057",
+  "date": "2026-10-23",
+  "date_approx": false,
+  "source_name": "Have a Good Holiday",
+  "url": "https://haveagood-holiday.com/en/articles/kitowa-holiday-collection-2026-isetan-shinjuku-pop-up"
+ },
+ {
+  "id": "t057-nyt-hinoki-20261105",
+  "trend_id": "t057",
+  "date": "2026-11-05",
+  "date_approx": false,
+  "source_name": "New York Times (via DNYUZ)",
+  "url": "https://dnyuz.com/2026/11/05/giving-the-scent-of-japan/"
  }
 ]
