@@ -1418,16 +1418,17 @@
   "segment": "Body & personal care",
   "category": "Product format",
   "trend": "Hair & body mists go mainstream",
-  "summary": "Searches for hair and body mists rose 68% on Google and 308% on Instagram in 2026 (UK data); shoppers pick them as cheaper, lighter and easy to layer. The UK's best-selling fragrance of 2026 at LOOKFANTASTIC was a body mist.",
+  "summary": "Searches for hair and body mists rose 68% on Google and 308% on Instagram in 2026 (UK data); shoppers pick them as cheaper, lighter and easy to layer. The UK's best-selling fragrance of 2026 at LOOKFANTASTIC was a body mist. Local brand Botanical Essentials launched an alcohol-free hair & body mist (Rp189k) in milk bun and matcha mochi scents.",
   "angle": "Cloud Mist can be sold for hair as well as body.",
   "idea": "Add 'hair & body' to Cloud Mist copy and show hair use in content.",
-  "stage": "Lead market",
+  "stage": "Local early adopters",
   "local_fit": 3,
   "strength": "Strong",
   "keywords": [
    "hair mist",
    "body mist",
-   "layering"
+   "layering",
+   "gourmand"
   ],
   "found": "2026-10-28",
   "published": "2026-07",
@@ -1897,6 +1898,38 @@
     "My Annabel Lee Hand Dew"
    ],
    "note": "SAFF has scented hand products but no clear skincare claim on them."
+  }
+ },
+ {
+  "id": "t062",
+  "found": "2026-11-24",
+  "published": "2026-08",
+  "segment": "Body & personal care",
+  "category": "Product format",
+  "trend": "Body mists trade up to intense",
+  "summary": "Sol de Janeiro launched 'Intense' body mists at about double the strength, up to 10 hours wear, for $34 vs $26. US mass fragrance sales rose 15% in value but only 7% in units (Circana, H1 2026).",
+  "angle": "Indonesian shoppers buy on longevity; a stronger mist sits between Cloud Mist and Extrait on price.",
+  "idea": "Test a longer-lasting 'intense' Cloud Mist in one tea scent, priced between Cloud Mist and Extrait.",
+  "source_type": "News & industry",
+  "source_name": "Glossy",
+  "url": "https://www.glossy.co/beauty/exclusive-sol-de-janeiro-takes-a-page-out-of-the-luxury-perfume-market-with-the-launch-of-intense-fragrance-mists/",
+  "strength": "Early",
+  "status": "New",
+  "stage": "Lead market",
+  "local_fit": 3,
+  "keywords": [
+   "body mist",
+   "longevity",
+   "intense"
+  ],
+  "saff": {
+   "status": "White space",
+   "products": [
+    "Annabel Lee",
+    "Remedia Amoris",
+    "Sonnet 116"
+   ],
+   "note": "Cloud Mists exist, but none is sold as a longer-lasting mist."
   }
  }
 ]

@@ -308,7 +308,7 @@
   {
    "id": "a3",
    "action": "Sell Cloud Mist for hair and body",
-   "detail": "Add 'hair & body' to Cloud Mist names and PDPs, and show hair use in content; position the three tea mists as one collection.",
+   "detail": "Add 'hair & body' to Cloud Mist names and PDPs, and show hair use in content; position the three tea mists as one collection. Local rivals now sell hair & body mists.",
    "type": "Content",
    "horizon": "Now",
    "effort": "S",
@@ -984,6 +984,12 @@
    "source": "Have a Good Holiday (16 Sep 2026)",
    "url": "https://www.haveagood-holiday.com/en/articles/osaji-eau-de-parfum-renewal-2026",
    "confidence": "Editorial"
+  },
+  {
+   "item": "Local hair & body mist launch (Botanical Essentials)",
+   "source": "Popbela (21 Sep 2026)",
+   "url": "https://www.popbela.com/beauty/hair/botanical-essentials-luncurkan-hair-body-moodshake-mist-00-9z5cw-lnynqd",
+   "confidence": "Editorial"
   }
  ],
  "scent_worlds": [
@@ -1110,9 +1116,9 @@
    "message": "Body care is turning into fragrance. Mists, lotions and even deodorant are now bought for their scent, and SAFF already makes all three in its Extrait scents.",
    "happening": [
     {
-     "text": "Hair and body mist searches rose 68% on Google and 308% on Instagram in 2026, as a lighter, cheaper way to layer.",
-     "source": "Cosmetics Business",
-     "url": "https://cosmeticsbusiness.com/are-hair-and-body-mists-2026-perfume-killer"
+     "text": "Local brand Botanical Essentials launched an alcohol-free hair & body mist at Rp189k, in milk bun and matcha mochi scents.",
+     "source": "Popbela",
+     "url": "https://www.popbela.com/beauty/hair/botanical-essentials-luncurkan-hair-body-moodshake-mist-00-9z5cw-lnynqd"
     },
     {
      "text": "Raine Beauty launched a lotion that matches its perfumes, sold as a layering step for longevity (May 2026).",
