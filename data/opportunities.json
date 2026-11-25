@@ -596,5 +596,32 @@
    "Am Kamin"
   ],
   "gap": "SAFF has no dark or spiced tea Extrait"
+ },
+ {
+  "id": "o22",
+  "segment": "Fragrance",
+  "rank": 10,
+  "name": "Sea Salt Fig Cloud Mist",
+  "timing": "Watch",
+  "format": "Cloud Mist, hair & body",
+  "price": "Mass-premium, in line with Cloud Mist",
+  "notes": [
+   "sea salt",
+   "fig leaf",
+   "olive leaf",
+   "aquatic musk"
+  ],
+  "packaging": "Existing Cloud Mist bottle in a pale sea-glass tint",
+  "target": "Fresh-scent lovers who want something new for humid days",
+  "why": "Flavorchem's 2026/27 forecast names olive, sea salt and salted fig as a new lane. MECCA lists aquatic scents among its five 2027 trends.",
+  "trend_ids": [
+   "t065",
+   "t001"
+  ],
+  "builds_on": [
+   "Träumerei",
+   "Kie Raha"
+  ],
+  "gap": "No salty or olive scent in SAFF's range"
  }
 ]

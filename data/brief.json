@@ -1,6 +1,6 @@
 {
- "date": "2026-11-25",
- "one_line": "Japan-style matcha, rice and hinoki are the 'safe gift' notes this season; lead December content with Sonnet 116 and Alencine before rivals copy the cue.",
+ "date": "2026-11-26",
+ "one_line": "Osmanthus-oolong tea is now in fresh niche launches; brief SAFF's osmanthus milk tea Cloud Mist before local rivals bring it to mass price.",
  "takeaways": [
   {
    "title": "Concert season is a longevity moment",
@@ -148,6 +148,14 @@
      "products": [
       "Remedia Amoris",
       "Am Kamin"
+     ]
+    },
+    {
+     "title": "Salty sea notes are next",
+     "text": "2027 forecasts add sea salt, olive and salted fig to the fresh lane. Träumerei (fig leaves) and Kie Raha (aquatic) are the closest SAFF scents.",
+     "products": [
+      "Träumerei",
+      "Kie Raha"
      ]
     }
    ]
@@ -662,7 +670,8 @@
   "Calamansi, pandan and burnt honey moving from food menus into local perfume launches.",
   "Matcha and pistachio-milk gourmands moving from indie launches to mass brands.",
   "Hinoki and other Japanese forest woods in new Asian launches.",
-  "Dark tea, chai and rooibos accords moving from niche into mass-premium launches."
+  "Dark tea, chai and rooibos accords moving from niche into mass-premium launches.",
+  "Salty Mediterranean notes (sea salt, olive, fig) moving into fresh launches."
  ],
  "coverage": "Open web only: news, retail listings, review sites and published data. X, TikTok, Instagram and Shopee are not read directly, so social buzz is under-represented. Product facts come from SAFF's own product list (names and notes only).",
  "sources": [
@@ -1019,6 +1028,30 @@
    "source": "Have a Good Holiday (23 Oct 2026)",
    "url": "https://haveagood-holiday.com/en/articles/kitowa-holiday-collection-2026-isetan-shinjuku-pop-up",
    "confidence": "Editorial"
+  },
+  {
+   "item": "Osmanthus-oolong niche launch",
+   "source": "Now Smell This (30 Oct 2026)",
+   "url": "https://nstperfume.com/2026/10/30/providence-perfume-co-osmanthia-new-fragrance/",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "2027 perfume trends list",
+   "source": "MECCA (Oct 2026)",
+   "url": "https://www.mecca.com/en-au/mecca-memo/fragrance/2027-perfume-trends/",
+   "confidence": "Editorial"
+  },
+  {
+   "item": "2026/27 fragrance forecast",
+   "source": "Flavorchem (Dec 2025, upd. Jun 2026)",
+   "url": "https://www.flavorchem.com/trends/2026-27-fragrance-forecast/",
+   "confidence": "Industry"
+  },
+  {
+   "item": "2027 packaging trends",
+   "source": "Lisson Packaging (Sep 2026)",
+   "url": "https://www.lissonpackaging.com/es/perfume-packaging-trends-what-fragrance-brands-should-consider-for-2027.html",
+   "confidence": "Industry"
   }
  ],
  "scent_worlds": [
@@ -1100,7 +1133,7 @@
  "segments": [
   {
    "name": "Fragrance",
-   "message": "Tea is SAFF's hook and it is getting broader: milk tea in cafés, matcha and rice in Japanese-style gifts, and darker spiced tea for evenings. Keep longevity proof for concerts and claim calamansi and pandan first.",
+   "message": "Tea is still SAFF's hook, from café milk tea to darker evening teas. 2027 lists add smoky, mango and salty-sea notes; keep longevity proof ready for the concert season.",
    "happening": [
     {
      "text": "Chagee's floral milk teas (osmanthus oolong, jasmine, gardenia) became a Jakarta habit after its 2025 opening at PIK Avenue.",
@@ -1108,19 +1141,19 @@
      "url": "https://www.popbela.com/lifestyle/food/menu-unggulan-chagee-00-9z5cw-49g0x5/amp"
     },
     {
-     "text": "November indie releases include an osmanthus-oolong perfume and a matcha gourmand with pistachio milk.",
-     "source": "Indie Perfume Journal",
-     "url": "https://www.indieperfumejournal.com/new-indie-perfume-releases-november-2026/"
-    },
-    {
-     "text": "Matcha and rice are now popular Japanese-style notes, pitched as quiet, safe gifts next to hinoki and yuzu.",
-     "source": "New York Times",
-     "url": "https://dnyuz.com/2026/11/05/giving-the-scent-of-japan/"
-    },
-    {
-     "text": "A new $220 limited Extrait is built on black tea, rooibos and maté, with tea as the lead note (Sep 2026).",
+     "text": "Providence Perfume Co launched Osmanthia, an osmanthus-oolong tea scent, in a $46 4 ml roller and $200 50 ml (Oct 2026).",
      "source": "Now Smell This",
-     "url": "https://nstperfume.com/2026/09/27/regime-des-fleurs-dark-subtle-teas-new-fragrance/"
+     "url": "https://nstperfume.com/2026/10/30/providence-perfume-co-osmanthia-new-fragrance/"
+    },
+    {
+     "text": "MECCA's five 2027 trends: neo-gourmand vanilla, savoury, mango, smoky and aquatic scents.",
+     "source": "MECCA",
+     "url": "https://www.mecca.com/en-au/mecca-memo/fragrance/2027-perfume-trends/"
+    },
+    {
+     "text": "Flavorchem's 2026/27 forecast adds a 'Mediterranean Coast' lane: olive leaf, sea salt and salted fig.",
+     "source": "Flavorchem",
+     "url": "https://www.flavorchem.com/trends/2026-27-fragrance-forecast/"
     }
    ],
    "saff_has": [
@@ -1131,7 +1164,7 @@
    "gaps": [
     "No osmanthus / oolong milk tea",
     "No pandan or calamansi scent",
-    "No dark-tea / chai Extrait"
+    "No salty sea or dark-tea scent"
    ],
    "action_ids": [
     "a1",
@@ -1239,9 +1272,9 @@
      "url": "https://www.glossy.co/beauty/can-solid-perfume-be-the-next-body-mist/"
     },
     {
-     "text": "Japan's KITOWA sells holiday sets pairing hinoki and yuzu bath and hand products (JPY 13,200–19,800, Nov 2026).",
-     "source": "Have a Good Holiday",
-     "url": "https://haveagood-holiday.com/en/articles/kitowa-holiday-collection-2026-isetan-shinjuku-pop-up"
+     "text": "Glass suppliers list refill systems, frosted or coloured glass and tactile finishes as 2027 musts, from 10 ml to 100 ml.",
+     "source": "Lisson Packaging",
+     "url": "https://www.lissonpackaging.com/es/perfume-packaging-trends-what-fragrance-brands-should-consider-for-2027.html"
     }
    ],
    "saff_has": [

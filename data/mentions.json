@@ -1734,5 +1734,117 @@
   "date_approx": false,
   "source_name": "GCI Magazine",
   "url": "https://www.gcimagazine.com/brands-products/bath-body/news/22944880/papatui-joins-the-full-body-deodorant-boom"
+ },
+ {
+  "id": "t065-flavorchem-forecast-20251218",
+  "trend_id": "t065",
+  "date": "2025-12-18",
+  "date_approx": false,
+  "source_name": "Flavorchem",
+  "url": "https://www.flavorchem.com/trends/2026-27-fragrance-forecast/"
+ },
+ {
+  "id": "t065-mecca-2027-20261020",
+  "trend_id": "t065",
+  "date": "2026-10-20",
+  "date_approx": true,
+  "source_name": "MECCA",
+  "url": "https://www.mecca.com/en-au/mecca-memo/fragrance/2027-perfume-trends/"
+ },
+ {
+  "id": "t034-mecca-mango-20261020",
+  "trend_id": "t034",
+  "date": "2026-10-20",
+  "date_approx": true,
+  "source_name": "MECCA",
+  "url": "https://www.mecca.com/en-au/mecca-memo/fragrance/2027-perfume-trends/#mango"
+ },
+ {
+  "id": "t063-mecca-smoky-20261020",
+  "trend_id": "t063",
+  "date": "2026-10-20",
+  "date_approx": true,
+  "source_name": "MECCA",
+  "url": "https://www.mecca.com/en-au/mecca-memo/fragrance/2027-perfume-trends/#smoky"
+ },
+ {
+  "id": "t008-flavorchem-industrial-20251218",
+  "trend_id": "t008",
+  "date": "2025-12-18",
+  "date_approx": false,
+  "source_name": "Flavorchem",
+  "url": "https://www.flavorchem.com/trends/2026-27-fragrance-forecast/#industrial-edge"
+ },
+ {
+  "id": "t045-nst-osmanthia-20261030",
+  "trend_id": "t045",
+  "date": "2026-10-30",
+  "date_approx": false,
+  "source_name": "Now Smell This",
+  "url": "https://nstperfume.com/2026/10/30/providence-perfume-co-osmanthia-new-fragrance/"
+ },
+ {
+  "id": "t025-lisson-2027-20260927",
+  "trend_id": "t025",
+  "date": "2026-09-27",
+  "date_approx": false,
+  "source_name": "Lisson Packaging",
+  "url": "https://www.lissonpackaging.com/es/perfume-packaging-trends-what-fragrance-brands-should-consider-for-2027.html"
+ },
+ {
+  "id": "t022-lisson-tactile-20260927",
+  "trend_id": "t022",
+  "date": "2026-09-27",
+  "date_approx": false,
+  "source_name": "Lisson Packaging",
+  "url": "https://www.lissonpackaging.com/es/perfume-packaging-trends-what-fragrance-brands-should-consider-for-2027.html#tactile"
+ },
+ {
+  "id": "t010-osmetheca-extrait-20261105",
+  "trend_id": "t010",
+  "date": "2026-11-05",
+  "date_approx": false,
+  "source_name": "Osmetheca",
+  "url": "https://osmetheca.be/en/faq/trends-2027/what-will-be-the-major-perfumery-trends-in-2027"
+ },
+ {
+  "id": "t013-osmetheca-tiktok-20261105",
+  "trend_id": "t013",
+  "date": "2026-11-05",
+  "date_approx": false,
+  "source_name": "Osmetheca",
+  "url": "https://osmetheca.be/en/faq/trends-2027/what-will-be-the-major-perfumery-trends-in-2027#tiktok"
+ },
+ {
+  "id": "t037-osmetheca-allergens-20261105",
+  "trend_id": "t037",
+  "date": "2026-11-05",
+  "date_approx": false,
+  "source_name": "Osmetheca",
+  "url": "https://osmetheca.be/en/faq/trends-2027/what-will-be-the-major-perfumery-trends-in-2027#allergens"
+ },
+ {
+  "id": "t064-myonlyfragrance-fabric-20261106",
+  "trend_id": "t064",
+  "date": "2026-11-06",
+  "date_approx": false,
+  "source_name": "Have a Good Holiday",
+  "url": "https://www.haveagood-holiday.com/en/articles/my-only-fragrance-common-scent-project-winter-edition-2026"
+ },
+ {
+  "id": "t044-innova-performance-20250811",
+  "trend_id": "t044",
+  "date": "2025-08-11",
+  "date_approx": false,
+  "source_name": "Innova via Personal Care Insights",
+  "url": "https://www.personalcareinsights.com/news/fragrance-trends-china-japan-korea.html"
+ },
+ {
+  "id": "t002-wolipop-unisex-20251106",
+  "trend_id": "t002",
+  "date": "2025-11-06",
+  "date_approx": false,
+  "source_name": "Wolipop",
+  "url": "https://wolipop.detik.com/sale-and-shop/d-8197648/7-parfum-lokal-unisex-terbaru-dengan-wangi-tahan-lama"
  }
 ]

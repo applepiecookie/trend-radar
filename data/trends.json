@@ -241,7 +241,7 @@
   "source_type": "News & industry",
   "source_name": "IDN Times",
   "url": "https://www.idntimes.com/men/grooming/alasan-parfum-notes-mineral-menjadi-primadona-baru-2026-c1c2-01-9mwsv-pxy8j2",
-  "strength": "Early",
+  "strength": "Medium",
   "status": "Ongoing",
   "stage": "Local early adopters",
   "local_fit": 2,
@@ -1037,7 +1037,8 @@
    "realistic fruit",
    "guava",
    "lychee",
-   "fig"
+   "fig",
+   "mango"
   ],
   "idea": "Launch realistic local fruits (jambu biji, leci, manggis) without candy sweetness.",
   "saff": {
@@ -1121,7 +1122,7 @@
   "source_type": "Research & surveys",
   "source_name": "Cosmetics Business (Fragrance Futures Index)",
   "url": "https://cosmeticsbusiness.com/the-fragrance-shop-and-cpl-aromas-unveil-the",
-  "strength": "Early",
+  "strength": "Medium",
   "stage": "Lead market",
   "local_fit": 2,
   "found": "2026-10-27",
@@ -1945,8 +1946,8 @@
   "source_type": "News & industry",
   "source_name": "Now Smell This",
   "url": "https://nstperfume.com/2026/09/27/regime-des-fleurs-dark-subtle-teas-new-fragrance/",
-  "strength": "Early",
-  "status": "New",
+  "strength": "Medium",
+  "status": "Ongoing",
   "stage": "Lead market",
   "local_fit": 2,
   "keywords": [
@@ -1978,7 +1979,7 @@
   "source_name": "Bath & Body Works",
   "url": "https://www.bbwinc.com/media/stories/bath-body-works-debuts-midnight-rouge-across-fine-fragrance-body-care-and-home-fragrance",
   "strength": "Medium",
-  "status": "New",
+  "status": "Ongoing",
   "stage": "Lead market",
   "local_fit": 2,
   "keywords": [
@@ -1995,6 +1996,38 @@
     "Petali di Seta"
    ],
    "note": "Loui spans perfume, body and deo, but no Extrait world has a home format."
+  }
+ },
+ {
+  "id": "t065",
+  "found": "2026-11-26",
+  "published": "2026-10",
+  "segment": "Fragrance",
+  "category": "Scent & notes",
+  "trend": "Salty Mediterranean: sea salt, olive, fig",
+  "summary": "Flavorchem's 2026/27 forecast names a 'Mediterranean Coast' lane of olive leaf, sea salt and salted fig. MECCA's 2027 list also puts aquatic scents among five key trends.",
+  "angle": "A salty, airy fresh scent suits humid Indonesian weather and gives SAFF's fresh lane a new story beyond citrus.",
+  "idea": "Brief a sea-salt fig Cloud Mist building on Träumerei's fig leaves and Kie Raha's aquatic accord.",
+  "source_type": "News & industry",
+  "source_name": "Flavorchem",
+  "url": "https://www.flavorchem.com/trends/2026-27-fragrance-forecast/",
+  "strength": "Medium",
+  "status": "New",
+  "stage": "Upstream",
+  "local_fit": 2,
+  "keywords": [
+   "sea salt",
+   "fig",
+   "olive",
+   "aquatic"
+  ],
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "Träumerei",
+    "Kie Raha"
+   ],
+   "note": "Träumerei has fig leaves and Kie Raha an aquatic accord, but no salty or olive scent yet."
   }
  }
 ]
