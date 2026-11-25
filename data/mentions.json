@@ -1646,5 +1646,29 @@
   "date_approx": false,
   "source_name": "New York Times (via DNYUZ)",
   "url": "https://dnyuz.com/2026/11/05/giving-the-scent-of-japan/"
+ },
+ {
+  "id": "t016-liputan6-scarlett-20261117",
+  "trend_id": "t016",
+  "date": "2026-11-17",
+  "date_approx": false,
+  "source_name": "Liputan6",
+  "url": "https://www.liputan6.com/lifestyle/read/8336646/parfum-lokal-terbaru-dengan-aroma-khas-bangsawan-timur-tengah"
+ },
+ {
+  "id": "t010-liputan6-scarlett-20261117",
+  "trend_id": "t010",
+  "date": "2026-11-17",
+  "date_approx": false,
+  "source_name": "Liputan6",
+  "url": "https://www.liputan6.com/lifestyle/read/8336646/parfum-lokal-terbaru-dengan-aroma-khas-bangsawan-timur-tengah"
+ },
+ {
+  "id": "t015-katadata-harbolnas-20261019",
+  "trend_id": "t015",
+  "date": "2026-10-19",
+  "date_approx": false,
+  "source_name": "Katadata",
+  "url": "https://katadata.co.id/digital/e-commerce/6ad5753368c8c/pemerintah-target-belanja-online-akhir-tahun-harbolnas-capai-rp-40-triliun"
  }
 ]
