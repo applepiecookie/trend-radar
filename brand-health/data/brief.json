@@ -1,10 +1,10 @@
 {
- "date": "2026-11-24",
- "headline": "SAFF holds 4.32 on Female Daily (flat vs yesterday and 7 days ago), still 0.05 ahead of Mykonos. New watch item: a 'saffnco.batam' Instagram account of unclear official status.",
+ "date": "2026-11-25",
+ "headline": "SAFF holds 4.32 on Female Daily (flat vs yesterday and 7 days ago). Official Tokopedia pages for Solaris and Loui show 4.9 from 18,000+ ratings, with only about 0.5% at 1–2 stars.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "Female Daily today: SAFF 4.32 (1,747 reviews) and Alchemist 4.43 (569) unchanged vs 23 Nov and 17 Nov; no SAFF product score moved. HMNS, Mykonos and Onix pages could not be read today (last: 4.20, 4.27, 4.17).",
+   "text": "Female Daily today: SAFF 4.32 (1,747 reviews) and Alchemist 4.43 (569) unchanged vs 24 Nov and 18 Nov; no SAFF product score moved. HMNS, Mykonos and Onix pages could not be read today (last: 4.20, 4.27, 4.17).",
    "evidence": "ratings"
   },
   {
@@ -12,15 +12,15 @@
    "evidence": "ratings"
   },
   {
-   "text": "Editorial reach continues: IDN Times put SAFF Morfosia in its 14 Nov rainy-season picks and Coco in its citrus picks, each next to HMNS and Mykonos.",
-   "evidence": "m260"
+   "text": "Official-store proof is strong: Solaris 4.9 from 11,332 Tokopedia ratings and Loui 4.9 from 7,022, each about 0.5% at 1–2 stars; ILIAD 4.9 from 1,425 on Zalora.",
+   "evidence": "m270"
   },
   {
-   "text": "SAFF official-store ratings stay very high: Irai Leima 4.9 from 5,124 Tokopedia ratings (about 0.5% at 1–2 stars) and Las Pozas 4.9 from 1,424 Zalora reviews.",
-   "evidence": "m239"
+   "text": "Oily texture is a repeat caveat in long-form Lemon8 reviews (fabric marks), even when wear time (6–8+ hours) is praised.",
+   "evidence": "m273"
   },
   {
-   "text": "Unofficial channels keep growing: a 'saffnco.batam' Instagram account and multi-brand Tokopedia shops (Irai Leima 35ml at Rp259,000) sell or use the SAFF name.",
+   "text": "Unofficial channels keep growing: a 'saffnco.batam' Instagram account and resellers selling S.O.T.B decants (8ml at Rp109,000) use the SAFF name.",
    "evidence": "m266"
   }
  ],
@@ -30,11 +30,11 @@
    "horizon": "Now"
   },
   {
-   "text": "Restock Cascavel on the official Tokopedia store, or add a back-in-stock notice, so buyers do not move to unofficial sellers.",
+   "text": "Use product-level proof such as Solaris 4.9 from 11,332 Tokopedia ratings in ads and product pages, not store-wide scores.",
    "horizon": "Now"
   },
   {
-   "text": "Use product-level proof such as Irai Leima 4.9 from 5,124 Tokopedia ratings in ads and product pages, not store-wide scores.",
+   "text": "Add a 'spray on skin, not on fabric' tip to product pages and inserts to answer the oily-texture caveat.",
    "horizon": "Next"
   },
   {
@@ -47,10 +47,10 @@
   }
  ],
  "watch": [
-  "Mykonos vs SAFF on Female Daily: 4.27 vs 4.32",
-  "HMNS at 4.20 — check whether the Drops of Sunshine / Philea jumps hold",
-  "'saffnco.batam' and other unofficial SAFF accounts and resellers",
-  "Cascavel and Morfosia stock on official and reseller Tokopedia stores",
+  "Mykonos vs SAFF on Female Daily: 4.27 vs 4.32 (Mykonos not read since 23 Nov)",
+  "'saffnco.batam' and other unofficial SAFF accounts, resellers and decant sellers",
+  "Oily texture / fabric marks in new SAFF reviews",
+  "Mykonos Conquer (8.2 on Parfumo) as a new value rival",
   "New scents POSTOJNA, Kie Raha and Rae Nira: first ratings on Female Daily and retailer listings"
  ]
 }

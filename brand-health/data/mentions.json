@@ -4022,5 +4022,131 @@
    "Scent character"
   ],
   "summary": "Senoparty has an amber-caramel note profile on Parfumo but no community ratings yet."
+ },
+ {
+  "id": "m269",
+  "date": "2026-11-25",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia (official store)",
+  "url": "https://www.tokopedia.com/saffnco/saff-co-extrait-de-parfum-loui/review",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Ratings & reviews",
+   "Longevity",
+   "Delivery & service"
+  ],
+  "summary": "Loui on the official Tokopedia store shows 4.9 from 7,022 ratings, about 0.5% at 1–2 stars; reviews praise scent, wear and fast delivery."
+ },
+ {
+  "id": "m270",
+  "date": "2026-11-25",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia (official store)",
+  "url": "https://www.tokopedia.com/saffnco/saff-co-extrait-de-parfum-solaris/review",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Ratings & reviews",
+   "Scent character",
+   "Delivery & service"
+  ],
+  "summary": "Solaris on the official Tokopedia store shows 4.9 from 11,332 ratings, about 0.5% at 1–2 stars; buyers like the fresh citrus scent and packing."
+ },
+ {
+  "id": "m271",
+  "date": "2026-11-25",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia (non-official shop)",
+  "url": "https://www.tokopedia.com/waytoglow/saff-co-s-o-t-b-sotb-extrait-de-parfum-35ml-8ml-unisex-1732370092105237709/review",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Range & sizes",
+   "Packaging & bottle",
+   "Availability"
+  ],
+  "summary": "A reseller sells S.O.T.B decants (5–35ml, 8ml at Rp109,000), rated 4.9 from 39; one buyer found the spray cap hard to open."
+ },
+ {
+  "id": "m272",
+  "date": "2026-11-25",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Zalora",
+  "url": "https://www.zalora.co.id/p/saff-co-saff-co-extrait-de-parfum-iliad-4220602",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Ratings & reviews",
+   "Price & value"
+  ],
+  "summary": "ILIAD 30ml on Zalora shows 4.9 from 1,425 reviews at Rp221,900 (list Rp299,000); scent and price fit are the most-tagged points."
+ },
+ {
+  "id": "m273",
+  "date": "2024-10-07",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/@duakipa_/7339894333224518145",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Texture & oiliness",
+   "Packaging & bottle"
+  ],
+  "summary": "Nine-variant review reports 6–8 hours on skin and sleek bottles, but warns the oily texture can mark fabric."
+ },
+ {
+  "id": "m274",
+  "date": "2023-07-26",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/scentsatya/7259953894795854338",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Price & value",
+   "Texture & oiliness"
+  ],
+  "summary": "Popular 13-variant roundup praises projection and 8+ hour wear for the price; notes oiliness and that some scents are too sweet."
+ },
+ {
+  "id": "m275",
+  "date": "2024-09-12",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/@sarikartikadewiiiiiiiiii/7413623696243327505",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Remedia Amoris cloud mist gets 8/10 for a soft wood-and-tea scent, with 3–4 hours wear so reapplying is needed."
+ },
+ {
+  "id": "m276",
+  "date": "2026-10-24",
+  "date_approx": true,
+  "brand": "Mykonos",
+  "source_name": "Parfumo",
+  "url": "https://www.parfumo.com/Perfumes/mykonos/conquer",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Price & value",
+   "New launch"
+  ],
+  "summary": "New Mykonos Conquer scores 8.2 from 29 ratings and 8.9 for value; reviewers call it a cheaper, slightly fainter designer-style scent."
  }
 ]
