@@ -1913,8 +1913,8 @@
   "source_type": "News & industry",
   "source_name": "Glossy",
   "url": "https://www.glossy.co/beauty/exclusive-sol-de-janeiro-takes-a-page-out-of-the-luxury-perfume-market-with-the-launch-of-intense-fragrance-mists/",
-  "strength": "Early",
-  "status": "New",
+  "strength": "Medium",
+  "status": "Ongoing",
   "stage": "Lead market",
   "local_fit": 3,
   "keywords": [
@@ -1962,6 +1962,39 @@
     "Am Kamin"
    ],
    "note": "Roasted tea and warm spice exist in two Cloud Mists, but no dark-tea Extrait."
+  }
+ },
+ {
+  "id": "t064",
+  "found": "2026-11-25",
+  "published": "2026-10",
+  "segment": "Home fragrance",
+  "category": "Product format",
+  "trend": "One scent across body and home",
+  "summary": "Bath & Body Works launched Midnight Rouge as perfume, body care and home fragrance at once ($1.95–$74.95). Guerlain, Kilian and BDK now sell candles, soaps and body milks in their perfume scents.",
+  "angle": "SAFF already builds 'worlds' across perfume, body and deo, but its home line uses separate scents, so fans cannot scent their room like their perfume.",
+  "idea": "Test a Loui room and linen spray using the Petali di Seta format, sold in a 'Loui at home' set with Loui's Lullaby Body Potion.",
+  "source_type": "News & industry",
+  "source_name": "Bath & Body Works",
+  "url": "https://www.bbwinc.com/media/stories/bath-body-works-debuts-midnight-rouge-across-fine-fragrance-body-care-and-home-fragrance",
+  "strength": "Medium",
+  "status": "New",
+  "stage": "Lead market",
+  "local_fit": 2,
+  "keywords": [
+   "home fragrance",
+   "candles",
+   "linen spray",
+   "layering"
+  ],
+  "saff": {
+   "status": "Partial",
+   "products": [
+    "Loui",
+    "Loui's Lullaby Body Potion",
+    "Petali di Seta"
+   ],
+   "note": "Loui spans perfume, body and deo, but no Extrait world has a home format."
   }
  }
 ]

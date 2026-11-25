@@ -1670,5 +1670,69 @@
   "date_approx": false,
   "source_name": "Katadata",
   "url": "https://katadata.co.id/digital/e-commerce/6ad5753368c8c/pemerintah-target-belanja-online-akhir-tahun-harbolnas-capai-rp-40-triliun"
+ },
+ {
+  "id": "t064-bbw-midnightrouge-20261007",
+  "trend_id": "t064",
+  "date": "2026-10-07",
+  "date_approx": false,
+  "source_name": "Bath & Body Works",
+  "url": "https://www.bbwinc.com/media/stories/bath-body-works-debuts-midnight-rouge-across-fine-fragrance-body-care-and-home-fragrance"
+ },
+ {
+  "id": "t064-formesdeluxe-ambient-20260115",
+  "trend_id": "t064",
+  "date": "2026-01-15",
+  "date_approx": true,
+  "source_name": "Formes de Luxe",
+  "url": "https://www.formesdeluxe.com/article/ambient-fragrance-bath-and-body-care-a-key-focus-in-2026-as-luxury-players-extend-the-brand-experience.65269"
+ },
+ {
+  "id": "t062-bbw-midnightrouge-20261007",
+  "trend_id": "t062",
+  "date": "2026-10-07",
+  "date_approx": false,
+  "source_name": "Bath & Body Works",
+  "url": "https://www.bbwinc.com/media/stories/bath-body-works-debuts-midnight-rouge-across-fine-fragrance-body-care-and-home-fragrance"
+ },
+ {
+  "id": "t012-evoke-sezane-20261123",
+  "trend_id": "t012",
+  "date": "2026-11-23",
+  "date_approx": false,
+  "source_name": "Evoke",
+  "url": "https://evoke.ie/2026/11/23/style/beauty/sezane-new-home-scent-collection"
+ },
+ {
+  "id": "t012-globenewswire-bbwpantone-20261120",
+  "trend_id": "t012",
+  "date": "2026-11-20",
+  "date_approx": false,
+  "source_name": "GlobeNewswire",
+  "url": "https://www.globenewswire.com/news-release/2026/11/20/3407309/0/en/bath-body-works-and-pantone-launch-a-limited-edition-fragrance-collection-for-the-holidays.html"
+ },
+ {
+  "id": "t047-scentadvice-orpheon-20260212",
+  "trend_id": "t047",
+  "date": "2026-02-12",
+  "date_approx": false,
+  "source_name": "ScentAdvice",
+  "url": "https://scentadvice.com/orpheon-hair-mist-2026-diptyque/"
+ },
+ {
+  "id": "t046-makesy-trends-20260108",
+  "trend_id": "t046",
+  "date": "2026-01-08",
+  "date_approx": false,
+  "source_name": "Makesy",
+  "url": "https://makesy.com/blogs/news/home-fragrance-trends-for-2026-2027-what-makers-should-be-creating-right-now"
+ },
+ {
+  "id": "t049-gci-papatui-20250707",
+  "trend_id": "t049",
+  "date": "2025-07-07",
+  "date_approx": false,
+  "source_name": "GCI Magazine",
+  "url": "https://www.gcimagazine.com/brands-products/bath-body/news/22944880/papatui-joins-the-full-body-deodorant-boom"
  }
 ]
