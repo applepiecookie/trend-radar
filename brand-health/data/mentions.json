@@ -4148,5 +4148,155 @@
    "New launch"
   ],
   "summary": "New Mykonos Conquer scores 8.2 from 29 ratings and 8.9 for value; reviewers call it a cheaper, slightly fainter designer-style scent."
+ },
+ {
+  "id": "m277",
+  "date": "2026-11-24",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "IDN Times",
+  "url": "https://idntimes.com/men/grooming/rekomendasi-parfum-lokal-aroma-neroli-yang-segarnya-elegan-c1c2-01-491ts-9rvhbr",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "IDN Times lists SAFF Troupe among five local neroli picks, calling it light, long-lasting and office-friendly."
+ },
+ {
+  "id": "m278",
+  "date": "2026-02-26",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Tribunshopping",
+  "url": "https://shopping.tribunnews.com/2026/02/26/review-lengkap-saff-and-co-xocolatl-extrait-de-parfum-wangi-cokelat-yang-tahan-lama",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Full review of Xocolatl praises its chocolate scent and long wear."
+ },
+ {
+  "id": "m279",
+  "date": "2026-03-04",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Tribunshopping",
+  "url": "https://shopping.tribunnews.com/2026/03/04/review-lengkap-saff-and-co-extrait-de-parfum-loui-wangi-floral-fresh-yang-tahan-lama",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Full review of Loui describes a fresh floral scent that lasts long."
+ },
+ {
+  "id": "m280",
+  "date": "2026-07-17",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Suara.com",
+  "url": "https://www.suara.com/lifestyle/2026/07/17/103132/4-rekomendasi-parfum-saff-co-paling-wangi-dan-tahan-lama-lengkap-dengan-review",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Longevity",
+   "Scent character"
+  ],
+  "summary": "Suara recommends four SAFF scents as the most fragrant and longest-lasting in the range."
+ },
+ {
+  "id": "m281",
+  "date": "2026-04-30",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "TikTok",
+  "url": "https://www.tiktok.com/@amirulscentcheck/video/7634521304267541778",
+  "type": "Forum & social",
+  "sentiment": "Neutral",
+  "themes": [
+   "Scent character",
+   "New launch"
+  ],
+  "summary": "Malaysian creator reviews Kie Raha and Saff, calling both unique but challenging scents."
+ },
+ {
+  "id": "m282",
+  "date": "2023-12-21",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "TikTok",
+  "url": "https://www.tiktok.com/@hamzah_bustami/video/7315016816458255621",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character"
+  ],
+  "summary": "Creator reviews three SAFF scents and names Solaris a top personal favourite."
+ },
+ {
+  "id": "m283",
+  "date": "2024-08-06",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/@kepoinapasih/7399981907104055809",
+  "type": "Forum & social",
+  "sentiment": "Neutral",
+  "themes": [
+   "Ratings & reviews",
+   "Brand reputation"
+  ],
+  "summary": "Lemon8 roundup reviews best-seller perfumes, placing SAFF alongside Zara and HMNS."
+ },
+ {
+  "id": "m284",
+  "date": "2026-11-26",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Blibli",
+  "url": "https://www.blibli.com/merchant/saff-co/SAC-70080",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Availability",
+   "Authenticity & fakes"
+  ],
+  "summary": "SAFF runs an official flagship store on Blibli, giving buyers another verified channel."
+ },
+ {
+  "id": "m285",
+  "date": "2026-11-26",
+  "date_approx": true,
+  "brand": "Mykonos",
+  "source_name": "Parfumo",
+  "url": "https://www.parfumo.com/Perfumes/mykonos/nautilus",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Price & value",
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Mykonos Nautilus (2026) scores 8.7 from 44 ratings, praised as a cheap pear-amber designer alternative."
+ },
+ {
+  "id": "m286",
+  "date": "2026-11-26",
+  "date_approx": true,
+  "brand": "Mykonos",
+  "source_name": "Parfumo",
+  "url": "https://www.parfumo.com/Perfumes/mykonos/mayfair",
+  "type": "Review site",
+  "sentiment": "Negative",
+  "themes": [
+   "Scent character",
+   "New launch"
+  ],
+  "summary": "Mykonos Mayfair (2026) scores only 6.2 from 5 ratings; a review finds it heavy and poorly blended."
  }
 ]

@@ -1,10 +1,10 @@
 {
- "date": "2026-11-25",
- "headline": "SAFF holds 4.32 on Female Daily (flat vs yesterday and 7 days ago). Official Tokopedia pages for Solaris and Loui show 4.9 from 18,000+ ratings, with only about 0.5% at 1–2 stars.",
+ "date": "2026-11-26",
+ "headline": "SAFF holds 4.32 on Female Daily (flat vs yesterday and 7 days ago), while new media picks keep praising long wear; Mykonos' new Nautilus scores 8.7 on Parfumo as a low-price rival.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "Female Daily today: SAFF 4.32 (1,747 reviews) and Alchemist 4.43 (569) unchanged vs 24 Nov and 18 Nov; no SAFF product score moved. HMNS, Mykonos and Onix pages could not be read today (last: 4.20, 4.27, 4.17).",
+   "text": "Female Daily today: SAFF 4.32 (1,747 reviews) and Alchemist 4.43 (569) unchanged vs 25 Nov and 19 Nov; no SAFF product score moved. HMNS, Mykonos and Onix pages could not be read today (last: 4.20, 4.27, 4.17).",
    "evidence": "ratings"
   },
   {
@@ -20,13 +20,13 @@
    "evidence": "m273"
   },
   {
-   "text": "Unofficial channels keep growing: a 'saffnco.batam' Instagram account and resellers selling S.O.T.B decants (8ml at Rp109,000) use the SAFF name.",
-   "evidence": "m266"
+   "text": "Mykonos' 2026 launches split: Nautilus scores 8.7 from 44 Parfumo ratings (praised for value as a designer alternative), while Mayfair sits at 6.2 from 5.",
+   "evidence": "m285"
   }
  ],
  "recommendations": [
   {
-   "text": "Confirm whether the 'saffnco.batam' Instagram account is an official partner; if not, report it and pin a list of official accounts on the main profile.",
+   "text": "Confirm whether the 'saffnco.batam' Instagram account is an official partner; if not, report it and pin a list of official accounts and stores (Tokopedia, Blibli, Zalora) on the main profile.",
    "horizon": "Now"
   },
   {
@@ -50,7 +50,7 @@
   "Mykonos vs SAFF on Female Daily: 4.27 vs 4.32 (Mykonos not read since 23 Nov)",
   "'saffnco.batam' and other unofficial SAFF accounts, resellers and decant sellers",
   "Oily texture / fabric marks in new SAFF reviews",
-  "Mykonos Conquer (8.2 on Parfumo) as a new value rival",
+  "Mykonos Nautilus (8.7 on Parfumo) as a new value rival",
   "New scents POSTOJNA, Kie Raha and Rae Nira: first ratings on Female Daily and retailer listings"
  ]
 }
