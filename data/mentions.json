@@ -1862,5 +1862,37 @@
   "date_approx": false,
   "source_name": "Katadata",
   "url": "https://katadata.co.id/digital/e-commerce/6a8fe44924d3a/diskon-harbolnas-diperluas-ke-ojol-hingga-medsos-transaksi-ditarget-rp-40-t"
+ },
+ {
+  "id": "t047-vasilisa-eaumellow-20260813",
+  "trend_id": "t047",
+  "date": "2026-08-13",
+  "date_approx": false,
+  "source_name": "Holiday Travel (Japan)",
+  "url": "https://haveagood-holiday.com/id/articles/vasilisa-eau-mellow-sheer-sweet-mist"
+ },
+ {
+  "id": "t047-glossy-genz-mists-20250328",
+  "trend_id": "t047",
+  "date": "2025-03-28",
+  "date_approx": false,
+  "source_name": "Glossy",
+  "url": "https://www.glossy.co/pop/inside-the-gen-z-gen-alpha-hair-perfume-and-body-mist-explosion"
+ },
+ {
+  "id": "t011-pci-eos-cashmere-20251208",
+  "trend_id": "t011",
+  "date": "2025-12-08",
+  "date_approx": false,
+  "source_name": "Personal Care Insights",
+  "url": "https://www.personalcareinsights.com/news/eos-cashmere-body-mists-launch.html"
+ },
+ {
+  "id": "t046-trendhunter-roam-20251210",
+  "trend_id": "t046",
+  "date": "2025-12-10",
+  "date_approx": false,
+  "source_name": "Trend Hunter",
+  "url": "https://www.trendhunter.com/trends/roam-the-brand"
  }
 ]
