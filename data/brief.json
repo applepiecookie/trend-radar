@@ -1,6 +1,6 @@
 {
- "date": "2026-11-26",
- "one_line": "Osmanthus-oolong tea is now in fresh niche launches; brief SAFF's osmanthus milk tea Cloud Mist before local rivals bring it to mass price.",
+ "date": "2026-11-27",
+ "one_line": "Pandan has reached local perfume: Mykonos sells a pandan sticky-rice scent. Move SAFF's pandan milk mist from watch to a quick test.",
  "takeaways": [
   {
    "title": "Concert season is a longevity moment",
@@ -127,7 +127,7 @@
     },
     {
      "title": "Asian flavours are next",
-     "text": "2027 food forecasts name pandan, hojicha, calamansi and burnt honey. SAFF has rice and milk in Sonnet 116, honey in Kirithra and yuzu in Morfosia, but no pandan or calamansi yet.",
+     "text": "2027 food forecasts name pandan, hojicha, calamansi and burnt honey, and Mykonos already sells a pandan scent. SAFF has rice and milk in Sonnet 116, honey in Kirithra and yuzu in Morfosia, but no pandan or calamansi yet.",
      "products": [
       "Sonnet 116",
       "Kirithra",
@@ -607,8 +607,8 @@
  "competitors": [
   {
    "brand": "Mykonos",
-   "move": "Leads Shopee perfume share (6.78% in Q2 2026); grows through TikTok/Reels creator reviews; reseller prices rising.",
-   "response": "Compete on proof (longevity tests) and the multi-format scent worlds, not on creator volume.",
+   "move": "Leads Shopee perfume share (6.78% in Q2 2026); grows through TikTok/Reels creator reviews; reseller prices rising; already sells a pandan sticky rice scent.",
+   "response": "Compete on proof (longevity tests) and multi-format scent worlds; answer pandan with a milkier tea-shop take, not a copy.",
    "url": "https://fragranceforte.co.uk/blogs/news/mykonos-perfumes-indonesia-viral-fragrance-brand"
   },
   {
@@ -665,7 +665,7 @@
   "Alcohol-free and water-based fragrance launches.",
   "Q3 2026 Shopee perfume share data from Compas.",
   "Solid perfume or balm launches by local brands.",
-  "Pandan, ube and pistachio scents moving from food into fragrance.",
+  "More local pandan or Asian-dessert scents after Mykonos' pandan sticky rice.",
   "Incense, palo santo and other 'calm evening' home scents from Indonesian brands.",
   "Calamansi, pandan and burnt honey moving from food menus into local perfume launches.",
   "Matcha and pistachio-milk gourmands moving from indie launches to mass brands.",
@@ -1052,6 +1052,24 @@
    "source": "Lisson Packaging (Sep 2026)",
    "url": "https://www.lissonpackaging.com/es/perfume-packaging-trends-what-fragrance-brands-should-consider-for-2027.html",
    "confidence": "Industry"
+  },
+  {
+   "item": "Asian food-inspired scents; Indonesia fragrance e-commerce",
+   "source": "Premium Beauty News (Jun 2026)",
+   "url": "https://www.premiumbeautynews.com/en/creative-shift-and-local,27814",
+   "confidence": "Industry"
+  },
+  {
+   "item": "Nestlé 2027 flavour forecast",
+   "source": "Vending Market Watch (Oct 2026)",
+   "url": "https://www.vendingmarketwatch.com/products/food/news/55412989/nestle-professional-nestle-forecasts-brighter-flavors-fruitier-coffee-for-2027",
+   "confidence": "Industry"
+  },
+  {
+   "item": "Refillable glass pump",
+   "source": "Packaging Insights (Sep 2026)",
+   "url": "https://www.packaginginsights.com/news/silgan-pochet-refillable-glass-fragrance.html",
+   "confidence": "Industry"
   }
  ],
  "scent_worlds": [
@@ -1133,7 +1151,7 @@
  "segments": [
   {
    "name": "Fragrance",
-   "message": "Tea is still SAFF's hook, from café milk tea to darker evening teas. 2027 lists add smoky, mango and salty-sea notes; keep longevity proof ready for the concert season.",
+   "message": "Drinks still lead fragrance, from osmanthus milk tea to fruit-forward coffee, and SAFF's tea mists fit that. Darker teas and salty-sea notes are the next evening and fresh lanes.",
    "happening": [
     {
      "text": "Chagee's floral milk teas (osmanthus oolong, jasmine, gardenia) became a Jakarta habit after its 2025 opening at PIK Avenue.",
@@ -1146,14 +1164,14 @@
      "url": "https://nstperfume.com/2026/10/30/providence-perfume-co-osmanthia-new-fragrance/"
     },
     {
-     "text": "MECCA's five 2027 trends: neo-gourmand vanilla, savoury, mango, smoky and aquatic scents.",
-     "source": "MECCA",
-     "url": "https://www.mecca.com/en-au/mecca-memo/fragrance/2027-perfume-trends/"
+     "text": "Asian brands now sell drink and dessert scents: Mykonos pandan sticky rice, Kiro peach milk tea.",
+     "source": "Premium Beauty News",
+     "url": "https://www.premiumbeautynews.com/en/creative-shift-and-local,27814"
     },
     {
-     "text": "Flavorchem's 2026/27 forecast adds a 'Mediterranean Coast' lane: olive leaf, sea salt and salted fig.",
-     "source": "Flavorchem",
-     "url": "https://www.flavorchem.com/trends/2026-27-fragrance-forecast/"
+     "text": "Nestlé's 2027 forecast names yuzu Americanos and calamansi among rising fruit-forward flavours.",
+     "source": "Vending Market Watch (Nestlé)",
+     "url": "https://www.vendingmarketwatch.com/products/food/news/55412989/nestle-professional-nestle-forecasts-brighter-flavors-fruitier-coffee-for-2027"
     }
    ],
    "saff_has": [
@@ -1272,9 +1290,9 @@
      "url": "https://www.glossy.co/beauty/can-solid-perfume-be-the-next-body-mist/"
     },
     {
-     "text": "Glass suppliers list refill systems, frosted or coloured glass and tactile finishes as 2027 musts, from 10 ml to 100 ml.",
-     "source": "Lisson Packaging",
-     "url": "https://www.lissonpackaging.com/es/perfume-packaging-trends-what-fragrance-brands-should-consider-for-2027.html"
+     "text": "Silgan and Pochet launched a removable pump so portable glass perfume bottles can be refilled (Sep 2026).",
+     "source": "Packaging Insights",
+     "url": "https://www.packaginginsights.com/news/silgan-pochet-refillable-glass-fragrance.html"
     }
    ],
    "saff_has": [

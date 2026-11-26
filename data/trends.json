@@ -1725,14 +1725,15 @@
   "url": "https://www.foodnavigator.com/Article/2026/11/18/5-flavours-brands-are-betting-on/",
   "strength": "Strong",
   "status": "Ongoing",
-  "stage": "Upstream",
+  "stage": "Local early adopters",
   "local_fit": 3,
   "keywords": [
    "pandan",
    "ube",
    "pistachio",
    "black sesame",
-   "hojicha"
+   "hojicha",
+   "sticky rice"
   ],
   "saff": {
    "status": "White space",
@@ -1740,7 +1741,7 @@
     "Sonnet 116",
     "CHNO"
    ],
-   "note": "Sonnet 116 has rice and milk and CHNO has bitter almond, but SAFF has no pandan or Asian dessert scent."
+   "note": "Sonnet 116 has rice and milk and CHNO has bitter almond, but SAFF has no pandan or Asian dessert scent; Mykonos already sells a pandan sticky rice scent."
   }
  },
  {
@@ -1850,8 +1851,8 @@
   "source_type": "News & industry",
   "source_name": "IFT Food Technology",
   "url": "https://www.ift.org/food-technology-magazine/outlook-2027-flavor-trends",
-  "strength": "Early",
-  "status": "New",
+  "strength": "Medium",
+  "status": "Ongoing",
   "stage": "Upstream",
   "local_fit": 3,
   "keywords": [

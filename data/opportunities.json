@@ -25,7 +25,7 @@
   ],
   "gap": "No local kopi susu gourmand yet",
   "segment": "Fragrance",
-  "rank": 2
+  "rank": 3
  },
  {
   "id": "o2",
@@ -117,7 +117,7 @@
   ],
   "gap": "Story not told as a series",
   "segment": "Fragrance",
-  "rank": 3
+  "rank": 4
  },
  {
   "id": "o5",
@@ -149,7 +149,7 @@
   ],
   "gap": "Guava / mangosteen not covered",
   "segment": "Fragrance",
-  "rank": 4
+  "rank": 5
  },
  {
   "id": "o6",
@@ -179,7 +179,7 @@
   ],
   "gap": "Clean-laundry framing",
   "segment": "Fragrance",
-  "rank": 5
+  "rank": 6
  },
  {
   "id": "o7",
@@ -328,9 +328,9 @@
  {
   "id": "o12",
   "segment": "Fragrance",
-  "rank": 6,
+  "rank": 2,
   "name": "Pandan Milk Cloud Mist",
-  "timing": "Watch",
+  "timing": "Test next",
   "format": "Cloud Mist, hair & body",
   "price": "Same as current Cloud Mist",
   "notes": [
@@ -341,7 +341,7 @@
   ],
   "packaging": "Current Cloud Mist bottle in a pale pandan green",
   "target": "Gen Z who buy drinks for the flavour of the month",
-  "why": "Food trackers name pandan, ube and pistachio as rising Asian flavours into 2027. Pandan is a local cue foreign brands cannot claim.",
+  "why": "Mykonos already sells a pandan sticky rice scent, and food trackers name pandan a rising 2027 flavour. SAFF can answer with a milkier, tea-shop pandan in its Cloud Mist format.",
   "trend_ids": [
    "t056",
    "t053",

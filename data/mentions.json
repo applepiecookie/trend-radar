@@ -1894,5 +1894,77 @@
   "date_approx": false,
   "source_name": "Trend Hunter",
   "url": "https://www.trendhunter.com/trends/roam-the-brand"
+ },
+ {
+  "id": "t029-thestar-korea-heritage-20261103",
+  "trend_id": "t029",
+  "date": "2026-11-03",
+  "date_approx": false,
+  "source_name": "The Star (Korea Herald)",
+  "url": "https://www.thestar.com.my/lifestyle/style/2026/11/03/how-south-korean-perfumers-are-turning-cultural-heritage-into-modern-fragrances"
+ },
+ {
+  "id": "t030-thestar-chwi-ssal-20261103",
+  "trend_id": "t030",
+  "date": "2026-11-03",
+  "date_approx": false,
+  "source_name": "The Star (Korea Herald)",
+  "url": "https://www.thestar.com.my/lifestyle/style/2026/11/03/how-south-korean-perfumers-are-turning-cultural-heritage-into-modern-fragrances"
+ },
+ {
+  "id": "t056-pbn-mykonos-pandan-20260630",
+  "trend_id": "t056",
+  "date": "2026-06-30",
+  "date_approx": false,
+  "source_name": "Premium Beauty News",
+  "url": "https://www.premiumbeautynews.com/en/creative-shift-and-local,27814"
+ },
+ {
+  "id": "t053-pbn-kiro-peach-milk-tea-20260630",
+  "trend_id": "t053",
+  "date": "2026-06-30",
+  "date_approx": false,
+  "source_name": "Premium Beauty News",
+  "url": "https://www.premiumbeautynews.com/en/creative-shift-and-local,27814"
+ },
+ {
+  "id": "t060-vmw-nestle-calamansi-20261019",
+  "trend_id": "t060",
+  "date": "2026-10-19",
+  "date_approx": false,
+  "source_name": "Vending Market Watch (Nestlé)",
+  "url": "https://www.vendingmarketwatch.com/products/food/news/55412989/nestle-professional-nestle-forecasts-brighter-flavors-fruitier-coffee-for-2027"
+ },
+ {
+  "id": "t005-vmw-nestle-fruit-coffee-20261019",
+  "trend_id": "t005",
+  "date": "2026-10-19",
+  "date_approx": false,
+  "source_name": "Vending Market Watch (Nestlé)",
+  "url": "https://www.vendingmarketwatch.com/products/food/news/55412989/nestle-professional-nestle-forecasts-brighter-flavors-fruitier-coffee-for-2027"
+ },
+ {
+  "id": "t044-entrepreneur-hawas-frost-20261108",
+  "trend_id": "t044",
+  "date": "2026-11-08",
+  "date_approx": false,
+  "source_name": "Entrepreneur Middle East",
+  "url": "https://mena.entrepreneur.com/lifestyle/executive-selection-dubais-kenz-de-rasasi-launches-hawas-frost"
+ },
+ {
+  "id": "t025-packaginginsights-silgan-pochet-20260929",
+  "trend_id": "t025",
+  "date": "2026-09-29",
+  "date_approx": false,
+  "source_name": "Packaging Insights",
+  "url": "https://www.packaginginsights.com/news/silgan-pochet-refillable-glass-fragrance.html"
+ },
+ {
+  "id": "t036-scento-gifting-stats-20261108",
+  "trend_id": "t036",
+  "date": "2026-11-08",
+  "date_approx": false,
+  "source_name": "Scento (citing Circana)",
+  "url": "https://www.scento.com/blog/perfume-gifting-statistics-2026"
  }
 ]
