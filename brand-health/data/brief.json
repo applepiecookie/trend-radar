@@ -1,10 +1,10 @@
 {
- "date": "2026-11-26",
- "headline": "SAFF holds 4.32 on Female Daily (flat vs yesterday and 7 days ago), while new media picks keep praising long wear; Mykonos' new Nautilus scores 8.7 on Parfumo as a low-price rival.",
+ "date": "2026-11-27",
+ "headline": "SAFF holds 4.32 on Female Daily (flat vs yesterday and 7 days ago); official Tokopedia pages for Coco, Las Pozas and Cascavel all show 4.9 with about 1% or less at 1–2 stars.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "Female Daily today: SAFF 4.32 (1,747 reviews) and Alchemist 4.43 (569) unchanged vs 25 Nov and 19 Nov; no SAFF product score moved. HMNS, Mykonos and Onix pages could not be read today (last: 4.20, 4.27, 4.17).",
+   "text": "Female Daily today: SAFF 4.32 (1,747 reviews) and Alchemist 4.43 (569) unchanged vs 26 Nov and 20 Nov; no SAFF product score moved. HMNS, Mykonos and Onix pages could not be read today (last: 4.20, 4.27, 4.17).",
    "evidence": "ratings"
   },
   {
@@ -12,8 +12,8 @@
    "evidence": "ratings"
   },
   {
-   "text": "Official-store proof is strong: Solaris 4.9 from 11,332 Tokopedia ratings and Loui 4.9 from 7,022, each about 0.5% at 1–2 stars; ILIAD 4.9 from 1,425 on Zalora.",
-   "evidence": "m270"
+   "text": "Official-store proof keeps growing: Las Pozas 4.9 from 4,282 Tokopedia ratings, Coco 4.9 from 4,136 and Cascavel 4.9 from 1,992, each at or below about 1% 1–2 stars.",
+   "evidence": "m288"
   },
   {
    "text": "Oily texture is a repeat caveat in long-form Lemon8 reviews (fabric marks), even when wear time (6–8+ hours) is praised.",
@@ -30,7 +30,7 @@
    "horizon": "Now"
   },
   {
-   "text": "Use product-level proof such as Solaris 4.9 from 11,332 Tokopedia ratings in ads and product pages, not store-wide scores.",
+   "text": "Use product-level proof such as Las Pozas 4.9 from 4,282 and Coco 4.9 from 4,136 Tokopedia ratings in ads and product pages, not store-wide scores.",
    "horizon": "Now"
   },
   {
@@ -50,7 +50,7 @@
   "Mykonos vs SAFF on Female Daily: 4.27 vs 4.32 (Mykonos not read since 23 Nov)",
   "'saffnco.batam' and other unofficial SAFF accounts, resellers and decant sellers",
   "Oily texture / fabric marks in new SAFF reviews",
-  "Mykonos Nautilus (8.7 on Parfumo) as a new value rival",
+  "Courier handling: rare crushed boxes and failed deliveries in Tokopedia reviews",
   "New scents POSTOJNA, Kie Raha and Rae Nira: first ratings on Female Daily and retailer listings"
  ]
 }

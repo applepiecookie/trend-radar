@@ -4298,5 +4298,159 @@
    "New launch"
   ],
   "summary": "Mykonos Mayfair (2026) scores only 6.2 from 5 ratings; a review finds it heavy and poorly blended."
+ },
+ {
+  "id": "m287",
+  "date": "2026-11-27",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia (official store)",
+  "url": "https://www.tokopedia.com/saffnco/saff-co-extrait-de-parfum-cascavel/review",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Ratings & reviews",
+   "Packaging & bottle"
+  ],
+  "summary": "Cascavel holds 4.9 from 1,992 Tokopedia ratings (about 1.2% at 1–2 stars); buyers praise a soft scent and protective packing."
+ },
+ {
+  "id": "m288",
+  "date": "2026-11-27",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia (official store)",
+  "url": "https://www.tokopedia.com/saffnco/saff-co-extrait-de-parfum-coco/review",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Ratings & reviews",
+   "Longevity",
+   "Delivery & service"
+  ],
+  "summary": "Coco scores 4.9 from 4,136 Tokopedia ratings (0.3% at 1–2 stars); praise for all-day wear, with one courier failure and one price gripe."
+ },
+ {
+  "id": "m289",
+  "date": "2026-11-27",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia (official store)",
+  "url": "https://www.tokopedia.com/saffnco/saff-co-extrait-de-parfum-las-pozas-1729601899434838371/review",
+  "type": "Review site",
+  "sentiment": "Positive",
+  "themes": [
+   "Ratings & reviews",
+   "Longevity",
+   "Delivery & service"
+  ],
+  "summary": "Las Pozas scores 4.9 from 4,282 ratings (0.5% at 1–2 stars); one buyer got a crushed box, though the bottle was fine."
+ },
+ {
+  "id": "m290",
+  "date": "2024-06-05",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/@aintnotearsnomore/7376961493876670992",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "Review of CHNO, Troupe and Las Pozas: Troupe lasts 6–8 hours, CHNO feels heavy for day, Las Pozas is soft on skin."
+ },
+ {
+  "id": "m291",
+  "date": "2023-03-20",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/naurahsyadira/7212540391139361281",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Delivery & service",
+   "Range & sizes"
+  ],
+  "summary": "Visit to the SAFF store at PIK praises helpful staff, testers for every scent and mini sizes, but notes the shop gets crowded."
+ },
+ {
+  "id": "m292",
+  "date": "2024-06-17",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/@ncydwss/7381328769287504401",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "Blind buy of Cloud Mist Annabel Lee: lychee-tea scent, 3–5 hours on skin, judged worth Rp149k for daily use."
+ },
+ {
+  "id": "m293",
+  "date": "2023-05-27",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/@icebeay/7202426243063480833",
+  "type": "Forum & social",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Longevity"
+  ],
+  "summary": "S.O.T.B review: sweet jasmine opening, vanilla dry-down, about 5–6 hours on skin and medium projection."
+ },
+ {
+  "id": "m294",
+  "date": "2026-11-27",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Watsons",
+  "url": "https://www.watsons.co.id/en/saff-co-saff-co-edp-loui-30ml/p/BP_35850",
+  "type": "Retail content",
+  "sentiment": "Neutral",
+  "themes": [
+   "Availability",
+   "Range & sizes"
+  ],
+  "summary": "Watsons lists Loui Extrait de Parfum 35ml at Rp209k; no customer reviews shown, and the URL still says 30ml."
+ },
+ {
+  "id": "m295",
+  "date": "2026-08-15",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "IndonesiaCEF",
+  "url": "https://indonesiacef.id/brand-mykonos-parfum-lokal-indonesia-yang/",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Brand reputation",
+   "Range & sizes",
+   "New launch"
+  ],
+  "summary": "Feature on Mykonos' wide scent range, 'affordable premium' pricing, gaming and creator collabs, and expansion to Malaysia."
+ },
+ {
+  "id": "m296",
+  "date": "2025-06-01",
+  "date_approx": true,
+  "brand": "Alchemist",
+  "source_name": "Lemon8",
+  "url": "https://www.lemon8-app.com/experience/harga-parfum-alchemist",
+  "type": "Forum & social",
+  "sentiment": "Neutral",
+  "themes": [
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "Lemon8 overview of Alchemist: liked for price (Rp199–259k) and scents, but wear varies, with Powder Room at only 2–4 hours."
  }
 ]
