@@ -623,5 +623,34 @@
    "Kie Raha"
   ],
   "gap": "No salty or olive scent in SAFF's range"
+ },
+ {
+  "id": "o23",
+  "segment": "Body & personal care",
+  "rank": 4,
+  "name": "Osmanthus Tea Shower & Body Potion",
+  "timing": "Test next",
+  "format": "Shower Potion + Body Potion pair",
+  "price": "In line with current Shower and Body Potions",
+  "notes": [
+   "osmanthus",
+   "oolong tea",
+   "milk",
+   "soft musk"
+  ],
+  "packaging": "Existing Shower and Body Potion packs with a warm apricot label",
+  "target": "Young tea-bar fans who want an everyday, soft osmanthus scent",
+  "why": "Osmanthus moved into everyday Korean body care in 2026, with Dove launching an osmanthus body scrub there. Jakarta tea bars already made osmanthus oolong a familiar cue.",
+  "trend_ids": [
+   "t045",
+   "t053",
+   "t048"
+  ],
+  "builds_on": [
+   "Loui's Lullaby Shower Potion",
+   "Loui's Lullaby Body Potion",
+   "Sonnet 116"
+  ],
+  "gap": "No osmanthus scent in any SAFF format; body care would test it at low risk before a Cloud Mist"
  }
 ]

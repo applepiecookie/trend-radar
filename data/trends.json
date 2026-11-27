@@ -118,7 +118,8 @@
    "gourmand",
    "nutty",
    "caramel",
-   "lactonic"
+   "lactonic",
+   "hazelnut"
   ],
   "idea": "Reformulate the sweetest variant toward toasted, nutty vanilla (hazelnut, caramel, tonka).",
   "saff": {
@@ -1660,7 +1661,7 @@
   "source_name": "Databoks / Compas",
   "url": "https://databoks.katadata.co.id/produk-konsumen/statistik/6ac47c7815fd8/10-merek-parfum-lokal-terlaris-di-shoptokopedia-pada-kuartal-ii-2026",
   "strength": "Medium",
-  "status": "New",
+  "status": "Ongoing",
   "stage": "Mainstream",
   "local_fit": 3,
   "keywords": [

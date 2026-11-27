@@ -1,6 +1,6 @@
 {
- "date": "2026-11-27",
- "one_line": "Pandan has reached local perfume: Mykonos sells a pandan sticky-rice scent. Move SAFF's pandan milk mist from watch to a quick test.",
+ "date": "2026-11-28",
+ "one_line": "Osmanthus has jumped from niche perfume into Korean drugstore body care. Put SAFF's tea Cloud Mists in front of that wave before local rivals do.",
  "takeaways": [
   {
    "title": "Concert season is a longevity moment",
@@ -101,7 +101,7 @@
    "items": [
     {
      "title": "Gourmands are getting grown-up",
-     "text": "Creamy, toasted, nutty gourmands are rising while candy-sweet ones fade. CHNO, Minouet and Remedia Amoris fit the new direction; Xocolatl and S.O.T.B are the ones to watch in reviews.",
+     "text": "Creamy, toasted, nutty gourmands are rising while candy-sweet ones fade; hazelnut leads several November 2026 launches. CHNO, Minouet and Remedia Amoris fit the new direction; Xocolatl and S.O.T.B are the ones to watch in reviews.",
      "products": [
       "CHNO",
       "Minouet",
@@ -671,7 +671,8 @@
   "Matcha and pistachio-milk gourmands moving from indie launches to mass brands.",
   "Hinoki and other Japanese forest woods in new Asian launches.",
   "Dark tea, chai and rooibos accords moving from niche into mass-premium launches.",
-  "Salty Mediterranean notes (sea salt, olive, fig) moving into fresh launches."
+  "Salty Mediterranean notes (sea salt, olive, fig) moving into fresh launches.",
+  "Osmanthus body washes and scrubs reaching Indonesian drugstores after Korea."
  ],
  "coverage": "Open web only: news, retail listings, review sites and published data. X, TikTok, Instagram and Shopee are not read directly, so social buzz is under-represented. Product facts come from SAFF's own product list (names and notes only).",
  "sources": [
@@ -1070,6 +1071,12 @@
    "source": "Packaging Insights (Sep 2026)",
    "url": "https://www.packaginginsights.com/news/silgan-pochet-refillable-glass-fragrance.html",
    "confidence": "Industry"
+  },
+  {
+   "item": "Osmanthus moves into Korean body care",
+   "source": "The Korea Herald (Nov 2026)",
+   "url": "https://www.koreaherald.com/article/10929746",
+   "confidence": "Editorial"
   }
  ],
  "scent_worlds": [
@@ -1151,7 +1158,7 @@
  "segments": [
   {
    "name": "Fragrance",
-   "message": "Drinks still lead fragrance, from osmanthus milk tea to fruit-forward coffee, and SAFF's tea mists fit that. Darker teas and salty-sea notes are the next evening and fresh lanes.",
+   "message": "Drink notes still lead: osmanthus milk tea is a Jakarta habit and nutty hazelnut gourmands fill November launches. SAFF's tea mists and CHNO already sit in both lanes.",
    "happening": [
     {
      "text": "Chagee's floral milk teas (osmanthus oolong, jasmine, gardenia) became a Jakarta habit after its 2025 opening at PIK Avenue.",
@@ -1159,9 +1166,9 @@
      "url": "https://www.popbela.com/lifestyle/food/menu-unggulan-chagee-00-9z5cw-49g0x5/amp"
     },
     {
-     "text": "Providence Perfume Co launched Osmanthia, an osmanthus-oolong tea scent, in a $46 4 ml roller and $200 50 ml (Oct 2026).",
-     "source": "Now Smell This",
-     "url": "https://nstperfume.com/2026/10/30/providence-perfume-co-osmanthia-new-fragrance/"
+     "text": "Osmanthus became a Korean seasonal scent in 2026; Dove launched an osmanthus body scrub there in October.",
+     "source": "The Korea Herald",
+     "url": "https://www.koreaherald.com/article/10929746"
     },
     {
      "text": "Asian brands now sell drink and dessert scents: Mykonos pandan sticky rice, Kiro peach milk tea.",

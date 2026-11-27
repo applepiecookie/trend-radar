@@ -2006,5 +2006,53 @@
   "date_approx": false,
   "source_name": "Trend Hunter",
   "url": "https://www.trendhunter.com/trends/fresh-baked-madeleines-hand-cream"
+ },
+ {
+  "id": "t045-koreaherald-osmanthus-body-care-20261108",
+  "trend_id": "t045",
+  "date": "2026-11-08",
+  "date_approx": false,
+  "source_name": "The Korea Herald",
+  "url": "https://www.koreaherald.com/article/10929746"
+ },
+ {
+  "id": "t045-marieclaire-nicolai-fig-tea-20261119",
+  "trend_id": "t045",
+  "date": "2026-11-19",
+  "date_approx": false,
+  "source_name": "Marie Claire",
+  "url": "https://www.marieclaire.com/beauty/best-new-beauty-products-november-2026/"
+ },
+ {
+  "id": "t004-perfumepublished-hazelnut-launches-20261116",
+  "trend_id": "t004",
+  "date": "2026-11-16",
+  "date_approx": false,
+  "source_name": "Perfume Published (Substack)",
+  "url": "https://perfumepublished.substack.com/p/november-2026s-new-perfumes-ranked"
+ },
+ {
+  "id": "t004-girlstyle-velvet-brew-hazelnut-20261125",
+  "trend_id": "t004",
+  "date": "2026-11-25",
+  "date_approx": false,
+  "source_name": "GirlStyle Singapore",
+  "url": "https://girlstyle.com/sg/article/161109/17-beauty-launches-on-our-november-2026-radar-ft-glow-recipe-panpuri-hysses-and-more"
+ },
+ {
+  "id": "t056-themanual-2027-coffee-flavors-20261025",
+  "trend_id": "t056",
+  "date": "2026-10-25",
+  "date_approx": false,
+  "source_name": "The Manual",
+  "url": "https://www.themanual.com/food-and-drink/2027-coffee-flavors/"
+ },
+ {
+  "id": "t051-premiumbeautynews-aptar-nomad-refill-20260202",
+  "trend_id": "t051",
+  "date": "2026-02-02",
+  "date_approx": false,
+  "source_name": "Premium Beauty News",
+  "url": "https://www.premiumbeautynews.com/en/aptar-s-nomad-refill-reimagines,27017"
  }
 ]
