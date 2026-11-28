@@ -1,27 +1,27 @@
 {
- "date": "2026-11-27",
- "headline": "SAFF holds 4.32 on Female Daily (flat vs yesterday and 7 days ago); official Tokopedia pages for Coco, Las Pozas and Cascavel all show 4.9 with about 1% or less at 1–2 stars.",
+ "date": "2026-11-28",
+ "headline": "SAFF's Female Daily page could not be read today (last 4.32); official Tokopedia proof is strong, with S.O.T.B at 4.9 from 18,246 ratings and the mini line at 4.9 from 18,550.",
  "kpis_note": "Awareness and NPS need a consumer survey; they are not measured from public web data.",
  "insights": [
   {
-   "text": "Female Daily today: SAFF 4.32 (1,747 reviews) and Alchemist 4.43 (569) unchanged vs 26 Nov and 20 Nov; no SAFF product score moved. HMNS, Mykonos and Onix pages could not be read today (last: 4.20, 4.27, 4.17).",
+   "text": "Female Daily today: Alchemist 4.43, Mykonos 4.27 and Onix 4.17 are flat vs the last reads. HMNS shows 4.15 vs 4.20 on 23 Nov, but its product pages still show Drops of Sunshine 4.7 and Philea 4.6, so the dip looks like a listing glitch. SAFF was not readable (last 4.32 on 27 Nov).",
    "evidence": "ratings"
   },
   {
-   "text": "S.O.T.B (4.1, 586 reviews) still makes up a third of SAFF's Female Daily reviews, so it sets the brand score more than any other scent.",
-   "evidence": "ratings"
+   "text": "S.O.T.B makes up a third of SAFF's Female Daily reviews (4.1 from 586) but scores 4.9 from 18,246 Tokopedia ratings with about 0.5% at 1–2 stars.",
+   "evidence": "m297"
   },
   {
-   "text": "Official-store proof keeps growing: Las Pozas 4.9 from 4,282 Tokopedia ratings, Coco 4.9 from 4,136 and Cascavel 4.9 from 1,992, each at or below about 1% 1–2 stars.",
-   "evidence": "m288"
+   "text": "Official-store proof keeps growing: the 5ml mini line has 4.9 from 18,550 ratings (0.3% at 1–2 stars), and Las Pozas and Coco each hold 4.9 from over 4,100.",
+   "evidence": "m299"
+  },
+  {
+   "text": "Kirithra (4.9 from 439) gets a few blind-buy notes that it smells sharper or spicier than expected, plus one dented outer box.",
+   "evidence": "m298"
   },
   {
    "text": "Oily texture is a repeat caveat in long-form Lemon8 reviews (fabric marks), even when wear time (6–8+ hours) is praised.",
    "evidence": "m273"
-  },
-  {
-   "text": "Mykonos' 2026 launches split: Nautilus scores 8.7 from 44 Parfumo ratings (praised for value as a designer alternative), while Mayfair sits at 6.2 from 5.",
-   "evidence": "m285"
   }
  ],
  "recommendations": [
@@ -30,7 +30,7 @@
    "horizon": "Now"
   },
   {
-   "text": "Use product-level proof such as Las Pozas 4.9 from 4,282 and Coco 4.9 from 4,136 Tokopedia ratings in ads and product pages, not store-wide scores.",
+   "text": "Use product-level proof such as S.O.T.B 4.9 from 18,246 and minis 4.9 from 18,550 Tokopedia ratings in ads and product pages, not store-wide scores.",
    "horizon": "Now"
   },
   {
@@ -38,7 +38,7 @@
    "horizon": "Next"
   },
   {
-   "text": "For S.O.T.B, add 'how much to spray' and 'best for evening / cool rooms' guidance in copy to answer 'too strong' and 'common' complaints.",
+   "text": "For bold scents (S.O.T.B, Kirithra), add clear scent-strength notes and 'how much to spray' tips, and point blind buyers to the Rp79k mini first.",
    "horizon": "Next"
   },
   {
@@ -47,10 +47,10 @@
   }
  ],
  "watch": [
-  "Mykonos vs SAFF on Female Daily: 4.27 vs 4.32 (Mykonos not read since 23 Nov)",
+  "SAFF Female Daily score (not readable today; last 4.32) vs Mykonos 4.27",
+  "HMNS Female Daily listing: brand-page scores for Drops of Sunshine, Elea and Philea differ from product pages",
   "'saffnco.batam' and other unofficial SAFF accounts, resellers and decant sellers",
-  "Oily texture / fabric marks in new SAFF reviews",
-  "Courier handling: rare crushed boxes and failed deliveries in Tokopedia reviews",
+  "Oily texture and 'sharper than expected' scent notes in new SAFF reviews",
   "New scents POSTOJNA, Kie Raha and Rae Nira: first ratings on Female Daily and retailer listings"
  ]
 }

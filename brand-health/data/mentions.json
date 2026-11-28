@@ -4452,5 +4452,112 @@
    "Price & value"
   ],
   "summary": "Lemon8 overview of Alchemist: liked for price (Rp199–259k) and scents, but wear varies, with Powder Room at only 2–4 hours."
+ },
+ {
+  "id": "m297",
+  "date": "2026-11-28",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia",
+  "url": "https://www.tokopedia.com/saffnco/saff-co-extrait-de-parfum-s-o-t-b/review?spd=5303967744",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Ratings & reviews",
+   "Longevity",
+   "Price & value"
+  ],
+  "summary": "S.O.T.B scores 4.9 from 18,246 official-store ratings (about 0.5% at 1–2 stars) and is 26% off at about Rp266k; buyers praise wear and safe packing."
+ },
+ {
+  "id": "m298",
+  "date": "2026-11-28",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia",
+  "url": "https://www.tokopedia.com/saffnco/saff-co-extrait-de-parfum-kirithra-1731416064915572067/review",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Scent character",
+   "Packaging & bottle",
+   "Ratings & reviews"
+  ],
+  "summary": "Kirithra holds 4.9 from 439 ratings; some blind buyers found it sharper or spicier than expected, and one got a dented outer box."
+ },
+ {
+  "id": "m299",
+  "date": "2026-11-28",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Tokopedia",
+  "url": "https://www.tokopedia.com/saffnco/saff-co-extrait-de-parfum-mini-size-coco-e4f22/review?spd=1382105911",
+  "type": "Retail content",
+  "sentiment": "Positive",
+  "themes": [
+   "Range & sizes",
+   "Price & value",
+   "Ratings & reviews"
+  ],
+  "summary": "The 5ml mini line scores 4.9 from 18,550 ratings (0.3% at 1–2 stars) at Rp79k; a few buyers feel 5ml is small for the price."
+ },
+ {
+  "id": "m300",
+  "date": "2026-01-19",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "Parfumo",
+  "url": "https://www.parfumo.com/Perfumes/saff-co/saff",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "Ratings & reviews",
+   "Brand reputation"
+  ],
+  "summary": "The signature SAFF scent has no ratings or reviews yet on Parfumo, showing thin presence on international fragrance communities."
+ },
+ {
+  "id": "m301",
+  "date": "2026-05-22",
+  "date_approx": false,
+  "brand": "SAFF & Co.",
+  "source_name": "Washinmura (English)",
+  "url": "https://aeo.washinmura.jp/ai/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%83%A1%E3%82%A4%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/en/news/2026-05-22-popular-jakarta-born-fragrance-brand-saf",
+  "type": "News & media",
+  "sentiment": "Positive",
+  "themes": [
+   "Availability",
+   "Brand reputation"
+  ],
+  "summary": "English write-up of SAFF & Co.'s Japan market launch, describing it as a popular Jakarta-born fragrance brand."
+ },
+ {
+  "id": "m302",
+  "date": "2023-12-25",
+  "date_approx": true,
+  "brand": "SAFF & Co.",
+  "source_name": "TikTok",
+  "url": "https://www.tiktok.com/@danny.skincare/video/7316396340018236678",
+  "type": "Forum & social",
+  "sentiment": "Neutral",
+  "themes": [
+   "Scent character"
+  ],
+  "summary": "A skincare creator's TikTok asks viewers to name their favourite SAFF & Co. perfume, tagged as a viral local fragrance."
+ },
+ {
+  "id": "m303",
+  "date": "2026-04-09",
+  "date_approx": false,
+  "brand": "Mykonos",
+  "source_name": "mybest Indonesia",
+  "url": "https://id.my-best.com/139755",
+  "type": "Review site",
+  "sentiment": "Neutral",
+  "themes": [
+   "Range & sizes",
+   "Price & value"
+  ],
+  "summary": "mybest ranks 10 Mykonos perfumes (Aphrodite first), with prices from about Rp78k to Rp759k; no user ratings shown."
  }
 ]
