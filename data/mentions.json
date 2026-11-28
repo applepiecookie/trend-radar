@@ -2094,5 +2094,37 @@
   "date_approx": false,
   "source_name": "Perfume Published (Substack)",
   "url": "https://perfumepublished.substack.com/p/whats-happening-in-perfume-lately"
+ },
+ {
+  "id": "t035-cosmeticsbusiness-orebella-cashmere-milk-20261113",
+  "trend_id": "t035",
+  "date": "2026-11-13",
+  "date_approx": false,
+  "source_name": "Cosmetics Business",
+  "url": "https://cosmeticsbusiness.com/cb-picks-7-new-beauty-launches-nov26"
+ },
+ {
+  "id": "t048-pci-suave-gourmand-lotions-20260924",
+  "trend_id": "t048",
+  "date": "2026-09-24",
+  "date_approx": false,
+  "source_name": "Personal Care Insights",
+  "url": "https://www.personalcareinsights.com/news/nivea-suave-body-care-launches.html"
+ },
+ {
+  "id": "t067-thestar-vanzo-smart-diffuser-20261127",
+  "trend_id": "t067",
+  "date": "2026-11-27",
+  "date_approx": false,
+  "source_name": "The Star",
+  "url": "https://www.thestar.com.my/starpicks/2026/11/27/smarter-scenting-for-home-and-car"
+ },
+ {
+  "id": "t067-newswire-goose-creek-plugin-20260610",
+  "trend_id": "t067",
+  "date": "2026-06-10",
+  "date_approx": false,
+  "source_name": "Newswire (Goose Creek)",
+  "url": "https://www.newswire.com/news/goose-creek-enters-the-plug-in-diffuser-category-with-the-launch-of-its"
  }
 ]

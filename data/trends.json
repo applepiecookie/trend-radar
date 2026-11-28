@@ -1072,7 +1072,8 @@
   "keywords": [
    "alcohol-free",
    "water-based",
-   "halal"
+   "halal",
+   "skin parfum"
   ],
   "idea": "Develop an alcohol-free, water-based mist or parfum; check halal certification path.",
   "saff": {
@@ -1466,7 +1467,8 @@
    "body lotion",
    "layering",
    "longevity",
-   "body milk"
+   "body milk",
+   "gourmand"
   ],
   "found": "2026-10-28",
   "published": "2026-05",
@@ -2064,6 +2066,37 @@
     "Loui's Lullaby Body Potion"
    ],
    "note": "The Loui world already spans five formats, so SAFF can grow basket size without new products."
+  }
+ },
+ {
+  "id": "t067",
+  "found": "2026-11-28",
+  "published": "2026-11",
+  "segment": "Home fragrance",
+  "category": "Product format",
+  "trend": "Flame-free smart diffusers for home and car",
+  "summary": "Rechargeable, motion-sensing diffusers for home and car now sell in Malaysia with 80ml refills. In the US, Goose Creek launched a $29.99 plug-in with 80+ refill scents.",
+  "angle": "Refill-based devices turn home scent into a repeat purchase, and car scent is a daily-use space SAFF does not cover yet.",
+  "idea": "Test a refill in the Isola Bella or Quinta da Regaleira scent that fits common automatic diffusers, sold next to the existing Room Potion.",
+  "source_type": "News & industry",
+  "source_name": "The Star",
+  "url": "https://www.thestar.com.my/starpicks/2026/11/27/smarter-scenting-for-home-and-car",
+  "strength": "Early",
+  "status": "New",
+  "stage": "Lead market",
+  "local_fit": 2,
+  "keywords": [
+   "diffuser",
+   "refill",
+   "car fragrance"
+  ],
+  "saff": {
+   "status": "White space",
+   "products": [
+    "Isola Bella",
+    "Quinta da Regaleira"
+   ],
+   "note": "SAFF has room and ambience scents but no device, refill or car format."
   }
  }
 ]
