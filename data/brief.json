@@ -317,7 +317,8 @@
     "Ode to Ostara Deo"
    ],
    "trend_ids": [
-    "t011"
+    "t011",
+    "t066"
    ],
    "metric": "Basket size; share of orders with 2+ formats of one scent"
   },
@@ -631,7 +632,7 @@
   },
   {
    "brand": "NCO",
-   "move": "#2 local perfume on ShopTokopedia (6.59%, Q2 2026); launched a three-scent Extrait line with a celebrity in Oct 2026, heading to Alfamart in December.",
+   "move": "#2 local perfume on ShopTokopedia (6.59%, Q2 2026); its celebrity Extrait trio was made with Givaudan support and launched at a Jakarta hotel event; heading to Alfamart in December.",
    "response": "Answer on ShopTokopedia with live-shopping and creator kits; win on scent story and the multi-format scent worlds, not celebrity reach.",
    "url": "https://momsmoney.kontan.co.id/news/nco-perkenalkan-nco-extrait-de-parfum-aqeelas-signature"
   }
@@ -672,7 +673,8 @@
   "Hinoki and other Japanese forest woods in new Asian launches.",
   "Dark tea, chai and rooibos accords moving from niche into mass-premium launches.",
   "Salty Mediterranean notes (sea salt, olive, fig) moving into fresh launches.",
-  "Osmanthus body washes and scrubs reaching Indonesian drugstores after Korea."
+  "Osmanthus body washes and scrubs reaching Indonesian drugstores after Korea.",
+  "Whether shoppers stay value-driven (Jakpat 2026 outlook) as Harbolnas discounts land."
  ],
  "coverage": "Open web only: news, retail listings, review sites and published data. X, TikTok, Instagram and Shopee are not read directly, so social buzz is under-represented. Product facts come from SAFF's own product list (names and notes only).",
  "sources": [
@@ -1077,6 +1079,12 @@
    "source": "The Korea Herald (Nov 2026)",
    "url": "https://www.koreaherald.com/article/10929746",
    "confidence": "Editorial"
+  },
+  {
+   "item": "Urban beauty growth; Gen Z buys more categories",
+   "source": "Databoks / Worldpanel by Numerator (28 Oct 2026)",
+   "url": "https://databoks.katadata.co.id/en/consumer-durables-apparel/statistics/6ae1b8fb54913/personal-care-product-consumption-levels-of-three-generations-in-urban-indonesia",
+   "confidence": "Published data"
   }
  ],
  "scent_worlds": [
@@ -1338,9 +1346,9 @@
      "url": "https://databoks.katadata.co.id/produk-konsumen/statistik/6af55e3e43df0/10-merek-parfum-lokal-terlaris-di-shopee-kuartal-ii-2026"
     },
     {
-     "text": "Shoppers are becoming more rational and data-driven in 2026.",
-     "source": "Jakpat",
-     "url": "https://goodstats.id/publication/jakpat-consumer-dan-commerce-outlook-2026-3fTnc"
+     "text": "Urban beauty spend rose 14% in 2026 from existing buyers; Gen Z now buys 5.8 beauty categories (5.2 in 2025).",
+     "source": "Databoks / Worldpanel",
+     "url": "https://databoks.katadata.co.id/en/consumer-durables-apparel/statistics/6ae1b8fb54913/personal-care-product-consumption-levels-of-three-generations-in-urban-indonesia"
     }
    ],
    "saff_has": [

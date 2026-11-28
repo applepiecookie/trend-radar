@@ -1208,13 +1208,14 @@
   "source_name": "Premium Beauty News (Esxence)",
   "url": "https://www.premiumbeautynews.com/en/esxence-2026-five-takeaways-from-a,27878",
   "strength": "Early",
-  "stage": "Upstream",
+  "stage": "Local early adopters",
   "local_fit": 1,
   "found": "2026-10-27",
   "status": "Ongoing",
   "keywords": [
    "niche",
-   "fragrance houses"
+   "fragrance houses",
+   "givaudan"
   ],
   "idea": "Ask fragrance-house partners for access to their newest captives and accords.",
   "saff": {
@@ -2030,6 +2031,39 @@
     "Kie Raha"
    ],
    "note": "Träumerei has fig leaves and Kie Raha an aquatic accord, but no salty or olive scent yet."
+  }
+ },
+ {
+  "id": "t066",
+  "found": "2026-11-28",
+  "published": "2026-10",
+  "segment": "Market & consumer",
+  "category": "Consumer behavior",
+  "trend": "Gen Z widens its beauty basket",
+  "summary": "Urban Indonesian beauty value sales rose 14% in 2026, led by price (+7%) and units (+6%) while buyers grew only 1%. Gen Z now buys 5.8 beauty categories on average, up from 5.2.",
+  "angle": "Growth comes from existing buyers adding categories, so selling a second format of a scent people already like beats chasing new buyers.",
+  "idea": "Build a Harbolnas 'add the next step' offer: buy Loui Extrait, get Loui's Lullaby Shower Potion or Deo at a bundle price.",
+  "source_type": "Research & surveys",
+  "source_name": "Databoks / Worldpanel by Numerator",
+  "url": "https://databoks.katadata.co.id/en/consumer-durables-apparel/statistics/6ae0f81eb45b2/beauty-industry-growth-in-urban-indonesia-2026",
+  "strength": "Medium",
+  "status": "New",
+  "stage": "Mainstream",
+  "local_fit": 3,
+  "keywords": [
+   "body care",
+   "deodorant",
+   "shower gel"
+  ],
+  "saff": {
+   "status": "Covered",
+   "products": [
+    "Loui",
+    "Loui's Lullaby Shower Potion",
+    "Loui's Lullaby Deo",
+    "Loui's Lullaby Body Potion"
+   ],
+   "note": "The Loui world already spans five formats, so SAFF can grow basket size without new products."
   }
  }
 ]

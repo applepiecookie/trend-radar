@@ -2054,5 +2054,45 @@
   "date_approx": false,
   "source_name": "Premium Beauty News",
   "url": "https://www.premiumbeautynews.com/en/aptar-s-nomad-refill-reimagines,27017"
+ },
+ {
+  "id": "t066-databoks-urban-beauty-growth-20261028",
+  "trend_id": "t066",
+  "date": "2026-10-28",
+  "date_approx": false,
+  "source_name": "Databoks / Worldpanel",
+  "url": "https://databoks.katadata.co.id/en/consumer-durables-apparel/statistics/6ae0f81eb45b2/beauty-industry-growth-in-urban-indonesia-2026"
+ },
+ {
+  "id": "t066-databoks-gen-categories-20261028",
+  "trend_id": "t066",
+  "date": "2026-10-28",
+  "date_approx": false,
+  "source_name": "Databoks / Worldpanel",
+  "url": "https://databoks.katadata.co.id/en/consumer-durables-apparel/statistics/6ae1b8fb54913/personal-care-product-consumption-levels-of-three-generations-in-urban-indonesia"
+ },
+ {
+  "id": "t066-databoks-bpc-share-20261028",
+  "trend_id": "t066",
+  "date": "2026-10-28",
+  "date_approx": false,
+  "source_name": "Databoks / Worldpanel",
+  "url": "https://databoks.katadata.co.id/en/consumer-durables-apparel/statistics/6ae100d6933b9/beauty-and-personal-care-sales-share-in-urban-indonesia-2026"
+ },
+ {
+  "id": "t040-disway-nco-givaudan-20261126",
+  "trend_id": "t040",
+  "date": "2026-11-26",
+  "date_approx": false,
+  "source_name": "Disway",
+  "url": "https://disway.id/read/981366/3-parfum-kolaborasi-nco-x-aqeela-calista-bawa-aroma-perjalanan-masa-kecil-hingga-dewasa"
+ },
+ {
+  "id": "t047-perfumepublished-body-mist-top-20261109",
+  "trend_id": "t047",
+  "date": "2026-11-09",
+  "date_approx": false,
+  "source_name": "Perfume Published (Substack)",
+  "url": "https://perfumepublished.substack.com/p/whats-happening-in-perfume-lately"
  }
 ]
